@@ -22,7 +22,7 @@ import { NetworkingComponent } from './components/projects/networking/networking
 import { HealthComponent } from './components/projects/health/health.component';
 import { APIService } from './services/api.service';
 import { LoaderService } from './services/loader.service';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { InterceptorService } from './services/interceptor.service';
 import { UxConsultingComponent } from './components/services/ux-consulting/ux-consulting.component';
 import { VisualDesignComponent } from './components/services/visual-design/visual-design.component';
@@ -83,6 +83,7 @@ import { CarUsabilityTestingComponent } from './components/projects/car-usabilit
     AppRoutingModule,
     NguCarouselModule,
     FontAwesomeModule,
+    HttpClientModule,
     Angulartics2Module.forRoot()
   ],
   providers: [
