@@ -1,0 +1,104 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '../../../scss/colors';
+.projects{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+h2{
+    font-size: 53px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.highlight{
+    color: #1ED69F;
+}
+.col-md-4{
+    padding: 5px;
+}
+.step-image{
+    overflow: hidden;
+    cursor: pointer;
+}
+.step-image img{
+    filter: #606A74; 
+    -webkit-filter: grayscale(1);
+}
+.space{
+    margin-top: 20px;
+}
+.step-image img:hover,
+.step-image img:focus {    
+    filter: none; 
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2);
+}
+.text-hover{
+    position: absolute; 
+    bottom: 5px; 
+    background: #1ED69F;
+    width: 70%;
+    height: 24%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.step-image:hover .text-hover{
+    opacity: 0.8;
+}
+h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+h6{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+@include media-breakpoint-down(md) {
+    .projects{
+        margin-top: 50px;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 100;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .step-image img{
+        filter: none; 
+        -webkit-filter: grayscale(0);
+    }
+    .text-hover{
+        position: absolute; 
+        bottom: 5px; 
+        background: #1ED69F;
+        width: 70%;
+        height: 24%;
+        transition: .5s ease;
+        opacity:0.8;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: left;
+    } 
+}

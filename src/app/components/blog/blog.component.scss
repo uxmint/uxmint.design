@@ -1,0 +1,121 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '../../../scss/colors';
+
+.blog-posts{
+    padding-bottom: 200px;
+    background-color: #F7F7F7;
+    .post-title{
+        margin-bottom: 120px;
+        text-align: left;
+        padding-top: 80px;
+        h1{
+            font-family: 'Roboto', serif;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 72px;
+            span{
+                color: $primary;
+            }
+        }
+    }
+    .post-excerpt{
+            //box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+            margin-bottom: 80px;
+            background-color: #ffffff;
+            .p-3{
+                padding: 0rem !important;
+            }
+        .step-image{
+            filter: #606A74; 
+            -webkit-filter: grayscale(1);
+        }
+        .step-image:hover{
+            filter: none; 
+            -webkit-filter: grayscale(0);
+        }
+        &:last-child{
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: 0;
+        }
+        h3{
+            font-size: 20px;
+            line-height: 60px;
+            font-family: 'Roboto';
+        }
+        p{
+            line-height: 21px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-family: 'Roboto';
+            color: #6C6C6C;
+            text-align: justify;
+        }
+        .btn{
+            font-size: 20px;
+            font-family: 'Roboto';
+            color: #1ED69F;
+        }
+        .post-detail{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            padding: 30px
+        }
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+    .blog-header{
+        .inner-wrap{
+            h1{
+                font-size: 26px;
+                line-height: 44px;
+            }
+        }
+    }
+    .blog-posts{
+        padding-bottom: 100px;
+        .post-title{
+            margin-bottom: 60px;
+            h1{
+                font-size: 30px;
+            }
+        }
+        .post-excerpt{
+            background-color: #F7F7F7;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            //border-bottom: 1px solid #DDD;
+            &:last-child{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: 0;
+            }
+            .step-image{
+                width: 100%;
+                height: auto;
+            }
+            h3{
+                font-size: 15px;
+                line-height: 30px;
+            }
+            p{
+                line-height: 24px;
+                font-size: 13px;
+                margin-bottom: 20px;
+            }
+            .btn{
+                font-size: 15px;
+                font-family: 'Roboto';
+                color: #1ED69F;
+            }
+            .post-detail{
+                margin-top: 20px;
+                padding: 20px
+            }
+        }
+    }
+}

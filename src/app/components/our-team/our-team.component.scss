@@ -1,0 +1,71 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '../../../scss/colors';
+.team{
+text-align: left;
+color: #6C6C6C;
+font-style: 'Roboto';
+.step-image img{
+    filter: #606A74; 
+  -webkit-filter: grayscale(1);
+
+}
+.step-image img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.highlight{
+    color: #1ED69F;
+}
+h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 37px;
+    margin-bottom: 22px;
+    text-align: justify;
+}
+p{
+    text-align:right;
+}
+.build-next-product-body {
+    text-align: left;
+    margin-left: 24px;
+}
+.build-next-product-body .btn.enquire {
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 11px 25px;
+    font-weight: 900;
+    margin-left: -23px;
+    margin-top: 17px;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+@include media-breakpoint-down(md) {
+    h2{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .build-next-product-body .btn.enquire {
+        font-size: 13px;
+    }
+    .step-image img{
+        width: 100%;
+        height: 200px;
+        filter: none;
+        -webkit-filter: grayscale(0);
+     }
+}
+}

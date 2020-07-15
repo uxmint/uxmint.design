@@ -1,0 +1,167 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '../../../../scss/colors';
+h5{
+    font-size: 53px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.highlight{
+    color: #1ED69F;
+}
+p{
+    color: #797979;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.searvice-jumbotron{
+    h5{
+        margin-top: 37px;
+    }
+     background-color: rgb(255, 255, 255); 
+    margin-top: 75px;
+    .head{
+        width:800px;
+        height:510px;
+        margin-left: -16px;
+    }
+    .step-image1{
+        p{
+            color: #797979;
+            font-size: 13px;
+            text-align: center;
+            margin-bottom: 28px;
+            margin-top: 14px; 
+        }
+    }
+    h3{
+        color: #6C6C6C;
+        font-size: 16px;
+        text-align: left;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+    .list1{
+        margin-left: 35px;
+    }
+    .list2{
+        margin-left: 26px;
+    }
+    .list3{
+        margin-left: 35px;
+    }
+    .spacing{
+        margin-top: 143px;
+    }
+}
+
+.service-step1{
+    background-color: #272727; 
+    margin-top: -15px;
+    h5{
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    p{
+        color: #ffffff;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 28px;
+        margin-top: 14px; 
+    }
+    .list-icons{
+        list-style: none;
+        padding: 0;
+        li{
+            padding-right: 70px;
+            display: inline-block;
+            padding-left: 15px;
+        }
+        fa-icon{
+            font-size: 50px;
+            vertical-align: middle;
+            min-width: 26px;
+            padding-right: 26px;
+            display: inline-block;
+            color: #1ED69F;
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+.service-step2{
+    background-color: #F2F2F2;
+    margin-top: 0px;
+    h5{
+        margin-top: 20px;
+    }
+    h3{
+        color: #000000;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .list-icons{
+        list-style: none;
+        padding: 0;
+        li{
+            padding-right: 38px;
+            display: inline-block;
+            padding-left: 15px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+.service-step3{
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    h5{
+        margin-top: 20px;
+        font-size: 44px;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    h5{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 13px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    .searvice-jumbotron{
+        margin-top: 0px;
+    .head{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    .spacing{
+        margin-top: 50px;
+    }
+}
+.service-step1{
+    .list-icons{
+        li{
+            padding-right: 30px;
+        }
+    }
+}
+.service-step3{
+    h5{
+        font-size: 35px;
+    }
+}
+}

@@ -1,0 +1,160 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '../../../scss/colors';
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;  
+}
+.love-working{
+    margin-bottom: 72px;
+    background-color: #E8FBF5;
+    .heading{
+        margin-bottom: 60px;
+        h2{
+            font-size: 35px;
+            font-family: 'Playfair Display', serif;
+            line-height: 70px;
+            text-align: center;
+            color:$black;
+        }
+    }
+    
+    .about{
+        padding: 56px 0;
+        border-bottom: 1px solid #EEE;
+        &:last-child{
+            border-bottom: 0;
+        }
+        .image{
+            text-align: center;
+        }
+        h2{
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 50px;
+        }
+        h3{
+            font-size: 30px;
+            line-height: 60px;
+            margin-bottom: 10px;
+        }
+        p{
+            line-height: 36px;
+            font-size: 16px;
+            color: rgba(0,0,0,0.69);
+            text-align: justify;
+        }
+    }
+}
+
+.our-mission{
+    padding-top: 50px;
+    margin-bottom: 100px;
+    .description{
+        h3{
+            font-size: 35px;
+            line-height: 56px;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 16px;
+            color: rgba(0,0,0,0.69);
+            line-height: 36px;
+            text-align: justify;
+        }
+        .mission-image{
+            display: none;
+        }
+    }
+    .mission-image{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .our-team{
+        margin-bottom: 60px;
+    }
+    .love-working{
+        margin-bottom: 0;
+        padding-top: 20px;
+        .heading{
+            margin-bottom: 0;
+            h2{
+                font-size: 25px;
+            }
+        }
+        .about{
+            padding: 10px 0;
+            border-bottom: 0;
+            .col-md-4{
+                order: 1;
+            }
+            .col-md-8{
+                order: 2;
+            }
+            .image{
+                text-align: center;
+            }
+            h3{
+                font-size: 20px;
+                line-height: 47px;
+                text-align: center;
+            }
+            p{
+                font-size: 13px;
+                line-height: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+    .our-mission{
+        margin-bottom: 100px;
+        .col-md-6{
+            order: 2;
+            &+.col-md-6{
+                order: 1;
+            }
+        }
+        .mission-image{
+            display: none;
+        }
+        .description{
+            .mission-image{
+                display: block;
+                margin-bottom: 30px;
+            }
+            h3{
+                font-size: 18px;
+            }
+            p{
+                font-size: 13px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .desktop{
+        display: none;  
+     }
+     .mobile{
+         display: block;
+     }
+
+     .our-team{
+        .row + .row{
+            &> div{
+                margin-top: auto;
+            }
+        } 
+     }
+}

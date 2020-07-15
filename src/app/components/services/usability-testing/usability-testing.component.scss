@@ -1,0 +1,186 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '../../../../scss/colors';
+h5{
+    font-size: 53px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.highlight{
+    color: #1ED69F;
+}
+p{
+    color: #797979;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.searvice-jumbotron{
+     background-color: rgb(255, 255, 255); 
+     margin-top: -15px;
+    .head{
+        width:528px;
+        height:513px;
+        margin-left: -16px;
+    }
+    h5{
+        margin-top: 131px;
+    }
+    h6{
+        font-size: 53px;
+        font-weight: 100;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    img{
+        margin-bottom: 30px;
+    }
+    .step-image1{
+        p{
+            color: #797979;
+            font-size: 13px;
+            text-align: center;
+            margin-bottom: 28px;
+            margin-top: 14px; 
+        }
+    }
+    h3{
+        color: #6C6C6C;
+        font-size: 16px;
+        text-align: left;
+        font-weight: 100;
+        margin-bottom: 0px;
+    }
+    .list1{
+        margin-left: 55px;
+    }
+    .list2{
+        margin-left: 27px;
+    }
+    .list3{
+        margin-left: 44px;
+    }
+    .list4{
+        margin-left: 43px;
+    }
+    .spacing {
+        margin-top: 200px;
+    }
+    .step-image img{
+        width: auto;
+        height: auto;
+    }
+}
+.service-step2{
+    background-color: #F2F2F2;
+    margin-top: 0px;
+    .row{
+        padding-top: 71px;
+        padding-bottom: 70px;
+    }
+    h5{
+        margin-top: 20px;
+    }
+    h3{
+        color: #000000;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    p{
+        margin-top: 20px;
+    }
+    h6{
+        color: #6C6C6C;
+        font-size: 16px;
+        font-weight: 100;
+        margin-bottom: 16px;
+        img{
+            margin-bottom: 5px;
+            margin-right: 3px;
+        }   
+    }
+
+}
+.service-step3{
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    h5{
+        margin-top: 20px;
+    }
+    .image{
+        filter: #606A74; 
+        -webkit-filter: grayscale(1);
+    }
+    .image:hover{
+        filter: none; 
+        -webkit-filter: grayscale(0);
+    }
+    .row{
+        margin-bottom: 20px;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    h5{
+        font-size: 35px;
+        font-weight: 100;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 13px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+    .searvice-jumbotron{
+        h5{
+            margin-top: 50px;
+        }
+        h3{
+            font-size: 13px;
+        }
+        h6{
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+    .head{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
+    .spacing {
+        margin-top: 50px;
+    }
+}
+.service-step2{
+    .row{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    p{
+        margin-top: 0px;
+    }
+    h6{
+        font-size: 13px;
+        margin-bottom: 16px;
+        img{
+            width: 4%;
+            margin-bottom: 5px;
+            margin-right: 3px;
+        }   
+    }
+}
+.service-step3{
+    margin-top: 20px;
+    .row{
+        margin-bottom: 0px;
+    }
+}
+}

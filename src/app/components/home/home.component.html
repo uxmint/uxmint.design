@@ -1,0 +1,213 @@
+<!-- Home Carousel -->
+<section class="home-carousel">
+  <ngu-carousel [inputs]="servicesCarouselConfig" #homeCarousel [dataSource]="services">
+    <ngu-tile *nguCarouselDef="let item">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="text">
+              <div>
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
+                <a class="btn" [routerLink]="item.route">See our Works</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img [src]="item.image" [alt]="item.name"/>
+          </div>
+        </div>
+      </div>
+    </ngu-tile>
+  </ngu-carousel>
+  <ul class="ngucarousel-indicator" NguCarouselPoint>
+    <li *ngFor="let pointer of homeCarousel.pointNumbers; let i = index">
+      <a (click)="homeCarousel.moveTo(i)" [class.active]="homeCarousel.activePoint == i">&nbsp;</a>
+    </li>
+  </ul>
+  <div class="carousel-navigation">
+    <div class="container"style="position: relative;">
+      <ul  >
+        <li *ngFor="let item of services; index as i">
+          <a (click)="homeCarousel.moveTo(i)" [class.active]="i == homeCarousel.activePoint">
+            <img [src]="item.icon" [alt]="item.name"/>
+            <span>{{ item.name }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- ./Home Carousel -->
+
+<!-- Services -->
+<section class="services-offer">
+  <div class="container">
+      <div class="services-heading">
+          <h4><span class="text-primary">Services</span> we offer to cater your <span class="text-primary">business needs</span></h4>
+      </div>
+      <div class="service-body">
+        <div class="row">
+          <div class="col-md-4">
+              <div class="service">
+                <div class="service-icon">
+                    <img src="/assets/images/services/Group 2790.png" alt="UX consulting"/>
+                    <img src="/assets/images/services/Group 3368.png" alt="UX consulting"/>
+                </div>
+                <h4>UX Consulting</h4>
+                <p>We believe research brings insights, our consultants connect with your business and end-users to build a better solutions to drive the business.</p>
+                <a routerLink="/services/ux-consulting" class="btn">Show More</a>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service">
+                <div class="service-icon">
+                  <img src="/assets/images/services/Group 2745.png" alt="Visual Design"/>
+                  <img src="/assets/images/services/Group 3370.png" alt="Visual Design"/>
+                </div>
+                <h4>Interface Design</h4>
+                <p>Aesthetically good design can instil curiosity for the customers to move beyond the landing page. Make your website come alive with best UI</p>
+                <a routerLink="/services/visual-design" class="btn">Show More</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service">
+            <div class="service-icon">
+              <img src="/assets/images/services/Group 2746.png" alt="Front End Dev" />
+              <img src="/assets/images/services/Group 3371.png" alt="Front End Dev" /> 
+            </div>
+            <h4>Front End Development</h4>
+            <p>We specialise in HTML/CSS JavaScript, Angular and back-end integration. We can liaise with the back-end team to
+              execute it pixel perfect</p>
+            <a routerLink="/services/front-end-dev" class="btn">Show More</a>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+           <div class="col-md-4">
+                <div class="service">
+                  <div class="service-icon">
+                    <img src="/assets/images/services/Group 2750.png" alt="End-to-End Development"/>
+                    <img src="/assets/images/services/Group 3372.png" alt="End-to-End Development"/>
+                  </div>
+                  <h4>End-to-End Development</h4>
+                  <p>We build products which are innovative scalable & modular to solve critical business problems. We use Java Spring, REST API, PHP, MongoDB, MySQL</p>
+                  <a routerLink="/services/back-end-dev" class="btn">Show More</a>
+                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service">
+              <div class="service-icon">
+                <img src="/assets/images/services/Group 2760.png" alt="Usablity Testing"/>
+                <img src="/assets/images/services/Group 3373.png" alt="Usablity Testing"/>
+              </div>
+              <h4>Usablity Testing</h4>
+              <p>By means of Usability Testing techniques we valuate the product or website’s user experience even before it is built or it hits the market to assess and iterate the design to reduce cost and enhance end user’s experience</p>
+              <a routerLink="/services/usability-testing" class="btn">Show More</a>
+            </div>
+      </div>
+          <div class="col-md-4">
+              <div class="service">
+                <div class="service-icon">
+                  <img src="/assets/images/services/Group 2770.png" alt="Training"/>
+                  <img src="/assets/images/services/Group 3369.png" alt="Training"/>
+                </div>
+                <h4>Training</h4>
+                <p>Transform your workforce with cheery picked courses making them business focused and future ready</p>
+                <a href="http://uxmint.in" class="btn">Show More</a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- /Services -->
+
+<!-- Solutions -->
+<div class="solutions">
+  <div class="solution-heading">
+    <h4>Our <span class="text-primary">solution </span> are helping <span class="text-primary">audience</span></h4>
+  </div>
+  <div class="solution-body">
+    <ngu-carousel class="solutions-carousel" #solutionCarousel [inputs]="solutionsCarouselConfig" [dataSource]="solutions">
+      <ngu-tile *nguCarouselDef="let item; let i = index">
+          <div class="solution">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="cover">
+              <div class="image">
+                  <img [src]="item.imageSrc" [alt]="item.title" />
+              </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+              <div class="description">
+                  <h1>{{ item.title }}</h1>
+                  <p>{{ item.description }}</p>
+                  <a [routerLink]="item.link.route">{{ item.link.text }} <fa-icon [icon]="['fas','chevron-right']"></fa-icon></a>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </ngu-tile>
+      <ul class="ngucarousel-indicator" NguCarouselPoint>
+        <li *ngFor="let pointer of solutionCarousel.pointNumbers; let i = index">
+          <a (click)="solutionCarousel.moveTo(i)" [class.active]="solutionCarousel.activePoint == i">&nbsp;</a>
+        </li>
+      </ul>
+    </ngu-carousel>
+  </div>
+</div>
+<!-- /Solutions -->
+
+<!-- Our Clients -->
+<section class="our-clients">
+  <div class="container">
+    <div class="our-client-header">
+        <h3>Our Clients</h3>
+    </div>
+    <div class="our-client-body">
+        <div class="row">
+            <div class="col-sm-3 client">
+                  <img src="/assets/images/our-clients/logo010.png" alt="">
+            </div>
+            <div class="col-sm-3 client">
+                  <img src="/assets/images/our-clients/logo020.png" alt="">
+            </div>
+            <div class="col-sm-3 client">
+                  <img src="/assets/images/our-clients/logo030.png" alt="">
+            </div>
+            <div class="col-sm-3 client">
+                <img src="/assets/images/our-clients/logo040.png" alt="">
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 client">
+                  <img src="/assets/images/our-clients/logo050.png" alt="">
+            </div>
+            <div class="col-sm-3 client1">
+                  <img src="/assets/images/our-clients/logo060.png" alt="">
+            </div>
+            <div class="col-sm-3 client">
+                  <img src="/assets/images/our-clients/logo070.png" alt="">
+            </div>
+            <div class="col-sm-3 client">
+                <img src="/assets/images/our-clients/logo080.png" alt="">
+          </div>
+          </div>
+    </div>
+  </div>
+</section>
+<!-- /Our Clients -->
+<!-- Our-team-->
+<div class="our-team">
+      <h1>Our Team</h1>
+</div>
+<app-our-team></app-our-team>
+<!-- /Our-team-->
