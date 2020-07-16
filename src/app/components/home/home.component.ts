@@ -44,40 +44,40 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { 
       name: 'UX Consulting',
       icon: '/assets/images/home/ux-consulting.png',
-      title: 'UX Consulting',
-      description: 'We believe research brings insights our team of design experts connect with your business and ‘dev team to build a better product',
+      title: 'Empowering Products & Services with Design Driven solutions',
+      description: '',
       image: '/assets/images/home/img-1.png',
       route: '/services/ux-consulting'
     },
     { 
-      name: 'Visual Design',
+      name: 'Inteface Design',
       icon: '/assets/images/home/visual-design.png',
-      title: 'Make Design Visually Consistant',
-      description: 'We believe research brings insights our team of design experts connect with your business and ‘dev team to build a better product',
+      title: 'Let the Brand Identity do the talking',
+      description: '',
       image: '/assets/images/home/img-2.png',
       route: '/services/interface-design'
     },
     { 
-      name: 'Front End Development',
+      name: 'UI Development',
       icon: '/assets/images/home/front-end-development.png',
-      title: 'Experience smooth ride in Frontend & Backend',
-      description: 'We believe research brings insights our team of design experts connect with your business and ‘dev team to build a better product.',
+      title: 'Let the designs come alive with the best of UI technologies',
+      description: '',
       image: '/assets/images/home/img-3.png',
       route: '/services/front-end-dev'
     },
     { 
-      name: 'Back End Development',
+      name: 'End-to-End Development',
       icon: '/assets/images/home/back-end-development.png',
-      title: 'API-We trade data for Mobile apps,websites',
-      description: 'We believe research brings insights our team of design experts connect with your business and ‘dev team to build a better product.',
+      title: 'Seemless working product to ensure the users get hassle free experience',
+      description: '',
       image: '/assets/images/home/img-4.png',
       route: '/services/back-end-dev'
     },
     { 
       name: 'Usability Testing',
       icon: '/assets/images/home/usability-testing.png',
-      title: 'API-We trade data for Mobile apps,websites',
-      description: 'We believe research brings insights our team of design experts connect with your business and ‘dev team to build a better product.',
+      title: '',
+      description: '  ',
       image: '/assets/images/home/img-5.png',
       route: '/services/usability-testing'
     }
