@@ -76,7 +76,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { 
       name: 'Usability Testing',
       icon: '/assets/images/home/usability-testing.png',
-      title: '',
+      title: 'Analyze, Priorities, Iterate before the market launch with real users',
       description: '  ',
       image: '/assets/images/home/img-5.png',
       route: '/services/usability-testing'
@@ -85,7 +85,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   solutions:any[] = [
     { 
       title: 'Event Management',
-      description: 'Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.',
+      description: 'Platform for Venues Owners & Professionals to showcase their Venues and Services and find their customers online.',
       imageSrc: '/assets/images/projects/project1.png',
       link:{
         text: 'View Case Study',
@@ -94,7 +94,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     },
     { 
       title: 'Skill Development',
-      description: 'Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.',
+      description: 'Platform for designers, design aspirants/students, mentor to collaborate and share their ideology, design method, process and uplift their skills in the Design domain.',
       imageSrc: '/assets/images/projects/project3.png',
       link:{
         text: 'View Case Study',
@@ -103,7 +103,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     },
     { 
       title: 'We worked on Network Scalablity',
-      description: 'Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.',
+      description: 'Digital Transformation for one of the largest telecom network service provider involved redesigning the experience for customers, SMEs and business users. It involved breaking down complex manual process of quote, billing & invoicing that spanned across multiple platforms and CRM systems with high level of scalability & seamless customer experience.',
       imageSrc: '/assets/images/projects/project2.png',
       link:{
         text: 'View Case Study',
@@ -112,7 +112,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     },
     { 
       title: 'Social Media Marketing',
-      description: 'Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.Portal for business (commercial network services for companies) with high level of scalability to have the services currently done manually.',
+      description: 'The SaaS product for Customer Advocacy platform to promoting word of mouth review for sustainable growth and to increase credibility.',
       imageSrc: '/assets/images/projects/project4.png',
       link:{
         text: 'View Case Study',
