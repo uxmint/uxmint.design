@@ -27,8 +27,4 @@ export class APIService {
     return this.http.post<any>(`${this.basePath}career.php`,formData);
   }
 
-  blogPosts(){
-    return this.http.get<any>('https://api.uxmint.in/all-posts');
-  }
-
 }

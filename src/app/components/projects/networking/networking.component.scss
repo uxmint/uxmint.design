@@ -72,30 +72,30 @@
 }
 
 .about-project{
-        background-color: #9ACC19;
+        background-color: #242424;
         h2{
             font-size: 70px;
-            color: #626465;
+            //color: #626465;
             font-weight: 100;
             margin-top: 70px;
             text-align: center;
         }
         p{
             font-size: 16px;
-            color: #505253;
+            //color: #505253;
             font-weight: 100;
             margin-top: 70px;
             text-align: justify;
         }
         h6{
             font-size: 16px;
-            color: #505253;
+            color: #ffffff;
             font-weight: 100;
             margin-top: 50px;
         }
         h5{
             font-size: 16px;
-            color: #0A0A0A;
+            //color: #0A0A0A;
             font-weight: 100;
         }
         .row {
@@ -346,20 +346,20 @@
 }
 
 .layout2{
-    background-color: #9BCC00;
+    background-color: #9D9D9D;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-top: -180px;
     h2{
         font-size: 30px;
-        color: #393939;
+        //color: #393939;
         text-align: left;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     p{
         font-size: 16px;
-        color: #393939;
+        //color: #393939;
         font-weight: 100;
         text-align: justify;
         margin-bottom: 5px;
@@ -545,13 +545,15 @@
 }
 
 .layout7{
-    background-color: #9BCC2A;
+    background-color: #CECECE;
+    padding-top: 100px;
+    padding-bottom: 100px;
     .step-image .over-img{
         position: absolute;
-        width: 685px;
+        width: 800px;
         height: 1013px;
-        top: 75%;
-        left: 53%;
+        top: 80%;
+        left: 40%;
     }
 }
 
@@ -572,7 +574,7 @@
 .layout8{
     background-color: #414141;
     margin-top: -180px;
-    height: 851px;
+    height: 740px;
     h2{
         font-size: 70px;
         color: #ffffff;
