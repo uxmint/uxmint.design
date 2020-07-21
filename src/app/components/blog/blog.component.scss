@@ -87,15 +87,13 @@
         }
         .post-excerpt{
             background-color: #F7F7F7;
-            margin-bottom: 40px;
-            padding-bottom: 40px;
-            //border-bottom: 1px solid #DDD;
+            margin-bottom: 60px;
             &:last-child{
                 margin-bottom: 0;
                 padding-bottom: 0;
                 border-bottom: 0;
             }
-            .step-image{
+            .step-image img{
                 width: 100%;
                 height: auto;
             }
