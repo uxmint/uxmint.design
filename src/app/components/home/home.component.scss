@@ -8,7 +8,7 @@ section.home-carousel{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 100px 0;
+    padding-top: 100px;
     position: relative;
     .tile{
         box-shadow: none;
@@ -35,61 +35,60 @@ section.home-carousel{
             height: auto;
         }
     }
+    .carousel-navigation{
+        left: 0;
+        right: 0;
+        padding-top: 100px;
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            background-color: #FFF;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            padding: 0;
+            text-align: center;
+            padding: 0 20px;
+            border-radius: 6px;
+            margin-bottom: 0;
+        }
+        li{
+            min-width: 20%;
+            max-width: 20%;
+        }
+        a{
+            position: relative;
+            display: block;
+            cursor: pointer;
+            opacity: 0.6;
+            padding: 24px 16px;
+            color: #000;
+            font-size: 14px;
+            line-height: 16px;
+            &:hover,
+            &.active{
+                opacity: 1;
+            }
+            &>span{
+                margin-top: 8px;
+            }
+            span{
+                display: block;
+            }
+            &.active:after{
+                position: absolute;
+                content: '';
+                background: #000;
+                height: 8px;
+                border-radius: 10px 10px 0 0;
+                display: block;
+                width: 100%;
+                left: 0;
+                top: -8px;
+            }
+        }
+    }
     .ngucarousel-indicator{
         display: none;
-    }
-}
-.carousel-navigation{
-    left: 0;
-    right: 0;
-    padding-top: 100px;
-    padding-bottom: 40px;
-    ul{
-        display: flex;
-        list-style: none;
-        justify-content: space-between;
-        background-color: #FFF;
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        padding: 0;
-        text-align: center;
-        padding: 0 20px;
-        border-radius: 6px;
-        margin-bottom: 0;
-    }
-    li{
-        min-width: 20%;
-        max-width: 20%;
-    }
-    a{
-        position: relative;
-        display: block;
-        cursor: pointer;
-        opacity: 0.6;
-        padding: 24px 16px;
-        color: #000;
-        font-size: 14px;
-        line-height: 16px;
-        &:hover,
-        &.active{
-            opacity: 1;
-        }
-        &>span{
-            margin-top: 8px;
-        }
-        span{
-            display: block;
-        }
-        &.active:after{
-            position: absolute;
-            content: '';
-            background: #000;
-            height: 8px;
-            border-radius: 10px 10px 0 0;
-            display: block;
-            width: 100%;
-            left: 0;
-            top: -8px;
-        }
     }
 }
 .ngucarousel-indicator{
@@ -335,6 +334,17 @@ section.home-carousel{
     section.home-carousel{
         padding: 30px 0 0;
         margin-bottom: 10px;
+        .tile{
+            h3{
+                font-size: 35px;
+            }
+            p{
+                font-size: 13px;
+            }
+            .btn{
+                font-size: 16px;
+            }
+        }
         .ngucarousel-indicator{
             display: block;
             padding: 20px 0;

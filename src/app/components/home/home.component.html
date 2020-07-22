@@ -26,19 +26,19 @@
       <a (click)="homeCarousel.moveTo(i)" [class.active]="homeCarousel.activePoint == i">&nbsp;</a>
     </li>
   </ul>
-</section>
-<div class="carousel-navigation">
-  <div class="container"style="position: relative;">
-    <ul  >
-      <li *ngFor="let item of services; index as i">
-        <a (click)="homeCarousel.moveTo(i)" [class.active]="i == homeCarousel.activePoint">
-          <img [src]="item.icon" [alt]="item.name"/>
-          <span>{{ item.name }}</span>
-        </a>
-      </li>
-    </ul>
+  <div class="carousel-navigation">
+    <div class="container"style="position: relative;">
+      <ul  >
+        <li *ngFor="let item of services; index as i">
+          <a (click)="homeCarousel.moveTo(i)" [class.active]="i == homeCarousel.activePoint">
+            <img [src]="item.icon" [alt]="item.name"/>
+            <span>{{ item.name }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
+</section>
 <!-- ./Home Carousel -->
 
 <!-- Services -->
