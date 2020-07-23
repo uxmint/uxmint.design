@@ -28,20 +28,20 @@
           <form [formGroup]="form" (ngSubmit)="onSubmit()" [class.ng-submitted]="submitted">
               <div class="form-group">
                 <label>Name</label>
-                <input type="text" class="form-control" formControlName="name" maxlength="30"/>
+                <input type="text" class="form-control" placeholder="eg:john" formControlName="name" maxlength="30"/>
                 <div class="error-feedback" *ngIf="hasError('name','required')">Please enter your name</div>
                 <div class="error-feedback" *ngIf="hasError('name','remote')">{{ form.get('name').getError('remote') }}</div>
               </div>
               <div class="form-group">
                 <label>Phone Number</label>
-                  <input type="tel" class="form-control" formControlName="phone" maxlength="15"/>
+                  <input type="tel" class="form-control" placeholder="eg:xx6590876" formControlName="phone" maxlength="15"/>
                   <div class="error-feedback" *ngIf="hasError('phone','required')">Please enter your Contact Number</div>
                   <div class="error-feedback" *ngIf="hasError('phone','pattern')">Phone number is less than 10 digits</div>
                   <div class="error-feedback" *ngIf="hasError('phone','remote')">{{ form.get('phone').getError('remote') }}</div>
               </div>
               <div class="form-group">
                 <label>Email</label>
-                <input type="email" class="form-control"  formControlName="email" maxlength="30"/>
+                <input type="email" class="form-control"  placeholder="eg:example@gmail.com" formControlName="email" maxlength="30"/>
                 <div class="error-feedback" *ngIf="hasError('email','required')">Please enter your e-mail</div>
                 <div class="error-feedback" *ngIf="hasError('email','pattern')">Please provide a valid e-mail address</div>
                 <div class="error-feedback" *ngIf="hasError('email','remote')">{{ form.get('email').getError('remote') }}</div>
@@ -49,7 +49,7 @@
               <div class="form-group">
                 <label>Attach Resume</label>
                   <div class="custom-file">
-                      <input #inputFile type="file" (change)="onChange($event)" class="custom-file-input" id="customFile" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" formControlName="fileInput">
+                      <input #inputFile type="file"  placeholder="Browse file" (change)="onChange($event)" class="custom-file-input" id="customFile" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" formControlName="fileInput">
                       <label class="custom-file-label" for="customFile"><fa-icon [icon]="['fas','paperclip']"></fa-icon> {{ resume ? resume.name : '' }}</label>
                   </div>
                   <div class="error-feedback" *ngIf="hasError('resume','required')">Please attach a Resume</div>
