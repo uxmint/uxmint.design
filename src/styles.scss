@@ -338,46 +338,7 @@ label{
         text-align: left;
     } 
 }
-/*.other-work{
-    margin-bottom: 60px;
-} */
 }
-
-/*.other-work-image{
-    img{
-        width: 350px;
-        height: 280px;
-        transition-property: width, height;
-        transition-duration: 1s;
-        padding: 20px;
-        filter: #606A74; 
-        -webkit-filter: grayscale(1);
-    }
-    img:hover{
-        width: 250px;
-        height: 200px; 
-        filter: none; 
-        -webkit-filter: grayscale(0);
-    }
-}
-
-.other-work-name{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 10px;
-    h4{
-        font-size: 22px;
-        margin-bottom: 0;
-        color: $light;
-    }
-} */
 
 /* Project Detail */
 .project{
@@ -407,7 +368,6 @@ label{
     margin-top: 10px;
 }
 .contact-us{
-    //display: flex;
     margin: 100px 0;
     aside{
         min-width: 240px;
@@ -556,7 +516,7 @@ label{
 
 .searvice-jumbotron{
     display: flex;
-    min-height: calc( 100vh - 74px);
+    //min-height: calc( 100vh - 74px);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -919,6 +879,9 @@ label{
             font-size: 13px;
             line-height: 22px;
         }
+        &:hover{
+            display: none;
+        }
     }
     /* Build Next Products */
     .build-next-products{
@@ -1130,6 +1093,26 @@ label{
     .services-offer{
         margin-bottom: 80px;
         padding-top: 80px;
+        .row{
+            border-bottom: 0;
+            &:last-child{
+                border-bottom: 0;
+            }
+            .col-md-6,
+            .col-md-4{
+                padding: 0;
+                border-right: 1px solid #F3F3F3;
+                &:last-child{
+                    border-right: 0;
+                }
+            }
+        }
+        hr{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            color: #000000;
+        }
     }
     /* services case study */
     .service-step9{

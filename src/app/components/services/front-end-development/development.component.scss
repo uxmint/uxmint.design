@@ -23,10 +23,17 @@ p{
     }
      background-color: rgb(255, 255, 255); 
     margin-top: 75px;
-    .head{
-        width:800px;
-        height:510px;
-        margin-left: -16px;
+    .step-image1{
+        img{
+        width: 140%;
+        height: auto;
+        }
+    }
+    .step-image2{
+        img{
+        width: 100%;
+        height: auto;
+        }
     }
     .step-image1{
         p{
@@ -140,11 +147,13 @@ p{
     }
     .searvice-jumbotron{
         margin-top: 0px;
-    .head{
-        width: 100%;
-        height: auto;
-        margin-left: 0px;
-    }
+        .step-image1{
+            img{
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            }
+        }
     h3{
         font-size: 13px;
     }
