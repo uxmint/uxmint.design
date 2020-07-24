@@ -103,7 +103,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     },
     { 
       title: 'We worked on Network Scalablity',
-      description: 'Digital Transformation for one of the largest telecom network service provider involved redesigning the experience for customers, SMEs and business users. It involved breaking down complex manual process of quote, billing & invoicing that spanned across multiple platforms and CRM systems with high level of scalability & seamless customer experience.',
+      description: 'Digital Transformation for one of the largest telecom network service provider involved redesigning the experience for customers, SMEs and business users...',
       imageSrc: '/assets/images/projects/project2.png',
       link:{
         text: 'View Case Study',

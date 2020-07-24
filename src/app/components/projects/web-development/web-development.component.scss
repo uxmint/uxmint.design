@@ -280,3 +280,44 @@
 }
 }
 }
+
+
+/*  Web view */
+.web-view{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3B445B;
+    .heading{
+    h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        padding-bottom: 30px;
+        color: #ffffff;
+    }
+    img{
+        width: 100%;
+        padding-bottom: 100px;
+    }
+}
+}
+  @include media-breakpoint-down(md) {
+.web-view{
+         padding-top: 30px;
+         padding-bottom: 20px;
+         .heading{
+        h1{
+            font-size: 40px;
+        }
+        img{
+            width: 100%;
+            padding-bottom: 80px;
+        }
+    }
+    .col-md-3{
+        width: 50%;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+}
+}

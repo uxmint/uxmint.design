@@ -144,23 +144,23 @@ label{
     .btn{
         color: #585858;
     }
-    // &:hover{
-    //     background-color: #434343;
-    //     box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
-    //     color: $light;
-    //     border-radius: 10px;
-    //     .btn{
-    //         color: $light;
-    //     }
-    //     .service-icon{
-    //         img{
-    //             display: none;
-    //             &:last-child{
-    //                 display: inline-block;
-    //             }
-    //         }
-    //     }
-    // }
+    &:hover{
+        background-color: #434343;
+        box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
+        color: $light;
+        border-radius: 10px;
+        .btn{
+            color: $light;
+        }
+        .service-icon{
+            img{
+                display: none;
+                &:last-child{
+                    display: inline-block;
+                }
+            }
+        }
+    }
 }
 
 /* Solutions */
@@ -262,6 +262,7 @@ label{
     .step-image{
         overflow: hidden;
         cursor: pointer;
+        border-radius: 6px;
     }
     .step-image img{
         filter: #606A74; 
@@ -871,6 +872,23 @@ label{
         p{
             font-size: 13px;
             line-height: 22px;
+        }
+        &:hover{
+            background-color: #FFFFFF;
+            box-shadow: none;
+            color: none;
+            border-radius: none;
+            .btn{
+                color: none;
+            }
+            .service-icon{
+                img{
+                    display: none;
+                    &:last-child{
+                        display: none;
+                    }
+                }
+            }
         }
     }
     /* Build Next Products */
