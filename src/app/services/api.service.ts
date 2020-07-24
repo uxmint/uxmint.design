@@ -13,7 +13,7 @@ export class APIService {
   enquiryRequest(enquiry){
     let formData: FormData = new FormData();
     Object.keys(enquiry).forEach(key =>formData.append(key,enquiry[key]));
-    return this.http.post<any>(`${this.basePath}enquire.php`,enquiry);
+    return this.http.post<any>(`${this.basePath}enquire.php`,formData);
   }
 
   careerRequest(career, resume: File){
