@@ -37,18 +37,6 @@ export class BlogComponent implements OnInit {
       description: 'We are all aware of the WHEEL which was invented in STONE AGE. In my perspective, it is the only product that has been successful since 9500 BC. It is hard to imagine our lives without',
       imageSrc: '/assets/images/blog/img-5.png',
       url: 'https://medium.com/uxmint/the-ux-wheel-dc8ec27ef02e',
-    },
-    {
-      title: 'Why Ux Design is a Strategic Business Tool',
-      description: 'User Experience (UX) is the battlefield on which businesses wage and win the battle for the user. Everyone might have an opinion, but the user is the final judge of the quality of your UX.',
-      imageSrc: '/assets/images/blog/img-6.png',
-      url: 'https://uxmint.in/',
-    },
-    {
-      title: 'How insights from user research help us build for the next billion',
-      description: 'Sitting in her apartment in Mumbai a few years ago, Radha wondered if there were activities nearby for her two-year old son. She had recently moved to the city from a small town about 300 km......',
-      imageSrc: '/assets/images/blog/img-7.png',
-      url: 'https://uxmint.in/',
     }
   ];
 
