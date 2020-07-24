@@ -28,7 +28,7 @@
             }
         .step-image img{
             width: 100%;
-            height: 330px;
+            height: 300px;
             filter: #606A74; 
             -webkit-filter: grayscale(1);
         }
@@ -60,9 +60,9 @@
             color: #1ED69F;
         }
         .post-detail{
-            margin-top: 40px;
-            margin-bottom: 30px;
-            padding: 30px
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 30px;
         }
     }
 }
@@ -95,7 +95,7 @@
             }
             .step-image img{
                 width: 100%;
-                height: auto;
+                height: 300px;
             }
             h3{
                 font-size: 15px;

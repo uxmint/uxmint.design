@@ -552,6 +552,10 @@ p{
     padding-left: 0px;
     margin-left: -7px;
     }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @include media-breakpoint-down(md) {
@@ -559,9 +563,6 @@ p{
         .container{
             padding-top: 0px;
             padding-left: 20px;
-        }
-        .col-md-6{
-            padding: 42px;
         }
         .row{
             margin-bottom: 30px;

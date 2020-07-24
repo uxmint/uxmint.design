@@ -183,7 +183,7 @@ label{
         
         div.tile{
             box-shadow: none;
-            display: flex;
+            //display: flex;
             .solution{
                 background-color: #313030;
                 display: flex;
@@ -320,6 +320,9 @@ label{
 }
 }
 .other-works-body{
+    .col-md-4{
+        margin-bottom: 30px;
+    }
     .step-image img{
         filter: none; 
         -webkit-filter: grayscale(0);
@@ -372,7 +375,6 @@ label{
     aside{
         min-width: 240px;
         margin-top: 10px;
-        text-align: center;
         ul{
             list-style: none;
             margin: 0;
@@ -380,8 +382,8 @@ label{
             li{
                 margin-bottom: 80px;
                 display: inline-block;
-                padding-left: 20px;
-                padding-right: 60px;
+                padding-left: 30px;
+                padding-right: 30px;
                 a{
                     font-size: 16px;
                     color: rgba(0,0,0,0.5);
@@ -827,15 +829,6 @@ label{
 }
 }
 
-@include media-breakpoint-down(md) {
-    .image{
-        .step-image img{
-        width: 100%;
-        height: 250px;
-    }
-    }
-}
-
 @include media-breakpoint-down(sm) {
     body{
         padding-top: 74px;
@@ -878,9 +871,6 @@ label{
         p{
             font-size: 13px;
             line-height: 22px;
-        }
-        &:hover{
-            display: none;
         }
     }
     /* Build Next Products */
@@ -999,7 +989,7 @@ label{
                 width: 100%;
                 li{
                     margin-bottom: 20px;
-                    padding-left: 20px;
+                    padding-left: 40px;
                     padding-right: 20px;
                 }
             }
@@ -1094,7 +1084,7 @@ label{
         margin-bottom: 80px;
         padding-top: 80px;
         .row{
-            border-bottom: 0;
+            border-bottom: 1px solid #F3F3F3;
             &:last-child{
                 border-bottom: 0;
             }
@@ -1102,16 +1092,11 @@ label{
             .col-md-4{
                 padding: 0;
                 border-right: 1px solid #F3F3F3;
+                border-bottom: 1px solid #F3F3F3;
                 &:last-child{
                     border-right: 0;
                 }
             }
-        }
-        hr{
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-            color: #000000;
         }
     }
     /* services case study */

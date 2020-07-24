@@ -548,25 +548,12 @@
     background-color: #CECECE;
     padding-top: 100px;
     padding-bottom: 100px;
-    .step-image .over-img{
-        position: absolute;
-        width: 800px;
-        height: 1013px;
-        top: 80%;
-        left: 40%;
-    }
 }
 
 @include media-breakpoint-down(md) {
 .layout7{
-        margin-top: -44px;
-        .step-image .over-img{
-            position: absolute;
-            width: 100%;
-            height: auto;
-            top: 200%;
-            left: 0%;
-        }
+    padding-top: 50px;
+    padding-bottom: 50px;
     }
 }
 
@@ -588,20 +575,26 @@
         font-weight: 100;
         text-align: justify;
     }
-    .col-md-6{
-        padding-right: -15px;
+    .step-image img{
+        width: 100%;
+        height: auto;
     }
 }
 
 @include media-breakpoint-down(md) {
 .layout8{
         margin-top: -44px;
+        height: 530px;
         h2{
             font-size: 40px;
         }
         p{
             font-size: 13px;
             line-height: 25px;
+        }
+        .step-image img{
+            width: 100%;
+            height: auto;
         }
         }
 }

@@ -73,6 +73,8 @@ a{
 @include media-breakpoint-down(md) {
     .projects{
         margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     h2{
         font-size: 35px;
@@ -83,6 +85,9 @@ a{
     p{
         font-size: 15px;
         text-align: justify;
+    }
+    .col-md-4{
+        margin-bottom: 40px;
     }
     .step-image img{
         filter: none; 

@@ -128,7 +128,7 @@ section.home-carousel{
     h3{
         font-size: 30px;
         text-align: center;
-        font-weight: 900;
+        font-weight: 500;
     }
 }
 .our-client-body{
@@ -178,6 +178,10 @@ section.home-carousel{
 
 
 @include media-breakpoint-down(sm) {
+    .section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     /* Solutions */
     .solutions{
         margin-bottom: 46px;
@@ -279,6 +283,7 @@ section.home-carousel{
                 width: 50%;
                 padding-left: 20px;
                 padding-right: 20px;
+                margin-bottom: 30px;
             }
         }
     }
