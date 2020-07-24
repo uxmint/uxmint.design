@@ -178,8 +178,9 @@ p{
             line-height: 20px;
         }
           .col-sm-3{
-              width: 40%;
-              padding-left: 20px;
+              //width: 40%;
+              padding-left: 40px;
+              padding-bottom: 20px;
           }
     }
 }
@@ -212,7 +213,7 @@ p{
         color: #6F6F6F;
         font-weight: 100;
         font-size: 16px;
-        text-align: justify;
+        text-align: left;
     }
     .vertical1 { 
         border-left: 1px solid #CBCBCB;
@@ -397,7 +398,7 @@ p{
         font-size: 16px;
         color: #6F6F6F;
         font-weight: 100;
-        text-align: justify;
+        text-align: left;
     }
     .step-image img{
         filter: #606A74; 
@@ -539,7 +540,7 @@ p{
         font-size: 16px;
         color: #FFFFFF;
         font-weight: 100;
-        text-align: justify;
+        text-align: left;
         margin-bottom:2px;
     }
     .container{

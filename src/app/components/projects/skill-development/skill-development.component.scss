@@ -66,8 +66,6 @@
 .about-project{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #6116A6;
-    color: #ffffff;
     h1{
         font-family: 'Roboto', sans-serif;
         font-size: 70px;
@@ -132,8 +130,6 @@
 .process{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #4C276E;
-    color: #ffffff;
     h1{
         font-family: 'Roboto', sans-serif;
         font-size: 70px;
@@ -197,8 +193,9 @@
             font-size: 12px;
         }
         .col-sm-3{
-            width: 40%;
-            padding-left: 35px;
+            //width: 40%;
+            padding-left: 40px;
+            padding-bottom: 20px;
         }
     }
 }
@@ -207,8 +204,8 @@
 .research{
         padding-top: 50px;
         padding-bottom: 50px;
-        background-color: #6116A6;
-        color: #ffffff;
+        background-color: #EFEFEF;
+        //color: #ffffff;
     h1{
         font-family: 'Roboto', sans-serif;
         font-size: 70px;
@@ -230,7 +227,7 @@
     p{
         font-weight: 100;
         font-size: 16px;
-        text-align: justify;
+        text-align: left;
     }
 }
     .research2{
@@ -272,7 +269,7 @@
             font-weight: 800;
         }
         .highlights1{
-            color: #ffffff;
+            //color: #ffffff;
             font-size: 16px;
             margin-left: 20px;
             font-weight: 800;
@@ -338,8 +335,8 @@
 .challenges-needs{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #FFBA25;
-    color: #6116A6;
+    background-color: #EFEFEF;
+    //color: #6116A6;
     h3{
         font-family: 'Roboto', sans-serif;
         font-size: 30px;
@@ -390,7 +387,7 @@
         font-size: 16px;
         color: #6F6F6F;
         font-weight: 400;
-        text-align: justify;
+        text-align: left;
     }
     .vertical1 { 
         border-left: 1px solid #CBCBCB;
@@ -509,17 +506,17 @@
 .app{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #6116A6;
+    background-color: #E3E3E3;
     h1{
         font-family: 'Roboto', sans-serif;
         font-size: 70px;
         font-weight: 400;
         padding-bottom: 50px;
-        color: #ffffff;
+        //color: #ffffff;
     }
     .app-image{
         img{
-            padding-left: 100px;
+            width: 100%;
         }
     }
 }
@@ -535,7 +532,7 @@
         }
         .app-image{
             img{
-                padding-left: 0;
+                width: 100%;
             }
         }
     }
@@ -543,23 +540,23 @@
 
 
 /* image */
-.image{
-    padding-top: 10px;
-    background-color: #DF3F6F;
-}
+// .image{
+//     padding-top: 10px;
+//     background-color: #DF3F6F;
+// }
 
 /*  Web view */
 .web-view{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #2C2C2C;
+    background-color: #EAEAEA;
     .heading{
     h1{
         font-family: 'Roboto', sans-serif;
         font-size: 60px;
         font-weight: 400;
         padding-bottom: 40px;
-        color: #ffffff;
+        //color: #ffffff;
     }
     img{
         width: 100%;

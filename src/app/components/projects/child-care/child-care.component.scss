@@ -114,7 +114,7 @@
         padding-bottom: 20px;
     }
     p{
-        padding-bottom: 20px;
+        padding-bottom: 0px;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         color: #5C5C5C;
@@ -122,9 +122,16 @@
     }
     .image2{
         img{
-        width: 100%;
-        height: auto;
-        display: flex;
+            width: 400px;
+            height: auto;
+            transition-property: width, height;
+            transition-duration: 1s;
+            filter: #606A74; 
+            -webkit-filter: grayscale(1);
+        }
+        img:hover{
+            filter: none; 
+            -webkit-filter: grayscale(0);
         }
     }
 }

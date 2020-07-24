@@ -144,23 +144,23 @@ label{
     .btn{
         color: #585858;
     }
-    &:hover{
-        background-color: #434343;
-        box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
-        color: $light;
-        border-radius: 10px;
-        .btn{
-            color: $light;
-        }
-        .service-icon{
-            img{
-                display: none;
-                &:last-child{
-                    display: inline-block;
-                }
-            }
-        }
-    }
+    // &:hover{
+    //     background-color: #434343;
+    //     box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
+    //     color: $light;
+    //     border-radius: 10px;
+    //     .btn{
+    //         color: $light;
+    //     }
+    //     .service-icon{
+    //         img{
+    //             display: none;
+    //             &:last-child{
+    //                 display: inline-block;
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 /* Solutions */
@@ -180,7 +180,7 @@ label{
 } 
 .solutions-carousel{
     .item{
-        
+        padding: 0;
         div.tile{
             box-shadow: none;
             //display: flex;
@@ -215,7 +215,7 @@ label{
                     padding-top: 70px;
                         h1{
                             font-family: 'Roboto', serif;
-                            font-size: 60px;
+                            font-size: 50px;
                             margin-top: 20px;
                             text-align: left;
                             font-weight: 100;

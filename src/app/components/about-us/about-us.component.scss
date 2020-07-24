@@ -23,7 +23,7 @@
     }
     
     .about{
-        padding: 56px 0;
+        padding: 56px 20px;
         border-bottom: 1px solid #EEE;
         &:last-child{
             border-bottom: 0;
@@ -51,8 +51,8 @@
 }
 
 .our-mission{
-    padding-top: 50px;
-    margin-bottom: 100px;
+    padding: 50px 20px;
+    margin-bottom: 50px;
     .description{
         h3{
             font-size: 35px;
@@ -104,6 +104,10 @@
             .image{
                 text-align: center;
             }
+            h2{
+                font-size: 30px;
+                text-align: center;
+            }
             h3{
                 font-size: 20px;
                 line-height: 47px;
@@ -114,13 +118,12 @@
                 line-height: 30px;
                 padding-left: 20px;
                 padding-right: 20px;
+                padding-bottom: 40px;
             }
         }
     }
     .our-mission{
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
         .col-md-6{
             order: 2;
             &+.col-md-6{

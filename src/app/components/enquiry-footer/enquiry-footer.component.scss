@@ -53,6 +53,14 @@
     .contacts{
         font-size: 20px;
     }
+    .col-sm-4{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .col-sm-3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @include media-breakpoint-down(md) {
