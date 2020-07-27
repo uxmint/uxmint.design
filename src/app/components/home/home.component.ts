@@ -47,7 +47,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       title: 'Empowering Products & Services with Design Driven solutions',
       description: '',
       image: '/assets/images/home/img-1.png',
-      route: '/services/ux-consulting'
+      route: '/services/user-experience'
     },
     { 
       name: 'Inteface Design',
@@ -63,7 +63,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       title: 'Let the designs come alive with the best of UI technologies',
       description: '',
       image: '/assets/images/home/img-3.png',
-      route: '/services/front-end-dev'
+      route: '/services/ui-dev'
     },
     { 
       name: 'End-to-End Development',
@@ -71,7 +71,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       title: 'Seemless working product to ensure the users get hassle free experience',
       description: '',
       image: '/assets/images/home/img-4.png',
-      route: '/services/back-end-dev'
+      route: '/services/end-to-end'
     },
     { 
       name: 'Usability Testing',
