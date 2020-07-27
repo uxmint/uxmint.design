@@ -1,6 +1,19 @@
-<div class="alert {{ alert ? alert.type : '' }}" *ngIf="alert && alert.type">
-    <fa-icon [icon]="['fas',alert.type == 'success' ? 'check-circle' : 'exclamation-triangle']"></fa-icon> {{ alert.message }}
+<div class="modal fade" [class.show]="alert && alert.type" tabindex="-1" role="dialog" aria-hidden="true" [style.display]="alert.message ? 'block' : 'none'">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Alert</h5>
+        <button type="button" class="close" aria-label="Close" (click)="alert={}">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <fa-icon [icon]="['fas',alert.type == 'success' ? 'check-circle' : 'exclamation-triangle']"></fa-icon> {{ alert.message }}
+      </div>
+    </div>
+  </div>
 </div>
+
 <div class="container">
     <div class="contact-us">
         <div class="row">
