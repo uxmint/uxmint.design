@@ -204,13 +204,14 @@
                 }
                 .highlights1{
                     padding-bottom: 0px;
+                    padding-top: 20px;
                     font-size: 16px;
                     margin-left: 13px;
                 }
             }
         .image{
             img{
-                width: 400px;
+                width: 100%;
                 height: auto;
                 transition-property: width, height;
                 transition-duration: 1s;
@@ -234,10 +235,13 @@
         .research1{
         h3{
             font-size: 20px;
+            padding-bottom: 0;
+            padding-top: 10px;
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
+            color: #CBCBCB;
         }
     }
         .research2{
@@ -247,6 +251,7 @@
             p{
                 font-size: 13px;
                 line-height: 25px;
+                color: #CBCBCB;
             }
             img{
                 width: 30%;
@@ -259,6 +264,7 @@
                     }
                     .highlights1{
                         padding-bottom: 0px;
+                        padding-top: 10px;
                         font-size: 10px;
                         margin-left: 13px;
                         padding-right: 50px;
@@ -266,7 +272,7 @@
                 }
             .image{
                 img{
-                    width: 370px;
+                    width: 100%;
                     height: auto;
                     transition-property: width, height;
                     transition-duration: 1s;
@@ -321,6 +327,7 @@
             img{
                 width: 100%;
                 height: auto;
+                padding: 5px;
             }
         }
     }
@@ -398,7 +405,6 @@
     }
     p{
         font-size: 13px;
-        line-height: 25px;
     }
 }
 }
@@ -415,7 +421,7 @@
         color: #46AE62;
     }
     img{
-        width: 104%;
+        width: 100%;
         height: auto;
     }
 }

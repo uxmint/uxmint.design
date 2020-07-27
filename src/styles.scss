@@ -312,6 +312,8 @@ label{
 @include media-breakpoint-down(md) {
 .other-works{
         margin-bottom: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
  .other-works-heading{
     margin-top: 80px;
     margin-bottom: 40px;
@@ -1060,9 +1062,9 @@ label{
                 li{
                     margin-bottom: 20px;
                     padding-left: 10px;
-                    padding-right: 10px;
+                    padding-right: 30px;
                     a{
-                        font-size: 12px;
+                        font-size: 16px;
                     }
                     &:last-child{
                         margin-bottom: 0;
@@ -1163,7 +1165,8 @@ label{
     }
     
         .step-image img{
-            padding-top: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
                 width: 100%;
                 height: auto;
                 transition-property: width, height;
@@ -1227,6 +1230,7 @@ label{
     .step-image img{
         width: 100%;
         height: auto;
+        padding-bottom: 20px;
     }
 }
     }
