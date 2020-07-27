@@ -42,43 +42,43 @@ export class HomeComponent implements OnInit, AfterViewInit {
   };
   services:any[] = [
     { 
-      name: 'UX Consulting',
-      icon: '/assets/images/home/ux-consulting.png',
+      name: 'USER EXPERIENCE',
+      icon: '/assets/images/home/icon-1.png',
       title: 'Empowering Products & Services with Design Driven solutions',
       description: '',
-      image: '/assets/images/home/img-1.png',
+      image: '/assets/images/home/one.png',
       route: '/services/user-experience'
     },
     { 
-      name: 'Inteface Design',
-      icon: '/assets/images/home/visual-design.png',
+      name: 'INTERFACE DESIGN',
+      icon: '/assets/images/home/icon-2.png',
       title: 'Let the Brand Identity do the talking',
       description: '',
-      image: '/assets/images/home/img-2.png',
+      image: '/assets/images/home/two.png',
       route: '/services/interface-design'
     },
     { 
-      name: 'UI Development',
-      icon: '/assets/images/home/front-end-development.png',
+      name: 'UI DEVELOPMENT',
+      icon: '/assets/images/home/icon-3.png',
       title: 'Let the designs come alive with the best of UI technologies',
       description: '',
-      image: '/assets/images/home/img-3.png',
+      image: '/assets/images/home/three.png',
       route: '/services/ui-dev'
     },
     { 
-      name: 'End-to-End Development',
-      icon: '/assets/images/home/back-end-development.png',
+      name: 'END TO END DEVELOPMENT',
+      icon: '/assets/images/home/icon-4.png',
       title: 'Seemless working product to ensure the users get hassle free experience',
       description: '',
-      image: '/assets/images/home/img-4.png',
+      image: '/assets/images/home/four.png',
       route: '/services/end-to-end'
     },
     { 
-      name: 'Usability Testing',
-      icon: '/assets/images/home/usability-testing.png',
+      name: 'USABILITY TESTING',
+      icon: '/assets/images/home/icon-5.png',
       title: 'Analyze, Priorities, Iterate before the market launch with real users',
       description: '  ',
-      image: '/assets/images/home/img-5.png',
+      image: '/assets/images/home/five.png',
       route: '/services/usability-testing'
     }
   ];

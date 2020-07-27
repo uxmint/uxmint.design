@@ -4,7 +4,8 @@
 @import '../../../scss/colors';
 
 section.home-carousel{
-    background-image: url('/assets/images/home/carousel-bg.png');
+    //background-image: url('/assets/images/home/carousel-bg.png');
+    background-color: #60D6C9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,8 +19,9 @@ section.home-carousel{
             align-items: center;
         }
         h3{
-            font-size: 50px;
+            font-size: 60px;
             font-weight: 400;
+            font-family: 'Libre Baskerville', serif;
         }
         p{
             font-size: 16px;
@@ -31,7 +33,7 @@ section.home-carousel{
             border-color: #000000;
         }
         img{
-            width: 100%;
+            width: 150%;
             height: auto;
         }
     }
@@ -64,6 +66,9 @@ section.home-carousel{
             color: #000;
             font-size: 14px;
             line-height: 16px;
+            // img{
+            //     width: 100%;
+            // }
             &:hover,
             &.active{
                 opacity: 1;
@@ -73,6 +78,8 @@ section.home-carousel{
             }
             span{
                 display: block;
+                font-family: 'Inter', sans-serif;
+                font-size: 13px;
             }
             &.active:after{
                 position: absolute;

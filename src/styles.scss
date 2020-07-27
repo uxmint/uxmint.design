@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
     font-size: 16px;
-    padding-top: 66px;
+    padding-top: 70px;
 }
 router-outlet ~ *{
     display: block;
@@ -19,6 +19,10 @@ button:focus{
 label{
     font-size: 14px;
     color: #6C6C6C;
+}
+
+.bg-white{
+    background-color: #FFFFFF;
 }
 
 /* Loader */
@@ -106,9 +110,10 @@ label{
     margin-bottom: 100px;
     h4{
         text-align: center;
-        font-size: 30px;
+        font-size: 24px;
         line-height: 32px;
         font-weight: 900;
+        font-family: 'Inter', sans-serif;
     }
     h5{
         font-size: 38px;
@@ -118,48 +123,54 @@ label{
 }
 .service{
     padding: 38px 54px;
-    text-align: center;
+    text-align: left;
     height: 100%;
     .service-icon{
         margin-bottom: 32px;
         img{
-            height: 72px;
+            height: auto;
             width: auto;
-            &:last-child{
-                display: none;
-            }
+            //padding-left: 80px;
+            // &:last-child{
+            //     display: none;
+            // }
         }
     }
     h4{
-        font-size: 24px;
+        font-size: 18px;
         margin-bottom: 32px;
         font-weight: 500;
+        font-family: 'Inter', sans-serif;
     }
     p{
         color: #797979;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 28px;
-        text-align: justify;
+        text-align: left;
+        font-family: 'Roboto Slab', sans-serif;
     }
     .btn{
         color: #585858;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
     }
     &:hover{
-        background-color: #434343;
+        //background-color: #434343;
         box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
-        color: $light;
+        //color: $light;
         border-radius: 10px;
-        .btn{
-            color: $light;
-        }
-        .service-icon{
-            img{
-                display: none;
-                &:last-child{
-                    display: inline-block;
-                }
-            }
-        }
+        // .btn{
+        //     color: $light;
+        // }
+        // .service-icon{
+        //     img{
+        //         display: none;
+        //         &:last-child{
+        //             display: inline-block;
+        //         }
+        //     }
+        // }
     }
 }
 

@@ -9,8 +9,8 @@
 
 /* Header */
 header{
-    box-shadow: 0 3px 5px rgba(0,0,0,.04);
-    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.04);
+    //box-shadow: 0 3px 5px rgba(0,0,0,.04);
+    //-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.04);
     z-index: 99;
     .navbar{
         padding: 0;
@@ -85,6 +85,7 @@ header{
         img{
             height: 80px;
             width: auto;
+            padding-left: 60px;
         }
         a{
             display: block;
