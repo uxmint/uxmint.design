@@ -20,7 +20,7 @@ section.home-carousel{
         }
         h3{
             font-size: 60px;
-            font-weight: 400;
+            //font-weight: 400;
             font-family: 'Libre Baskerville', serif;
         }
         p{
@@ -80,6 +80,7 @@ section.home-carousel{
                 display: block;
                 font-family: 'Inter', sans-serif;
                 font-size: 13px;
+                font-weight: 500;
             }
             &.active:after{
                 position: absolute;

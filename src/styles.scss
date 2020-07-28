@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
@@ -112,7 +112,7 @@ label{
         text-align: center;
         font-size: 24px;
         line-height: 32px;
-        font-weight: 900;
+        font-weight: 300;
         font-family: 'Inter', sans-serif;
     }
     h5{
@@ -139,7 +139,7 @@ label{
     h4{
         font-size: 18px;
         margin-bottom: 32px;
-        font-weight: 500;
+        font-weight: 300;
         font-family: 'Inter', sans-serif;
     }
     p{
@@ -147,13 +147,14 @@ label{
         font-size: 15px;
         line-height: 28px;
         text-align: left;
-        font-family: 'Roboto Slab', sans-serif;
+        font-family: 'Roboto Slab', serif;
     }
     .btn{
         color: #585858;
         padding: 0;
         font-family: 'Inter', sans-serif;
         font-size: 12px;
+        font-weight: 400;
     }
     &:hover{
         //background-color: #434343;
