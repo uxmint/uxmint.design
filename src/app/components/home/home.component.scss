@@ -20,7 +20,7 @@ section.home-carousel{
         }
         h3{
             font-size: 60px;
-            //font-weight: 400;
+            font-weight: 400;
             font-family: 'Libre Baskerville', serif;
         }
         p{
@@ -29,7 +29,9 @@ section.home-carousel{
             color: #797979;
         }
         .btn{
-            font-size: 20px;
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
             border-color: #000000;
         }
         img{
@@ -116,6 +118,40 @@ section.home-carousel{
             text-indent: -999px;
             overflow: hidden;
             border-radius: 60%;
+            background-color: #FFFFFF;
+            cursor: pointer;
+            &.active{
+                width: 15px;
+                height: 15px;
+                background-color: #1ed49e;
+                border: 1px solid #313030;
+            }
+        }
+    }
+}
+
+.ngucarousel-indicator-one{
+    display: none;
+}
+
+.ngucarousel-indicator-two{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 0;
+    li{
+        display: inline-block;
+        a{
+            display: block;
+            margin: 0 5px;
+            width: 15px;
+            height: 15px;
+            border: 1px solid #313030;
+            border-color: #313030;
+            text-indent: -999px;
+            overflow: hidden;
+            border-radius: 60%;
             cursor: pointer;
             &.active{
                 width: 15px;
@@ -134,9 +170,10 @@ section.home-carousel{
 .our-client-header{
     margin-bottom: 120px;
     h3{
-        font-size: 30px;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         text-align: center;
-        font-weight: 500;
     }
 }
 .our-client-body{
@@ -177,8 +214,9 @@ section.home-carousel{
 
 .our-team{
     h1{
-        font-size: 30px;
-        font-weight: 900;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         text-align: center;
         padding-bottom: 50px;
     }
@@ -362,6 +400,10 @@ section.home-carousel{
             .btn{
                 font-size: 16px;
             }
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
         .ngucarousel-indicator{
             display: block;
@@ -372,4 +414,38 @@ section.home-carousel{
     .carousel-navigation{
         display: none;
         }
+
+        .ngucarousel-indicator-two{
+            display: none;
+        }
+        
+        .ngucarousel-indicator-one{
+            display: block;
+            padding: 20px 0;
+            margin-top: 30px;
+            margin-bottom: 0;
+            li{
+                display: inline-block;
+                a{
+                    display: block;
+                    margin: 0 5px;
+                    width: 15px;
+                    height: 15px;
+                    border: 1px solid #313030;
+                    border-color: #313030;
+                    text-indent: -999px;
+                    overflow: hidden;
+                    border-radius: 60%;
+                    background-color: #FFFFFF;
+                    cursor: pointer;
+                    &.active{
+                        width: 15px;
+                        height: 15px;
+                        background-color: #1ed49e;
+                        border: 1px solid #313030;
+                    }
+                }
+            }
+        }
+        
 }

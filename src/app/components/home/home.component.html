@@ -54,9 +54,9 @@
                 <div class="service-icon">
                     <img src="/assets/images/services/one.png" alt="UX Consulting"/>
                 </div>
-                <h4>User Experience</h4>
+                <h4>USER EXPERIENCE</h4>
                 <p>We believe research brings insights, our consultants connect with your business and end-users to build a better solutions to drive the business.</p>
-                <a class="btn">Show More</a>
+                <a class="bttn">Show More</a>
               </div>
           </div>
           <div class="col-md-4">
@@ -64,9 +64,9 @@
                 <div class="service-icon">
                   <img src="/assets/images/services/two.png" alt="UI Design"/>
                 </div>
-                <h4>Interface Design</h4>
+                <h4>INTERFACE DESIGN</h4>
                 <p>Aesthetically good design can instil curiosity for the customers to move beyond the landing page. Make your website come alive with best UI.</p>
-                <a class="btn">Show More</a>
+                <a class="bttn">Show More</a>
             </div>
         </div>
         <div class="col-md-4">
@@ -74,10 +74,10 @@
             <div class="service-icon">
               <img src="/assets/images/services/three.png" alt="UI Development" />
             </div>
-            <h4>UI Development</h4>
+            <h4>UI DEVELOPMENT</h4>
             <p>We specialise in HTML/CSS JavaScript, Angular and back-end integration. We can liaise with the back-end team to
               execute it pixel perfect.</p>
-            <a class="btn">Show More</a>
+            <a class="bttn">Show More</a>
           </div>
         </div>
         </div>
@@ -87,9 +87,9 @@
                   <div class="service-icon">
                     <img src="/assets/images/services/four.png" alt="End-to-End Development"/>
                   </div>
-                  <h4>End-to-End Development</h4>
+                  <h4>END TO END DEVELOPMENT</h4>
                   <p>We build products which are innovative scalable & modular to solve critical business problems. We use Java Spring, REST API, PHP, MongoDB, MySQL.</p>
-                  <a class="btn">Show More</a>
+                  <a class="bttn">Show More</a>
                 </div>
           </div>
           <div class="col-md-4">
@@ -97,9 +97,9 @@
               <div class="service-icon">
                 <img src="/assets/images/services/five.png" alt="Usablity Testing"/>
               </div>
-              <h4>Usablity Testing</h4>
+              <h4>USABILITY TESTING</h4>
               <p>By means of Usability Testing techniques we evaluate the product or website’s user experience even before it is built or it hits the market to assess and iterate the design to reduce cost and enhance end user’s experience.</p>
-              <a class="btn">Show More</a>
+              <a class="bttn">Show More</a>
             </div>
       </div>
           <div class="col-md-4 redirect">
@@ -108,9 +108,9 @@
                 <div class="service-icon">
                   <img src="/assets/images/services/six.png" alt="Training"/>
                 </div>
-                <h4>UX Training</h4>
+                <h4>UX TRAINING</h4>
                 <p>Transform your workforce with cheery picked courses making them business focused and future ready.</p>
-                <a class="btn">Show More</a>
+                <a class="bttn">Show More</a>
               </div> </a>
           </div>
         </div>
@@ -150,9 +150,14 @@
             </div>
             </div>
           </div>
+          <ul class="ngucarousel-indicator-one" NguCarouselPoint>
+            <li *ngFor="let pointer of solutionCarousel.pointNumbers; let i = index">
+              <a (click)="solutionCarousel.moveTo(i)" [class.active]="solutionCarousel.activePoint == i">&nbsp;</a>
+            </li>
+          </ul>
         </div>
       </ngu-tile>
-      <ul class="ngucarousel-indicator" NguCarouselPoint>
+      <ul class="ngucarousel-indicator-two" NguCarouselPoint>
         <li *ngFor="let pointer of solutionCarousel.pointNumbers; let i = index">
           <a (click)="solutionCarousel.moveTo(i)" [class.active]="solutionCarousel.activePoint == i">&nbsp;</a>
         </li>

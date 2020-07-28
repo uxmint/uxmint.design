@@ -147,9 +147,10 @@ label{
         font-size: 15px;
         line-height: 28px;
         text-align: left;
+        font-weight: 300;
         font-family: 'Roboto Slab', serif;
     }
-    .btn{
+    .bttn{
         color: #585858;
         padding: 0;
         font-family: 'Inter', sans-serif;
@@ -185,9 +186,11 @@ label{
 .solution-heading{
     margin-bottom: 102px;
     h4{
-        font-size: 30px;
         text-align: center;
-        font-weight: 900;;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
     }
 } 
 .solutions-carousel{
@@ -224,25 +227,27 @@ label{
             }
                 .description{
                     color: #FFFFFF;
-                    padding-top: 70px;
+                    padding-top: 100px;
                         h1{
-                            font-family: 'Roboto', serif;
+                            font-weight: 400;
+                            font-family: 'Libre Baskerville', serif;
                             font-size: 50px;
                             margin-top: 20px;
                             text-align: left;
-                            font-weight: 100;
                         }
                         p{
-                            font-size: 16px;
-                            font-family: 'Roboto', serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            font-family: 'Roboto Slab', serif;
                             text-align: justify;
                             margin-bottom: 30px;
+                            color: #CBCBCB;
                         }
                         a{
-                            font-weight: 700;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 12px;
+                            font-weight: 400;
                             cursor: pointer;
-                            font-size: 20px;
-                            font-family: 'Roboto', serif;
                             color: #1ED69F;
                             text-decoration: none;
                         }
@@ -887,22 +892,29 @@ label{
             font-size: 13px;
             line-height: 22px;
         }
+        .bttn{
+            color: #585858;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+        }
         &:hover{
-            background-color: #FFFFFF;
-            box-shadow: none;
-            color: none;
-            border-radius: none;
-            .btn{
-                color: none;
-            }
-            .service-icon{
-                img{
-                    display: none;
-                    &:last-child{
-                        display: none;
-                    }
-                }
-            }
+            //background-color: #434343;
+            box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
+            //color: $light;
+            border-radius: 10px;
+            // .btn{
+            //     color: $light;
+            // }
+            // .service-icon{
+            //     img{
+            //         display: none;
+            //         &:last-child{
+            //             display: inline-block;
+            //         }
+            //     }
+            // }
         }
     }
     /* Build Next Products */
