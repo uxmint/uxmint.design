@@ -11,12 +11,12 @@
         text-align: left;
         padding-top: 80px;
         h1{
-            font-family: 'Roboto', serif;
             font-weight: 400;
+            font-family: 'Libre Baskerville', serif;
             font-size: 60px;
             line-height: 72px;
             span{
-                color: $primary;
+                color: #60D6C9 !important;
             }
         }
     }
@@ -43,21 +43,24 @@
         }
         h3{
             font-size: 20px;
-            font-family: 'Roboto';
+            font-weight: 500;
+            font-family: 'Inter', sans-serif;
             margin-bottom: 20px;
         }
         p{
             line-height: 21px;
             font-size: 16px;
             margin-bottom: 20px;
-            font-family: 'Roboto';
+            font-weight: 300;
+            font-family: 'Roboto Slab', serif;
             color: #6C6C6C;
             text-align: justify;
         }
         .btn{
             font-size: 20px;
-            font-family: 'Roboto';
-            color: #1ED69F;
+            font-weight: 500;
+            font-family: 'Roboto Slab', serif;
+            color: #60D6C9;
             padding: 0;
         }
         .post-detail{
@@ -83,7 +86,7 @@
         .post-title{
             margin-bottom: 60px;
             h1{
-                font-size: 30px;
+                font-size: 35px;
             }
         }
         .post-excerpt{
@@ -109,8 +112,7 @@
             }
             .btn{
                 font-size: 15px;
-                font-family: 'Roboto';
-                color: #1ED69F;
+                color: #60D6C9;
             }
             .post-detail{
                 margin-top: 20px;

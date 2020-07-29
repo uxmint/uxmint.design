@@ -6,26 +6,37 @@
     color: green;
 }
 .highlight{
-    color: #1ED69F;
+    color: #60D6C9;
 }
-
+h5{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
 .btn{
     padding: 0;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
 }
 
 .searvice-jumbotron{
     background-color: #F7F5FF; 
     margin-top: -15px;
     h5{
-        font-size: 53px;
-        font-weight: 100;
+        font-size: 60px;
+        font-weight: 400;
+        font-family: 'Libre Baskerville', serif;
         text-align: left;
         margin-bottom: 30px;
         margin-top: 125px;
+        line-height: 60px;
     }
     p{
         color: #797979;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -40,6 +51,8 @@
         p{
             color: #797979;
             font-size: 13px;
+            font-weight: 300;
+            font-family: 'Roboto Slab', serif;
             text-align: center;
             margin-bottom: 28px;
             margin-top: 14px; 
@@ -60,19 +73,20 @@
     h3{
         color:#6C6C6C;
         font-size: 20px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         margin-bottom:22px;
     }
     h5{
-        font-size: 53px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 30px;
         margin-top: 30px;
     }
     h6{
         color: #6C6C6C;
-        font-size: 16px;
-        font-weight: 100;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         margin-bottom: 16px;
         img{
             margin-bottom: 5px;
@@ -80,7 +94,9 @@
     }
     p{
         color: #797979;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -91,16 +107,16 @@
 .service-step2{
     background-color: #C55270;
     h5{
-        font-weight: 100;
         text-align: left;
         color: #FFFFFF;
-        font-size: 60px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
     p{
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -124,14 +140,14 @@
 .service-step3{
     background-color: #FFFFFF;
     h5{
-        font-size: 53px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 30px;
         margin-top: 100px;
     }
     p{
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -156,7 +172,7 @@
             min-width: 20px;
             font-size: 44px;
             vertical-align: middle;
-            color: #05A75B;
+            color: #60D6C9;
             display: inline-block;
         }
     }
@@ -165,8 +181,6 @@
 .service-step4{
     background-color: #151E36;
     h5{
-        font-size: 53px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 30px;
         color: #FFFFFF;
@@ -174,7 +188,9 @@
     }
     p{
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -187,14 +203,14 @@
 .service-step5{
     margin-bottom: 30px;
     h5{
-        font-size: 53px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 30px;
         margin-top: 50px;
     }
     p{
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -202,15 +218,15 @@
 .service-step6{
     background-color: #F8F6FF;
     h5{
-        font-size: 53px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 30px;
         margin-top: 50px;
         color: #2D2D76;
     }
     p{
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -230,15 +246,15 @@
     background-color: #F4F4F4;
     padding-bottom: 50px;
     h5{
-        font-size: 53px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 30px;
         margin-top: 50px;
         color: #404040;
     }
     p{
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -254,8 +270,6 @@
 .service-step8{
     background-color: #DF3F6F;
     h5{
-        font-size: 53px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 30px;
         color: #FFFFFF;
@@ -279,7 +293,9 @@
     } 
      p{
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -287,6 +303,9 @@
 
 
 @include media-breakpoint-down(md) {
+    .btn{
+        font-size: 10px;
+    }
     .searvice-jumbotron{
         h5{
             font-size: 35px;
@@ -311,7 +330,7 @@
             order: 2;
         }
         h5{
-            font-size: 35px;
+            font-size: 25px;
             margin-bottom: 30px;
             margin-top: 0;
         }
@@ -335,7 +354,7 @@
     }
     .service-step2{
         h5{
-            font-size: 35px;
+            font-size: 25px;
             margin-top: 40px;
         }
         p{
@@ -359,7 +378,7 @@
     }
     .service-step3{
         h5{
-            font-size: 35px;
+            font-size: 25px;
             margin-bottom: 20px;
             margin-top: 50px;
         }
@@ -391,7 +410,7 @@
     padding-top: 0;
     padding-bottom: 0;
     h5{
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 20px;
         margin-top: 50px;
     }
@@ -403,7 +422,7 @@
 }
 .service-step5{
     h5{
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 0px;
     }
     p{
@@ -421,7 +440,7 @@
 }
 .service-step6{
     h5{
-        font-size: 35px;
+        font-size: 25px;
         margin-top: 30px;
         margin-bottom: 20px;
     }
@@ -433,7 +452,7 @@
 }
 .service-step7{
     h5{
-        font-size: 35px;
+        font-size: 25px;
         margin-top: 30px;
         margin-bottom: 20px;
     }
@@ -452,7 +471,7 @@
 .service-step8{
     padding-bottom: 20px;
     h5{
-        font-size: 35px;
+        font-size: 25px;
         margin-top: 30px;
         margin-bottom: 20px;
     }

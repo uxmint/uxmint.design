@@ -11,17 +11,6 @@
 .love-working{
     margin-bottom: 72px;
     background-color: #E8FBF5;
-    .heading{
-        margin-bottom: 60px;
-        h2{
-            font-size: 35px;
-            font-family: 'Playfair Display', serif;
-            line-height: 70px;
-            text-align: center;
-            color:$black;
-        }
-    }
-    
     .about{
         padding: 56px 20px;
         border-bottom: 1px solid #EEE;
@@ -33,17 +22,23 @@
         }
         h2{
             font-size: 40px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             line-height: 50px;
             margin-bottom: 50px;
         }
         h3{
-            font-size: 30px;
+            font-size: 24px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             line-height: 60px;
             margin-bottom: 10px;
         }
         p{
             line-height: 36px;
-            font-size: 16px;
+            font-size: 15px;
+            font-weight: 300;
+            font-family: 'Roboto Slab', serif;
             color: rgba(0,0,0,0.69);
             text-align: justify;
         }
@@ -53,14 +48,20 @@
 .our-mission{
     padding: 50px 20px;
     margin-bottom: 50px;
-    .description{
+    .heading{
         h3{
-            font-size: 35px;
+            font-size: 40px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             line-height: 56px;
             margin-bottom: 16px;
         }
+    }
+    .description{
         p{
-            font-size: 16px;
+            font-size: 15px;
+            font-weight: 300;
+            font-family: 'Roboto Slab', serif;
             color: rgba(0,0,0,0.69);
             line-height: 36px;
             text-align: justify;
@@ -86,12 +87,6 @@
         padding-right: 10px;
         margin-bottom: 0;
         padding-top: 20px;
-        .heading{
-            margin-bottom: 0;
-            h2{
-                font-size: 25px;
-            }
-        }
         .about{
             padding: 10px 0;
             border-bottom: 0;
@@ -130,17 +125,13 @@
                 order: 1;
             }
         }
-        .mission-image{
-            display: none;
+        .heading{
+            h3{
+                font-size: 25px;
+                margin-bottom: 0;
+            }
         }
         .description{
-            .mission-image{
-                display: block;
-                margin-bottom: 30px;
-            }
-            h3{
-                font-size: 18px;
-            }
             p{
                 font-size: 13px;
                 line-height: 30px;

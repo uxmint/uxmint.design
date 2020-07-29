@@ -7,14 +7,15 @@
 .car-usability{
     padding-top: 50px;
     padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
     h1{
         font-size: 70px;
         font-weight: 400;
+        font-family: 'Libre Baskerville', serif;
     }
     p{
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
+        font-family: 'Roboto Slab', serif;
         color: #6C6C6C;
         text-align: justify;
     }
@@ -38,20 +39,21 @@
     padding-bottom: 30px;
     padding-top: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
         padding-bottom: 20px;
     }
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
         padding-bottom: 10px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
         color: #6C6C6C;
         text-align: justify;
     }
@@ -62,11 +64,11 @@
         padding-bottom: 30px;
         padding-top: 50px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         h3{
-            font-size: 20px;
+            font-size: 17px;
             padding-bottom: 10px;
             padding-top: 10px;
         }
@@ -82,30 +84,30 @@
     padding-top: 50px;
     background-color: #F7F7F7;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
         padding-bottom: 30px;
     }
     h3{
-        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         font-size: 30px;
-        font-weight: 400;
         padding-bottom: 20px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
+        font-family: 'Roboto Slab', serif;;
         padding-bottom: 20px;
         color: #6C6C6C;
         text-align: justify;
     }
     .types{
         p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
+        font-family: 'Roboto Slab', serif;;
         padding-bottom: 1px;
         color: #242424;
         }
@@ -115,11 +117,11 @@
 @include media-breakpoint-down(md) {
 .testing-process{
     h1{
-        font-size: 40px;
+        font-size: 25px;
         padding-bottom: 10px;
     }
     h3{
-        font-size: 20px;
+        font-size: 17px;
         padding-bottom: 0px;
     }
     p{

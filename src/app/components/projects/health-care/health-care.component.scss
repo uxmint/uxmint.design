@@ -7,14 +7,16 @@
 .health-care{
     padding-top: 50px;
     padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
     h1{
         font-size: 70px;
         font-weight: 400;
+        font-family: 'Libre Baskerville', serif;
     }
     p{
         color: #5C5C5C;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
     }
 }
@@ -37,14 +39,15 @@
     padding-bottom: 30px;
     padding-top: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
         padding-bottom: 20px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -53,7 +56,7 @@
 @include media-breakpoint-down(md) {
     .about-project{
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         p{
@@ -69,21 +72,23 @@
     padding-top: 50px;
     background-color: #F7F7F7;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
         padding-bottom: 10px;
     }
     .res1,.res2{
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
         padding-top: 20px;
     }
     p{
         padding-top: 10px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -121,11 +126,11 @@
 @include media-breakpoint-down(md) {
     .research{
         h1{
-            font-size: 40px;
+            font-size: 25px;
         }
         .res1,.res2{
             h3{
-                font-size: 20px;
+                font-size: 17px;
                 padding-top: 0px;
             }
             p{
@@ -159,15 +164,16 @@
     padding-bottom: 50px;
     padding-top: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
         padding-bottom: 20px;
     }
     p{
         padding-bottom: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -176,7 +182,7 @@
 @include media-breakpoint-down(md) {
     .solution{
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         p{

@@ -23,7 +23,9 @@ header{
         padding: 0 12px;
         .nav-link{
             padding: 23px 14px;
-            font-size: 16px;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Inter', sans-serif;
             span{
                 position: relative;
                 z-index: 1;
@@ -92,8 +94,9 @@ header{
             padding: 10px;
             text-align: center;
             opacity: 1;
-            font-weight: 700;
-            font-size: 18px;
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             line-height: 20px;
             &:hover{
                 text-decoration: none;
@@ -112,7 +115,7 @@ header{
 /* Footer */
 footer{
     padding: 106px 0;
-    background-color: #313030;
+    background-color: #262746;
     color: #FFF;
     a{
         color: #FFF;
@@ -184,7 +187,7 @@ footer{
         }
         .nav-item{
             .nav-link{
-                font-size: 20px;
+                font-size: 15px;
                 color: #FFFFFF;
                 padding: 5px 0;
                 &:hover{
@@ -255,7 +258,7 @@ footer{
             }
             a{
                 color: #FFF;
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 500;
                 padding: 3px 0;
             }

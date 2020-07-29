@@ -2,34 +2,56 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 @import '../../../../scss/colors';
+h1{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 60px;
+}
 h5{
-    font-size: 53px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
     text-align: left;
     margin-bottom: 30px;
 }
 .highlight{
-    color: #1ED69F;
+    color: #60D6C9;
 }
 p{
     color: #797979;
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
     margin-bottom: 30px;
     margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+.service{
+    p{
+        text-align: left;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
+    }
 }
 .btn{
     padding: 0;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
 }
 .searvice-jumbotron-inner{
-    h5{
-        margin-top: 60px;  
+    h1{
+        margin-top: 100px;  
     }
 h3{
     color: #6C6C6C;
-    font-size: 16px;
+    font-size: 15px;
     text-align: left;
-    font-weight: 100;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
 }
 .step-image{
@@ -38,14 +60,8 @@ h3{
     height: auto;
     }
 }
-.list1{
-    margin-left: 33px;
-}
-.list2{
-    margin-left: 25px;
-}
-.list3{
-    margin-left: 26px;
+.list{
+    margin-left: 35px;
 }
 }
 
@@ -55,15 +71,18 @@ h3{
     padding-bottom: 45px;
     p{
         color: #797979;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
         margin-top: 30px;
     }
     h6{
         color: #6C6C6C;
-        font-size: 16px;
-        font-weight: 100;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         margin-bottom: 16px;
         img{
             margin-bottom: 5px;
@@ -76,8 +95,9 @@ h3{
     padding-bottom: 45px;
     h6{
         color: #6C6C6C;
-        font-size: 16px;
-        font-weight: 100;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         margin-bottom: 16px;
         img{
             margin-bottom: 5px;
@@ -91,8 +111,9 @@ h3{
     padding-bottom: 45px;
     h6{
         color: #6C6C6C;
-        font-size: 16px;
-        font-weight: 100;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         margin-bottom: 16px;
         img{
             margin-bottom: 5px;
@@ -101,14 +122,20 @@ h3{
 }
 
 @include media-breakpoint-down(md) {
-    h5{
+    h1{
         font-size: 35px;
-        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 25px;
         text-align: left;
         margin-bottom: 30px;
     }
+    .btn{
+        font-size: 10px;
+    }
     .highlight{
-        color: #1ED69F;
+        color: #60D6C9;
     }
     p{
         color: #797979;
@@ -119,14 +146,13 @@ h3{
         line-height: 25px;
     }
     .searvice-jumbotron-inner{
-        h5{
-            margin-top: 50px; 
+        h1{
+            margin-top: 30px; 
         }
     h3{
         color: #6C6C6C;
         font-size: 13px;
         text-align: left;
-        font-weight: 100;
         margin-bottom: 20px;
     }
     .step-image{
@@ -149,7 +175,7 @@ h3{
     
     .service-step{
         background-color: #F4F4F4;
-        padding-top: 45px;
+        padding-top: 35px;
         padding-bottom: 45px;
         p{
             color: #797979;
@@ -162,7 +188,6 @@ h3{
         h6{
             color: #6C6C6C;
             font-size: 13px;
-            font-weight: 100;
             margin-bottom: 16px;
             padding-top: 10px;
             img{
@@ -178,12 +203,13 @@ h3{
          }
     }
     .service-step1{
+        padding-top: 10px;
+        padding-bottom: 40px;
         .m-first{
             order: 2;
             h6{
                 color: #6C6C6C;
                 font-size: 13px;
-                font-weight: 100;
                 margin-bottom: 16px;
                 img{
                     margin-bottom: 5px;
@@ -197,12 +223,13 @@ h3{
         }
        
         .service-step2{
+            padding-top: 30px;
+            padding-bottom: 30px;
             .m-first{
                 order: 1;
                 h6{
                     color: #6C6C6C;
                     font-size: 13px;
-                    font-weight: 100;
                     margin-bottom: 16px;
                     img{
                         margin-bottom: 5px;
@@ -215,7 +242,6 @@ h3{
                 h6{
                     color: #6C6C6C;
                     font-size: 13px;
-                    font-weight: 100;
                     margin-bottom: 16px;
                     img{
                         margin-bottom: 5px;

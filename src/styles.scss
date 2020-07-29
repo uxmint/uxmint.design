@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
@@ -52,7 +52,7 @@ label{
 }
 .loader {
   position: relative;
-  border: 0.6rem solid #1ED69F;
+  border: 0.6rem solid #60D6C9;
   border-top: 0.6rem solid #DAF7EE;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -114,6 +114,9 @@ label{
         line-height: 32px;
         font-weight: 300;
         font-family: 'Inter', sans-serif;
+        .text-primary{
+            color: #60D6C9 !important;
+        }
     }
     h5{
         font-size: 38px;
@@ -191,6 +194,9 @@ label{
         line-height: 32px;
         font-weight: 300;
         font-family: 'Inter', sans-serif;
+        .text-primary{
+            color: #60D6C9 !important;
+        }
     }
 } 
 .solutions-carousel{
@@ -229,9 +235,9 @@ label{
                     color: #FFFFFF;
                     padding-top: 100px;
                         h1{
-                            font-weight: 400;
-                            font-family: 'Libre Baskerville', serif;
-                            font-size: 50px;
+                            font-weight: 300;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 40px;
                             margin-top: 20px;
                             text-align: left;
                         }
@@ -248,7 +254,7 @@ label{
                             font-size: 20px;
                             font-weight: 300;
                             cursor: pointer;
-                            color: #1ED69F;
+                            color: #60D6C9;
                             text-decoration: none;
                         }
                     
@@ -266,9 +272,9 @@ label{
     margin-bottom: 50px;
     h3{
         font-family: 'Robota', sans-serif;
-        font-size: 30px;
+        font-size: 38px;
         text-align: center;
-        font-weight: 400;
+        font-weight: 700;
     }
 }
 }
@@ -297,7 +303,7 @@ label{
     .text-hover{
         position: absolute; 
         bottom: 5px; 
-        background: #1ED69F;
+        background: #60D6C9;
         width: 70%;
         height: 24%;
         transition: .5s ease;
@@ -313,16 +319,19 @@ label{
     h4{
         color: #FFFFFF;
         font-size: 20px;
-        font-weight: 900;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
     }
     h6{
         color: #FFFFFF;
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
     }
     a {
-        color: #FFFFFF;
+        color: #fff;
         text-decoration: none;
+        background-color: transparent;
     }
 }
 
@@ -350,7 +359,7 @@ label{
     .text-hover{
         position: absolute; 
         bottom: 5px; 
-        background: #1ED69F;
+        background: #60D6C9;
         width: 70%;
         height: 24%;
         transition: .5s ease;
@@ -359,7 +368,13 @@ label{
         font-size: 20px;
         padding: 20px;
         text-align: left;
-    } 
+    }
+    h4{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 12px;
+    }
 }
 }
 
@@ -406,6 +421,8 @@ label{
                 padding-right: 30px;
                 a{
                     font-size: 16px;
+                    font-weight: 300;
+                    font-family: 'Inter', sans-serif;
                     color: rgba(0,0,0,0.5);
                     span{
                         position: relative;
@@ -414,7 +431,7 @@ label{
                             content: '';
                             position: absolute;
                             height: 0;
-                            background-color: #1ED69F;
+                            background-color: #60D6C9;
                             width: 8px;
                             left: -13px;
                             bottom: 5px;
@@ -425,8 +442,7 @@ label{
                     &.active,
                     &:hover{
                         text-decoration: none;
-                        color: $primary;
-                        font-weight: 700;
+                        color: #60D6C9;
                         span::before{
                             height: 8px;
                         }
@@ -441,14 +457,14 @@ label{
     main{
         .applying-for{
             .btn{
-                border: 1px solid $primary;
+                border: 1px solid #60D6C9;
                 margin: 10px 10px 10px 0;
                 span{
                     display: none;
                 }
                 &.checked{
                     color: $white;
-                    background-color: $primary;
+                    background-color: #60D6C9;
                     span{
                         display: inline-block;
                     }
@@ -458,10 +474,11 @@ label{
         .form-header{
             margin-bottom: 60px;
             h3{
-                color: $primary;
-                font-size: 29px;
-                line-height: 38px;
-                font-weight: 100;
+                color: #60D6C9;
+                font-size: 50px;
+                font-weight: 400;
+                font-family: 'Libre Baskerville', serif;
+                line-height: 60px;
             }
             .blackterm{
                 color: #1D1D1D;
@@ -471,6 +488,9 @@ label{
                 color: rgba(0,0,0,0.25)
             }
             p{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Inter', sans-serif;
                 color: #6C6C6C;
                 line-height: 23px;
             }
@@ -490,6 +510,11 @@ label{
             .form-group{
                 margin-bottom: 30px;
                 max-width: 300px;
+                .label{
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: 'Inter', sans-serif;
+                }
                 .form-control{
                     height: 50px;
                     padding: 10px;
@@ -499,7 +524,7 @@ label{
                     border-radius: 5px;
                     &:focus{
                         outline: 0;
-                        border-color: $primary;
+                        border-color: #60D6C9;
                         box-shadow: none;
                     }
                     &.ng-invalid.ng-touched{
@@ -513,19 +538,23 @@ label{
                 }
                 .custom-file-input:focus ~ .custom-file-label{
                     outline: 0;
-                    border-color: $primary;
+                    border-color: #60D6C9;
                     box-shadow: none;
                 }
                 .custom-file-input:lang(en) ~ .custom-file-label::after {
                     content: none;
                 }
                 .paperclip {
-                    color:$primary;
+                    color:#60D6C9;
                 }
                 .btn{
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
                     color: $light;
                     border-radius: 5px;
                     padding: 8px 30px;
+                    background-color: #60D6C9;
                 }
             }
         }
@@ -740,8 +769,9 @@ label{
         }
         .text{
     h5{
-        font-size: 53px;
-        font-weight: 100;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         text-align: left;
         margin-bottom: 30px;
         color: #FFFFFF;
@@ -749,20 +779,22 @@ label{
     }
     p{
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
     h3{
         font-size: 20px;
-        color: #1ED69F;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        color: #60D6C9;
     }
     a{
-        font-weight: 700;
         cursor: pointer;
         font-size: 20px;
-        font-family: 'Roboto', serif;
-        color: #1ED69F;
+        color: #60D6C9;
         text-decoration: none;
     }
 }
@@ -792,8 +824,9 @@ label{
         }
         .text{
             h5{
-                font-size: 53px;
-                font-weight: 100;
+                font-size: 40px;
+                font-weight: 300;
+                font-family: 'Inter', sans-serif;
                 text-align: left;
                 margin-bottom: 30px;
                 color: #FFFFFF;
@@ -801,20 +834,23 @@ label{
             }
             p{
                 color: #FFFFFF;
-                font-size: 16px;
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Roboto Slab', serif;
                 text-align: justify;
                 margin-bottom: 30px;
             }
             h3{
                 font-size: 20px;
-                color: #1ED69F;
+                font-weight: 300;
+                font-family: 'Inter', sans-serif;
+                color: #60D6C9;
             }
             a{
                 font-weight: 700;
                 cursor: pointer;
                 font-size: 20px;
-                font-family: 'Roboto', serif;
-                color: #1ED69F;
+                color: #60D6C9;
                 text-decoration: none;
             }
         }
@@ -831,9 +867,10 @@ label{
     padding-bottom: 50px;
     .services-heading{
         h5{
-            font-weight: 100;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             margin-bottom: 30px;
-            font-size: 30px;
+            font-size: 24px;
             color: #454545;
             text-align: center;
             margin-top: 30px;
@@ -880,13 +917,13 @@ label{
         width: 80%;
         margin: 0 auto 14px;
         h4{
-            font-size: 19px;
+            font-size: 20px;
             line-height: 24px;
         }
     }
     .service{
         h4{
-            font-size: 17px;
+            font-size: 15px;
         }
         p{
             font-size: 13px;
@@ -896,14 +933,14 @@ label{
             color: #585858;
             padding: 0;
             font-family: 'Inter', sans-serif;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 400;
         }
         &:hover{
             //background-color: #434343;
-            box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
+            box-shadow: none;
             //color: $light;
-            border-radius: 10px;
+            border-radius: 0;
             // .btn{
             //     color: $light;
             // }
@@ -976,7 +1013,7 @@ label{
         }
     }
     .services-heading h5{
-        font-size: 24px;
+        font-size: 25px;
     }
     .jumbotron-inner{
         h1{
@@ -1035,6 +1072,9 @@ label{
                     margin-bottom: 20px;
                     padding-left: 40px;
                     padding-right: 20px;
+                    a{
+                        font-size: 13px;
+                    }
                 }
             }
         }
@@ -1163,7 +1203,7 @@ label{
             color: #FFFFFF;
             margin-top: 10px;
             margin-bottom: 10px;
-            font-size: 35px;
+            font-size: 25px;
         }
         p{
             color: #FFFFFF;
@@ -1227,7 +1267,7 @@ label{
             color: #FFFFFF;
             margin-top: 10px;
             margin-bottom: 10px;
-            font-size: 35px;
+            font-size: 25px;
         }
         p{
             color: #FFFFFF;

@@ -36,27 +36,27 @@
                 </div>
                 <form [formGroup]="form" (ngSubmit)="onSubmit()" [class.ng-submitted]="submitted">
                     <div class="form-group">
-                      <label>Name</label>
+                      <label class="label">Name</label>
                         <input type="text" class="form-control" placeholder="John Deo" formControlName="name" maxlength="30"/>
                         <div class="error-feedback" *ngIf="hasError('name','required')">Please enter your name</div>
                         <div class="error-feedback" *ngIf="hasError('name','remote')">{{ form.get('name').getError('remote') }}</div>
                       </div>
                       <div class="form-group">
-                        <label>Phone Number</label>
+                        <label class="label">Phone Number</label>
                           <input type="tel" class="form-control" placeholder="9800098000" formControlName="phone" maxlength="15"/>
                           <div class="error-feedback" *ngIf="hasError('phone','required')">Please enter your contact number</div>
                           <div class="error-feedback" *ngIf="hasError('phone','pattern')">Phone number is less than 10 digits</div>
                           <div class="error-feedback" *ngIf="hasError('phone','remote')">{{ form.get('phone').getError('remote') }}</div>
                       </div>
                       <div class="form-group">
-                        <label>Email</label>
+                        <label class="label">Email</label>
                         <input type="email" class="form-control" placeholder="official.email@company.com" formControlName="email" maxlength="30"/>
                         <div class="error-feedback" *ngIf="hasError('email','required')">Please enter your email</div>
                         <div class="error-feedback" *ngIf="hasError('email','pattern')">Please provide a valid email address</div>
                         <div class="error-feedback" *ngIf="hasError('email','remote')">{{ form.get('email').getError('remote') }}</div>
                       </div>
                       <div class="form-group">
-                        <label>Write your Message</label>
+                        <label class="label">Write your Message</label>
                         <textarea class="form-control" rows="5" placeholder="A brief about your project requirement" formControlName="message" maxlength="500"></textarea>
                         <div class="error-feedback" *ngIf="hasError('message','required')">Please leave a message</div>
                         <div class="error-feedback" *ngIf="hasError('message','remote')">{{ form.get('message').getError('remote') }}</div>
