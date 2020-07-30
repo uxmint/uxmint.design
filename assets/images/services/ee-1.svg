@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.721" height="35.971" viewBox="0 0 39.721 35.971">
+  <g id="Group_5265" data-name="Group 5265" transform="translate(-285.25 -1155.171)">
+    <line id="Line_108" data-name="Line 108" y2="11.893" transform="translate(305.11 1178.028)" fill="#f7a1c2" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_109" data-name="Line 109" x2="5.945" transform="translate(302.193 1189.698)" fill="#f7a1c2" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_572" data-name="Path 572" d="M518.74,168.634" transform="translate(-222.758 1021.367)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_573" data-name="Path 573" d="M518.779,170.091" transform="translate(-222.774 1020.789)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_574" data-name="Path 574" d="M512.189,152.478v-9.483h-7.466s-2.539-.825-2.539-2.538V129.881s.286-2.917,2.917-2.917a25.553,25.553,0,0,1,4.058.256s1.551.179,1.551,3.1.06,5.565.06,5.565l7.119.082v2.744H507.231v.815h7.258s1.729.2,1.729,1.729v11.22Z" transform="translate(-216.184 1037.914)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_575" data-name="Path 575" d="M545.228,152.478v-9.483H552.7s2.538-.825,2.538-2.538V129.881s-.286-2.917-2.917-2.917a25.561,25.561,0,0,0-4.058.256s-1.551.179-1.551,3.1-.06,5.565-.06,5.565l-7.119.082v2.744h10.659v.815h-7.258s-1.728.2-1.728,1.729v11.22Z" transform="translate(-231.013 1037.914)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_576" data-name="Path 576" d="M528.774,148.022V146h-3.242v2.022Z" transform="translate(-221.832 1030.355)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_577" data-name="Path 577" d="M525.9,123.068v-5.915h10.069v5.915h-4l-1.163,1.163-1.029-1.029H525.9Z" transform="translate(-225.603 1041.81)" fill="none" stroke="#60d6c9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <ellipse id="Ellipse_262" data-name="Ellipse 262" cx="0.699" cy="0.699" rx="0.699" ry="0.699" transform="translate(302.084 1161.368)" fill="none" stroke="#60d6c9" stroke-width="1.5"/>
+    <ellipse id="Ellipse_263" data-name="Ellipse 263" cx="0.699" cy="0.699" rx="0.699" ry="0.699" transform="translate(304.697 1161.368)" fill="none" stroke="#60d6c9" stroke-width="1.5"/>
+    <ellipse id="Ellipse_264" data-name="Ellipse 264" cx="0.699" cy="0.699" rx="0.699" ry="0.699" transform="translate(307.398 1161.368)" fill="none" stroke="#60d6c9" stroke-width="1.5"/>
+    <ellipse id="Ellipse_260" data-name="Ellipse 260" cx="3.646" cy="3.646" rx="3.646" ry="3.646" transform="translate(287.364 1155.921)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <ellipse id="Ellipse_261" data-name="Ellipse 261" cx="3.646" cy="3.646" rx="3.646" ry="3.646" transform="translate(316.278 1155.921)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

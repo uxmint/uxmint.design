@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" viewBox="0 0 38 34">
+  <g id="Group_3030" data-name="Group 3030" transform="translate(-112 -619.671)">
+    <g id="Rectangle_3027" data-name="Rectangle 3027" transform="translate(112 619.671)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <rect width="38" height="34" stroke="none"/>
+      <rect x="0.75" y="0.75" width="36.5" height="32.5" fill="none"/>
+    </g>
+    <line id="Line_769" data-name="Line 769" x2="36.026" transform="translate(113.388 629.132)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <g id="Ellipse_676" data-name="Ellipse 676" transform="translate(128 622.671)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="1.75" fill="none"/>
+    </g>
+    <g id="Ellipse_683" data-name="Ellipse 683" transform="translate(135 622.671)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="1.75" fill="none"/>
+    </g>
+    <g id="Ellipse_677" data-name="Ellipse 677" transform="translate(142 622.671)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="1.75" fill="none"/>
+    </g>
+    <path id="Path_9211" data-name="Path 9211" d="M3.367-2.554,9.186-.609V2.1L.4-1.432V-3.716L9.186-7.248v2.71Zm9.179,7.19h-2.2l5.473-15.3h2.2ZM25.451-2.583,19.519-4.548v-2.69l8.893,3.532v2.274L19.519,2.11V-.59Z" transform="translate(115.894 644.74)" fill="#60d6c9"/>
+  </g>
+</svg>
