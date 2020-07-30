@@ -11,10 +11,10 @@ font-style: 'Roboto';
   -webkit-filter: grayscale(1);
 
 }
-.step-image img:hover{
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
+// .step-image img:hover{
+//     filter: none;
+//     -webkit-filter: grayscale(0);
+// }
 
 .highlight{
     color: #60D6C9;
@@ -79,8 +79,8 @@ p{
     .step-image img{
         width: 100%;
         height: auto;
-        filter: none;
-        -webkit-filter: grayscale(0);
+        // filter: none;
+        // -webkit-filter: grayscale(0);
      }
 }
 }
