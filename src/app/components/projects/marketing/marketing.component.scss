@@ -20,8 +20,9 @@
         }
         p{
             color: #5C5C5C;
-            font-size: 16px;
-            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Roboto Slab', serif;
             text-align: justify;
         }
     }
@@ -68,15 +69,16 @@
     padding-bottom: 30px;
     padding-top: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
         padding-bottom: 20px;
     }
     p{
         color: #5C5C5C;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
         text-align: justify;
     }
     .list{
@@ -90,13 +92,15 @@
                 padding-right: 0;
             }
             h3{
-                font-family: 'Roboto', sans-serif;
-                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Roboto Slab', serif;
+                font-size: 15px;
                 color: #707070;
             }
             p{
-                font-family: 'Roboto', sans-serif;
-                font-size: 20px;
+                font-weight: 400;
+                font-family: 'Roboto Slab', serif;
+                font-size: 15px;
                 color: #000000;
             }
         }
@@ -106,7 +110,7 @@
 @include media-breakpoint-down(md) {
     .about-project{
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         p{
@@ -133,14 +137,15 @@
     padding-bottom: 50px;
     background-color: #FAFAFA;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
     }
     p{
         padding-top: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -162,7 +167,7 @@
 .branding{
     padding-top: 30px;
     h1{
-        font-size: 40px;
+        font-size: 25px;
     }
     p{
         font-size: 13px;
@@ -177,15 +182,15 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 30px;
     }
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
     }
     .color{
@@ -211,10 +216,10 @@
 @include media-breakpoint-down(md) {
 .style-guide{
     h1{
-        font-size: 40px;
+        font-size: 25px;
     }
     h3{
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 }
@@ -225,9 +230,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
     }
     img{
@@ -240,7 +245,7 @@
 @include media-breakpoint-down(md) {
 .illustration{    
     h3{
-        font-size: 20px;
+        font-size: 25px;
     }
     .pic1,.pic2,.pic3,.pic4,.pic5,.pic6{
         margin-left: 60px;
@@ -260,9 +265,9 @@ img{
     background-color: #C72D41;
     .heading{
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 30px;
         color: #ffffff;
     }
@@ -279,7 +284,7 @@ img{
     padding-bottom: 20px;
     .heading{
     h1{
-        font-size: 40px;
+        font-size: 25px;
       }
     img{
         width: 100%;
@@ -300,9 +305,9 @@ img{
     padding-bottom: 50px;
     background-color: #131F39;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 30px;
         color: #ffffff;
     }
@@ -314,7 +319,7 @@ img{
 @include media-breakpoint-down(md) {
 .responsive{
     h1{
-        font-size: 40px;
+        font-size: 25px;
     }
 }
 }

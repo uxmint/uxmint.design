@@ -10,12 +10,12 @@
         padding-top: 150px;
         color: #ffffff;
         h1{
-            font-family: 'Roboto', sans-serif;
             font-size: 70px;
             font-weight: 400;
+            font-family: 'Libre Baskerville', serif;
         }
         p{
-            font-size: 16px;
+            font-size: 15px;
             font-family: 'Roboto', sans-serif;
             text-align: justify;
         }
@@ -67,14 +67,14 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
     }
     p{
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         text-align: justify;
     }
     .list{
@@ -89,11 +89,13 @@
             }
             h3{
                 font-family: 'Roboto', sans-serif;
-                font-size: 16px;
+                font-size: 15px;
+                color: #707070;
             }
             p{
                 font-family: 'Roboto', sans-serif;
-                font-size: 20px;
+                font-size: 15px;
+                color: #000000;
             }
         }
     }
@@ -104,7 +106,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         p{
@@ -131,17 +133,18 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
     }
     h6{
-        font-size: 30px;
-        font-weight: bold;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
     }
     p{
-        font-size: 14px;
+        font-size: 15px;
         font-weight: bold;
     }
     .vertical1 { 
@@ -176,7 +179,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     h1{
-        font-size: 40px;
+        font-size: 25px;
         padding-bottom: 30px;
     }
         .vertical1, .vertical2, .vertical3 { 
@@ -187,10 +190,10 @@
             margin-left: 0px;
         }
         h6{
-            font-size: 20px;
+            font-size: 17px;
         }
         p{
-            font-size: 12px;
+            font-size: 13px;
         }
         .col-sm-3{
             //width: 40%;
@@ -207,15 +210,16 @@
         background-color: #EFEFEF;
         //color: #ffffff;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
     }
     .research1{
     h3{
-        font-weight: 600;
-        font-size: 30px;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
     }
     h4{
         font-size: 16px;
@@ -225,8 +229,7 @@
         font-size: 14px;
     }
     p{
-        font-weight: 100;
-        font-size: 16px;
+        font-size: 15px;
         text-align: left;
     }
 }
@@ -234,12 +237,12 @@
         margin-bottom: 10px;
         padding-top: 50px;
         h3{
-            font-weight: 600;
-            font-size: 30px;
+            font-size: 24px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
         }
         p{
-            font-weight: 100;
-            font-size: 16px;
+            font-size: 15px;
             text-align: justify;
         }
         .step-image img{
@@ -281,12 +284,12 @@
 @include media-breakpoint-down(md) {
     .research{
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 30px;
         }
         .research1{
             h3{
-                font-size: 20px;
+                font-size: 17px;
             }
             h4{
                 font-size: 13px;
@@ -308,7 +311,7 @@
         }
         .research2{
             h3{
-                font-size: 20px;
+                font-size: 17px;
             }
             p{
                 font-size: 13px;
@@ -339,14 +342,14 @@
     background-color: #EFEFEF;
     //color: #6116A6;
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
     }
     p{
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
         text-align: justify;
     }
@@ -357,7 +360,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
         h3{
-            font-size: 20px;
+            font-size: 25px;
             padding-top: 20px;
             padding-bottom: 10px;
         }
@@ -373,20 +376,20 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
     }
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
     }
     p{
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         color: #6F6F6F;
         font-weight: 400;
         text-align: left;
@@ -410,11 +413,11 @@
         padding-top: 40px;
         padding-bottom: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         h3{
-            font-size: 20px;
+            font-size: 17px;
             padding-bottom: 0px;
             padding-top: 20px;
         }
@@ -435,9 +438,9 @@
     padding-bottom: 50px;
     background-color: #2C2C2C;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
         color: #ffffff;
     }
@@ -448,7 +451,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 20px;
         }
     }
@@ -461,9 +464,9 @@
     background-color: #F8F8F8;
     .heading{
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
     }
 }
@@ -475,7 +478,7 @@
     padding-bottom: 30px;
     .heading{
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 20px;
         }
     }
@@ -487,9 +490,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
     }
 }
@@ -499,7 +502,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
             h1{
-                font-size: 40px;
+                font-size: 25px;
                 padding-bottom: 20px;
             }
     }
@@ -511,9 +514,9 @@
     padding-bottom: 50px;
     background-color: #E3E3E3;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 50px;
         //color: #ffffff;
     }
@@ -530,7 +533,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 20px;
         }
         .app-image{
@@ -555,9 +558,9 @@
     background-color: #EAEAEA;
     .heading{
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 40px;
         //color: #ffffff;
     }
@@ -574,7 +577,7 @@
     padding-bottom: 20px;
     .heading{
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 30px;
         }
         img{

@@ -3,13 +3,62 @@
 @import "~bootstrap/scss/mixins";
 @import '../../../scss/colors';
 
+.sample{
+    padding-top: 140px;
+    padding-bottom: 50px;
+    .s-img{
+        text-align: center;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .tab{
+        padding-top: 120px;
+        text-align: center;
+        p{
+            font-size: 13px;
+            font-weight: 500;
+            font-family: 'Inter', sans-serif;
+            padding-top: 10px;
+            color: #A8A8A8;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .sample{
+        padding-top: 150px;
+        padding-bottom: 100px;
+        .s-img{
+            text-align: center;
+            img{
+                width: 100%;
+                height: auto;
+                padding-left: 30px;
+            }
+        }
+        .tab{
+            display: none;
+            // padding-top: 80px;
+            // text-align: center;
+            // p{
+            //     font-size: 10px;
+            //     font-weight: 500;
+            //     font-family: 'Inter', sans-serif;
+            //     padding-top: 10px;
+            // }
+        }
+    }
+}
+
 section.home-carousel{
     //background-image: url('/assets/images/home/carousel-bg.png');
-    background-color: #60D6C9;
+    //background-color: #60D6C9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 100px;
+    padding-top: 20px;
     position: relative;
     .tile{
         box-shadow: none;
@@ -19,10 +68,10 @@ section.home-carousel{
             align-items: center;
         }
         h3{
-            font-size: 60px;
+            font-size: 40px;
             font-weight: 400;
             font-family: 'Libre Baskerville', serif;
-            color: #FFFFFF;
+            //color: #FFFFFF;
         }
         p{
             font-size: 16px;
@@ -33,19 +82,19 @@ section.home-carousel{
             font-family: 'Inter', sans-serif;
             font-size: 15px;
             font-weight: 400;
-            color: #FFFFFF;
-            background-color: #262745;
+            //color: #FFFFFF;
+            background-color: #EBEBEB;
             //border-color: #000000;
         }
         img{
-            width: 150%;
+            width: 120%;
             height: auto;
         }
     }
     .carousel-navigation{
         left: 0;
         right: 0;
-        padding-top: 100px;
+        padding-top: 40px;
         ul{
             display: flex;
             list-style: none;
@@ -68,14 +117,18 @@ section.home-carousel{
             cursor: pointer;
             opacity: 0.6;
             padding: 24px 16px;
-            color: #262746;
+            //color: #000;
             font-size: 14px;
             line-height: 16px;
+            filter: #606A74; 
+            -webkit-filter: grayscale(1);
             // img{
             //     width: 100%;
             // }
             &:hover,
             &.active{
+                filter: none; 
+                -webkit-filter: grayscale(0);
                 opacity: 1;
             }
             &>span{
@@ -90,7 +143,7 @@ section.home-carousel{
             &.active:after{
                 position: absolute;
                 content: '';
-                background: #000;
+                background: #60D6C9;
                 height: 8px;
                 border-radius: 10px 10px 0 0;
                 display: block;

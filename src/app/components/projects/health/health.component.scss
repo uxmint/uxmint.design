@@ -9,15 +9,15 @@
     color: #ffffff;
     h1{
         padding-top: 150px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
+        font-size: 70px;
         font-weight: 400;
+        font-family: 'Libre Baskerville', serif;
         padding-bottom: 20px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
+        font-family: 'Roboto Slab', serif;
         padding-bottom: 20px;
         text-align: justify;
     }
@@ -34,6 +34,9 @@
             font-size: 40px;
             padding-bottom: 10px;
         }
+        p{
+            font-size: 13px;
+        }
     img{
         width: 100%;
         height: auto;
@@ -45,14 +48,15 @@
 .about-project{
     padding-top: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -67,13 +71,15 @@
                 padding-right: 0;
             }
             h3{
-                font-family: 'Roboto', sans-serif;
-                font-size: 16px;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: 'Roboto Slab', serif;
                 color: #707070;
             }
             p{
-                font-family: 'Roboto', sans-serif;
-                font-size: 20px;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: 'Roboto Slab', serif;
                 color: #000000;
             }
         }
@@ -84,7 +90,7 @@
 .about-project{
         padding-bottom: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         p{
@@ -111,9 +117,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
     }
     .icons{
         list-style: none;
@@ -137,7 +143,7 @@
 .process{
         padding-top: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
         }
         .icons{
             li{
@@ -158,38 +164,40 @@
     background-color: #313131;
     color: #ffffff;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
     }
     .research1{
         padding-bottom: 30px;
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 10px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
+        font-family: 'Roboto Slab', serif;
         text-align: left;
+        color: #CBCBCB;
     }
 }
     .research2{
         h3{
-            font-family: 'Roboto', sans-serif;
-            font-size: 30px;
-            font-weight: 400;
+            font-size: 24px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             padding-bottom: 10px;
         }
         p{
-            font-family: 'Roboto', sans-serif;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 400;
+            font-family: 'Roboto Slab', serif;
             text-align: justify;
+            color: #CBCBCB;
         }
         img{
             width: 18%;
@@ -197,6 +205,10 @@
         }
         .user-list{
             margin-top: 40px;
+            .row{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
                 img{
                     padding-bottom: 20px;
                     width: 60px;
@@ -205,7 +217,9 @@
                 .highlights1{
                     padding-bottom: 0px;
                     padding-top: 20px;
-                    font-size: 16px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: 'Roboto Slab', serif;
                     margin-left: 13px;
                 }
             }
@@ -230,28 +244,26 @@
     .research{
         padding-top: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
         }
         .research1{
         h3{
-            font-size: 20px;
+            font-size: 17px;
             padding-bottom: 0;
             padding-top: 10px;
         }
         p{
             font-size: 13px;
             line-height: 20px;
-            color: #CBCBCB;
         }
     }
         .research2{
             h3{
-                font-size: 20px;
+                font-size: 17px;
             }
             p{
                 font-size: 13px;
                 line-height: 25px;
-                color: #CBCBCB;
             }
             img{
                 width: 30%;
@@ -295,23 +307,23 @@
     padding-top: 50px;
     padding-bottom: 50px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        color: #5C5C5C;
+        font-size: 15px;
         font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        color: #5C5C5C;
         padding-bottom: 40px;
         text-align: justify;
     }
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 14px;
-        font-weight: bold;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 10px;
         color: #707070;
     }
@@ -342,7 +354,7 @@
 .users-journey{
         padding-top: 30px;
         h1{
-            font-size: 40px;
+            font-size: 25px;
             padding-bottom: 10px;
         }
         p{
@@ -350,7 +362,7 @@
             padding-bottom: 20px;
         }
         h3{
-            font-size: 14px;
+            font-size: 17px;
             padding-bottom: 10px;
         }
         .user-grp{
@@ -381,17 +393,17 @@
     padding-top: 30px;
     padding-bottom: 50px;
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
         padding-top: 20px;
     }
     p{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        color: #5C5C5C;
+        font-size: 15px;
         font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        color: #5C5C5C;
         text-align: justify;
     }
 }
@@ -400,7 +412,7 @@
 .challenges-needs{
     padding-top: 10px;
     h3{
-        font-size: 20px;
+        font-size: 25px;
         padding-bottom: 10px;
     }
     p{
@@ -414,11 +426,11 @@
     background-color: #313131;
     h1{
         padding-top: 80px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 70px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         padding-bottom: 20px;
-        color: #46AE62;
+        color: #60D6C9;
     }
     img{
         width: 100%;
@@ -429,7 +441,7 @@
 @include media-breakpoint-down(md) {
 .other-screen{
     h1{
-        font-size: 40px;
+        font-size: 25px;
         padding-top: 30px;
     }
 }

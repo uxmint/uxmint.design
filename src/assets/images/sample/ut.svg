@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.157" height="24.092" viewBox="0 0 20.157 24.092">
+  <g id="Group_5237" data-name="Group 5237" transform="translate(-888.731 -559.5)">
+    <g id="Group_3397" data-name="Group 3397" transform="translate(889 560)" opacity="0.5">
+      <path id="Path_7820" data-name="Path 7820" d="M380.066,382.736v16.715a11.65,11.65,0,0,0,13.388,0V382.736" transform="translate(-379.723 -381.326)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Ellipse_701" data-name="Ellipse 701" cx="6.75" cy="1.334" rx="6.75" ry="1.334" transform="translate(0.231)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_7821" data-name="Path 7821" d="M379.013,394.538a19.74,19.74,0,0,0,13.5,0" transform="translate(-379.013 -389.285)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_7822" data-name="Path 7822" d="M380.066,404.986a19.74,19.74,0,0,0,13.5,0" transform="translate(-379.723 -396.332)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_7823" data-name="Path 7823" d="M379.013,414.945a19.74,19.74,0,0,0,13.5,0" transform="translate(-379.013 -403.049)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_7824" data-name="Path 7824" d="M379.013,425.45a19.74,19.74,0,0,0,13.5,0" transform="translate(-379.013 -410.134)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Union_2" data-name="Union 2" transform="translate(7.61 11.315)">
+        <path id="Path_7825" data-name="Path 7825" d="M409.525,424.938h-2.492v-1.492l-.333-.13c-.1-.039-.2-.083-.3-.131l-.334-.16-.261.261L405,424.1l-1.763-1.762.895-.894.243-.243-.127-.319c-.028-.071-.056-.147-.083-.226l-.12-.355H402.39V417.8h1.79l.138-.311c.015-.035.032-.07.048-.1l.157-.332-.26-.259-1.028-1.029L405,414.005l1.116,1.115.242.242.318-.125.014-.005.013-.005.334-.129v-1.936h2.492v1.93l.327.132.018.007.01,0,.322.132.245-.245,1.116-1.116,1.763,1.762L412.3,416.8l-.26.261.158.333.051.108.139.305h1.785V420.3h-1.653l-.119.357c-.024.072-.051.147-.081.222l-.128.32.243.244.894.894-1.763,1.762-.807-.807-.262-.262-.334.161c-.1.046-.2.09-.3.131l-.331.13v1.491Z" transform="translate(-402.39 -413.162)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <circle id="Ellipse_702" data-name="Ellipse 702" cx="1.761" cy="1.761" r="1.761" transform="translate(11.738 15.442)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

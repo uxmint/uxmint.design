@@ -1,10 +1,10 @@
 <!-- Home Carousel -->
-<section class="home-carousel">
+<!-- <section class="home-carousel">
   <ngu-carousel [inputs]="servicesCarouselConfig" #homeCarousel [dataSource]="services">
     <ngu-tile *nguCarouselDef="let item">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-4">
             <div class="text">
               <div>
                 <h3>{{ item.title }}</h3>
@@ -14,7 +14,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-8">
             <img [src]="item.image" [alt]="item.name"/>
           </div>
         </div>
@@ -38,8 +38,49 @@
       </ul>
     </div>
   </div>
-</section>
+</section> -->
 <!-- ./Home Carousel -->
+
+<!-- Sample design -->
+<section class="sample">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-9">
+      <div class="s-img">
+        <img src="/assets/images/sample/sample.png" />
+      </div>
+    </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row tab">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+            <img src="/assets/images/sample/ue.svg" />
+            <p>USER EXPERIENCE</p>
+          </div>
+          <div class="col-md-2">
+            <img src="/assets/images/sample/id.svg" />
+            <p>INTERFACE DESIGN</p>
+          </div>
+          <div class="col-md-2">
+            <img src="/assets/images/sample/ui.svg" />
+            <p>UI DEVELOPMENT</p>
+          </div>
+          <div class="col-md-3">
+            <img src="/assets/images/sample/ee.svg" />
+            <p>END TO END DEVELOPMENT</p>
+          </div>
+          <div class="col-md-2">
+            <img src="/assets/images/sample/ut.svg" />
+            <p>USABILITY TESTING</p>
+          </div>
+          <!-- <div class="col-md-1"></div> -->
+    </div>
+  </div>
+</section>
+<!-- Sample design -->
+
 
 <!-- Services -->
 <section class="services-offer">
