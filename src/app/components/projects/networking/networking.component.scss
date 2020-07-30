@@ -21,27 +21,39 @@
 .layout1{
     background-image: linear-gradient(#727476, #232323);
     h2{
-        font-size: 70px;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         color: #ffffff;
-        font-weight: 100;
-        margin-top: 167px;
+        //margin-top: 167px;
         text-align: left;
+        margin-bottom: 30px;
     }
     h1{
         font-size: 70px;
+        font-weight: 400;
+        font-family: 'Libre Baskerville', serif;
         color: #ffffff;
-        font-weight: 100;
-        margin-top: 60px;
+        margin-top: 167px;
+        text-align: left;
+    }
+    h3{
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        //margin-top: 60px;
         margin-bottom: 50px;
         text-align: left;
     }
     h5{
-        font-size: 35px;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         color: #DDDDDD;
-        font-weight: 100;
     }
     p{
-        font-size: 16px;
+        font-size: 15px;
         color: #ffffff;
         font-weight: 100;
         text-align: justify;
@@ -54,16 +66,16 @@
 
 @include media-breakpoint-down(md) {
     h2{
-        font-size: 40px;
-        margin-top: 50px;
+        font-size: 25px;
+        margin-top: 10px;
     }
     h1{
         font-size: 40px;
         margin-top: 60px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
     h5{
-        font-size: 23px;
+        font-size: 17px;
     }
     p{
         font-size: 13px;
@@ -74,14 +86,15 @@
 .about-project{
         background-color: #242424;
         h2{
-            font-size: 70px;
+            font-size: 40px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             //color: #626465;
-            font-weight: 100;
             margin-top: 70px;
             text-align: center;
         }
         p{
-            font-size: 16px;
+            font-size: 15px;
             //color: #505253;
             font-weight: 100;
             margin-top: 70px;
@@ -89,13 +102,13 @@
             padding-right: 30px;
         }
         h6{
-            font-size: 16px;
+            font-size: 15px;
             color: #ffffff;
             font-weight: 100;
             margin-top: 50px;
         }
         h5{
-            font-size: 16px;
+            font-size: 15px;
             //color: #0A0A0A;
             font-weight: 100;
         }
@@ -109,7 +122,7 @@
         margin-right: 0px;
         margin-left: 0px;
     h2{
-        font-size: 40px;
+        font-size: 25px;
         margin-top: 50px;
         text-align: left;
     }
@@ -124,7 +137,7 @@
         margin-top: 20px;
     }
     h5{
-        font-size: 17px;
+        font-size: 13px;
     }
 }
 }
@@ -134,7 +147,9 @@
             margin-top: -27px;
         }
         h6{
-            font-size: 30px;
+            font-size: 24px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             color: #ffffff;
         }
         p{
@@ -173,7 +188,7 @@
             display: none;
         }  
         h6{
-            font-size: 20px;
+            font-size: 17px;
             color: #ffffff;
         }
         p{
@@ -198,6 +213,8 @@
             margin-top: 30px;
             margin-bottom: 20px;
             font-size: 24px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
         }
         .list-icons{
             padding-top: 30px;
@@ -232,12 +249,14 @@
 .business{
         margin-bottom: 50px;
          h4{   
-            font-size: 30px;
+            font-size: 24px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             color: #ffffff;
             margin-bottom: 20px;
         }
         p{
-            font-size: 16px;
+            font-size: 15px;
             color: #ffffff;
             font-weight: 100;
             text-align: left;
@@ -248,7 +267,7 @@
 .business{
         margin-bottom: 50px;
          h4{   
-            font-size: 20px;
+            font-size: 17px;
             color: #ffffff;
             margin-bottom: 10px;
         }
@@ -268,18 +287,20 @@
         p{
             margin-bottom: 50px;
         }
-        h1{
-            font-size: 77px;
-            font-weight: 900;
-            margin-top: -120px;
-            margin-left: 30px;
+        h3{
+            font-size: 40px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
+            //margin-top: -120px;
+            //margin-left: 30px;
         }
         h6{
             font-size: 20px;
             color: #ffffff;
-            font-weight: 500;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             margin-top: -37px;
-            margin-left: 30px;
+            //margin-left: 30px;
         }
         .list{
             h5{
@@ -307,9 +328,8 @@
 
 @include media-breakpoint-down(md) {
 .quality{
-    h1{
-        font-size: 38px;
-        font-weight: 900;
+    h3{
+        font-size: 25px;
         margin-top: -80px;
         margin-left: 20px;
     }
@@ -367,7 +387,9 @@
     padding-bottom: 60px;
     margin-top: -180px;
     h2{
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         //color: #393939;
         text-align: left;
         padding-top: 20px;
@@ -395,7 +417,7 @@
     padding-bottom: 80px;
     margin-top: -44px;
     h2{
-        font-size: 20px;
+        font-size: 25px;
         padding-top: 20px;
         padding-bottom: 10px;
     }
@@ -415,15 +437,17 @@
         margin-bottom: 50px;
     }
     h2{
-        font-size: 70px;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         color: #FFFFFF;
-        font-weight: 100;
         margin-top: 30px;
     }
     h4{
-        font-size: 30PX;
-        color: #ffffff;
+        font-size: 24px;
         font-weight: 300;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
     }
     p{
         font-size: 16PX;
@@ -438,12 +462,15 @@
         padding-bottom: 20px;
         h2{
             font-size: 40px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             color: #FFFFFF;
-            font-weight: 100;
             margin-top: 20px;
         }
         h4{
-            font-size: 20px;
+            font-size: 24px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
             color: #ffffff;
             font-weight: 300;
         }
@@ -468,8 +495,9 @@
     }
     h2{
         color:#000000;
-        font-size: 70px;
-        font-weight: 100;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         margin-top: 30px;
     }
 }
@@ -477,7 +505,7 @@
 .layout4{
         margin-top: -44px;
         h2{
-            font-size: 40px;
+            font-size: 25px;
             margin-top: 30px;
         }
         }
@@ -492,8 +520,9 @@
     }
     h2{
         color:#000000;
-        font-size: 70px;
-        font-weight: 100;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         margin-top: 30px;
     }
     .step-image img{
@@ -507,7 +536,7 @@
         margin-top: -70px;
         margin-bottom: 0px;
         h2{
-            font-size: 40px;
+            font-size: 25px;
             margin-top: 30px;
         }
         .step-image img{
@@ -524,14 +553,16 @@
     }
     h2{
         color:#000000;
-        font-size: 70px;
-        font-weight: 100;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         margin-top: 30px;
     }
     h5{
         color:#000000;
-        font-size: 35px;
-        font-weight: 100;
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
     }
     p{
         font-size: 16px;
@@ -546,11 +577,11 @@
 .layout6{
     padding-bottom: 30px;
     h2{
-        font-size: 40px;
+        font-size: 25px;
         margin-top: 30px;
     }
     h5{
-        font-size: 20px;
+        font-size: 17px;
         padding-bottom: 0px;
     }
     p{
@@ -579,9 +610,10 @@
     margin-top: -180px;
     height: 740px;
     h2{
-        font-size: 70px;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
         color: #ffffff;
-        font-weight: 100;
         margin-top: 70px;
         text-align: left;
     }
@@ -602,7 +634,7 @@
         margin-top: -44px;
         height: 530px;
         h2{
-            font-size: 40px;
+            font-size: 25px;
         }
         p{
             font-size: 13px;
