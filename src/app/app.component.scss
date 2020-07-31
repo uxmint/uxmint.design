@@ -29,8 +29,8 @@ header{
         .nav-link{
             padding: 23px 14px;
             font-size: 14px;
-            font-weight: 500;
-            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+            font-family: 'Roboto', sans-serif;
             color: #A8A8A8;
             span{
                 position: relative;
@@ -122,14 +122,19 @@ header{
 /* Footer */
 footer{
     padding: 106px 0;
-    background-color: #262746;
+    background-color: #1A1A1A;
     color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
     a{
         color: #FFF;
     }
     .footer-logo{
-        
         padding: 30px 0;
+        img{
+            width: 60%;
+        }
     }
     address{
         max-width: 300px;
@@ -164,6 +169,7 @@ footer{
         }
     }
     .footer-social-links{
+        margin-top: 30px;
         list-style: none;
         padding: 0;
         //padding-left: 40px;
@@ -278,6 +284,9 @@ footer{
         padding: 30px 0;
         .footer-logo{
             margin-bottom: 0;
+            img{
+                width: 50%;
+            }
         }
         address{
             max-width: 300px;

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+//@import url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2";//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff";//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype"');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
@@ -110,14 +111,21 @@ label{
     margin-bottom: 100px;
     h4{
         text-align: center;
-        font-size: 24px;
+        font-size: 34px;
         line-height: 32px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
         .text-primary{
             color: #60D6C9 !important;
         }
     }
+    .step-image{
+            text-align: center;
+            img{
+                width: auto;
+                height: 7px;
+            }
+        }
     h5{
         font-size: 38px;
         line-height: 60px;
@@ -130,7 +138,7 @@ label{
     height: 100%;
     .service-icon{
         margin-bottom: 32px;
-        text-align: center;
+        //text-align: center;
         img{
             height: auto;
             width: auto;
@@ -142,41 +150,53 @@ label{
     }
     h4{
         font-size: 18px;
-        margin-bottom: 32px;
+        margin-bottom: 20px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     p{
-        color: #797979;
-        font-size: 15px;
-        line-height: 28px;
+        color: #656565;
+        font-size: 14px;
+        line-height: 20px;
         text-align: left;
-        font-weight: 400;
-        font-family: 'Arvo', serif;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
     }
     .bttn{
         color: #585858;
         padding: 0;
-        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
-        font-weight: 400;
     }
-    &:hover{
-        //background-color: #434343;
-        box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
-        //color: $light;
-        border-radius: 10px;
-        // .btn{
-        //     color: $light;
-        // }
-        // .service-icon{
-        //     img{
-        //         display: none;
-        //         &:last-child{
-        //             display: inline-block;
-        //         }
-        //     }
-        // }
+    // &:hover{
+    //     //background-color: #434343;
+    //     box-shadow: 10px 26px 52px rgba(92, 94, 93, 0.34);
+    //     //color: $light;
+    //     border-radius: 10px;
+    //     cursor: pointer;
+    //     // .btn{
+    //     //     color: $light;
+    //     // }
+    //     // .service-icon{
+    //     //     img{
+    //     //         display: none;
+    //     //         &:last-child{
+    //     //             display: inline-block;
+    //     //         }
+    //     //     }
+    //     // }
+    // }
+}
+
+.service-button{
+    text-align: center;
+    padding-top: 30px;
+    .bttn{
+        font-size: 12px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -191,12 +211,19 @@ label{
     margin-bottom: 102px;
     h4{
         text-align: center;
-        font-size: 24px;
+        font-size: 34px;
         line-height: 32px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
         .text-primary{
             color: #60D6C9 !important;
+        }
+    }
+    .step-image{
+        text-align: center;
+        img{
+            width: auto;
+            height: 8px;
         }
     }
 } 
@@ -237,25 +264,25 @@ label{
                     padding-top: 100px;
                         h1{
                             font-weight: 300;
-                            font-family: 'Inter', sans-serif;
+                            font-family: 'Roboto', sans-serif;
                             font-size: 40px;
                             margin-top: 20px;
                             text-align: left;
                         }
                         p{
-                            font-size: 15px;
+                            font-size: 14px;
                             font-weight: 300;
-                            font-family: 'Roboto Slab', serif;
+                            font-family: 'Roboto', sans-serif;
                             text-align: justify;
                             margin-bottom: 30px;
                             color: #CBCBCB;
                         }
                         a{
-                            font-family: 'Inter', sans-serif;
-                            font-size: 20px;
+                            font-size: 12px;
                             font-weight: 300;
+                            font-family: 'Roboto', sans-serif;
                             cursor: pointer;
-                            color: #60D6C9;
+                            color: #FDEE78;
                             text-decoration: none;
                         }
                     
@@ -272,7 +299,7 @@ label{
     margin-top: 100px;
     margin-bottom: 50px;
     h3{
-        font-family: 'Robota', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 38px;
         text-align: center;
         font-weight: 700;
@@ -942,23 +969,23 @@ img{
             font-size: 10px;
             font-weight: 400;
         }
-        &:hover{
-            //background-color: #434343;
-            box-shadow: none;
-            //color: $light;
-            border-radius: 0;
-            // .btn{
-            //     color: $light;
-            // }
-            // .service-icon{
-            //     img{
-            //         display: none;
-            //         &:last-child{
-            //             display: inline-block;
-            //         }
-            //     }
-            // }
-        }
+        // &:hover{
+        //     //background-color: #434343;
+        //     box-shadow: none;
+        //     //color: $light;
+        //     border-radius: 0;
+        //     // .btn{
+        //     //     color: $light;
+        //     // }
+        //     // .service-icon{
+        //     //     img{
+        //     //         display: none;
+        //     //         &:last-child{
+        //     //             display: inline-block;
+        //     //         }
+        //     //     }
+        //     // }
+        // }
     }
     /* Build Next Products */
     .build-next-products{
