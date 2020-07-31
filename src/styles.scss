@@ -289,6 +289,8 @@ label{
         border-radius: 6px;
     }
     .step-image img{
+        width: 100%;
+        height: auto;
         filter: #606A74; 
         -webkit-filter: grayscale(1);
     }
@@ -610,9 +612,12 @@ label{
         }
     }
 }
-.step-image img{
-    width: 100%;
+.step-image{
+    text-align: center;
+img{
+    width: 80%;
     height: auto;
+}
 }
 .step-description{
     padding: 10px 0;

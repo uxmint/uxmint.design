@@ -34,10 +34,13 @@
             }
         }
     }
+    .img{
     img{
-        width: 125%;
+        margin-top: 50px;
+        width: 110%;
         height: auto;
     }
+}
 }
 
 @include media-breakpoint-down(md) {
@@ -63,10 +66,13 @@
             }
         }
         }
+        .img{
+            text-align: center;
         img{
-            width: 100%;
+            width: 80%;
             height: auto;
         }
+    }
     }
 }
 
@@ -370,10 +376,13 @@
         padding-bottom: 30px;
         color: #ffffff;
     }
+    .step-image{
+        text-align: center;
     img{
-        width: 100%;
+        width: 80%;
         padding-bottom: 100px;
     }
+}
 }
 }
   @include media-breakpoint-down(md) {
@@ -384,10 +393,13 @@
         h1{
             font-size: 25px;
         }
+        .step-image{
+            text-align: center;
         img{
-            width: 100%;
+            width: 80%;
             padding-bottom: 80px;
         }
+    }
     }
     .col-md-3{
         width: 50%;

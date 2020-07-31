@@ -59,8 +59,8 @@
         text-align: justify;
     }
     .step-image img{
-        padding-top: 50px;
-        width: 180%;
+        padding-top: 100px;
+        width: 150%;
         height: auto;
     }
 
@@ -81,6 +81,13 @@
         font-size: 13px;
         line-height: 25px;
     }
+    .step-image{
+        img{
+        padding-top: 20px;
+        width: 80%;
+        height: auto;
+    }
+}
 }
 
 .about-project{
