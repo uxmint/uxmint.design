@@ -166,7 +166,8 @@ footer{
     .footer-social-links{
         list-style: none;
         padding: 0;
-        padding-left: 40px;
+        //padding-left: 40px;
+        text-align: center !important;
         li{
             padding-right: 35px;
             display: inline-block;
@@ -189,7 +190,7 @@ footer{
         .navbar-brand{
             img{
                 height: auto;
-                width: 180%;
+                width: 200%;
             }
         }
         .nav-item{

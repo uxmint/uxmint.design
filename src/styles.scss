@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
@@ -130,6 +130,7 @@ label{
     height: 100%;
     .service-icon{
         margin-bottom: 32px;
+        text-align: center;
         img{
             height: auto;
             width: auto;
@@ -150,8 +151,8 @@ label{
         font-size: 15px;
         line-height: 28px;
         text-align: left;
-        font-weight: 300;
-        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-family: 'Arvo', serif;
     }
     .bttn{
         color: #585858;
