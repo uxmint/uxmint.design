@@ -30,7 +30,6 @@ header{
             padding: 23px 14px;
             font-size: 14px;
             font-weight: 300;
-            font-family: 'Roboto', sans-serif;
             color: #A8A8A8;
             span{
                 position: relative;
@@ -61,7 +60,7 @@ header{
                 &:hover{
                     background-color: $primary;
                     color: #FFF;
-                    font-weight: 400;
+                    font-weight: 300;
                     span::before{
                         height: 0;
                     }
@@ -92,9 +91,9 @@ header{
         display: flex;
         justify-content: space-between;
         img{
-            height: 80px;
-            width: auto;
-            padding-left: 60px;
+            height: 70px;
+            width: 70%;
+            padding-left: 40px;
         }
         a{
             display: block;
@@ -103,7 +102,6 @@ header{
             opacity: 1;
             font-size: 14px;
             font-weight: 300;
-            font-family: 'Inter', sans-serif;
             line-height: 20px;
             &:hover{
                 text-decoration: none;
@@ -126,7 +124,6 @@ footer{
     color: #FFF;
     font-size: 14px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
     a{
         color: #FFF;
     }

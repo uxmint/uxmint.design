@@ -21,7 +21,6 @@
         p{
             font-size: 13px;
             font-weight: 300;
-            font-family: 'Roboto', sans-serif;
             padding-top: 10px;
             color: #676767;
         }
@@ -52,8 +51,6 @@
             // text-align: center;
             // p{
             //     font-size: 10px;
-            //     font-weight: 500;
-            //     font-family: 'Inter', sans-serif;
             //     padding-top: 10px;
             // }
         }
@@ -77,8 +74,7 @@ section.home-carousel{
         }
         h3{
             font-size: 40px;
-            font-weight: 400;
-            font-family: 'Libre Baskerville', serif;
+            font-weight: 300;
             //color: #FFFFFF;
         }
         p{
@@ -87,9 +83,8 @@ section.home-carousel{
             color: #797979;
         }
         .btn{
-            font-family: 'Inter', sans-serif;
             font-size: 15px;
-            font-weight: 400;
+            font-weight: 300;
             //color: #FFFFFF;
             background-color: #EBEBEB;
             //border-color: #000000;
@@ -144,9 +139,8 @@ section.home-carousel{
             }
             span{
                 display: block;
-                font-family: 'Inter', sans-serif;
                 font-size: 13px;
-                font-weight: 500;
+                font-weight: 300;
             }
             &.active:after{
                 position: absolute;
@@ -236,7 +230,6 @@ section.home-carousel{
     h3{
         font-size: 34px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
         text-align: center;
     }
     .step-image{
@@ -288,7 +281,6 @@ section.home-carousel{
     h1{
         font-size: 34px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
         text-align: center;
     }
     .step-image{
@@ -347,7 +339,6 @@ section.home-carousel{
                         padding-top: 20px;
                             h1{
                                 font-weight: 300;
-                                font-family: 'Inter', sans-serif;
                                 font-size: 25px;
                                 margin-top: 10px;
                                 text-align: left;
@@ -356,13 +347,11 @@ section.home-carousel{
                             p{
                                 font-size: 13px;
                                 font-weight: 300;
-                                font-family: 'Roboto Slab', serif;
                                 text-align: justify;
                                 margin-bottom: 30px;
                                 line-height: 22px;
                             }
                             a{
-                                font-family: 'Inter', sans-serif;
                                 font-size: 16px;
                                 font-weight: 300;
                                 cursor: pointer;
@@ -420,7 +409,10 @@ section.home-carousel{
     }
     .our-client-header{
         width: 80%;
-        margin: 0 auto 30px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
         h3{
             font-size: 20px;
         }
@@ -495,9 +487,9 @@ section.home-carousel{
         display: none;
         }
 
-        .ngucarousel-indicator-two{
-            display: none;
-        }
+        // .ngucarousel-indicator-two{
+        //     display: none;
+        // }
         
         .ngucarousel-indicator-one{
             display: block;

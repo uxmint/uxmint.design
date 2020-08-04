@@ -4,8 +4,7 @@
 @import '../../../../scss/colors';
 h1{
     font-size: 60px;
-    font-weight: 400;
-    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
     text-align: left;
     margin-bottom: 30px;
     line-height: 60px;
@@ -13,7 +12,6 @@ h1{
 h5{
     font-size: 40px;
     font-weight: 300;
-    font-family: 'Inter', sans-serif;
     text-align: left;
     margin-bottom: 30px;
 }
@@ -22,25 +20,22 @@ h5{
 }
 p{
     color: #797979;
-    font-size: 15px;
+    font-size: 14px;
     text-align: justify;
     margin-bottom: 30px;
     margin-top: 10px;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
 }
 .service{
     p{
         text-align: left;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
     }
 }
 .btn{
     padding: 0;
     font-size: 12px;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
 }
 .searvice-jumbotron-inner{
     h1{
@@ -48,10 +43,9 @@ p{
     }
 h3{
     color: #6C6C6C;
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
 }
 .step-image{
@@ -72,18 +66,16 @@ h3{
     padding-bottom: 45px;
     p{
         color: #797979;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
         margin-top: 30px;
     }
     h6{
         color: #6C6C6C;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         margin-bottom: 16px;
         img{
             margin-bottom: 5px;
@@ -96,9 +88,8 @@ h3{
     padding-bottom: 45px;
     h6{
         color: #6C6C6C;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         margin-bottom: 16px;
         img{
             margin-bottom: 5px;
@@ -112,9 +103,8 @@ h3{
     padding-bottom: 45px;
     h6{
         color: #6C6C6C;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         margin-bottom: 16px;
         img{
             margin-bottom: 5px;

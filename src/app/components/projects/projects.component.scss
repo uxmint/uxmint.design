@@ -8,14 +8,12 @@
 }
 h2{
     font-size: 60px;
-    font-weight: 400;
-    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
     text-align: left;
     margin-bottom: 30px;
 }
 p{
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
     font-size: 20px;
     text-align: justify;
 }
@@ -50,14 +48,13 @@ p{
     bottom: 5px; 
     background: #60D6C9;
     width: 70%;
-    height: 24%;
+    height: auto;
     transition: .5s ease;
     opacity:0;
     color: white;
     font-size: 20px;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
 }
 .step-image:hover .text-hover{
@@ -67,13 +64,11 @@ h4{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
 }
 h6{
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
 }
 a{
     color: #fff;
@@ -114,12 +109,12 @@ a{
         bottom: 5px; 
         background: #60D6C9;
         width: 70%;
-        height: 24%;
+        height: auto;
         transition: .5s ease;
         opacity:0.8;
         color: white;
         font-size: 20px;
-        padding: 20px;
+        padding: 10px;
         text-align: left;
     } 
 }

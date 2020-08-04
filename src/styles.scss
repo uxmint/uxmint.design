@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap;https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap;https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-//@import url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2";//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff";//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype"');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
@@ -114,7 +113,6 @@ label{
         font-size: 34px;
         line-height: 32px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
         .text-primary{
             color: #60D6C9 !important;
         }
@@ -152,7 +150,6 @@ label{
         font-size: 18px;
         margin-bottom: 20px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
     }
     p{
         color: #656565;
@@ -160,14 +157,12 @@ label{
         line-height: 20px;
         text-align: left;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
         font-style: normal;
     }
     .bttn{
         color: #585858;
         padding: 0;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
     // &:hover{
@@ -196,7 +191,6 @@ label{
     .bttn{
         font-size: 12px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -214,7 +208,6 @@ label{
         font-size: 34px;
         line-height: 32px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
         .text-primary{
             color: #60D6C9 !important;
         }
@@ -264,7 +257,6 @@ label{
                     padding-top: 100px;
                         h1{
                             font-weight: 300;
-                            font-family: 'Roboto', sans-serif;
                             font-size: 40px;
                             margin-top: 20px;
                             text-align: left;
@@ -272,7 +264,6 @@ label{
                         p{
                             font-size: 14px;
                             font-weight: 300;
-                            font-family: 'Roboto', sans-serif;
                             text-align: justify;
                             margin-bottom: 30px;
                             color: #CBCBCB;
@@ -280,7 +271,6 @@ label{
                         a{
                             font-size: 12px;
                             font-weight: 300;
-                            font-family: 'Roboto', sans-serif;
                             cursor: pointer;
                             color: #FDEE78;
                             text-decoration: none;
@@ -299,10 +289,9 @@ label{
     margin-top: 100px;
     margin-bottom: 50px;
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 38px;
+        font-size: 40px;
         text-align: center;
-        font-weight: 700;
+        font-weight: 300;
     }
 }
 }
@@ -350,13 +339,11 @@ label{
         color: #FFFFFF;
         font-size: 20px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
     }
     h6{
         color: #FFFFFF;
         font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
     }
     a {
         color: #fff;
@@ -452,7 +439,6 @@ label{
                 a{
                     font-size: 16px;
                     font-weight: 300;
-                    font-family: 'Inter', sans-serif;
                     color: rgba(0,0,0,0.5);
                     span{
                         position: relative;
@@ -505,9 +491,8 @@ label{
             margin-bottom: 60px;
             h3{
                 color: #60D6C9;
-                font-size: 50px;
-                font-weight: 400;
-                font-family: 'Libre Baskerville', serif;
+                font-size: 60px;
+                font-weight: 300;
                 line-height: 60px;
             }
             .blackterm{
@@ -518,9 +503,8 @@ label{
                 color: rgba(0,0,0,0.25)
             }
             p{
-                font-size: 16px;
-                font-weight: 400;
-                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 300;
                 color: #6C6C6C;
                 line-height: 23px;
             }
@@ -542,8 +526,7 @@ label{
                 max-width: 300px;
                 .label{
                     font-size: 14px;
-                    font-weight: 400;
-                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
                 }
                 .form-control{
                     height: 50px;
@@ -578,9 +561,8 @@ label{
                     color:#60D6C9;
                 }
                 .btn{
-                    font-family: 'Inter', sans-serif;
-                    font-size: 16px;
-                    font-weight: 400;
+                    font-size: 14px;
+                    font-weight: 300;
                     color: $light;
                     border-radius: 5px;
                     padding: 8px 30px;
@@ -606,8 +588,7 @@ label{
 
 .searvice-jumbotron-inner{
     h1{
-        font-family: 'Playfair Display', serif;
-        font-weight: 400;
+        font-weight: 300;
         margin-bottom: 56px;
         font-size: 49px;
         line-height: 34px;
@@ -617,7 +598,7 @@ label{
         box-shadow: 10px 20px 60px rgba(30, 214, 159, 0.5);
         padding: 13px 34px;
         font-size: 14px;
-        font-weight: 700;
+        font-weight: 300;
         margin-bottom: 120px;
     }
 }
@@ -656,8 +637,7 @@ img{
         height: 100%;
     }
     h3{
-        font-family: 'Playfair Display', serif;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 35px;
         line-height: 47px;
         margin-bottom: 30px;
@@ -804,7 +784,6 @@ img{
     h5{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         text-align: left;
         margin-bottom: 30px;
         color: #FFFFFF;
@@ -812,16 +791,14 @@ img{
     }
     p{
         color: #FFFFFF;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
     h3{
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #60D6C9;
     }
     a{
@@ -859,7 +836,6 @@ img{
             h5{
                 font-size: 40px;
                 font-weight: 300;
-                font-family: 'Inter', sans-serif;
                 text-align: left;
                 margin-bottom: 30px;
                 color: #FFFFFF;
@@ -867,16 +843,14 @@ img{
             }
             p{
                 color: #FFFFFF;
-                font-size: 15px;
+                font-size: 14px;
                 font-weight: 300;
-                font-family: 'Roboto Slab', serif;
                 text-align: justify;
                 margin-bottom: 30px;
             }
             h3{
-                font-size: 20px;
+                font-size: 12px;
                 font-weight: 300;
-                font-family: 'Inter', sans-serif;
                 color: #60D6C9;
             }
             a{
@@ -901,9 +875,8 @@ img{
     .services-heading{
         h5{
             font-weight: 300;
-            font-family: 'Inter', sans-serif;
             margin-bottom: 30px;
-            font-size: 24px;
+            font-size: 40px;
             color: #454545;
             text-align: center;
             margin-top: 30px;
@@ -965,9 +938,8 @@ img{
         .bttn{
             color: #585858;
             padding: 0;
-            font-family: 'Inter', sans-serif;
             font-size: 10px;
-            font-weight: 400;
+            font-weight: 300;
         }
         // &:hover{
         //     //background-color: #434343;
@@ -1255,7 +1227,6 @@ img{
             font-weight: 700;
             cursor: pointer;
             font-size: 13px;
-            font-family: 'Roboto', serif;
             color: #60D6C9;
             text-decoration: none;
         }
@@ -1316,10 +1287,8 @@ img{
             margin-bottom: 20px;
         }
         a{
-            font-weight: 700;
             cursor: pointer;
             font-size: 13px;
-            font-family: 'Roboto', serif;
             color: #60D6C9;
             text-decoration: none;
         }

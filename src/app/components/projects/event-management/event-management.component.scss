@@ -3,7 +3,6 @@
 @import "~bootstrap/scss/mixins";
 @import '../../../../scss/colors';
 .project{
-    font-family: 'Roboto';
     background-image: url('/assets/images/projects/event-management/em111.png');
     background-repeat: no-repeat;
     .highlight{
@@ -15,8 +14,7 @@
 h2{
     color: #FF7E86;
     font-size: 70px;
-    font-weight: 400;
-    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
     text-align: left;
     margin-top: 100px;
 }
@@ -24,12 +22,11 @@ h5{
     color: #6C6C6C;
     font-size: 40px;
     font-weight: 300;
-    font-family: 'Inter', sans-serif;
     text-align: left;
 }
 p{
     text-align: justify;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 100;
 }
 .step-image img {
@@ -71,23 +68,23 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         text-align: left;
     }
     p{
-        font-size: 15px;
-        font-weight: 100;
+        font-size: 14px;
+        font-weight: 300;
         color: #575757;
         margin-top: 30px;
         text-align: justify;
     }
     h5{
         color: #6C6C6C;
-        font-weight: 800;
-        font-size: 15px;
+        font-weight: 300;
+        font-size: 14px;
     }
     h6{
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: 300;
     }
 }
 
@@ -124,7 +121,6 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         margin-bottom: -84px;
         text-align: left;
         margin-top: 20px;
@@ -132,12 +128,11 @@ p{
     h6{
         font-size: 24px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #808080;
     }
     p{
-        font-size: 15px;
-        font-weight: bold;
+        font-size: 14px;
+        font-weight: 300;
         color: #888888;
         text-align: justify;
     }
@@ -183,7 +178,6 @@ p{
         } 
           h6{
             font-size: 17px;
-            font-weight: bold;
             color: #808080;
         }
         p{
@@ -204,7 +198,6 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         margin-bottom: -84px;
         text-align: left;
     }
@@ -213,12 +206,11 @@ p{
         margin-bottom: -135px;
     h3{
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         font-size: 24px;
     }
     h4{
         font-size: 12px;
-        font-weight: 900;
+        font-weight: 700;
     }
     h6{
         font-size: 10px;
@@ -226,8 +218,8 @@ p{
     }
     p{
         color: #6F6F6F;
-        font-weight: 100;
-        font-size: 15px;
+        font-weight: 300;
+        font-size: 14px;
         text-align: left;
     }
     .vertical1 { 
@@ -249,12 +241,11 @@ p{
             color: #2A2A2A;
             font-size: 24px;
             font-weight: 300;
-            font-family: 'Inter', sans-serif;
         }
         p{
             color: #6F6F6F;
-            font-weight: 100;
-            font-size: 15px;
+            font-weight: 300;
+            font-size: 14px;
             text-align: justify;
         }
         .step-image img{
@@ -357,16 +348,15 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #FFFFFF;
         text-align: left;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     p{
-        font-size: 15px;
+        font-size: 14px;
         color: #FFFFFF;
-        font-weight: 100;
+        font-weight: 300;
         text-align: justify;
         margin-bottom: 5px;
     }
@@ -406,21 +396,19 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #000000;
         text-align: left;
     }
     h5{
         font-size: 24px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #000000;
         text-align: left;
     }
     p{
         font-size: 15px;
         color: #6F6F6F;
-        font-weight: 100;
+        font-weight: 300;
         text-align: left;
     }
     .step-image img{
@@ -459,7 +447,6 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #FFFFFF;
         text-align: left;
         margin-bottom: 100px;
@@ -490,14 +477,13 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #000000;
         text-align: left;
     }
     p{
-        font-size: 15px;
+        font-size: 14px;
         color: #6F6F6F;
-        font-weight: 100;
+        font-weight: 300;
         text-align: justify;
     }
 }
@@ -524,15 +510,14 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #6C6C6C;
         text-align: left;
         margin-top: 60px;
     }
     p{
-        font-size: 15px;
+        font-size: 14px;
         color: #6F6F6F;
-        font-weight: 100;
+        font-weight: 300;
         text-align: justify;
     }
 }
@@ -559,15 +544,14 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #FFFFFF;
         text-align: left;
         margin-top: 60px;
     }
     p{
-        font-size: 15px;
+        font-size: 14px;
         color: #FFFFFF;
-        font-weight: 100;
+        font-weight: 300;
         text-align: left;
         margin-bottom:2px;
     }
@@ -617,7 +601,6 @@ p{
     h2{
         font-size: 40px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
         color: #FFFFFF;
         text-align: left;
         margin-top: 60px;

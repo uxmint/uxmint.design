@@ -4,8 +4,7 @@
 @import '../../../../scss/colors';
 h1{
     font-size: 60px;
-    font-weight: 400;
-    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
     text-align: left;
     margin-bottom: 30px;
     line-height: 60px;
@@ -13,7 +12,6 @@ h1{
 h5{
     font-size: 40px;
     font-weight: 300;
-    font-family: 'Inter', sans-serif;
     text-align: left;
     margin-bottom: 30px;
 }
@@ -22,9 +20,8 @@ h5{
 }
 p{
     color: #797979;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
     text-align: justify;
     margin-bottom: 30px;
 }
@@ -32,14 +29,12 @@ p{
     p{
         text-align: left;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
     }
 }
 .btn{
     padding: 0;
     font-size: 12px;
     font-weight: 300;
-    font-family: 'Roboto Slab', serif;
 }
 .searvice-jumbotron{
     h1{
@@ -63,7 +58,6 @@ p{
     .step-image1{
         p{
             font-weight: 300;
-            font-family: 'Roboto Slab', serif;
             color: #797979;
             font-size: 13px;
             text-align: center;
@@ -73,9 +67,8 @@ p{
     }
     h3{
         color: #6C6C6C;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         text-align: left;
         margin-bottom: 20px;
     }
@@ -98,9 +91,8 @@ p{
     }
     p{
         color: #ffffff;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         text-align: left;
         margin-bottom: 28px;
         margin-top: 14px; 
@@ -137,9 +129,8 @@ p{
     }
     h3{
         color: #000000;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -161,7 +152,7 @@ p{
     margin-top: 0px;
     h5{
         margin-top: 20px;
-        font-size: 44px;
+        font-size: 40px;
     }
 }
 
