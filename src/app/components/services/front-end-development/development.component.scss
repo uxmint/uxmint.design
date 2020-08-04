@@ -162,13 +162,13 @@ p{
         margin-bottom: 20px;
     }
     h5{
-        font-size: 25px;
+        font-size: 24px;
         margin-bottom: 20px;
     }
     p{
         font-size: 13px;
         margin-bottom: 20px;
-        line-height: 25px;
+        line-height: 20px;
     }
     .btn{
         font-size: 10px;
@@ -193,12 +193,15 @@ p{
     .list-icons{
         li{
             padding-right: 30px;
+            p{
+                font-size: 13px;
+            }
         }
     }
 }
 .service-step3{
     h5{
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 }

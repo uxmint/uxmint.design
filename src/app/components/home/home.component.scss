@@ -9,7 +9,7 @@
     .s-img{
         text-align: center;
         img{
-            width: 100%;
+            width: 80%;
             height: auto;
         }
     }
@@ -40,9 +40,8 @@
         .s-img{
             text-align: center;
             img{
-                width: 100%;
+                width: 80%;
                 height: auto;
-                padding-left: 30px;
             }
         }
         .tab{
@@ -235,8 +234,8 @@ section.home-carousel{
     .step-image{
         text-align: center;
         img{
-            width: 15%;
-            height: 10px;
+            width: 30%;
+            height: 20px;
         }
     }
 }
@@ -286,8 +285,8 @@ section.home-carousel{
     .step-image{
         text-align: center;
         img{
-            width: 10%;
-            height: 20px;
+            width: 20%;
+            height: 30px;
         }
     }
 }
@@ -342,7 +341,6 @@ section.home-carousel{
                                 font-size: 25px;
                                 margin-top: 10px;
                                 text-align: left;
-                                font-weight: 100;
                             }
                             p{
                                 font-size: 13px;
@@ -352,7 +350,7 @@ section.home-carousel{
                                 line-height: 22px;
                             }
                             a{
-                                font-size: 16px;
+                                font-size: 12px;
                                 font-weight: 300;
                                 cursor: pointer;
                                 color: #FDEE78;

@@ -137,20 +137,19 @@ p{
 @include media-breakpoint-down(md) {
     h1{
         font-size: 35px;
-        font-weight: 100;
         text-align: left;
         margin-bottom: 20px;
     }
     h5{
-        font-size: 25px;
-        font-weight: 100;
+        font-size: 24px;
         text-align: left;
         margin-bottom: 20px;
+        line-height: 32px;
     }
     p{
         font-size: 13px;
         margin-bottom: 30px;
-        line-height: 25px;
+        line-height: 20px;
     }
     .btn{
         font-size: 10px;
@@ -163,8 +162,9 @@ p{
             font-size: 13px;
         }
         h6{
-            font-size: 25px;
+            font-size: 24px;
             margin-bottom: 20px;
+            line-height: 32px;
         }
     .head{
         width: 100%;
