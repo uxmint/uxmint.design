@@ -60,11 +60,12 @@
         .text{
             .col-md-1{
                 width: 20%;
-                padding-left: 40px;
+                padding-left: 20px;
                 padding-right: 0px;
             }
             .col-md-6{
-                width: 50%;
+                width: 80%;
+                padding-left: 6px;
             }
         .dot {
             margin-top: 45px;
@@ -75,7 +76,7 @@
             display: inline-block;
           }
         .sample-text{
-            padding-left: 10px;
+            padding-left: 0;
             h2{
                 font-size: 30px;
             }
@@ -83,7 +84,7 @@
                 font-size: 30px;
             }
             p{
-                font-size: 17px;
+                font-size: 16px;
             }
         }
     }
