@@ -25,7 +25,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/CNAME"
             ],
             "styles": [
               "src/styles.scss"
@@ -120,12 +121,6 @@
             "production": {
               "devServerTarget": "uxmint:serve:production"
             }
-          }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "cname":  "uxmint.design"
           }
         }
       }
