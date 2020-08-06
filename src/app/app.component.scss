@@ -90,11 +90,7 @@ header{
     .dropdown-menu-full{
         display: flex;
         justify-content: space-between;
-        img{
-            height: 70px;
-            width: 80%;
-            padding-left: 50px;
-        }
+        
         a{
             display: block;
             padding: 10px;
@@ -111,6 +107,14 @@ header{
                 display: block;
                 margin-top: 16px;
             }
+            .step-icon{
+                text-align: center;
+                padding-left: 20px;
+            img{
+                height: auto;
+                width: auto;
+            }
+        }
         }
         .seperator{
             border-left: 1px solid #E9E9E9;
