@@ -577,31 +577,31 @@ label{
     //color:#FFF;
 //}
 
-.searvice-jumbotron{
-    display: flex;
-    //min-height: calc( 100vh - 74px);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 50px;
-}
+// .searvice-jumbotron{
+//     display: flex;
+//     //min-height: calc( 100vh - 74px);
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     padding-bottom: 50px;
+// }
 
-.searvice-jumbotron-inner{
-    h1{
-        font-weight: 300;
-        margin-bottom: 56px;
-        font-size: 49px;
-        line-height: 34px;
-    }
-    .btn{
-        color: $light;
-        box-shadow: 10px 20px 60px rgba(30, 214, 159, 0.5);
-        padding: 13px 34px;
-        font-size: 14px;
-        font-weight: 300;
-        margin-bottom: 120px;
-    }
-}
+// .searvice-jumbotron-inner{
+//     h1{
+//         font-weight: 300;
+//         margin-bottom: 56px;
+//         font-size: 49px;
+//         line-height: 34px;
+//     }
+//     .btn{
+//         color: $light;
+//         box-shadow: 10px 20px 60px rgba(30, 214, 159, 0.5);
+//         padding: 13px 34px;
+//         font-size: 14px;
+//         font-weight: 300;
+//         margin-bottom: 120px;
+//     }
+// }
 .service-steps{
     width: 100%;
     li{
@@ -1251,7 +1251,7 @@ img{
     }
 
     .service-step4{
-        padding-top: 60px;
+        padding-top: 10px;
         padding-bottom: 20px;
         display: block;
         .case-study{
