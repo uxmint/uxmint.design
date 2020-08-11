@@ -34,6 +34,7 @@ p{
     padding: 0;
     font-size: 12px;
     font-weight: 300;
+    cursor: pointer;
 }
 .searvice-jumbotron{
     h1{
@@ -72,17 +73,14 @@ p{
         margin-bottom: 10px;
     }
     .step-image img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
 .service-step2{
     background-color: #F2F2F2;
-    margin-top: 0px;
-    .row{
-        padding-top: 71px;
-        padding-bottom: 70px;
-    }
+    padding-top: 50px;
+    padding-bottom: 50px;
     h5{
         margin-top: 20px;
     }
@@ -123,7 +121,7 @@ p{
         margin-bottom: 10px;
     }
     .step-image img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .row{
@@ -181,10 +179,8 @@ p{
     }
 }
 .service-step2{
-    .row{
-        padding-top: 20px;
-        padding-bottom: 50px;
-    }
+    padding-top: 20px;
+    padding-bottom: 20px;
     p{
         margin-top: 0px;
     }

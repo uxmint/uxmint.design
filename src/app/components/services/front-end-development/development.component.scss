@@ -34,6 +34,7 @@ p{
     padding: 0;
     font-size: 12px;
     font-weight: 300;
+    cursor: pointer;
 }
 .searvice-jumbotron{
     //background-color: rgb(255, 255, 255); 
@@ -75,7 +76,7 @@ p{
     margin-bottom: 50px;
     .step-image2{
         img{
-           width: 100%;
+           width: 70%;
            height: auto;
         }
     }
@@ -154,7 +155,7 @@ p{
         font-size: 40px;
     }
     .step-image img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .row{
