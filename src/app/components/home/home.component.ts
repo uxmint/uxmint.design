@@ -85,7 +85,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   solutions:any[] = [
     { 
       title: 'EVENT MANAGEMENT',
-      description: 'Platform for Venues Owners & Professionals to showcase their Venues and Services and find their customers online.',
+      description: 'Platform for Venues Owners & Professionals to showcase their Venues and Services and find their customers online...',
       imageSrc: '/assets/images/projects/project1.jpg',
       link:{
         text: 'VIEW CASE STUDY',
@@ -94,7 +94,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     },
     { 
       title: 'SKILL DEVELOPMENT',
-      description: 'Platform for designers, design aspirants/students, mentor to collaborate and share their ideology, design method, process and uplift their skills in the Design domain.',
+      description: 'Platform for designers, design aspirants/students, mentor to collaborate and share their ideology, design method, process and uplift their skills in the Design domain...',
       imageSrc: '/assets/images/projects/project3.jpg',
       link:{
         text: 'VIEW CASE STUDY',
@@ -102,7 +102,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       }
     },
     { 
-      title: 'WE WORKED ON NETWORK SCALABILITY',
+      title: 'NETWORK SCALABILITY',
       description: 'Digital Transformation for one of the largest telecom network service provider involved redesigning the experience for customers, SMEs and business users...',
       imageSrc: '/assets/images/projects/project2.jpg',
       link:{
@@ -111,8 +111,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
       }
     },
     { 
-      title: 'SOCIAL MEDIA MARKETING',
-      description: 'The SaaS product for Customer Advocacy platform to promoting word of mouth review for sustainable growth and to increase credibility.',
+      title: 'SOCIAL MARKETING',
+      description: 'The SaaS product for Customer Advocacy platform to promoting word of mouth review for sustainable growth and to increase credibility...',
       imageSrc: '/assets/images/projects/project4.jpg',
       link:{
         text: 'VIEW CASE STUDY',
