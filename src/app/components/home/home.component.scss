@@ -6,31 +6,54 @@
 .sample{
     padding-top: 140px;
     padding-bottom: 50px;
-    .text{
-    .dot {
-        margin-top: 90px;
-        height: 60px;
-        width: 60px;
-        background-color: #FDEE78;
-        border-radius: 50%;
-        display: inline-block;
-      }
+    font-family: 'Noto Serif SC', serif;
+        
+    // .dot {
+    //     margin-top: 90px;
+    //     height: 60px;
+    //     width: 60px;
+    //     background-color: #FDEE78;
+    //     border-radius: 50%;
+    //     display: inline-block;
+    //   }
     .sample-text{
         text-align: left;
         padding-left: 20px;
-        color: #20a8a8;
-        h2{
-            font-size: 60px;
-            font-weight: 300;
+        //color: #20a8a8;
+        p{
+            font-size: 34px;
+            font-weight: 400;
+            line-height: 80px;
         }
         h1{
-            font-size: 60px;
-            font-weight: 700;
-        }
-        p{
-            font-size: 20px;
+            font-size: 64px;
             font-weight: 400;
+            line-height: 35px;
         }
+        .step-image{
+            text-align: left;
+            img{
+                width: 60%;
+                height: auto;
+            }
+        }
+        h2{
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 50px;
+        }
+    }
+    .text{
+    .v1 { 
+        border-left: 1px solid #A2A2A2;
+        height: 230px;
+        position: absolute;
+    }
+    h2{
+        font-size: 24px;
+        font-weight: 400;
+        margin-left: 40px;
+        padding-top: 50px;
     }
 }
     .tab{

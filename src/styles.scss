@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap;https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
@@ -707,6 +707,7 @@ img{
                 padding-right: 60px;
                 a{
                     font-size: 16px;
+                    font-weight: 300;
                     color: rgba(0, 0, 0, .5);
                     span{
                         position: relative;
@@ -725,7 +726,7 @@ img{
                     }
                     &:hover{
                         text-decoration: none;
-                        font-weight: 700;
+                        //font-weight: 700;
                         color: $primary !important;
                         span::before{
                             height: 8px;
@@ -746,7 +747,7 @@ img{
                 &.active{
                     a{
                         text-decoration: none;
-                        font-weight: 700;
+                        // font-weight: 700;
                         color: $primary !important;
                         span::before{
                             height: 8px;
@@ -760,13 +761,16 @@ img{
         h3{
             color: $primary;
             font-size: 29px;
+            font-weight: 300;
             line-height: 38px;
-            margin-bottom: 26px;
+            //margin-bottom: 10px;
         }
         p{
-            line-height: 34px;
+            line-height: 30px;
             font-size: 16px;
+            margin-bottom: 30px;
             color: #000;
+            text-align: justify;
         }
     }
 }
@@ -1167,9 +1171,13 @@ h4{
         flex-direction: column;
         .page-description{
             h3{
-                margin-bottom: 16px;
+                //margin-bottom: 16px;
                 font-size: 26px;
                 line-height: 30px;
+            }
+            p{
+                font-size: 15px;
+                line-height: 25px;
             }
         }
         aside{
@@ -1182,7 +1190,7 @@ h4{
                     padding-left: 10px;
                     padding-right: 30px;
                     a{
-                        font-size: 16px;
+                        font-size: 15px;
                     }
                     &:last-child{
                         margin-bottom: 0;
