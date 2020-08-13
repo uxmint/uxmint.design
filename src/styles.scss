@@ -1228,7 +1228,7 @@ h4{
 @include media-breakpoint-down(md) {
     .services-offer{
         margin-bottom: 80px;
-        padding-top: 80px;
+        padding-top: 0px;
         .row{
             border-bottom: 1px solid #F3F3F3;
             &:last-child{
