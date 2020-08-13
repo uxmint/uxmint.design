@@ -47,9 +47,9 @@
             width: 100%;
             opacity: 0;
             overflow: hidden;
-            -webkit-animation: rotateWord 30s linear infinite 0s;
-            -ms-animation: rotateWord 30s linear infinite 0s;
-            animation: rotateWord 30s linear infinite 0s;
+            -webkit-animation: rotateWord 25s linear infinite 0s;
+            -ms-animation: rotateWord 25s linear infinite 0s;
+            animation: rotateWord 25s linear infinite 0s;
           }
           
           .rw-words-1 span:nth-child(2) {
@@ -78,13 +78,13 @@
               animation-delay: 20s; 
           }
           
-          .rw-words-1 span:nth-child(6) { 
-              -webkit-animation-delay: 25s;
-              -moz-animation-delay: 25s; 
-              -o-animation-delay: 25s; 
-              -ms-animation-delay: 25s; 
-              animation-delay: 25s; 
-          }
+        //   .rw-words-1 span:nth-child(6) { 
+        //       -webkit-animation-delay: 25s;
+        //       -moz-animation-delay: 25s; 
+        //       -o-animation-delay: 25s; 
+        //       -ms-animation-delay: 25s; 
+        //       animation-delay: 25s; 
+        //   }
           
           @-webkit-keyframes rotateWord {
             0% {opacity: 0;}
