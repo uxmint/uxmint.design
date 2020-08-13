@@ -17,16 +17,20 @@
         }
         .step-image{
             text-align: left;
-            margin-top: 60px;
+            margin-top: -30px;
+            background-image: url('/assets/images/sample/line.svg');
+            width: 59%;
+            height: 14px;
             img{
-                width: 60%;
+                width: 0%;
                 height: auto;
             }
         }
         h1{
             font-size: 64px;
             font-weight: 400;
-            margin-top: 10px;
+            margin-top: 100px;
+            margin-bottom: -20px;
         }
           .rw-wrapper {position: relative;}
           
@@ -43,43 +47,43 @@
             width: 100%;
             opacity: 0;
             overflow: hidden;
-            -webkit-animation: rotateWord 18s linear infinite 0s;
-            -ms-animation: rotateWord 18s linear infinite 0s;
-            animation: rotateWord 18s linear infinite 0s;
+            -webkit-animation: rotateWord 30s linear infinite 0s;
+            -ms-animation: rotateWord 30s linear infinite 0s;
+            animation: rotateWord 30s linear infinite 0s;
           }
           
           .rw-words-1 span:nth-child(2) {
-            -webkit-animation-delay: 3s;
-            -ms-animation-delay: 3s;
-            animation-delay: 3s;
+            -webkit-animation-delay: 5s;
+            -ms-animation-delay: 5s;
+            animation-delay: 5s;
           }
           
           .rw-words-1 span:nth-child(3) {
-            -webkit-animation-delay: 6s;
-            -ms-animation-delay: 6s;
-            animation-delay: 6s;
+            -webkit-animation-delay: 10s;
+            -ms-animation-delay: 10s;
+            animation-delay: 10s;
           }
           
           .rw-words-1 span:nth-child(4) {
-            -webkit-animation-delay: 9s;
-            -ms-animation-delay: 9s;
-            animation-delay: 9s;
+            -webkit-animation-delay: 15s;
+            -ms-animation-delay: 15s;
+            animation-delay: 15s;
           }
           
           .rw-words-1 span:nth-child(5) { 
-              -webkit-animation-delay: 12s; 
-              -moz-animation-delay: 12s; 
-              -o-animation-delay: 12s; 
-              -ms-animation-delay: 12s; 
-              animation-delay: 12s; 
+              -webkit-animation-delay: 20s; 
+              -moz-animation-delay: 20s; 
+              -o-animation-delay: 20s; 
+              -ms-animation-delay: 20s; 
+              animation-delay: 20s; 
           }
           
           .rw-words-1 span:nth-child(6) { 
-              -webkit-animation-delay: 15s;
-              -moz-animation-delay: 15s; 
-              -o-animation-delay: 15s; 
-              -ms-animation-delay: 15s; 
-              animation-delay: 15s; 
+              -webkit-animation-delay: 25s;
+              -moz-animation-delay: 25s; 
+              -o-animation-delay: 25s; 
+              -ms-animation-delay: 25s; 
+              animation-delay: 25s; 
           }
           
           @-webkit-keyframes rotateWord {
@@ -214,14 +218,18 @@
                 margin-bottom: -15px;
             }
             .step-image{
-                margin-top: 35px;
+                margin-top: 0px;
+                width: 69%;
+                height: 10px;
                 img{
-                    width: 60%;
+                    width: 0%;
                     height: auto;
                 }
             }
             h1{
                 font-size: 35px;
+                margin-top: 70px;
+                margin-bottom: -20px;
             }
             .rw-words-1 span{
                 font-size: 35px;

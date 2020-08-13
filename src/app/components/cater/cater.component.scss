@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '../../../scss/colors';
+
+.our-clients{
+    margin-bottom: 100px;
+}
+.our-client-header{
+    margin-bottom: 50px;
+    h3{
+        font-size: 34px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .step-image{
+        text-align: center;
+        img{
+            width: 12%;
+            height: 20px;
+        }
+    }
+}
+.our-client-body{
+    text-align: center;
+    .row{
+        margin-bottom: 50px;
+    }
+    .client{
+        display: inline-block;
+        margin-bottom:10px;
+        img{
+            width: 100%;
+            filter: #606A74; 
+            -webkit-filter: grayscale(1);
+        }
+        img:hover{
+            width: 100%;
+            filter: none; 
+            -webkit-filter: grayscale(0);
+        }
+    }
+    .client1{
+        display: inline-block;
+        margin-bottom: 35px;
+        margin-top: 10px;
+        img{
+            max-width: 100%;
+            filter: #606A74; 
+            -webkit-filter: grayscale(1);
+        }
+        img:hover{
+            max-width: 100%;
+            filter: none; 
+            -webkit-filter: grayscale(0);
+        }
+    }
+}

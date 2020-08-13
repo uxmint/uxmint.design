@@ -43,6 +43,7 @@ import { HealthCareComponent } from './components/projects/health-care/health-ca
 import { AppDevelopmentComponent } from './components/projects/app-development/app-development.component';
 import { WebDevelopmentComponent } from './components/projects/web-development/web-development.component';
 import { CarUsabilityTestingComponent } from './components/projects/car-usability-testing/car-usability-testing.component';
+import { CaterComponent } from './components/cater/cater.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { CarUsabilityTestingComponent } from './components/projects/car-usabilit
     HealthCareComponent,
     AppDevelopmentComponent,
     WebDevelopmentComponent,
-    CarUsabilityTestingComponent
+    CarUsabilityTestingComponent,
+    CaterComponent
    ],
   imports: [
     BrowserModule,
