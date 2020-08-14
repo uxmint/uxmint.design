@@ -3,56 +3,584 @@
 @import "~bootstrap/scss/mixins";
 @import '../../../scss/colors';
 
-.our-clients{
-    margin-bottom: 100px;
-}
-.our-client-header{
-    margin-bottom: 50px;
-    h3{
-        font-size: 34px;
+.cater{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    h1{
+        font-size: 100px;
         font-weight: 300;
-        text-align: center;
     }
-    .step-image{
-        text-align: center;
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    .v1 { 
+        border-left: 1px solid #707070;
+        height: 440px;
+        position: absolute;
+        margin-left: 50px;
+    }
+    h3{
+        .image1{
+            text-align: center;
+            margin-right: 12px;
         img{
-            width: 12%;
-            height: 20px;
+        padding: 10px;
+        width: 15%;
         }
     }
+    .image2{
+        text-align: center;
+        img{
+        padding: 10px;
+        width: 20%;
+        }
+    }
+    .image3{
+        text-align: center;
+        img{
+        padding: 10px;
+        width: 20%;
+        }
+    }
+    .image4{
+        text-align: center;
+        margin-right: 20px;
+        img{
+        padding: 10px;
+        width: 15%;
+        }
+    }
+    .image5{
+        text-align: center;
+        img{
+        padding: 10px;
+        width: 20%;
+        }
+    }
+    .image6{
+        text-align: center;
+        img{
+        padding: 10px;
+        width: 20%;
+        }
+    }
+    .list{
+        margin-left: 20px;
+        color: #6C6C6C;
+        font-size: 14px;
+        text-align: left;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
 }
-.our-client-body{
-    text-align: center;
+}
+
+.digital-trans{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EFEFEF;
     .row{
         margin-bottom: 50px;
     }
-    .client{
-        display: inline-block;
-        margin-bottom:10px;
+    h1{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
+    .btn{
+        background-color: #000;
+        color: #ffffff;
+    }
+}
+
+.produce-dev{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .btn{
+        background-color: #000;
+        color: #ffffff;
+    }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.startups{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F8F8F8;
+    .row{
+        margin-bottom: 50px;
+    }
+    h1{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
+    .btn{
+        background-color: #000;
+        color: #ffffff;
+    }
+}
+
+.mobile-apps{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .row{
+        margin-bottom: 50px;
+    }
+    h1{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.enterprise-app{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F8F8F8;
+    h1{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .btn{
+        background-color: #000;
+        color: #ffffff;
+    }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.info-portals{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .btn{
+        background-color: #000;
+        color: #ffffff;
+    }
+    .step-image img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.our-process{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F7F7F7;
+    h1{
+        font-size: 34px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        // margin-bottom: 10px;
+        // margin-top: 30px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .bttn{
+        text-align: center;
+        margin-top: 40px;
+    .btn{
+        background-color: #000;
+        color: #ffffff;
+    }
+}
+    .step-image{
+        text-align: center;
         img{
-            width: 100%;
-            filter: #606A74; 
-            -webkit-filter: grayscale(1);
-        }
-        img:hover{
-            width: 100%;
-            filter: none; 
-            -webkit-filter: grayscale(0);
+            width: auto;
+            height: auto;
         }
     }
-    .client1{
-        display: inline-block;
-        margin-bottom: 35px;
-        margin-top: 10px;
-        img{
-            max-width: 100%;
-            filter: #606A74; 
-            -webkit-filter: grayscale(1);
+}
+
+@include media-breakpoint-down(md) {
+    .cater{
+        margin-top: 50px;
+        margin-bottom: 60px;
+        h1{
+            font-size: 50px;
+            font-weight: 300;
         }
-        img:hover{
-            max-width: 100%;
-            filter: none; 
-            -webkit-filter: grayscale(0);
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+        .v1 { 
+            display: none;
+        }
+        h3{
+            .image1{
+                text-align: center;
+                margin-right: 12px;
+            img{
+            padding: 10px;
+            width: 15%;
+            }
+        }
+        .image2{
+            text-align: center;
+            img{
+            padding: 10px;
+            width: 20%;
+            }
+        }
+        .image3{
+            text-align: center;
+            img{
+            padding: 10px;
+            width: 20%;
+            }
+        }
+        .image4{
+            text-align: center;
+            margin-right: 20px;
+            img{
+            padding: 10px;
+            width: 15%;
+            }
+        }
+        .image5{
+            text-align: center;
+            img{
+            padding: 10px;
+            width: 20%;
+            }
+        }
+        .image6{
+            text-align: center;
+            img{
+            padding: 10px;
+            width: 20%;
+            }
+        }
+        .list{
+            margin-left: 20px;
+            color: #6C6C6C;
+            font-size: 13px;
+            text-align: left;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+    }
+    }
+    
+    .digital-trans{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #EFEFEF;
+        .row{
+            margin-bottom: 0px;
+        }
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: justify;
+            //margin-bottom: 30px;
+        }
+        .step-image{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            img{
+            width: 100%;
+            height: auto;
+        }
+    }
+        .btn{
+            background-color: #000;
+            color: #ffffff;
+        }
+    }
+    
+    .produce-dev{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+        }
+        h2{
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: justify;
+        }
+        .btn{
+            background-color: #000;
+            color: #ffffff;
+        }
+        .step-image img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .startups{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #F8F8F8;
+        .row{
+            margin-bottom: 0px;
+        }
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: justify;
+        }
+        .step-image{
+            margin-top: 40px;
+            img{
+            width: 100%;
+            height: auto;
+        }
+    }
+        .btn{
+            background-color: #000;
+            color: #ffffff;
+        }
+    }
+    
+    .mobile-apps{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .row{
+            margin-bottom: 0px;
+        }
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: justify;
+        }
+        .step-image img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .enterprise-app{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #F8F8F8;
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+        }
+        h2{
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: justify;
+        }
+        .btn{
+            background-color: #000;
+            color: #ffffff;
+        }
+        .step-image img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .info-portals{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+        }
+        h2{
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: justify;
+        }
+        .btn{
+            background-color: #000;
+            color: #ffffff;
+        }
+        .step-image img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .our-process{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #F7F7F7;
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h2{
+            font-size: 17px;
+            font-weight: 400;
+            text-align: center;
+            // margin-bottom: 10px;
+            // margin-top: 30px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .bttn{
+            text-align: center;
+            margin-top: 40px;
+        .btn{
+            background-color: #000;
+            color: #ffffff;
+        }
+    }
+        .step-image{
+            text-align: center;
+            img{
+                width: auto;
+                height: auto;
+            }
         }
     }
 }

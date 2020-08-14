@@ -54,8 +54,8 @@ const routes: Routes = [
   { path: 'careers', component: CareersComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'privacy-policy', component: PrivacyComponent },
-  { path: '**', component: PageNotFoundComponent },
-  { path: 'cater', component: CaterComponent }
+  { path: 'cater', component: CaterComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
