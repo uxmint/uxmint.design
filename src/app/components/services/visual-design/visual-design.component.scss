@@ -19,50 +19,79 @@ h5{
     cursor: pointer;
 }
 
-.searvice-jumbotron{
-    background-color: #F7F5FF; 
-    //margin-top: -15px;
-    h5{
-        font-size: 50px;
-        font-weight: 300;
-        text-align: left;
-        //margin-bottom: 30px;
-        margin-top: 125px;
+.interface{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    h1{
+        font-size: 64px;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'Noto Serif SC', serif;
     }
     p{
-        color: #797979;
         font-size: 14px;
         font-weight: 300;
-        text-align: justify;
-        margin-bottom: 30px;
-    }
-    .step-image {
-        margin-top: 60px;
-    img{
-        width: 130%;
-        height: auto;
-    }
-}
-    .step-image1{
-        p{
-            color: #797979;
-            font-size: 13px;
-            font-weight: 300;
-            text-align: center;
-            margin-bottom: 28px;
-            margin-top: 14px; 
-        }
+        text-align: center;
     }
     .list-icons{
+        margin-top: 130px;
         text-align: center;
-        list-style: none;
-        padding: 0;
-        li{
-            padding-right: 26px;
-            display: inline-block;
+        img{
+            width: 30%;
+            height: 30px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 10px;
         }
     }
 }
+
+// .searvice-jumbotron{
+//     background-color: #F7F5FF; 
+//     //margin-top: -15px;
+//     h5{
+//         font-size: 50px;
+//         font-weight: 300;
+//         text-align: left;
+//         //margin-bottom: 30px;
+//         margin-top: 125px;
+//     }
+//     p{
+//         color: #797979;
+//         font-size: 14px;
+//         font-weight: 300;
+//         text-align: justify;
+//         margin-bottom: 30px;
+//     }
+//     .step-image {
+//         margin-top: 60px;
+//     img{
+//         width: 130%;
+//         height: auto;
+//     }
+// }
+//     .step-image1{
+//         p{
+//             color: #797979;
+//             font-size: 13px;
+//             font-weight: 300;
+//             text-align: center;
+//             margin-bottom: 28px;
+//             margin-top: 14px; 
+//         }
+//     }
+//     .list-icons{
+//         text-align: center;
+//         list-style: none;
+//         padding: 0;
+//         li{
+//             padding-right: 26px;
+//             display: inline-block;
+//         }
+//     }
+// }
 .service-step1{
     background-image: linear-gradient(#F7F5FF, #FFF);
     //margin-top: -15px;
@@ -321,22 +350,53 @@ h5{
     .btn{
         font-size: 10px;
     }
-    .searvice-jumbotron{
-        h5{
-            font-size: 30px;
-            margin-bottom: 10px;
-            margin-top: 50px;
+    .interface{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        h1{
+            font-size: 35px;
+            font-weight: 400;
+            text-align: left;
+            font-family: 'Noto Serif SC', serif;
         }
         p{
             font-size: 13px;
-            margin-bottom: 30px;
-            line-height: 20px;
+            font-weight: 300;
+            text-align: justify;
         }
-        .step-image img{
-            width: 100%;
-            height: auto;
+        .list-icons{
+            margin-top: 30px;
+            text-align: left;
+            img{
+                width: auto;
+                height: auto;
+            }
+            p{
+                font-size: 13px;
+                font-weight: 300;
+                margin-bottom: 40px;
+                text-align: left;
+                margin-top: -25px;
+                margin-left: 60px;
+            }
         }
     }
+    // .searvice-jumbotron{
+    //     h5{
+    //         font-size: 30px;
+    //         margin-bottom: 10px;
+    //         margin-top: 50px;
+    //     }
+    //     p{
+    //         font-size: 13px;
+    //         margin-bottom: 30px;
+    //         line-height: 20px;
+    //     }
+    //     .step-image img{
+    //         width: 100%;
+    //         height: auto;
+    //     }
+    // }
     .service-step1{
         .m-first{
             order: 1;

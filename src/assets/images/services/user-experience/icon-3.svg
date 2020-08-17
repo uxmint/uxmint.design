@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="34" viewBox="0 0 50 34">
+  <g id="Group_2861" data-name="Group 2861" transform="translate(-421 -421)">
+    <g id="Rectangle_3153" data-name="Rectangle 3153" transform="translate(421 421)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <rect width="50" height="34" stroke="none"/>
+      <rect x="0.75" y="0.75" width="48.5" height="32.5" fill="none"/>
+    </g>
+    <g id="Rectangle_3154" data-name="Rectangle 3154" transform="translate(426 426)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <rect width="41" height="25" stroke="none"/>
+      <rect x="0.75" y="0.75" width="39.5" height="23.5" fill="none"/>
+    </g>
+    <text id="_" data-name="&lt;/&gt;" transform="translate(446 443)" fill="#1ed69f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-10.822" y="0">&lt;/&gt;</tspan></text>
+  </g>
+</svg>

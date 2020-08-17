@@ -9,7 +9,7 @@ h1{
     margin-bottom: 10px;
 }
 h5{
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 300;
     text-align: left;
     margin-bottom: 10px;
@@ -36,28 +36,58 @@ p{
     font-weight: 300;
     cursor: pointer;
 }
-.searvice-jumbotron{
+
+.experience{
+    margin-top: 150px;
+    margin-bottom: 100px;
     h1{
-        margin-top: 100px;  
+        font-size: 64px;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'Noto Serif SC', serif;
     }
-h3{
-    color: #6C6C6C;
-    font-size: 14px;
-    text-align: left;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
-.step-image{
-    img{
-    margin-top: 60px;
-    width: 160%;
-    height: auto;
+    p{
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+    h3{
+        margin-top: 130px;
+        text-align: center;
+        img{
+            width: 20%;
+            height: 30px;
+        }
+        span{
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 10px;
+        }
     }
 }
-.list{
-    margin-left: 35px;
-}
-}
+
+// .searvice-jumbotron{
+//     h1{
+//         margin-top: 100px;  
+//     }
+// h3{
+//     color: #6C6C6C;
+//     font-size: 14px;
+//     text-align: left;
+//     font-weight: 300;
+//     margin-bottom: 20px;
+// }
+// .step-image{
+//     img{
+//     margin-top: 60px;
+//     width: 160%;
+//     height: auto;
+//     }
+// }
+// .list{
+//     margin-left: 35px;
+// }
+// }
 
 .service-step{
     //background-color: #F4F4F4;
@@ -80,6 +110,16 @@ h3{
      .step-image img{
         width: 70%;
         height: auto;
+    }
+    .image1{
+        text-align: center;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    h5{
+        margin-top: 60px;
     }
 }
 .service-step1{
@@ -143,33 +183,62 @@ h3{
     .col-sm-8{
         width: 90%;
     }
-    .searvice-jumbotron{
+    .experience{
+        margin-top: 60px;
+        margin-bottom: 60px;
         h1{
-            margin-top: 30px; 
+            font-size: 35px;
+            font-weight: 400;
+            text-align: left;
+            font-family: 'Noto Serif SC', serif;
         }
-    h3{
-        color: #6C6C6C;
-        font-size: 13px;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .step-image{
-        img{
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
+        p{
+            font-size: 13px;
+            font-weight: 300;
+            text-align: justify;
+        }
+        h3{
+            margin-top: 0px;
+            text-align: left;
+            margin-bottom: 30px;
+            img{
+                width: 20%;
+                height: 30px;
+            }
+            span{
+                font-size: 13px;
+                font-weight: 300;
+                margin-left: 10px;
+            }
         }
     }
-    .list1{
-        margin-left: 33px;
-    }
-    .list2{
-        margin-left: 25px;
-    }
-    .list3{
-        margin-left: 26px;
-    }
-    }
+    // .searvice-jumbotron{
+    //     h1{
+    //         margin-top: 30px; 
+    //     }
+    // h3{
+    //     color: #6C6C6C;
+    //     font-size: 13px;
+    //     text-align: left;
+    //     margin-bottom: 20px;
+    // }
+    // .step-image{
+    //     img{
+    //     width: 100%;
+    //     height: auto;
+    //     margin-top: 10px;
+    //     }
+    // }
+    // .list1{
+    //     margin-left: 33px;
+    // }
+    // .list2{
+    //     margin-left: 25px;
+    // }
+    // .list3{
+    //     margin-left: 26px;
+    // }
+    // }
     
     .service-step{
         //background-color: #F4F4F4;
@@ -200,6 +269,16 @@ h3{
          .step-image{
             margin-top: 20px;
             margin-bottom: 30px;
+        }
+        .image1{
+            text-align: center;
+            img{
+                width: 80%;
+                height: auto;
+            }
+        }
+        h5{
+            margin-top: 60px;
         }
     }
     .service-step1{
