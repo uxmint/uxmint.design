@@ -22,17 +22,17 @@
             <aside>
               <ul>
                 <li>
-                  <a routerLink="/contact-us" routerLinkActive="active"><span>PROJECT ENQUIRE</span></a>
+                  <a routerLink="/contact-us" routerLinkActive="active"><span>Project Enquire</span></a>
                 </li>
                 <li>
-                    <a routerLink="/careers" routerLinkActive="active"><span>CARRERS</span></a>
+                    <a routerLink="/careers" routerLinkActive="active"><span>Careers</span></a>
                 </li>
               </ul>
           </aside>
             <main>
                 <div class="form-header">
-                    <h3>Hello! <span class="blackterm">You can leave a message.</span></h3>
-                    <p>Our team will reach out to you.</p>
+                    <h3>Hello! <span class="blackterm">You can leave a message</span></h3>
+                    <p>Our team will reach out to you</p>
                 </div>
                 <form [formGroup]="form" (ngSubmit)="onSubmit()" [class.ng-submitted]="submitted">
                     <div class="form-group">
@@ -62,7 +62,7 @@
                         <div class="error-feedback" *ngIf="hasError('message','remote')">{{ form.get('message').getError('remote') }}</div>
                       </div>
                       <div class="form-group text-center">
-                        <button type="submit" class="btn btn-primary btn-block">Enquiry</button>
+                        <button type="submit" class="btn btn-primary btn-block">Enquire</button>
                       </div>
                  </form>
             </main>
