@@ -46,10 +46,18 @@ p{
         text-align: center;
         font-family: 'Noto Serif SC', serif;
     }
+    .step-image{
+        background-image: url('/assets/images/services/ui-dev/line-3.svg');
+        width: 60%;
+        height: 5px;
+        margin-left: 115px;
+        margin-top: -20px;
+    }
     p{
         font-size: 14px;
         font-weight: 300;
         text-align: center;
+        margin-top: 20px;
     }
     h3{
         margin-top: 150px;
@@ -218,6 +226,12 @@ p{
             font-weight: 400;
             text-align: left;
             font-family: 'Noto Serif SC', serif;
+        }
+        .step-image{
+            width: 60%;
+            height: 4px;
+            margin-left: 20px;
+            margin-top: -15px;
         }
         p{
             font-size: 13px;
