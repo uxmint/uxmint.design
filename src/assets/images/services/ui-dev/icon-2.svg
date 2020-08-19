@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="47" height="35" viewBox="0 0 47 35">
-  <g id="Group_2859" data-name="Group 2859" transform="translate(-345 -458)">
-    <g id="Rectangle_3012" data-name="Rectangle 3012" transform="translate(347 458)" fill="#fff" stroke="#707070" stroke-width="1.5">
-      <rect width="45" height="30" stroke="none"/>
-      <rect x="0.75" y="0.75" width="43.5" height="28.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="31.513" viewBox="0 0 36 31.513">
+  <g id="Group_5590" data-name="Group 5590" transform="translate(-345 -458)">
+    <g id="Rectangle_3012" data-name="Rectangle 3012" transform="translate(346.532 458)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <rect width="34.468" height="27.684" stroke="none"/>
+      <rect x="0.75" y="0.75" width="32.968" height="26.184" fill="none"/>
     </g>
-    <g id="Rectangle_3013" data-name="Rectangle 3013" transform="translate(351 462)" fill="#fff" stroke="#707070" stroke-width="1.5">
-      <rect width="37" height="23" stroke="none"/>
-      <rect x="0.75" y="0.75" width="35.5" height="21.5" fill="none"/>
+    <g id="Rectangle_3013" data-name="Rectangle 3013" transform="translate(349.596 461.064)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <rect width="28.34" height="21.617" stroke="none"/>
+      <rect x="0.75" y="0.75" width="26.84" height="20.117" fill="none"/>
     </g>
-    <g id="Rectangle_3015" data-name="Rectangle 3015" transform="translate(345 474)" fill="#fff" stroke="#e0d443" stroke-width="1.5">
-      <rect width="12" height="19" stroke="none"/>
-      <rect x="0.75" y="0.75" width="10.5" height="17.5" fill="none"/>
+    <g id="Rectangle_3015" data-name="Rectangle 3015" transform="translate(345 474.96)" fill="#fff" stroke="#37be4b" stroke-width="1.5">
+      <rect width="9.191" height="14.553" stroke="none"/>
+      <rect x="0.75" y="0.75" width="7.691" height="13.053" fill="none"/>
     </g>
   </g>
 </svg>

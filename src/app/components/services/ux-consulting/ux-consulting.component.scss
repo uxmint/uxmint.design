@@ -39,7 +39,7 @@ p{
 
 .experience{
     margin-top: 180px;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
     h1{
         font-size: 64px;
         font-weight: 400;
@@ -61,15 +61,26 @@ p{
     }
     h3{
         margin-top: 150px;
-        text-align: center;
+        text-align: left;
+        img{
+            width: 30%;
+            height: 30px;
+        }
+        .list{
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 10px;
+        }
+    }
+    .img1{
         img{
             width: 20%;
             height: 30px;
         }
-        span{
+        .list{
             font-size: 14px;
             font-weight: 300;
-            margin-left: 10px;
+            margin-left: 4px;
         }
     }
 }
@@ -122,7 +133,7 @@ p{
     .image1{
         text-align: center;
         img{
-            width: 100%;
+            width: 80%;
             height: auto;
         }
     }
@@ -193,7 +204,7 @@ p{
     }
     .experience{
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         h1{
             font-size: 35px;
             font-weight: 400;
@@ -210,19 +221,49 @@ p{
             font-size: 13px;
             font-weight: 300;
             text-align: justify;
+            margin-top: 10px;
         }
         h3{
-            margin-top: 0px;
+            margin-top: 10px;
             text-align: left;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             img{
-                width: 20%;
-                height: 30px;
+                width: auto;
+                height: auto;
             }
             span{
                 font-size: 13px;
                 font-weight: 300;
                 margin-left: 10px;
+            }
+        }
+        .img1{
+            img{
+                width: auto;
+                height: auto;
+            }
+            .list{
+                margin-left: 30px;
+            }
+        }
+        .img2{
+            .list{
+                margin-left: 21px;
+            }
+        }
+        .img3{
+            .list{
+                margin-left: 18px;
+            }
+        }
+        .img4{
+            .list{
+                margin-left: 30px;
+            }
+        }
+        .img5{
+            .list{
+                margin-left: 28px;
             }
         }
     }

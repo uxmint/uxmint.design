@@ -47,7 +47,7 @@ p{
         font-family: 'Noto Serif SC', serif;
     }
     .step-image{
-        background-image: url('/assets/images/services/ui-dev/line-3.svg');
+        background-image: url('/assets/images/services/ui-dev/line.svg');
         width: 60%;
         height: 5px;
         margin-left: 115px;
@@ -61,7 +61,7 @@ p{
     }
     h3{
         margin-top: 150px;
-        text-align: center;
+        text-align: left;
         img{
             width: 30%;
             height: 30px;
@@ -70,6 +70,17 @@ p{
             font-size: 14px;
             font-weight: 300;
             margin-left: 10px;
+        }
+    }
+    .img1{
+        img{
+            width: 20%;
+            height: 30px;
+        }
+        span{
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 4px;
         }
     }
 }
@@ -149,7 +160,7 @@ p{
             vertical-align: middle;
             min-width: 26px;
             display: inline-block;
-            color: #E2D42E;
+            color: #37BE4B;
             padding: 10px;
         }
         p{
@@ -237,18 +248,48 @@ p{
             font-size: 13px;
             font-weight: 300;
             text-align: justify;
+            margin-top: 10px;
         }
         h3{
-            margin-top: 30px;
+            margin-top: 20px;
             text-align: left;
             img{
-                width: 20%;
-                height: 30px;
+                width: auto;
+                height: auto;
             }
             span{
                 font-size: 13px;
                 font-weight: 300;
                 margin-left: 10px;
+            }
+        }
+        .img1{
+            img{
+                width: auto;
+                height: auto;
+            }
+            .list{
+                margin-left: 30px;
+            }
+        }
+        .img2{
+            .list{
+                margin-left: 21px;
+            }
+        }
+        .img3{
+            .list{
+                margin-left: 18px;
+            }
+        }
+        .img4{
+            .list{
+                margin-left: 30px;
+            }
+        }
+        .img5{
+            .list{
+                margin-left: 28px;
             }
         }
     }
