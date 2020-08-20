@@ -4,7 +4,7 @@
 @import '../../../scss/colors';
 
 .sample{
-    padding-top: 140px;
+    padding-top: 180px;
     padding-bottom: 50px;
     font-family: 'Noto Serif SC', serif;
     .sample-text{
@@ -19,33 +19,23 @@
             text-align: left;
             margin-top: -25px;
             background-image: url('/assets/images/sample/line.svg');
-            width: 50%;
+            width: 34%;
             height: 8px;
             img{
                 width: 0%;
                 height: auto;
             }
         }
-        
-        .my-element {
-            display: inline-block;
-            margin: 0 0.5rem;
-          
-            animation: bounce; /* referring directly to the animation's @keyframe declaration */
-            animation-duration: 2s; /* don't forget to set a duration! */
-          }
-          .animate__animated.animate__bounce {
-            --animate-duration: 2s;
-          }
-          :root {
-            --animate-duration: 800ms;
-            --animate-delay: 0.9s;
-          }
         h1{
             font-size: 34px;
             font-weight: 400;
-            margin-top: 180px;
+            margin-top: 20px;
             //margin-bottom: -20px;
+        }
+        h2{
+            font-size: 84px;
+            font-weight: 400;
+            margin-top: 0px;
         }
           .rw-wrapper {position: relative;}
           
@@ -56,7 +46,7 @@
           }
           
           .rw-words-1 span {
-            font-size: 64px;
+            font-size: 94px;
             font-weight: 400;
             position: absolute;
             width: 100%;
@@ -203,12 +193,12 @@
     }
 }
     .tab{
-        padding-top: 120px;
+        padding-top: 50px;
         text-align: center;
         .tab-link{
             padding-top: 10px;
         p{
-            font-size: 13px;
+            font-size: 16px;
             font-weight: 300;
             padding-top: 10px;
             color: #676767;
@@ -225,7 +215,7 @@
 @include media-breakpoint-down(md) {
     .sample{
         padding-top: 150px;
-        padding-bottom: 100px;
+        padding-bottom: 150px;
         .sample-text{
             padding-left: 0;
             p{
@@ -245,6 +235,11 @@
                 font-size: 22px;
                 margin-top: 70px;
                 margin-bottom: -20px;
+            }
+            h2{
+                font-size: 40px;
+                font-weight: 400;
+                margin-top: 0px;
             }
             .rw-words-1 span{
                 font-size: 32px;
@@ -288,7 +283,8 @@
         text-align: center;
         font-size: 34px;
         line-height: 32px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     .step-image{
         text-align: center;
@@ -343,21 +339,24 @@
                     //color: #FFFFFF;
                     padding-top: 70px;
                         h1{
-                            font-weight: 300;
+                            font-weight: 400;
+                            font-family: 'Noto Serif SC', serif;
                             font-size: 40px;
                             margin-top: 20px;
                             text-align: left;
                         }
                         p{
                             font-size: 14px;
-                            font-weight: 300;
+                            font-weight: 400;
+                            font-family: 'Noto Serif SC', serif;
                             text-align: justify;
                             margin-bottom: 30px;
                             //color: #CBCBCB;
                         }
                         a{
                             font-size: 12px;
-                            font-weight: 300;
+                            font-weight: 400;
+                            font-family: 'Noto Serif SC', serif;
                             cursor: pointer;
                             //color: #FDEE78;
                             text-decoration: none;
@@ -605,7 +604,8 @@ section.home-carousel{
     margin-bottom: 50px;
     h3{
         font-size: 34px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: center;
     }
     .step-image{
@@ -656,7 +656,8 @@ section.home-carousel{
     padding-bottom: 50px;
     h1{
         font-size: 34px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: center;
     }
     .step-image{

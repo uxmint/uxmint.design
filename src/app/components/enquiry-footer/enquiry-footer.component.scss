@@ -6,10 +6,11 @@
     background-color: #212121;
     text-align: center;
     margin-bottom: 0px;
-    color: #FFFFFF;
+    color: #8D8D8D;
     h5{
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: left;
         margin-left: 10px;
         margin-bottom: 20px;
@@ -17,7 +18,8 @@
     }
     h2{
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: left;
         margin-left: 10px;
         margin-bottom: 30px;
@@ -42,7 +44,8 @@
         border-radius: 5px;
         font-size: 14px;
         padding: 12px 36px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         background-color: #FDEE78;
         border-color: unset;
         margin-bottom: 28px;
@@ -58,8 +61,10 @@
     .contacts{
         font-size: 20px;
         a{
-        color: #FFFFFF;
+        color: #8D8D8D;
         font-size: 14px;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         }
     }
     .col-sm-4{

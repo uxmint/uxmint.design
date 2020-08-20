@@ -89,22 +89,23 @@ label{
 
 /* Services */
 .services-offer{
-    margin-bottom: 130px;
+    //margin-bottom: 130px;
     padding-top: 120px;
-    .row{
-        border-bottom: 1px solid #F3F3F3;
-        &:last-child{
-            border-bottom: 0;
-        }
-        .col-md-6,
-        .col-md-4{
-            padding: 0;
-            border-right: 1px solid #F3F3F3;
-            &:last-child{
-                border-right: 0;
-            }
-        }
-    }
+    background-color: #1C1C1C;
+    // .row{
+    //     border-bottom: 1px solid #F3F3F3;
+    //     &:last-child{
+    //         border-bottom: 0;
+    //     }
+    //     .col-md-6,
+    //     .col-md-4{
+    //         padding: 0;
+    //         border-right: 1px solid #F3F3F3;
+    //         &:last-child{
+    //             border-right: 0;
+    //         }
+    //     }
+    // }
 }
 .services-heading{
     margin-bottom: 60px;
@@ -112,7 +113,9 @@ label{
         text-align: center;
         font-size: 34px;
         line-height: 32px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
+        color: #ADADAD;
         .text-primary{
             color: #60D6C9 !important;
         }
@@ -128,6 +131,8 @@ label{
         font-size: 38px;
         line-height: 60px;
         text-align: center;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
 }
 .service{
@@ -149,21 +154,27 @@ label{
     h4{
         font-size: 18px;
         margin-bottom: 20px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
+        color: #ADADAD;
     }
     p{
         color: #656565;
         font-size: 14px;
         line-height: 20px;
         text-align: left;
-        font-weight: 300;
-        font-style: normal;
+        color: #ADADAD;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
+        //font-style: normal;
     }
     .bttn{
         color: #585858;
         padding: 0;
         font-weight: 300;
         font-size: 12px;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     // &:hover{
     //     //background-color: #434343;
@@ -188,9 +199,12 @@ label{
 .service-button{
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
     .bttn{
         font-size: 12px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
+        color: #ADADAD;
     }
 }
 
@@ -1227,23 +1241,23 @@ h4{
 
 @include media-breakpoint-down(md) {
     .services-offer{
-        margin-bottom: 80px;
-        padding-top: 0px;
-        .row{
-            border-bottom: 1px solid #F3F3F3;
-            &:last-child{
-                border-bottom: 0;
-            }
-            .col-md-6,
-            .col-md-4{
-                padding: 0;
-                border-right: 1px solid #F3F3F3;
-                border-bottom: 1px solid #F3F3F3;
-                &:last-child{
-                    border-right: 0;
-                }
-            }
-        }
+        //margin-bottom: 80px;
+        padding-top: 50px;
+        // .row{
+        //     border-bottom: 1px solid #F3F3F3;
+        //     &:last-child{
+        //         border-bottom: 0;
+        //     }
+        //     .col-md-6,
+        //     .col-md-4{
+        //         padding: 0;
+        //         border-right: 1px solid #F3F3F3;
+        //         border-bottom: 1px solid #F3F3F3;
+        //         &:last-child{
+        //             border-right: 0;
+        //         }
+        //     }
+        // }
     }
     /* services case study */
     .service-step9{
