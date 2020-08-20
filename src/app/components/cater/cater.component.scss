@@ -14,6 +14,7 @@
         font-size: 14px;
         font-weight: 400;
         margin-top: 20px;
+        color: #5F5F5F;
     }
     .v1 { 
         border-left: 1px solid #707070;
@@ -24,7 +25,7 @@
     h3{
         .image1{
             text-align: center;
-            margin-right: 12px;
+            margin-right: 17px;
         img{
         padding: 10px;
         width: 15%;
@@ -46,7 +47,7 @@
     }
     .image4{
         text-align: center;
-        margin-right: 20px;
+        margin-right: 18px;
         img{
         padding: 10px;
         width: 15%;
@@ -68,7 +69,7 @@
     }
     .list{
         margin-left: 20px;
-        color: #6C6C6C;
+        color: #5F5F5F;
         font-size: 14px;
         text-align: left;
         font-weight: 300;
@@ -82,11 +83,12 @@
     padding-bottom: 50px;
     background-color: #EFEFEF;
     .row{
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     h1{
         font-size: 34px;
         font-weight: 400;
+        margin-bottom: -20px;
     }
     h2{
         font-size: 20px;
@@ -97,7 +99,21 @@
         font-size: 14px;
         font-weight: 400;
         text-align: justify;
+        color: #5F5F5F;
     }
+    .list{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        color: #5F5F5F;
+        img{
+            width: 4%;
+            margin-right: 10px;
+        }
+    }
+}
     .step-image img{
         width: 100%;
         height: auto;
@@ -119,12 +135,13 @@
         font-size: 20px;
         font-weight: 400;
         margin-bottom: 10px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     p{
         font-size: 14px;
         font-weight: 400;
         text-align: justify;
+        color: #5F5F5F;
     }
     .btn{
         background-color: #000;
@@ -134,6 +151,19 @@
         width: 100%;
         height: auto;
     }
+    .list{
+        margin-top: 15px;
+        margin-bottom: 30px;
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        color: #5F5F5F;
+        img{
+            width: 4%;
+            margin-right: 10px;
+        }
+    }
+}
 }
 
 .startups{
@@ -141,11 +171,12 @@
     padding-bottom: 50px;
     background-color: #F8F8F8;
     .row{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     h1{
         font-size: 34px;
         font-weight: 400;
+        margin-bottom: -20px;
     }
     h2{
         font-size: 20px;
@@ -156,6 +187,7 @@
         font-size: 14px;
         font-weight: 400;
         text-align: justify;
+        color: #5F5F5F;
     }
     .step-image img{
         width: 100%;
@@ -165,17 +197,31 @@
         background-color: #000;
         color: #ffffff;
     }
+    .list{
+        margin-top: 15px;
+        margin-bottom: 30px;
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        color: #5F5F5F;
+        img{
+            width: 4%;
+            margin-right: 10px;
+        }
+    }
+}
 }
 
 .mobile-apps{
     padding-top: 50px;
     padding-bottom: 50px;
     .row{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     h1{
         font-size: 34px;
         font-weight: 400;
+        margin-bottom: -20px;
     }
     h2{
         font-size: 20px;
@@ -186,6 +232,7 @@
         font-size: 14px;
         font-weight: 400;
         text-align: justify;
+        color: #5F5F5F;
     }
     .step-image img{
         width: 100%;
@@ -195,7 +242,7 @@
 
 .enterprise-app{
     padding-top: 50px;
-    padding-bottom: 50px;
+    //padding-bottom: 50px;
     background-color: #F8F8F8;
     h1{
         font-size: 34px;
@@ -205,12 +252,13 @@
         font-size: 20px;
         font-weight: 400;
         margin-bottom: 10px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     p{
         font-size: 14px;
         font-weight: 400;
         text-align: justify;
+        color: #5F5F5F;
     }
     .btn{
         background-color: #000;
@@ -220,6 +268,19 @@
         width: 100%;
         height: auto;
     }
+    .list{
+        margin-top: 15px;
+        margin-bottom: 30px;
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        color: #5F5F5F;
+        img{
+            width: 4%;
+            margin-right: 10px;
+        }
+    }
+}
 }
 
 .info-portals{
@@ -233,12 +294,13 @@
         font-size: 20px;
         font-weight: 400;
         margin-bottom: 10px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     p{
         font-size: 14px;
         font-weight: 400;
         text-align: justify;
+        color: #5F5F5F;
     }
     .btn{
         background-color: #000;
@@ -248,6 +310,19 @@
         width: 100%;
         height: auto;
     }
+    .list{
+        margin-top: 15px;
+        margin-bottom: 30px;
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        color: #5F5F5F;
+        img{
+            width: 4%;
+            margin-right: 10px;
+        }
+    }
+}
 }
 
 .our-process{
@@ -271,6 +346,7 @@
         font-size: 14px;
         font-weight: 400;
         text-align: center;
+        color: #5F5F5F;
     }
     .bttn{
         text-align: center;
@@ -292,10 +368,11 @@
 @include media-breakpoint-down(md) {
     .cater{
         margin-top: 50px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         h1{
             font-size: 50px;
             font-weight: 300;
+            margin-bottom: 20px;
         }
         p{
             font-size: 13px;
@@ -308,7 +385,7 @@
         h3{
             .image1{
                 text-align: center;
-                margin-right: 12px;
+                margin-right: 17px;
             img{
             padding: 10px;
             width: 15%;
@@ -330,7 +407,7 @@
         }
         .image4{
             text-align: center;
-            margin-right: 20px;
+            margin-right: 17px;
             img{
             padding: 10px;
             width: 15%;
@@ -371,7 +448,7 @@
         h1{
             font-size: 24px;
             font-weight: 400;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         h2{
             font-size: 17px;
@@ -404,12 +481,13 @@
         h1{
             font-size: 24px;
             font-weight: 400;
+            margin-bottom: 0;
         }
         h2{
             font-size: 17px;
             font-weight: 400;
             margin-bottom: 10px;
-            margin-top: 30px;
+            margin-top: 10px;
         }
         p{
             font-size: 13px;
@@ -436,7 +514,7 @@
         h1{
             font-size: 24px;
             font-weight: 400;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         h2{
             font-size: 17px;
@@ -470,7 +548,7 @@
         h1{
             font-size: 24px;
             font-weight: 400;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         h2{
             font-size: 17px;
@@ -490,7 +568,7 @@
     
     .enterprise-app{
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         background-color: #F8F8F8;
         h1{
             font-size: 24px;
@@ -500,7 +578,7 @@
             font-size: 17px;
             font-weight: 400;
             margin-bottom: 10px;
-            margin-top: 30px;
+            margin-top: 0px;
         }
         p{
             font-size: 13px;
@@ -528,7 +606,7 @@
             font-size: 17px;
             font-weight: 400;
             margin-bottom: 10px;
-            margin-top: 30px;
+            margin-top: 0px;
         }
         p{
             font-size: 13px;
@@ -559,8 +637,8 @@
             font-size: 17px;
             font-weight: 400;
             text-align: center;
-            // margin-bottom: 10px;
-            // margin-top: 30px;
+            margin-bottom: 30px;
+            margin-top: -10px;
         }
         p{
             font-size: 13px;

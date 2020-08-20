@@ -61,10 +61,10 @@ p{
     h3{
         margin-top: 150px;
         text-align: center;
-        img{
-            width: 20%;
-            height: 30px;
-        }
+        // img{
+        //     width: 20%;
+        //     height: 30px;
+        // }
         span{
             font-size: 14px;
             font-weight: 300;
@@ -145,6 +145,10 @@ p{
         font-size: 14px;
         font-family: 300;
         margin-bottom: 0;
+    }
+    img{
+        width: 200%;
+        height: 30px;
     }
 }
 // .searvice-jumbotron{
@@ -285,19 +289,23 @@ p{
             font-size: 13px;
             font-weight: 300;
             text-align: justify;
+            margin-top: 10px;
         }
         h3{
-            margin-top: 0px;
+            margin-top: 10px;
             text-align: left;
-            margin-bottom: 30px;
-            img{
-                width: 20%;
-                height: 30px;
-            }
+            margin-bottom: 20px;
+            // img{
+            //     width: 20%;
+            //     height: 30px;
+            // }
             span{
                 font-size: 13px;
                 font-weight: 300;
                 margin-left: 20px;
+            }
+            .list1{
+                margin-left: 28px;
             }
         }
     }
@@ -345,15 +353,25 @@ p{
         p{
             font-size: 13px;
             font-family: 300;
+            margin-bottom: 55px;
         }
         img{
-            width: auto;
-            height: auto;
+            width: 100%;
+            height: 40px;
         }
         h3{
-            margin-top: 10px;
+            //margin-top: 10px;
             font-size: 15px;
             font-family: 300;
+        }
+        .line-2{
+            height: 60px;
+        }
+        .col-md-2{
+            width: 20%;
+        }
+        .col-md-10{
+            width: 80%;
         }
     }
     
@@ -376,6 +394,13 @@ p{
             font-size: 13px;
             font-family: 300;
             margin-bottom: 0;
+        }
+        img{
+            width: auto;
+            height: auto;
+        }
+        .mb-5{
+            margin-bottom: 1rem !important;
         }
     }
 //     .searvice-jumbotron{
@@ -456,7 +481,7 @@ p{
         margin-bottom: 20px;
         img{
             width: 80%;
-            height: auto;
+            height: 200px;
         }
         }
 }
