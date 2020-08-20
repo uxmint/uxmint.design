@@ -368,10 +368,11 @@
 @include media-breakpoint-down(md) {
     .cater{
         margin-top: 50px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         h1{
             font-size: 50px;
             font-weight: 300;
+            margin-bottom: 20px;
         }
         p{
             font-size: 13px;
@@ -384,7 +385,7 @@
         h3{
             .image1{
                 text-align: center;
-                margin-right: 12px;
+                margin-right: 17px;
             img{
             padding: 10px;
             width: 15%;
@@ -406,7 +407,7 @@
         }
         .image4{
             text-align: center;
-            margin-right: 20px;
+            margin-right: 17px;
             img{
             padding: 10px;
             width: 15%;
@@ -447,7 +448,7 @@
         h1{
             font-size: 24px;
             font-weight: 400;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         h2{
             font-size: 17px;
@@ -480,12 +481,13 @@
         h1{
             font-size: 24px;
             font-weight: 400;
+            margin-bottom: 0;
         }
         h2{
             font-size: 17px;
             font-weight: 400;
             margin-bottom: 10px;
-            margin-top: 30px;
+            margin-top: 10px;
         }
         p{
             font-size: 13px;
@@ -512,7 +514,7 @@
         h1{
             font-size: 24px;
             font-weight: 400;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         h2{
             font-size: 17px;
@@ -546,7 +548,7 @@
         h1{
             font-size: 24px;
             font-weight: 400;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         h2{
             font-size: 17px;
@@ -566,7 +568,7 @@
     
     .enterprise-app{
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         background-color: #F8F8F8;
         h1{
             font-size: 24px;
@@ -576,7 +578,7 @@
             font-size: 17px;
             font-weight: 400;
             margin-bottom: 10px;
-            margin-top: 30px;
+            margin-top: 0px;
         }
         p{
             font-size: 13px;
@@ -604,7 +606,7 @@
             font-size: 17px;
             font-weight: 400;
             margin-bottom: 10px;
-            margin-top: 30px;
+            margin-top: 0px;
         }
         p{
             font-size: 13px;
@@ -635,8 +637,8 @@
             font-size: 17px;
             font-weight: 400;
             text-align: center;
-            // margin-bottom: 10px;
-            // margin-top: 30px;
+            margin-bottom: 30px;
+            margin-top: -10px;
         }
         p{
             font-size: 13px;
