@@ -42,7 +42,7 @@
               <div class="form-group">
                 <label class="label">Name</label>
                 <input type="text" class="form-control" placeholder="John Deo" formControlName="name" maxlength="30"/>
-                <div class="error-feedback" *ngIf="hasError('name','required')">Please enter your name</div>
+                <div class="error-feedback" *ngIf="hasError('name','required')">Please enter your Name</div>
                 <div class="error-feedback" *ngIf="hasError('name','remote')">{{ form.get('name').getError('remote') }}</div>
               </div>
               <div class="form-group">
@@ -53,7 +53,7 @@
                   <div class="error-feedback" *ngIf="hasError('phone','remote')">{{ form.get('phone').getError('remote') }}</div>
               </div>
               <div class="form-group">
-                <label class="label">Email</label>
+                <label class="label">e-mail</label>
                 <input type="email" class="form-control"  placeholder="example@gmail.com" formControlName="email" maxlength="30"/>
                 <div class="error-feedback" *ngIf="hasError('email','required')">Please enter your e-mail</div>
                 <div class="error-feedback" *ngIf="hasError('email','pattern')">Please provide a valid e-mail address</div>
@@ -65,7 +65,7 @@
                       <input #inputFile type="file" (change)="onChange($event)" class="custom-file-input" id="customFile" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" formControlName="fileInput">
                       <label class="custom-file-label" for="customFile"><fa-icon [icon]="['fas','paperclip']"></fa-icon>  {{ resume ? resume.name : 'Browse file' }}</label>
                   </div>
-                  <div class="error-feedback" *ngIf="hasError('resume','required')">Please attach a Resume</div>
+                  <div class="error-feedback" *ngIf="hasError('resume','required')">Please attach the Resume</div>
                   <div class="error-feedback" *ngIf="hasError('resume','remote')">{{ form.get('resume').getError('remote') }}</div>
               </div>
               <div class="form-group">
