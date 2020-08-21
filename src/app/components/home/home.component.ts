@@ -88,7 +88,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       description: 'Platform for Venues Owners & Professionals to showcase their Venues and Services and find their customers online...',
       imageSrc: '/assets/images/projects/project1.jpg',
       link:{
-        text: 'VIEW CASE STUDY',
+        text: 'View Case Study',
         route: '/projects/event-management'
       }
     },
@@ -97,7 +97,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       description: 'Platform for designers, design aspirants/students, mentor to collaborate and share their ideology, design method, process and uplift their skills in the Design domain...',
       imageSrc: '/assets/images/projects/project3.jpg',
       link:{
-        text: 'VIEW CASE STUDY',
+        text: 'View Case Study',
         route: '/projects/skill-development'
       }
     },
@@ -106,7 +106,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       description: 'Digital Transformation for one of the largest telecom network service provider involved redesigning the experience for customers, SMEs and business users...',
       imageSrc: '/assets/images/projects/project2.jpg',
       link:{
-        text: 'VIEW CASE STUDY',
+        text: 'View Case Study',
         route: '/projects/networking'
       }
     },
