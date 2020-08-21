@@ -10,18 +10,41 @@
 }
 h5{
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: 'Noto Serif SC', serif;
 }
 .btn{
     padding: 0;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: 'Noto Serif SC', serif;
     cursor: pointer;
 }
-
+.service{
+    cursor: pointer;
+    // p{
+    //     text-align: left;
+    //     font-weight: 400;
+    //     font-family: 'Noto Serif SC', serif;
+    //     color: #000;
+    // }
+    h4{
+        color: #000;
+    }
+    .service-icon img{
+        width: auto;
+        height: 80px;
+        filter: #606A74; 
+        -webkit-filter: grayscale(1);
+    }
+    .service-icon img:hover{
+        filter: none; 
+    -webkit-filter: grayscale(0);
+    }
+}
 .interface{
     margin-top: 180px;
-    margin-bottom: 180px;
+    margin-bottom: 20px;
     h1{
         font-size: 64px;
         font-weight: 400;
@@ -37,7 +60,8 @@ h5{
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: center;
         margin-top: 20px;
     }
@@ -50,8 +74,10 @@ h5{
         }
         p{
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             margin-top: 10px;
+            text-align: center;
         }
     }
     // .col-md-2{
@@ -111,29 +137,32 @@ h5{
 //     }
 // }
 .service-step1{
-    background-image: linear-gradient(#F7F5FF, #FFF);
+    //background-image: linear-gradient(#F7F5FF, #FFF);
     //margin-top: -15px;
     h3{
         color:#6C6C6C;
         font-size: 20px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         margin-bottom:22px;
     }
     h5{
         text-align: left;
         margin-bottom: 10px;
-        margin-top: 30px;
+        margin-top: 80px;
     }
     h6{
         color: #6C6C6C;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         margin-bottom: 30px; 
     }
     p{
         color: #797979;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -142,22 +171,24 @@ h5{
     }
 }
 .service-step2{
-    background-color: #C55270;
+    //background-color: #C55270;
     h5{
         text-align: left;
-        color: #FFFFFF;
-        margin-top: 30px;
-        margin-bottom: 10px;
+        //color: #FFFFFF;
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
     p{
-        color: #FFFFFF;
+        //color: #FFFFFF;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 20px;
     }
     .step-image{
         text-align: left;
+        margin-top: 40px;
     img{
         width: 1080px;
         height: 565px;
@@ -166,7 +197,7 @@ h5{
 .step-image{
     .over-img{
         position: absolute;
-        top: -35%;
+        top: -25%;
         left: 70%;
         width: 379px;
         height: 809px;
@@ -177,12 +208,13 @@ h5{
     background-color: #FFFFFF;
     h5{
         text-align: left;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-top: 100px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
@@ -247,16 +279,20 @@ h5{
 
 .service-step4{
     background-color: #151E36;
+    padding-bottom: 20px;
     h5{
         text-align: left;
         margin-bottom: 20px;
         color: #FFFFFF;
         margin-top: 50px;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     p{
         color: #FFFFFF;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 20px;
     }
@@ -270,27 +306,32 @@ h5{
     margin-bottom: 30px;
     h5{
         text-align: left;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-top: 50px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
 }
 .service-step6{
-    background-color: #F8F6FF;
+    //background-color: #F8F6FF;
+    margin-bottom: 20px;
     h5{
         text-align: left;
         margin-bottom: 10px;
         margin-top: 50px;
-        color: #2D2D76;
+        //color: #2D2D76;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 20px;
     }
@@ -307,17 +348,20 @@ h5{
     }
 }
 .service-step7{
-    background-color: #F4F4F4;
+    //background-color: #F4F4F4;
     padding-bottom: 50px;
     h5{
         text-align: left;
         margin-bottom: 20px;
         margin-top: 50px;
-        color: #404040;
+        //color: #404040;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 20px;
     }
@@ -331,12 +375,14 @@ h5{
     }
 }
 .service-step8{
-    background-color: #DF3F6F;
+    //background-color: #DF3F6F;
     h5{
         text-align: left;
         margin-bottom: 10px;
-        color: #FFFFFF;
+        //color: #FFFFFF;
         margin-top: 50px;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     .image-align{
         text-align: center;
@@ -355,9 +401,10 @@ h5{
         }
     } 
      p{
-        color: #FFFFFF;
+        //color: #FFFFFF;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 30px;
     }

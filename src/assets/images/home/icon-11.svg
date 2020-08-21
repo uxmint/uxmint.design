@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="80" viewBox="0 0 122 80">
+  <g id="Group_5603" data-name="Group 5603" transform="translate(-237 -1017)">
+    <g id="Group_5302" data-name="Group 5302" transform="translate(7670 -15423)">
+      <path id="Path_12800" data-name="Path 12800" d="M3,0h97a3,3,0,0,1,3,3V67a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0Z" transform="translate(-7414 16440)" fill="#6c6c6c"/>
+      <rect id="Rectangle_3956" data-name="Rectangle 3956" width="95" height="56" rx="3" transform="translate(-7410 16447)" fill="#333"/>
+      <path id="Path_12802" data-name="Path 12802" d="M3,0H21a3,3,0,0,1,3,3V39a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0Z" transform="translate(-7433 16478)" fill="#6c6c6c"/>
+      <rect id="Rectangle_3954" data-name="Rectangle 3954" width="20" height="33" rx="3" transform="translate(-7431 16483)" fill="#333"/>
+      <path id="Path_12601" data-name="Path 12601" d="M-7368.421,16510l-10.866,8.158h27.323L-7361,16510Z" fill="#6c6c6c"/>
+      <path id="Union_20" data-name="Union 20" d="M19.353,5.945l8.774,1.609.159-.189.333.279L34.367,8.7l-1.934,2.147,4.277,3.589-5.142,6.129L27.077,16.8l-3.416,3.794Z" transform="translate(-7370.927 16470.535)" fill="#6c6c6c"/>
+    </g>
+  </g>
+</svg>

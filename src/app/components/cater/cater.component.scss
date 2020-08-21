@@ -6,9 +6,11 @@
 .cater{
     margin-top: 100px;
     margin-bottom: 60px;
+    font-family: 'Noto Serif SC', serif;
     h1{
         font-size: 100px;
-        font-weight: 300;
+        font-weight: 400;
+        margin-top: 80px;
     }
     p{
         font-size: 14px;
@@ -27,44 +29,46 @@
             text-align: center;
             margin-right: 17px;
         img{
-        padding: 10px;
-        width: 15%;
+        //padding: 10px;
+        width: 10%;
         }
     }
     .image2{
         text-align: center;
         img{
-        padding: 10px;
-        width: 20%;
+        //padding: 10px;
+        width: 10%;
         }
     }
     .image3{
         text-align: center;
         img{
-        padding: 10px;
-        width: 20%;
+        //padding: 10px;
+        width: 10%;
         }
     }
     .image4{
         text-align: center;
         margin-right: 18px;
         img{
-        padding: 10px;
-        width: 15%;
+        //padding: 10px;
+        width: 10%;
+        height: 10px;
         }
     }
     .image5{
         text-align: center;
         img{
-        padding: 10px;
-        width: 20%;
+        //padding: 10px;
+        width: 10%;
         }
     }
     .image6{
         text-align: center;
         img{
-        padding: 10px;
-        width: 20%;
+        //padding: 10px;
+        width: 10%;
+        height: 10px;
         }
     }
     .list{
@@ -82,6 +86,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #EFEFEF;
+    font-family: 'Noto Serif SC', serif;
     .row{
         margin-bottom: 40px;
     }
@@ -118,18 +123,24 @@
         width: 100%;
         height: auto;
     }
-    .btn{
-        background-color: #000;
-        color: #ffffff;
+    .buttn{
+        text-align: center;
+        padding-top: 10px;
+        .btn{
+            background-color: #000;
+            color: #ffffff;
+        }
     }
 }
 
 .produce-dev{
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: 'Noto Serif SC', serif;
     h1{
         font-size: 34px;
         font-weight: 400;
+        margin-bottom: 20px;
     }
     h2{
         font-size: 20px;
@@ -143,10 +154,6 @@
         text-align: justify;
         color: #5F5F5F;
     }
-    .btn{
-        background-color: #000;
-        color: #ffffff;
-    }
     .step-image img{
         width: 100%;
         height: auto;
@@ -162,6 +169,14 @@
             width: 4%;
             margin-right: 10px;
         }
+    }
+}
+.buttn{
+    text-align: center;
+    padding-top: 10px;
+    .btn{
+        background-color: #000;
+        color: #ffffff;
     }
 }
 }
@@ -170,18 +185,25 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #F8F8F8;
+    font-family: 'Noto Serif SC', serif;
     .row{
         margin-bottom: 30px;
     }
     h1{
         font-size: 34px;
         font-weight: 400;
-        margin-bottom: -20px;
+        margin-bottom: 0px;
     }
     h2{
         font-size: 20px;
         font-weight: 400;
         margin-bottom: 10px;
+    }
+    h5{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        margin-top: -180px;
     }
     p{
         font-size: 14px;
@@ -189,14 +211,13 @@
         text-align: justify;
         color: #5F5F5F;
     }
-    .step-image img{
+    .step-image{
+        margin-top: 40px;
+         img{
         width: 100%;
         height: auto;
     }
-    .btn{
-        background-color: #000;
-        color: #ffffff;
-    }
+}
     .list{
         margin-top: 15px;
         margin-bottom: 30px;
@@ -210,18 +231,27 @@
         }
     }
 }
+.buttn{
+    text-align: center;
+    padding-top: 10px;
+    .btn{
+        background-color: #000;
+        color: #ffffff;
+    }
+}
 }
 
 .mobile-apps{
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: 'Noto Serif SC', serif;
     .row{
         margin-bottom: 30px;
     }
     h1{
         font-size: 34px;
         font-weight: 400;
-        margin-bottom: -20px;
+        margin-bottom: 0px;
     }
     h2{
         font-size: 20px;
@@ -244,9 +274,11 @@
     padding-top: 50px;
     //padding-bottom: 50px;
     background-color: #F8F8F8;
+    font-family: 'Noto Serif SC', serif;
     h1{
         font-size: 34px;
         font-weight: 400;
+        margin-bottom: 20px;
     }
     h2{
         font-size: 20px;
@@ -286,9 +318,11 @@
 .info-portals{
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: 'Noto Serif SC', serif;
     h1{
         font-size: 34px;
         font-weight: 400;
+        margin-bottom: 20px;
     }
     h2{
         font-size: 20px;
@@ -329,6 +363,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #F7F7F7;
+    font-family: 'Noto Serif SC', serif;
     h1{
         font-size: 34px;
         font-weight: 400;
@@ -371,7 +406,7 @@
         margin-bottom: 50px;
         h1{
             font-size: 50px;
-            font-weight: 300;
+            font-weight: 400;
             margin-bottom: 20px;
         }
         p{
@@ -432,7 +467,7 @@
             color: #6C6C6C;
             font-size: 13px;
             text-align: left;
-            font-weight: 300;
+            font-weight: 400;
             margin-bottom: 20px;
         }
     }
@@ -469,10 +504,7 @@
             height: auto;
         }
     }
-        .btn{
-            background-color: #000;
-            color: #ffffff;
-        }
+    
     }
     
     .produce-dev{
@@ -501,6 +533,15 @@
         .step-image img{
             width: 100%;
             height: auto;
+        }
+        .bttn{
+            text-align: center;
+            //margin-left: 100px;
+            .btn{
+                background-color: #000;
+                color: #ffffff;
+                
+            }
         }
     }
     

@@ -89,7 +89,7 @@ label{
 
 /* Services */
 .services-offer{
-    //margin-bottom: 130px;
+    padding-bottom: 80px;
     padding-top: 120px;
     background-color: #1C1C1C;
     // .row{
@@ -137,7 +137,7 @@ label{
 }
 .service{
     padding: 38px 54px;
-    text-align: left;
+    text-align: center;
     height: 100%;
     .service-icon{
         margin-bottom: 32px;
@@ -198,8 +198,8 @@ label{
 
 .service-button{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    //padding-bottom: 10px;
     .bttn{
         font-size: 12px;
         font-weight: 400;
@@ -221,7 +221,8 @@ label{
         text-align: center;
         font-size: 34px;
         line-height: 32px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         .text-primary{
             color: #60D6C9 !important;
         }
@@ -270,21 +271,24 @@ label{
                     color: #FFFFFF;
                     padding-top: 140px;
                         h1{
-                            font-weight: 300;
+                            font-weight: 400;
+                            font-family: 'Noto Serif SC', serif;
                             font-size: 40px;
                             margin-top: 20px;
                             text-align: left;
                         }
                         p{
                             font-size: 14px;
-                            font-weight: 300;
+                            font-weight: 400;
+                            font-family: 'Noto Serif SC', serif;
                             text-align: justify;
                             margin-bottom: 30px;
                             color: #CBCBCB;
                         }
                         a{
                             font-size: 12px;
-                            font-weight: 300;
+                            font-weight: 400;
+                            font-family: 'Noto Serif SC', serif;
                             cursor: pointer;
                             color: #FDEE78;
                             text-decoration: none;
@@ -305,7 +309,8 @@ label{
     h3{
         font-size: 40px;
         text-align: center;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
 }
 }
@@ -352,12 +357,14 @@ label{
     h4{
         color: #FFFFFF;
         font-size: 20px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     h6{
         color: #FFFFFF;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
     }
     a {
         color: #fff;
@@ -435,6 +442,8 @@ label{
 .error-feedback{
     color: #dc3545;
     margin-top: 10px;
+    font-weight: 400;
+    font-family: 'Noto Serif SC', serif;
 }
 .contact-us{
     margin: 100px 0;
@@ -452,7 +461,8 @@ label{
                 padding-right: 30px;
                 a{
                     font-size: 16px;
-                    font-weight: 300;
+                    font-weight: 400;
+                    font-family: 'Noto Serif SC', serif;
                     color: rgba(0,0,0,0.5);
                     span{
                         position: relative;
@@ -489,6 +499,8 @@ label{
             .btn{
                 border: 1px solid #60D6C9;
                 margin: 10px 10px 10px 0;
+                font-weight: 400;
+                font-family: 'Noto Serif SC', serif;
                 span{
                     display: none;
                 }
@@ -506,7 +518,8 @@ label{
             h3{
                 color: #60D6C9;
                 font-size: 50px;
-                font-weight: 300;
+                font-weight: 400;
+                font-family: 'Noto Serif SC', serif;
                 line-height: 60px;
             }
             .blackterm{
@@ -518,7 +531,8 @@ label{
             }
             p{
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 400;
+                font-family: 'Noto Serif SC', serif;
                 color: #6C6C6C;
                 line-height: 23px;
             }
@@ -540,7 +554,8 @@ label{
                 max-width: 300px;
                 .label{
                     font-size: 14px;
-                    font-weight: 300;
+                    font-weight: 400;
+                    font-family: 'Noto Serif SC', serif;
                 }
                 .form-control{
                     height: 50px;
@@ -576,7 +591,8 @@ label{
                 }
                 .btn{
                     font-size: 14px;
-                    font-weight: 300;
+                    font-weight: 400;
+                    font-family: 'Noto Serif SC', serif;
                     color: $light;
                     border-radius: 5px;
                     padding: 8px 30px;
@@ -651,13 +667,16 @@ img{
         height: 100%;
     }
     h3{
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         font-size: 35px;
         line-height: 47px;
         margin-bottom: 30px;
     }
     p{
         font-size: 16px;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         line-height: 34px;
         color: rgba(0,0,0,0.39);
     }
@@ -775,13 +794,16 @@ img{
         h3{
             color: $primary;
             font-size: 29px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             line-height: 38px;
             //margin-bottom: 10px;
         }
         p{
             line-height: 30px;
             font-size: 16px;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             margin-bottom: 30px;
             color: #000;
             text-align: justify;
@@ -795,11 +817,12 @@ img{
             background-color: #F5F5F5;
             padding-top: 80px;
             padding-bottom: 250px;
+            font-family: 'Noto Serif SC', serif;
     h4{
         text-align: center;
         font-size: 34px;
         line-height: 32px;
-        font-weight: 300;
+        font-weight: 400;
     }
     .step-image{
         text-align: center;
@@ -826,7 +849,8 @@ img{
             margin-right: 150px;
     h5{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: left;
         margin-bottom: 30px;
         //color: #FFFFFF;
@@ -834,13 +858,15 @@ img{
     p{
         //color: #FFFFFF;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: justify;
         margin-bottom: 30px;
     }
     h3{
         font-size: 12px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         //color: #60D6C9;
     }
     a{
@@ -871,11 +897,12 @@ img{
         background-color: #F5F5F5;
         padding-top: 80px;
         padding-bottom: 250px;
+        font-family: 'Noto Serif SC', serif;
 h4{
     text-align: center;
     font-size: 34px;
     line-height: 32px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .step-image{
     text-align: center;
@@ -902,7 +929,8 @@ h4{
             margin-right: 150px;
             h5{
                 font-size: 40px;
-                font-weight: 300;
+                font-weight: 400;
+                font-family: 'Noto Serif SC', serif;
                 text-align: left;
                 margin-bottom: 30px;
                 //color: #FFFFFF;
@@ -910,13 +938,15 @@ h4{
             p{
                 //color: #FFFFFF;
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 400;
+                font-family: 'Noto Serif SC', serif;
                 text-align: justify;
                 margin-bottom: 30px;
             }
             h3{
                 font-size: 12px;
-                font-weight: 300;
+                font-weight: 400;
+                font-family: 'Noto Serif SC', serif;
                 //color: #60D6C9;
             }
             a{
@@ -941,7 +971,8 @@ h4{
     padding-bottom: 50px;
     .services-heading{
         h5{
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             margin-bottom: 30px;
             font-size: 40px;
             color: #454545;

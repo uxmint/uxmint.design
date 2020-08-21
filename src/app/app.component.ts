@@ -21,6 +21,8 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(){
+    this.openNav();
+    this.closeNav();
     window.scroll(0,0);
     this.loaderService.getStatus().subscribe(status=>{
       this.loading = status;
@@ -44,5 +46,15 @@ export class AppComponent implements OnInit {
   toggleMenu(){
     this.menuShow = !this.menuShow;
   }
+
+  openNav() { 
+    document.getElementById( 
+        "myNav").style.display = "block"; 
+} 
+
+closeNav() { 
+  document.getElementById( 
+      "myNav").style.display = "none"; 
+} 
 
 }

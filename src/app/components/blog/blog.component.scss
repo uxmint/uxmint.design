@@ -7,11 +7,12 @@
     padding-bottom: 200px;
     background-color: #F7F7F7;
     .post-title{
-        margin-bottom: 120px;
+        margin-bottom: 100px;
         text-align: left;
-        padding-top: 80px;
+        padding-top: 100px;
         h1{
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             font-size: 50px;
             line-height: 72px;
             span{
@@ -42,20 +43,23 @@
         }
         h3{
             font-size: 20px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             margin-bottom: 20px;
         }
         p{
             line-height: 20px;
             font-size: 14px;
             margin-bottom: 20px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             color: #6C6C6C;
             text-align: justify;
         }
         .btn{
             font-size: 12px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             color: #60D6C9;
             padding: 0;
         }

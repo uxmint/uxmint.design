@@ -4,13 +4,15 @@
 @import '../../../../scss/colors';
 h1{
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: 'Noto Serif SC', serif;
     text-align: left;
     margin-bottom: 10px;
 }
 h5{
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: 'Noto Serif SC', serif;
     text-align: left;
     margin-bottom: 10px;
 }
@@ -20,32 +22,50 @@ h5{
 p{
     color: #797979;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: 'Noto Serif SC', serif;
     text-align: justify;
     margin-bottom: 30px;
 }
 .service{
-    p{
-        text-align: left;
-        font-weight: 300;
+    cursor: pointer;
+    // p{
+    //     text-align: left;
+    //     font-weight: 400;
+    //     font-family: 'Noto Serif SC', serif;
+    //     color: #000;
+    // }
+    h4{
+        color: #000;
+    }
+    .service-icon img{
+        width: auto;
+        height: 80px;
+        filter: #606A74; 
+        -webkit-filter: grayscale(1);
+    }
+    .service-icon img:hover{
+        filter: none; 
+    -webkit-filter: grayscale(0);
     }
 }
 .btn{
     padding: 0;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: 'Noto Serif SC', serif;
     cursor: pointer;
 }
 
 .ui{
     margin-top: 180px;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
     h1{
         font-size: 64px;
         font-weight: 400;
         text-align: center;
         font-family: 'Noto Serif SC', serif;
-    }
+}
     .step-image{
         background-image: url('/assets/images/services/ui-dev/line.svg');
         width: 60%;
@@ -55,7 +75,8 @@ p{
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: center;
         margin-top: 20px;
     }
@@ -68,7 +89,8 @@ p{
         }
         span{
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             margin-left: 10px;
         }
     }
@@ -79,7 +101,8 @@ p{
         }
         span{
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif SC', serif;
             margin-left: 4px;
         }
     }
@@ -126,6 +149,12 @@ p{
         img{
            width: 70%;
            height: auto;
+           filter: #606A74; 
+            -webkit-filter: grayscale(1);
+        }
+        img:hover{
+            filter: none; 
+            -webkit-filter: grayscale(0);
         }
     }
 }
@@ -141,7 +170,8 @@ p{
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         text-align: left;
         margin-bottom: 28px;
         margin-top: 14px; 
@@ -154,7 +184,17 @@ p{
             display: inline-block;
             padding-left: 15px;
             text-align: center;
+            // filter: #606A74; 
+            // -webkit-filter: grayscale(1);
         }
+        // .hover{
+        //     filter: #606A74; 
+        // -webkit-filter: grayscale(1);
+        // }
+        // li:hover{
+        //     filter: none; 
+        // -webkit-filter: grayscale(0);
+        // }
         fa-icon{
             font-size: 50px;
             vertical-align: middle;
@@ -162,6 +202,12 @@ p{
             display: inline-block;
             color: #37BE4B;
             padding: 10px;
+            filter: #606A74; 
+            -webkit-filter: grayscale(1);
+        }
+        fa-icon:hover{
+            filter: none; 
+        -webkit-filter: grayscale(0);
         }
         p{
             text-align: center;
@@ -180,7 +226,8 @@ p{
     h3{
         color: #000000;
         font-size: 12px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif SC', serif;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -194,8 +241,17 @@ p{
         }
         p{
             text-align: center;
+            margin-top: 10px;
         }
     }
+    // .step-image1{
+    //     filter: #606A74; 
+    //     -webkit-filter: grayscale(1);
+    // }
+    // .step-image1:hover{
+    //     filter: none; 
+    //     -webkit-filter: grayscale(0);
+    // }
 }
 .service-step3{
     h5{
@@ -205,6 +261,12 @@ p{
     .step-image img{
         width: 80%;
         height: auto;
+        filter: #606A74; 
+        -webkit-filter: grayscale(1);
+    }
+    .step-image img:hover{
+        filter: none; 
+        -webkit-filter: grayscale(0);
     }
     .row{
         margin-bottom: 100px;
