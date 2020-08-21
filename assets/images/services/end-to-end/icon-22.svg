@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.659" height="33.025" viewBox="0 0 36.659 33.025">
+  <g id="Group_5585" data-name="Group 5585" transform="translate(-109 -533)">
+    <g id="Rectangle_3084" data-name="Rectangle 3084" transform="translate(109 533)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <rect width="34" height="28" stroke="none"/>
+      <rect x="0.75" y="0.75" width="32.5" height="26.5" fill="none"/>
+    </g>
+    <line id="Line_779" data-name="Line 779" x2="33.324" transform="translate(109.355 536.9)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <g id="Group_2750" data-name="Group 2750" transform="translate(133.816 548.921)">
+      <path id="Path_7820" data-name="Path 7820" d="M380.066,382.736v13.5a9.412,9.412,0,0,0,10.817,0v-13.5" transform="translate(-379.789 -381.596)" fill="#fff" stroke="#3038f8" stroke-miterlimit="10" stroke-width="1.5"/>
+      <ellipse id="Ellipse_701" data-name="Ellipse 701" cx="5.454" cy="1.078" rx="5.454" ry="1.078" transform="translate(0.187)" fill="#fff" stroke="#3038f8" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_7821" data-name="Path 7821" d="M379.013,394.538a15.949,15.949,0,0,0,10.907,0" transform="translate(-379.013 -390.294)" fill="#fff" stroke="#3038f8" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_7822" data-name="Path 7822" d="M380.066,404.986a15.949,15.949,0,0,0,10.907,0" transform="translate(-379.789 -397.994)" fill="#fff" stroke="#3038f8" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_7823" data-name="Path 7823" d="M379.013,414.945a15.949,15.949,0,0,0,10.907,0" transform="translate(-379.013 -405.334)" fill="#fff" stroke="#3038f8" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_7824" data-name="Path 7824" d="M379.013,425.45a15.949,15.949,0,0,0,10.907,0" transform="translate(-379.013 -413.076)" fill="#fff" stroke="#3038f8" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29">
+  <g id="Group_5572" data-name="Group 5572" transform="translate(-127 -457)">
+    <g id="Path_7840" data-name="Path 7840" transform="translate(140 477)" fill="#fff">
+      <path d="M 22.25 8.25 L 0.75 8.25 L 0.75 0.75 L 22.25 0.75 L 22.25 8.25 Z" stroke="none"/>
+      <path d="M 1.5 1.5 L 1.5 7.5 L 21.5 7.5 L 21.5 1.5 L 1.5 1.5 M 0 0 L 23 0 L 23 9 L 0 9 L 0 0 Z" stroke="none" fill="#656565"/>
+    </g>
+    <g id="Group_2830" data-name="Group 2830" transform="translate(-51 -13)">
+      <g id="Rectangle_2997" data-name="Rectangle 2997" transform="translate(178 470)" fill="#fff" stroke="#656565" stroke-width="1.5">
+        <rect width="11" height="29" stroke="none"/>
+        <rect x="0.75" y="0.75" width="9.5" height="27.5" fill="none"/>
+      </g>
+      <g id="Rectangle_3002" data-name="Rectangle 3002" transform="translate(203 470)" fill="#fff" stroke="#656565" stroke-width="1.5">
+        <rect width="11" height="19" stroke="none"/>
+        <rect x="0.75" y="0.75" width="9.5" height="17.5" fill="none"/>
+      </g>
+      <g id="Rectangle_2998" data-name="Rectangle 2998" transform="translate(191 470)" fill="#fff" stroke="#656565" stroke-width="1.5">
+        <rect width="10" height="9" stroke="none"/>
+        <rect x="0.75" y="0.75" width="8.5" height="7.5" fill="none"/>
+      </g>
+      <g id="Rectangle_2999" data-name="Rectangle 2999" transform="translate(191 480)" fill="#fff" stroke="#656565" stroke-width="1.5">
+        <rect width="10" height="9" stroke="none"/>
+        <rect x="0.75" y="0.75" width="8.5" height="7.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
