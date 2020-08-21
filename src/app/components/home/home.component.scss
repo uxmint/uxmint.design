@@ -6,7 +6,7 @@
 .sample{
     padding-top: 180px;
     padding-bottom: 50px;
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Noto Sans JP', sans-serif;
     .sample-text{
         text-align: left;
         padding-left: 20px;
@@ -27,12 +27,14 @@
             }
         }
         h1{
+            font-family: 'Noto Serif JP', serif;
             font-size: 34px;
             font-weight: 400;
             margin-top: 20px;
             //margin-bottom: -20px;
         }
         h2{
+            font-family: 'Noto Serif JP', serif;
             font-size: 84px;
             font-weight: 400;
             margin-top: 0px;
@@ -186,6 +188,7 @@
         position: absolute;
     }
     h2{
+        font-family: 'Noto Serif JP', serif;
         font-size: 24px;
         font-weight: 400;
         margin-left: 40px;
@@ -232,11 +235,13 @@
                 }
             }
             h1{
+                font-family: 'Noto Serif JP', serif;
                 font-size: 22px;
                 margin-top: 70px;
                 margin-bottom: -20px;
             }
             h2{
+                font-family: 'Noto Serif JP', serif;
                 font-size: 40px;
                 font-weight: 400;
                 margin-top: 0px;
@@ -280,11 +285,11 @@
     padding-top: 80px;
     padding-bottom: 250px;
     h4{
+        font-family: 'Noto Serif JP', serif;
         text-align: center;
         font-size: 34px;
         line-height: 32px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
     }
     .step-image{
         text-align: center;
@@ -340,7 +345,7 @@
                     padding-top: 70px;
                         h1{
                             font-weight: 400;
-                            font-family: 'Noto Serif SC', serif;
+                            font-family: 'Noto Serif JP', serif;
                             font-size: 40px;
                             margin-top: 20px;
                             text-align: left;
@@ -348,7 +353,7 @@
                         p{
                             font-size: 14px;
                             font-weight: 400;
-                            font-family: 'Noto Serif SC', serif;
+                            font-family: 'Noto Sans JP', sans-serif;
                             text-align: justify;
                             margin-bottom: 30px;
                             //color: #CBCBCB;
@@ -356,7 +361,7 @@
                         a{
                             font-size: 12px;
                             font-weight: 400;
-                            font-family: 'Noto Serif SC', serif;
+                            font-family: 'Noto Sans JP', sans-serif;
                             cursor: pointer;
                             //color: #FDEE78;
                             text-decoration: none;
@@ -605,7 +610,7 @@ section.home-carousel{
     h3{
         font-size: 34px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
         text-align: center;
     }
     .step-image{
@@ -657,7 +662,7 @@ section.home-carousel{
     h1{
         font-size: 34px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
         text-align: center;
     }
     .step-image{

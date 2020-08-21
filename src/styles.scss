@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap;https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap;https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
 @import './scss/bootstrap-custom.scss';
 @import './scss/bootstrap.scss';
 body{
@@ -114,7 +114,7 @@ label{
         font-size: 34px;
         line-height: 32px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
         color: #ADADAD;
         .text-primary{
             color: #60D6C9 !important;
@@ -132,7 +132,7 @@ label{
         line-height: 60px;
         text-align: center;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
     }
 }
 .service{
@@ -155,7 +155,7 @@ label{
         font-size: 18px;
         margin-bottom: 20px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
         color: #ADADAD;
     }
     p{
@@ -165,7 +165,7 @@ label{
         text-align: left;
         color: #ADADAD;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Sans JP', sans-serif;
         //font-style: normal;
     }
     .bttn{
@@ -174,7 +174,7 @@ label{
         font-weight: 300;
         font-size: 12px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Sans JP', sans-serif;
     }
     // &:hover{
     //     //background-color: #434343;
@@ -203,7 +203,7 @@ label{
     .bttn{
         font-size: 12px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Sans JP', sans-serif;
         color: #ADADAD;
     }
 }
@@ -222,7 +222,7 @@ label{
         font-size: 34px;
         line-height: 32px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
         .text-primary{
             color: #60D6C9 !important;
         }
@@ -272,7 +272,7 @@ label{
                     padding-top: 140px;
                         h1{
                             font-weight: 400;
-                            font-family: 'Noto Serif SC', serif;
+                            font-family: 'Noto Serif JP', serif;
                             font-size: 40px;
                             margin-top: 20px;
                             text-align: left;
@@ -280,7 +280,7 @@ label{
                         p{
                             font-size: 14px;
                             font-weight: 400;
-                            font-family: 'Noto Serif SC', serif;
+                            font-family: 'Noto Sans JP', sans-serif;
                             text-align: justify;
                             margin-bottom: 30px;
                             color: #CBCBCB;
@@ -288,7 +288,7 @@ label{
                         a{
                             font-size: 12px;
                             font-weight: 400;
-                            font-family: 'Noto Serif SC', serif;
+                            font-family: 'Noto Sans JP', sans-serif;
                             cursor: pointer;
                             color: #FDEE78;
                             text-decoration: none;
@@ -310,7 +310,7 @@ label{
         font-size: 40px;
         text-align: center;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
     }
 }
 }
@@ -358,13 +358,13 @@ label{
         color: #FFFFFF;
         font-size: 20px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
     }
     h6{
         color: #FFFFFF;
         font-size: 14px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Sans JP', sans-serif;
     }
     a {
         color: #fff;
@@ -462,7 +462,7 @@ label{
                 a{
                     font-size: 16px;
                     font-weight: 400;
-                    font-family: 'Noto Serif SC', serif;
+                    font-family: 'Noto Sans JP', sans-serif;
                     color: rgba(0,0,0,0.5);
                     span{
                         position: relative;
@@ -500,7 +500,7 @@ label{
                 border: 1px solid #60D6C9;
                 margin: 10px 10px 10px 0;
                 font-weight: 400;
-                font-family: 'Noto Serif SC', serif;
+                font-family: 'Noto Sans JP', sans-serif;
                 span{
                     display: none;
                 }
@@ -519,7 +519,7 @@ label{
                 color: #60D6C9;
                 font-size: 50px;
                 font-weight: 400;
-                font-family: 'Noto Serif SC', serif;
+                font-family: 'Noto Serif JP', serif;
                 line-height: 60px;
             }
             .blackterm{
@@ -532,7 +532,7 @@ label{
             p{
                 font-size: 14px;
                 font-weight: 400;
-                font-family: 'Noto Serif SC', serif;
+                font-family: 'Noto Serif JP', serif;
                 color: #6C6C6C;
                 line-height: 23px;
             }
@@ -555,7 +555,7 @@ label{
                 .label{
                     font-size: 14px;
                     font-weight: 400;
-                    font-family: 'Noto Serif SC', serif;
+                    font-family: 'Noto Sans JP', sans-serif;
                 }
                 .form-control{
                     height: 50px;
@@ -592,7 +592,7 @@ label{
                 .btn{
                     font-size: 14px;
                     font-weight: 400;
-                    font-family: 'Noto Serif SC', serif;
+                    font-family: 'Noto Sans JP', sans-serif;
                     color: $light;
                     border-radius: 5px;
                     padding: 8px 30px;
@@ -668,7 +668,7 @@ img{
     }
     h3{
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
         font-size: 35px;
         line-height: 47px;
         margin-bottom: 30px;
@@ -676,7 +676,7 @@ img{
     p{
         font-size: 16px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Sans JP', sans-serif;
         line-height: 34px;
         color: rgba(0,0,0,0.39);
     }
@@ -795,7 +795,7 @@ img{
             color: $primary;
             font-size: 29px;
             font-weight: 400;
-            font-family: 'Noto Serif SC', serif;
+            font-family: 'Noto Serif JP', serif;
             line-height: 38px;
             //margin-bottom: 10px;
         }
@@ -803,7 +803,7 @@ img{
             line-height: 30px;
             font-size: 16px;
             font-weight: 400;
-            font-family: 'Noto Serif SC', serif;
+            font-family: 'Noto Sans JP', sans-serif;
             margin-bottom: 30px;
             color: #000;
             text-align: justify;
@@ -817,7 +817,7 @@ img{
             background-color: #F5F5F5;
             padding-top: 80px;
             padding-bottom: 250px;
-            font-family: 'Noto Serif SC', serif;
+            font-family: 'Noto Serif JP', serif;
     h4{
         text-align: center;
         font-size: 34px;
@@ -850,7 +850,7 @@ img{
     h5{
         font-size: 40px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
         text-align: left;
         margin-bottom: 30px;
         //color: #FFFFFF;
@@ -859,14 +859,14 @@ img{
         //color: #FFFFFF;
         font-size: 14px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: justify;
         margin-bottom: 30px;
     }
     h3{
         font-size: 12px;
         font-weight: 400;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', sans-serif;
         //color: #60D6C9;
     }
     a{
@@ -897,7 +897,7 @@ img{
         background-color: #F5F5F5;
         padding-top: 80px;
         padding-bottom: 250px;
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif JP', serif;
 h4{
     text-align: center;
     font-size: 34px;
@@ -930,7 +930,7 @@ h4{
             h5{
                 font-size: 40px;
                 font-weight: 400;
-                font-family: 'Noto Serif SC', serif;
+                font-family: 'Noto Serif JP', serif;
                 text-align: left;
                 margin-bottom: 30px;
                 //color: #FFFFFF;
@@ -939,14 +939,14 @@ h4{
                 //color: #FFFFFF;
                 font-size: 14px;
                 font-weight: 400;
-                font-family: 'Noto Serif SC', serif;
+                font-family: 'Noto Sans JP', sans-serif;
                 text-align: justify;
                 margin-bottom: 30px;
             }
             h3{
                 font-size: 12px;
                 font-weight: 400;
-                font-family: 'Noto Serif SC', serif;
+                font-family: 'Noto Sans JP', sans-serif;
                 //color: #60D6C9;
             }
             a{
@@ -972,7 +972,7 @@ h4{
     .services-heading{
         h5{
             font-weight: 400;
-            font-family: 'Noto Serif SC', serif;
+            font-family: 'Noto Serif JP', serif;
             margin-bottom: 30px;
             font-size: 40px;
             color: #454545;
