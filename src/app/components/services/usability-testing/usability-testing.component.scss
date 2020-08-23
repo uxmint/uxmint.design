@@ -70,7 +70,7 @@ p{
         width: 60%;
         height: 5px;
         margin-left: 115px;
-        margin-top: -20px;
+        margin-top: -10px;
     }
     p{
         font-size: 14px;
@@ -147,8 +147,13 @@ p{
         font-family: 'Noto Serif JP', serif;
     }
     img{
+        margin-top: 5px;
+        margin-bottom: 5px;
         width: 70%;
         height: 40px;
+    }
+    .line-2{
+        height: 35px;
     }
     h3{
         font-size: 17px;
@@ -301,7 +306,7 @@ p{
     h5{
         font-size: 24px;
         text-align: left;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         line-height: 32px;
     }
     p{
@@ -324,12 +329,15 @@ p{
         .step-image{
             width: 60%;
             height: 4px;
-            margin-left: 20px;
-            margin-top: -15px;
+            margin-left: 38px;
+            margin-top: -12px;
+        }
+        .list-icons{
+            margin-top: 30px;
         }
         p{
             font-size: 13px;
-            font-weight: 300;
+            font-weight: 400;
             text-align: justify;
             margin-top: 10px;
         }
@@ -343,7 +351,7 @@ p{
             // }
             span{
                 font-size: 13px;
-                font-weight: 300;
+                font-weight: 400;
                 margin-left: 20px;
             }
             .list1{
@@ -357,12 +365,12 @@ p{
         background-color: #FFF7F7;
         h1{
             font-size: 25px;
-            font-family: 300;
+            font-family: 400;
             text-align: center;
         }
         p{
             font-size: 13px;
-            font-weight: 300;
+            font-weight: 400;
             text-align: center;
         }
     }
@@ -378,7 +386,7 @@ p{
     }
     p{
         font-size: 13px;
-        font-family: 300;
+        font-family: 400;
         text-align: center;
         margin-top: 10px;
     }
@@ -389,13 +397,13 @@ p{
         margin-bottom: 50px;
         h1{
             font-size: 25px;
-            font-family: 300;
+            font-family: 400;
             margin-top: 50px;
         }
         p{
             font-size: 13px;
-            font-family: 300;
-            margin-bottom: 55px;
+            font-family: 400;
+            margin-bottom: 20px;
         }
         img{
             width: 100%;
@@ -404,10 +412,19 @@ p{
         h3{
             //margin-top: 10px;
             font-size: 15px;
-            font-family: 300;
+            font-family: 400;
         }
         .line-2{
-            height: 60px;
+            height: 35px;
+        }
+        .line-3{
+            height: 55px;
+        }
+        .line-4{
+            height: 25px;
+        }
+        .line-5{
+            height: 20px;
         }
         .col-md-2{
             width: 20%;
@@ -423,18 +440,18 @@ p{
         background-color: #FFF7F7;
         h1{
             font-size: 25px;
-            font-family: 300;
+            font-family: 400;
             margin-bottom: 40px;
         }
         h3{
             color: #6C6C6C;
             font-size: 15px;
-            font-weight: 300;
+            font-weight: 400;
             margin-top: 10px;
         }
         p{
             font-size: 13px;
-            font-family: 300;
+            font-family: 400;
             margin-bottom: 0;
         }
         img{
@@ -506,7 +523,7 @@ p{
     }
     h5{
         font-size: 17px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
         margin-top: 20px;
         line-height: 20px;
     }
