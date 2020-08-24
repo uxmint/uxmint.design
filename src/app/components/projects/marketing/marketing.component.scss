@@ -21,7 +21,7 @@
         p{
             color: #5C5C5C;
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             text-align: justify;
         }
     }
@@ -50,7 +50,7 @@
             }
             p{
                 font-size: 13px;
-                line-height: 25px;
+                line-height: 20px;
             }
         }
         .image{
@@ -69,13 +69,14 @@
     padding-bottom: 30px;
     padding-top: 50px;
     h1{
-        font-weight: 300;
+        font-weight: 400;
         font-size: 40px;
-        padding-bottom: 20px;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         color: #5C5C5C;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 14px;
         text-align: justify;
     }
@@ -90,12 +91,12 @@
                 padding-right: 0;
             }
             h3{
-                font-weight: 300;
+                font-weight: 400;
                 font-size: 14px;
                 color: #707070;
             }
             p{
-                font-weight: 300;
+                font-weight: 400;
                 font-size: 14px;
                 color: #000000;
             }
@@ -111,7 +112,7 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
         .list{
             li{
@@ -134,11 +135,12 @@
     background-color: #FAFAFA;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
         padding-top: 20px;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 14px;
         color: #5C5C5C;
         text-align: justify;
@@ -165,7 +167,7 @@
     }
     p{
         font-size: 13px;
-        line-height: 25px;
+        line-height: 20px;
         padding-top: 10px;
     }
 }
@@ -177,18 +179,20 @@
     padding-bottom: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 30px;
     }
     h3{
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
     .color{
         img{
             width: 80%;
-            padding-bottom: 50px;
+            padding-bottom: 80px;
         }
     }
     .icon{
@@ -213,8 +217,15 @@
     h3{
         font-size: 17px;
     }
+    .color{
+        img{
+            width: 80%;
+            padding-bottom: 50px;
+        }
+    }
 }
 }
+
 .uxhead-image{
 .step-image{
     text-align: center;
@@ -231,7 +242,8 @@ img{
     padding-bottom: 50px;
     h3{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 50px;
     }
     img{
@@ -265,7 +277,8 @@ img{
     .heading{
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 30px;
         color: #ffffff;
     }
@@ -310,7 +323,8 @@ img{
     background-color: #131F39;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 30px;
         color: #ffffff;
     }

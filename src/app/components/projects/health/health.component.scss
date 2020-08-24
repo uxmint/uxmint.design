@@ -10,12 +10,13 @@
     h1{
         padding-top: 150px;
         font-size: 50px;
-        font-weight: 300;
-        padding-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         padding-bottom: 20px;
         text-align: justify;
     }
@@ -47,12 +48,13 @@
     padding-top: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
-        padding-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -68,12 +70,12 @@
             }
             h3{
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 400;
                 color: #707070;
             }
             p{
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 400;
                 color: #000000;
             }
         }
@@ -89,7 +91,7 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
         .list{
             li{
@@ -112,7 +114,8 @@
     padding-bottom: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     .icons{
         list-style: none;
@@ -158,19 +161,21 @@
     color: #ffffff;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
     .research1{
         padding-bottom: 30px;
     h3{
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: left;
         color: #CBCBCB;
     }
@@ -178,12 +183,13 @@
     .research2{
         h3{
             font-size: 24px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif JP', serif;
             padding-bottom: 10px;
         }
         p{
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             text-align: justify;
             color: #CBCBCB;
         }
@@ -206,7 +212,7 @@
                     padding-bottom: 0px;
                     padding-top: 20px;
                     font-size: 14px;
-                    font-weight: 300;
+                    font-weight: 400;
                     margin-left: 13px;
                 }
             }
@@ -232,6 +238,7 @@
         padding-top: 30px;
         h1{
             font-size: 25px;
+            padding-bottom: 10px;
         }
         .research1{
         h3{
@@ -250,7 +257,7 @@
             }
             p{
                 font-size: 13px;
-                line-height: 25px;
+                line-height: 20px;
             }
             img{
                 width: 30%;
@@ -295,19 +302,21 @@
     padding-bottom: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
-        padding-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #5C5C5C;
         padding-bottom: 40px;
         text-align: justify;
     }
     h3{
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 10px;
         color: #707070;
     }
@@ -337,6 +346,7 @@
 @include media-breakpoint-down(md) {
 .users-journey{
         padding-top: 30px;
+        padding-bottom: 10px;
         h1{
             font-size: 25px;
             padding-bottom: 10px;
@@ -359,8 +369,9 @@
                     padding-right: 0;
                 }
                 img{
-                    width: 100%;
+                    width: 80%;
                     height: auto;
+                    padding: 0;
                 }
             }
         }
@@ -368,6 +379,7 @@
             width: 100%;
             height: auto;
             padding: 10px;
+            margin-bottom: 20px;
         }
     }
 }
@@ -378,13 +390,14 @@
     padding-bottom: 50px;
     h3{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -396,6 +409,7 @@
     h3{
         font-size: 25px;
         padding-bottom: 10px;
+        padding-top: 20px;
     }
     p{
         font-size: 13px;
@@ -418,9 +432,10 @@
     h1{
         padding-top: 80px;
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
-        color: #15A450;
+        color: #FFFFFF;
     }
     .step-image{
         text-align: center;

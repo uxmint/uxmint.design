@@ -9,11 +9,13 @@
     padding-bottom: 20px;
     h1{
         font-size: 50px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #6C6C6C;
         text-align: justify;
     }
@@ -27,7 +29,7 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
     }
 }
@@ -37,18 +39,20 @@
     padding-bottom: 30px;
     padding-top: 50px;
     h1{
-        font-weight: 300;
+        font-weight: 400;
         font-size: 40px;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
     h3{
-        font-weight: 300;
+        font-weight: 400;
         font-size: 24px;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #6C6C6C;
         text-align: justify;
     }
@@ -79,18 +83,20 @@
     padding-top: 50px;
     background-color: #F7F7F7;
     h1{
-        font-weight: 300;
+        font-weight: 400;
         font-size: 40px;
-        padding-bottom: 30px;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     h3{
-        font-weight: 300;
-        font-size: 30px;
-        padding-bottom: 20px;
+        font-weight: 400;
+        font-size: 24px;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         padding-bottom: 20px;
         color: #6C6C6C;
         text-align: justify;
@@ -98,7 +104,7 @@
     .types{
         p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         padding-bottom: 1px;
         color: #242424;
         }
@@ -117,7 +123,7 @@
     }
     p{
         font-size: 13px;
-        line-height: 25px;
+        line-height: 20px;
         padding-bottom: 10px;
     }
     .types{

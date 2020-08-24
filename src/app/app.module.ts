@@ -5,7 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NguCarouselModule } from '@ngu/carousel';
 import { Angulartics2Module } from 'angulartics2';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faPhone, faMobileAlt ,faEnvelope, faMapMarkerAlt, faBars, faDirections, faPaperclip, faChevronRight, faCheckCircle, faExclamationTriangle, 
+import { faHome, faPhone, faMobileAlt ,faEnvelope, faMapMarkerAlt, faBars, faDirections, faPaperclip, faChevronRight, faCheckCircle, faExclamationTriangle, 
 faCog, faUser, faGift, faBell, faSearch, faCalendar, faPlayCircle, faUserAlt, faThLarge, faEnvelopeOpen, faClock, faLink, faInfoCircle, faUniversity, faUmbrella, faDollarSign, faStoreAlt, faHandHoldingHeart,  faGraduationCap,
  faCheckSquare, faChartBar, faChevronDown, faChevronUp, faPortrait, faCamera, faCalendarAlt, faArrowLeft, faUserFriends, faCommentAlt, faUsers, faDesktop} from '@fortawesome/free-solid-svg-icons';
 import { faYoutubeSquare,faAndroid, faFacebookSquare, faLinkedin, faInstagram, faMedium, faWhatsapp, faFacebook, faWindows, faApple } from '@fortawesome/free-brands-svg-icons';
@@ -103,6 +103,6 @@ import { CaterComponent } from './components/cater/cater.component';
 export class AppModule { 
 
   constructor(private library: FaIconLibrary) {
-    this.library.addIcons(faPhone,faMobileAlt, faWindows, faAndroid, faEnvelope, faMapMarkerAlt, faYoutubeSquare, faApple, faFacebookSquare, faLinkedin, faBars, faDirections, faPaperclip, faInstagram, faMedium, faChevronRight, faCheckCircle, faExclamationTriangle,faCog, faUser, faGift, faBell, faSearch, faCalendar, faPlayCircle, faUserAlt, faThLarge, faEnvelopeOpen, faClock, faLink, faInfoCircle, faCheckSquare, faChartBar, faChevronDown, faChevronUp, faPortrait, faCamera, faCalendarAlt, faArrowLeft, faUserFriends, faWhatsapp, faCommentAlt, faFacebook, faUsers, faDesktop, faUniversity, faUmbrella, faDollarSign, faStoreAlt, faHandHoldingHeart, faGraduationCap);
+    this.library.addIcons(faHome,faPhone,faMobileAlt, faWindows, faAndroid, faEnvelope, faMapMarkerAlt, faYoutubeSquare, faApple, faFacebookSquare, faLinkedin, faBars, faDirections, faPaperclip, faInstagram, faMedium, faChevronRight, faCheckCircle, faExclamationTriangle,faCog, faUser, faGift, faBell, faSearch, faCalendar, faPlayCircle, faUserAlt, faThLarge, faEnvelopeOpen, faClock, faLink, faInfoCircle, faCheckSquare, faChartBar, faChevronDown, faChevronUp, faPortrait, faCamera, faCalendarAlt, faArrowLeft, faUserFriends, faWhatsapp, faCommentAlt, faFacebook, faUsers, faDesktop, faUniversity, faUmbrella, faDollarSign, faStoreAlt, faHandHoldingHeart, faGraduationCap);
   }
 }

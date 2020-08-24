@@ -18,17 +18,19 @@
             }
             h1{
                 font-size: 50px;
-                font-weight: 300;
+                font-weight: 400;
+                font-family: 'Noto Serif JP', serif;
             }
             h3{
                 font-size: 40px;
-                font-weight: 300;
+                font-weight: 400;
+                font-family: 'Noto Serif JP', serif;
             }
 }
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
         color: #5C5C5C;
     }
@@ -54,7 +56,7 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
     }
 }
@@ -65,12 +67,13 @@
     padding-top: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -86,12 +89,12 @@
             }
             h3{
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 400;
                 color: #707070;
             }
             p{
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 400;
                 color: #000000;
             }
         }
@@ -106,7 +109,7 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
         .list{
             li{
@@ -128,12 +131,13 @@
     padding-top: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -148,7 +152,6 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
         }
     }
 }
@@ -159,13 +162,14 @@
     padding-top: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
     p{
         padding-bottom: 20px;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -181,7 +185,7 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
             padding-bottom: 10px;
         }
     }
@@ -201,17 +205,18 @@
 
 /* Solution */
 .solution{
-    padding-bottom: 50px;
+    //padding-bottom: 50px;
     padding-top: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
     p{
         padding-bottom: 20px;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #5C5C5C;
         text-align: justify;
     }
@@ -219,7 +224,7 @@
 
 @include media-breakpoint-down(md) {
     .solution{
-        padding-bottom: 30px;
+        //padding-bottom: 30px;
         padding-top: 30px;
         h1{
             font-size: 25px;
@@ -227,7 +232,7 @@
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
             padding-bottom: 10px;
         }
     }
@@ -241,7 +246,8 @@
     .heading{
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 30px;
         color: #ffffff;
     }

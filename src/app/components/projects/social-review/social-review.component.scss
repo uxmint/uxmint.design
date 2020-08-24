@@ -11,23 +11,24 @@
         h1{
             font-size: 50px;
             font-weight: 400;
+            font-family: 'Noto Serif JP', serif;
             color: #15A450;
         }
         h3{
             font-size: 40px;
-            font-weight: 300;
+            font-weight: 400;
             padding-bottom: 10px;
         }
         p{
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             color: #5C5C5C;
             text-align: justify;
         }
         .background{
             img{
             width: 100%;
-            height: 300px;
+            height: 400px;
             }
         }
     }
@@ -47,13 +48,14 @@
         padding-top: 0px;
         h1{
             font-size: 30px;
+            margin-bottom: 15px;
         }
         h3{
             font-size: 25px;
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
             margin-bottom: 0;
         }
         .background{
@@ -81,11 +83,12 @@
     color: #ffffff;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
     }
     .list{
@@ -101,12 +104,10 @@
             h3{
                 font-size: 15px;
                 font-weight: 400;
-                font-family: 'Roboto Slab', serif;
             }
             p{
                 font-size: 15px;
                 font-weight: 400;
-                font-family: 'Roboto Slab', serif;
             }
         }
     }
@@ -118,10 +119,11 @@
     padding-top: 30px;
         h1{
             font-size: 25px;
+            margin-bottom: 15px;
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
         .list{
             li{
@@ -138,76 +140,80 @@
 }
 
 /* Process */
-.process{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    h1{
-        font-size: 40px;
-        font-weight: 300;
-        padding-bottom: 50px;
-    }
-    h6{
-        font-size: 24px;
-        font-weight: 300;
-        color: #808080;
-        padding-bottom: 10px;
-    }
-    p{
-        font-size: 14px;
-        font-weight: 300;
-    }
-    .step-image1 img {
-        height: auto;
-        width: auto;
-        padding-bottom: 15px;
-        margin-left: 15px;
-        margin-right: auto;
-    }
-}
+// .process{
+//     padding-top: 50px;
+//     padding-bottom: 50px;
+//     h1{
+//         font-size: 40px;
+//         font-weight: 400;
+//         font-family: 'Noto Serif JP', serif;
+//         padding-bottom: 50px;
+//     }
+//     h6{
+//         font-size: 24px;
+//         font-weight: 400;
+//         font-family: 'Noto Serif JP', serif;
+//         color: #808080;
+//         padding-bottom: 10px;
+//     }
+//     p{
+//         font-size: 14px;
+//         font-weight: 400;
+//     }
+//     .step-image1 img {
+//         height: auto;
+//         width: auto;
+//         padding-bottom: 15px;
+//         margin-left: 15px;
+//         margin-right: auto;
+//     }
+// }
 
-@include media-breakpoint-down(md) {
-.process{
-        h1{
-            font-size: 25px;
-            padding-bottom: 20px;
-        }
-        h6{
-            font-size: 17px;
-        }
-        p{
-            font-size: 13px;
-        }
-        .step-image1 img {
-            margin-left: 0px;
-        }
-        .col-sm-3{
-            //width: 40%;
-            padding-left: 40px;
-            padding-bottom: 20px;
-        }
-    }
-}
+// @include media-breakpoint-down(md) {
+// .process{
+//         h1{
+//             font-size: 25px;
+//             padding-bottom: 20px;
+//         }
+//         h6{
+//             font-size: 17px;
+//         }
+//         p{
+//             font-size: 13px;
+//         }
+//         .step-image1 img {
+//             margin-left: 0px;
+//         }
+//         .col-sm-3{
+//             //width: 40%;
+//             padding-left: 40px;
+//             padding-bottom: 20px;
+//         }
+//     }
+// }
 
 /* Research */
 .research{
-    padding-top: 50px;
+    //padding-top: 50px;
     padding-bottom: 50px;
     background-color: #15A450;
     color: #ffffff;
     h1{
         font-size: 40px;
-        font-weight: 300;
-        padding-bottom: 40px;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 20px;
     }
     h3{
         font-size: 24px;
-        font-weight: 300;
-        padding-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
-        padding-bottom: 20px;
+        font-weight: 400;
+        padding-bottom: 10px;
         text-align: justify;
         //color: #CBCBCB;
     }
@@ -215,7 +221,7 @@
 
 @include media-breakpoint-down(md) {
 .research{
-        padding-top: 30px;
+        //padding-top: 30px;
         padding-bottom: 30px;
         h1{
             font-size: 25px;
@@ -224,7 +230,7 @@
         h3{
             font-size: 17px;
             margin-bottom: 10px;
-            margin-top: 20px;
+            margin-top: 10px;
             padding-bottom: 0px;
         }
         p{
@@ -242,13 +248,14 @@
     background-color: #3B445B;
     h3{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
         color: #ffffff;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #CBCBCB;
     }
 }
@@ -275,7 +282,8 @@
     background-color: #FAFAFA;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
 }
@@ -301,7 +309,8 @@
     background-color: #FAFAFA;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
 }
@@ -327,7 +336,8 @@
     background-color: #FAFAFA;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 20px;
     }
 }
@@ -354,7 +364,8 @@
     .heading{
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 30px;
         color: #ffffff;
     }

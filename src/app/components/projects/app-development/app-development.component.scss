@@ -7,18 +7,19 @@
 .app-development{
     .case-study{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         padding-top: 80px;
     }
     .heading{
         h1{
             font-size: 50px;
-            font-weight: 300;
+            font-weight: 400;
+            font-family: 'Noto Serif JP', serif;
         }
         p{
             color: #575757;
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             text-align: left;
         }
     }
@@ -26,7 +27,7 @@
         p{
             color: #575757;
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             padding-top: 40px;
         }
     }
@@ -35,10 +36,10 @@
         padding: 0;
         li{
             padding-right: 15px;
-            display: inline-block;
+            //display: inline-block;
             color: #000000;
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             &:last-child{
                 padding-right: 0;
             }
@@ -59,10 +60,11 @@
         .heading{
             h1{
                 font-size: 30px;
+                margin-bottom: 10px;
             }
             p{
                 font-size: 13px;
-                line-height: 25px;
+                line-height: 20px;
             }
         }
         .web{
@@ -88,12 +90,13 @@
     padding-bottom: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
         color: #575757;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
     }
 }
@@ -104,10 +107,11 @@
         padding-bottom: 30px;
         h1{
             font-size: 25px;
+            padding-bottom: 10px;
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
     }
 }
@@ -120,13 +124,15 @@
     color: #ffffff;
     h1{
         font-size: 40px;
-        font-weight: 300;
-        padding-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
+        padding-bottom: 10px;
     }
     .list-icons{
         padding-top: 20px;
@@ -160,7 +166,8 @@
     }
     p{
         font-size: 13px;
-        line-height: 25px;
+        line-height: 20px;
+        text-align: left;
     }
 }
 }
@@ -172,19 +179,22 @@
     background-color: #FCEFF3;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
-        padding-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #575757;
         text-align: justify;
     }
     h3{
         color: #000000;
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -211,6 +221,7 @@
         p{
             font-size: 13px;
             padding-top: 10px;
+            text-align: left;
         }
         .list-icons{
             li{
@@ -226,13 +237,14 @@
     padding-bottom: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
         color: #575757;
         padding-top: 30px;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
     }
     .list{
@@ -240,7 +252,7 @@
         li{
         padding-top: 20px;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #575757;
         }
     }

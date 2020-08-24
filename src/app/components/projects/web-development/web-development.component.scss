@@ -8,19 +8,20 @@
     padding-top: 80px;
     .case-study{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         padding-top: 30px;
     }
     .heading{
         h1{
             font-size: 50px;
-            font-weight: 300;
-            line-height: 70px;
+            font-weight: 400;
+            font-family: 'Noto Serif JP', serif;
+            //line-height: 70px;
         }
         p{
             color: #575757;
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             text-align: left;
         }
     }
@@ -28,7 +29,7 @@
         p{
             color: #575757;
             font-size: 14px;
-            font-weight: 300;
+            font-weight: 400;
             padding-top: 40px;
         }
     }
@@ -37,7 +38,7 @@
         padding: 0;
         li{
             padding-right: 15px;
-            display: inline-block;
+            //display: inline-block;
             color: #000000;
             &:last-child{
                 padding-right: 0;
@@ -65,7 +66,7 @@
             }
             p{
                 font-size: 13px;
-                line-height: 25px;
+                line-height: 20px;
             }
         }
         .web{
@@ -94,12 +95,13 @@
     padding-bottom: 100px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
         color: #575757;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
     }
 }
@@ -110,10 +112,11 @@
         padding-bottom: 30px;
         h1{
             font-size: 25px;
+            padding-bottom: 10px;
         }
         p{
             font-size: 13px;
-            line-height: 25px;
+            line-height: 20px;
         }
     }
 }
@@ -126,13 +129,15 @@
     color: #ffffff;
     h1{
         font-size: 40px;
-        font-weight: 300;
-        padding-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
+        padding-bottom: 10px;
     }
     p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
+        padding-bottom: 20px;
     }
     .icon{
         fa-icon{
@@ -158,7 +163,7 @@
     }
     p{
         font-size: 13px;
-        line-height: 25px;
+        line-height: 20px;
     }
     .icon{
         p{
@@ -175,19 +180,22 @@
     background-color: #EFF5F9;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
-        padding-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
         color: #575757;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
     }
     h3{
         color: #000000;
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -228,13 +236,14 @@
     padding-bottom: 50px;
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
     }
     p{
-        padding-top: 30px;
+        padding-top: 10px;
         color: #575757;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         text-align: justify;
     }
     .list{
@@ -242,7 +251,7 @@
         li{
         padding-top: 20px;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: #575757;
         text-align: justify;
         }
@@ -285,7 +294,8 @@
     .heading{
     h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
+        font-family: 'Noto Serif JP', serif;
         padding-bottom: 30px;
         color: #ffffff;
     }

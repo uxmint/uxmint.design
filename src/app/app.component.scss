@@ -7,43 +7,69 @@
     display: block;
 }
 
-.overlay { 
-    height: 0%; 
+/* Menu */
+.menu{ 
+    height: 100%; 
     width: 100%; 
-    position: fixed; 
+    position: absolute; 
     top: 0; 
     left: 0; 
-    background-color: #1a6e1a; 
-    overflow-y: hidden; 
-    transition: 1.0s; 
-} 
-
-.overlay-content { 
-    position: relative; 
-    top: 25%; 
-    width: 100%; 
-    text-align: center; 
-} 
-
-.overlay a { 
-    padding: 10px; 
-    text-decoration: none; 
-    font-size: 40px; 
-    color: white; 
-    display: block; 
-    transition: 0.3s; 
-} 
-
-.overlay a:hover, 
-.overlay a:focus { 
-    color: black; 
-} 
-
-.overlay .closebtn { 
-    position: absolute; 
-    top: 10px; 
-    right: 35px; 
-    font-size: 70px; 
+    z-index: 2;
+    background-color: #000; 
+    // overflow-y: hidden; 
+    // transition: 1.0s; 
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+        margin-top: 100px;
+        color: #ADADAD;
+    }
+    .icon{
+        margin-top: 90px;
+        fa-icon{
+            font-size: 25px;
+            color: #ADADAD;
+        }
+    }
+    .style{
+        font-size: 40px;
+        font-weight: 400;
+        text-align: right;
+        cursor: pointer;
+        margin-top: 100px;
+        color: #ADADAD;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-top: 100px;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .links{
+        padding: 20px 0;
+        margin: 0;
+        list-style: none;
+        li{
+            font-size: 14px;
+            font-weight: 400;
+            padding-bottom: 14px;
+            a{
+                line-height: 21px;
+                color: #8D8D8D;
+            }
+        }
+    }
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
 } 
 
 /* Header */
@@ -56,11 +82,9 @@ header{
     }
     .navbar-brand{
         padding: 20px 0;
-        //
         img{
             width: 200%;
         }
-        //
     }
     .NavBar-HamburgerIcon {
         -webkit-transition: all .25s linear;

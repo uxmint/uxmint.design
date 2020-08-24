@@ -171,7 +171,6 @@ label{
     .bttn{
         color: #585858;
         padding: 0;
-        font-weight: 300;
         font-size: 12px;
         font-weight: 400;
         font-family: 'Noto Sans JP', sans-serif;
@@ -382,7 +381,7 @@ label{
     margin-top: 80px;
     margin-bottom: 40px;
     h3{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 }
@@ -443,7 +442,7 @@ label{
     color: #dc3545;
     margin-top: 10px;
     font-weight: 400;
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .contact-us{
     margin: 100px 0;
@@ -740,7 +739,7 @@ img{
                 padding-right: 60px;
                 a{
                     font-size: 16px;
-                    font-weight: 300;
+                    font-weight: 400;
                     color: rgba(0, 0, 0, .5);
                     span{
                         position: relative;
@@ -897,6 +896,7 @@ img{
         background-color: #F5F5F5;
         padding-top: 80px;
         padding-bottom: 250px;
+        font-weight: 400;
         font-family: 'Noto Serif JP', serif;
 h4{
     text-align: center;
@@ -1037,7 +1037,7 @@ h4{
             color: #585858;
             padding: 0;
             font-size: 10px;
-            font-weight: 300;
+            font-weight: 400;
         }
         // &:hover{
         //     //background-color: #434343;
