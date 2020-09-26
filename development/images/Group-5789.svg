@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="73" viewBox="0 0 73 73">
+  <g id="Group_5789" data-name="Group 5789" transform="translate(-415 -2828)">
+    <g id="Rectangle_4414" data-name="Rectangle 4414" transform="translate(415 2828)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="73" height="73" stroke="none"/>
+      <rect x="0.5" y="0.5" width="72" height="72" fill="none"/>
+    </g>
+    <g id="Group_5770" data-name="Group 5770" transform="translate(-81 -33)">
+      <path id="Polygon_6" data-name="Polygon 6" d="M42.7,0a4,4,0,0,1,3.455,1.985L58.824,23.7a4,4,0,0,1,0,4.031L46.158,49.444A4,4,0,0,1,42.7,51.429H17.3a4,4,0,0,1-3.455-1.985L1.176,27.73a4,4,0,0,1,0-4.031L13.842,1.985A4,4,0,0,1,17.3,0Z" transform="translate(503 2872)" fill="#623ec6"/>
+      <path id="Icon_awesome-power-off" data-name="Icon awesome-power-off" d="M18.575,2.486a11.394,11.394,0,1,1-13.243,0,1.106,1.106,0,0,1,1.608.354l.726,1.291a1.1,1.1,0,0,1-.3,1.424,7.719,7.719,0,1,0,9.185,0,1.1,1.1,0,0,1-.3-1.42l.726-1.291a1.1,1.1,0,0,1,1.6-.358ZM13.8,12.131V1.1a1.1,1.1,0,0,0-1.1-1.1h-1.47a1.1,1.1,0,0,0-1.1,1.1V12.131a1.1,1.1,0,0,0,1.1,1.1h1.47A1.1,1.1,0,0,0,13.8,12.131Z" transform="translate(521.221 2886.135)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
