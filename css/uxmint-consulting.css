@@ -3544,6 +3544,9 @@ svg.bi.bi-heart{
     padding-right: 10%;
     padding-left: 10%;
   }
+  .container-22-uxahead {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
