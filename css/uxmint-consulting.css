@@ -4974,16 +4974,18 @@ label.error {
   display: none;
 }
 .modal>div{
-  max-width: 400px;
+  max-width: 550px;
   width: 100%;
-  padding: 20px;
-  background-color: #fff;
+  padding: 70px;
+  background-color: #707070;
   border-radius: 10px;
   position: relative;
+  color: #000000;
 }
 .modal span{
   cursor: pointer;
-  position: absolute;
-  top: 5px;
-  right: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
 }
