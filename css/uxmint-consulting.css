@@ -1453,6 +1453,15 @@ svg.bi.bi-heart{
   background-color: #43BA55;
 }
 
+.sectionhero-uxahead {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  background-color: #C72A3F;
+}
+
 .sectionhero-metamorp {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1550,6 +1559,31 @@ svg.bi.bi-heart{
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #43BA55;
+}
+
+.wrapper1.uxahead {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  /* padding-top: 3%; */
+  /* padding-right: 10%;
+  padding-left: 10%; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #C72A3F;
 }
 
 .wrapper1.metamorp {
@@ -2250,6 +2284,12 @@ svg.bi.bi-heart{
   padding-left: 3%;
 }
 
+.container-22-uxahead {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 100px;
+}
+
 .container-marketing {
   display: block;
   max-width: 100%;
@@ -2574,6 +2614,14 @@ svg.bi.bi-heart{
 .container-19 {
   max-width: 100%;
   padding-top: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.container-19-uxahead {
+  max-width: 100%;
+  padding-top: 3%;
+  padding-bottom: 10%;
   padding-right: 3%;
   padding-left: 3%;
 }
@@ -3000,6 +3048,9 @@ svg.bi.bi-heart{
     height: auto;
   }
   .sectionhero-csa {
+    height: auto;
+  }
+  .sectionhero-uxahead {
     height: auto;
   }
   .sectionhero-metamorp {
@@ -3720,6 +3771,9 @@ svg.bi.bi-heart{
   .sectionhero-csa {
     height: auto;
   }
+  .sectionhero-uxahead {
+    height: auto;
+  }
   .sectionhero-metamorp {
     height: auto;
   }
@@ -4419,6 +4473,9 @@ svg.bi.bi-heart{
     height: auto;
   }
   .sectionhero-csa {
+    height: auto;
+  }
+  .sectionhero-uxahead {
     height: auto;
   }
   .sectionhero-metamorp {
