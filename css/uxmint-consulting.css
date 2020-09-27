@@ -2064,6 +2064,26 @@ svg.bi.bi-heart{
   background-color: #14dba7;
 }
 
+.div-block-80-marketing {
+  width: 40%;
+  min-height: 645px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 5%;
+  padding-left: 10%;
+  background-color: #00B15B;
+}
+
+.div-block-80-skill {
+  width: 40%;
+  min-height: 645px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 5%;
+  padding-left: 10%;
+  background-color: #742EB1;
+}
+
 .div-block-80-sify {
   width: 40%;
   min-height: 645px;
@@ -2196,6 +2216,18 @@ svg.bi.bi-heart{
   font-size: 26px;
 }
 .section-17 {
+  display: block;
+  max-width: 1300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.section-17-health {
   display: block;
   max-width: 1300px;
   padding-top: 100px;
@@ -3302,6 +3334,10 @@ svg.bi.bi-heart{
     padding-top: 60px;
     padding-bottom: 100px;
   }
+  .section-17-health {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
   .container-13 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3545,6 +3581,13 @@ svg.bi.bi-heart{
     padding-left: 10%;
   }
   .container-22-uxahead {
+    padding-bottom: 0;
+  }
+  .container-23-marketing {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  .container-marketing2{
     padding-bottom: 0;
   }
 }
@@ -3981,6 +4024,16 @@ svg.bi.bi-heart{
     min-height: 400px;
     padding-right: 10%;
   }
+  .div-block-80-marketing {
+    width: 100%;
+    min-height: 400px;
+    padding-right: 10%;
+  }
+  .div-block-80-skill {
+    width: 100%;
+    min-height: 460px;
+    padding-right: 10%;
+  }
   .div-block-80-sify {
     width: 100%;
     min-height: 400px;
@@ -4015,6 +4068,7 @@ svg.bi.bi-heart{
   .div-block-81-marketing {
     width: 100%;
     padding-right: 10%;
+    min-height: 530px;
   }
   .div-block-81-sify {
     width: 100%;
@@ -4034,6 +4088,9 @@ svg.bi.bi-heart{
   }
   .section-17 {
     padding-bottom: 100px;
+  }
+  .section-17-health {
+    padding-bottom: 0px;
   }
   .grid-25 {
     grid-auto-columns: 1.75fr;
@@ -4143,6 +4200,10 @@ svg.bi.bi-heart{
     background-position: 50% 50%;
     background-size: auto;
     background-repeat: no-repeat;
+  }
+  .container-23-marketing {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -4680,6 +4741,13 @@ svg.bi.bi-heart{
     grid-template-columns: 1fr;
   }
   .div-block-80 {
+    padding-right: 10%;
+  }
+  .div-block-80-marketing {
+    min-height: 630px;
+    padding-right: 10%;
+  }
+  .div-block-80-skill {
     padding-right: 10%;
   }
   .div-block-80-sify {
