@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_6487" data-name="Group 6487" transform="translate(-9591 -651)">
+    <rect id="Rectangle_4842" data-name="Rectangle 4842" width="40" height="40" transform="translate(9591 651)" fill="#fff" opacity="0"/>
+    <g id="Group_6462" data-name="Group 6462" transform="translate(8670.5 -534)">
+      <path id="Icon_material-warning" data-name="Icon material-warning" d="M1.5,23.727h24L13.5,3Z" transform="translate(927 1192)" fill="none" stroke="#fa4e2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_97" data-name="Line 97" y2="3" transform="translate(940.5 1203.5)" fill="none" stroke="#fa4e2e" stroke-linecap="round" stroke-width="2"/>
+      <g id="Ellipse_1140" data-name="Ellipse 1140" transform="translate(939 1209)" fill="none" stroke="#fa4e2e" stroke-width="2">
+        <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+        <circle cx="1.5" cy="1.5" r="0.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
