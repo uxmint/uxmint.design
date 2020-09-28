@@ -1906,6 +1906,12 @@ svg.bi.bi-heart{
   min-width: 100%;
 }
 
+.image-section-interface {
+  height: auto;
+  min-width: 100%;
+  padding-bottom: 150px;
+}
+
 .image-11 {
   display: block;
   max-width: 100%;
@@ -4204,6 +4210,9 @@ svg.bi.bi-heart{
   .container-23-marketing {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .image-section-interface {
+    padding-bottom: 100px;
   }
 }
 
