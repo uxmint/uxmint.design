@@ -975,6 +975,36 @@ svg.bi.bi-heart{
   text-transform: lowercase;
 }
 
+.text-button-link-1-usability1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fa4e2e;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.text-button-link-1-usability1.lower-case {
+  margin-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+.text-button-link-1-usability2 {
+  display: none;
+}
+
 .text-h2-5 {
   font-size: 28px;
   line-height: 32px;
@@ -2858,7 +2888,13 @@ svg.bi.bi-heart{
 .div-block-119 {
   margin-bottom: 10%;
 }
+
 .grid-2-column {
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-2-column-usability {
   margin-top: 100px;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
@@ -3997,6 +4033,9 @@ svg.bi.bi-heart{
   .right-arrow-slider-2 {
     left: -36%;
   }
+  .right-arrow-slider-6 {
+    left: -36%;
+  }
   .navbar {
     padding: 20px;
   }
@@ -4694,6 +4733,33 @@ svg.bi.bi-heart{
   .text-button-link-1.lower-case {
     letter-spacing: 0px;
   }
+  .text-button-link-1-usability1 {
+    display: none;
+  }
+  .text-button-link-1-usability2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fa4e2e;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .text-button-link-1-usability2.lower-case {
+    margin-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    font-size: 16px;
+    text-transform: lowercase;
+  }
   .project-image {
     margin-bottom: 20px;
   }
@@ -4784,10 +4850,20 @@ svg.bi.bi-heart{
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .grid-2-column-usability {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
   .left-arrow-slider-2 {
     left: -43%;
   }
   .right-arrow-slider-2 {
+    left: -20%;
+  }
+  .left-arrow-slider-6 {
+    left: -43%;
+  }
+  .right-arrow-slider-6 {
     left: -20%;
   }
   .navbar {
@@ -5168,6 +5244,10 @@ svg.bi.bi-heart{
     background-size: auto;
   }
   .grid-2-column {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .grid-2-column-usability {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
