@@ -3778,6 +3778,9 @@ svg.bi.bi-heart{
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .section-footer {
+    height: 55vh;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4460,6 +4463,9 @@ svg.bi.bi-heart{
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .footer-divider-2{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4541,9 +4547,10 @@ svg.bi.bi-heart{
     grid-template-columns: 1fr 1fr;
   }
   .section-footer {
-    height: 100vh;
+    height: 115vh;
   }
   .terms-grid {
+    height: 20%;
     margin-top: 30px;
     margin-bottom: 0px;
     padding-left: 20px;
