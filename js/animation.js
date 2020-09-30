@@ -34,13 +34,6 @@ new ScrollMagic.Scene({
 }).setClassToggle('.card2', 'slide-top').addTo(controller);
 
 new ScrollMagic.Scene({
-    triggerElement: '.section-banner',
-    offset: -100,
-    triggerHook: 1,
-    reverse:false
-}).setClassToggle('.section-banner', 'kenburns-top').addTo(controller);
-
-new ScrollMagic.Scene({
     triggerElement: '.banner-animation',
     offset: -50,
     triggerHook: 2.4,
