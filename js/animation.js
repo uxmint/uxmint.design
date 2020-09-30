@@ -5,6 +5,33 @@ new ScrollMagic.Scene({
     triggerHook: 1,
     reverse:false
 }).setClassToggle('.case-study-grid', 'slide-top').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.case-study-grid-2',
+    offset: -100,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.case-study-grid-2', 'slide-top').addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.custom-nav-menu',
+    offset: 0,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.custom-nav-menu', 'slide-in-right').addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.card1',
+    offset: -100,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.card1', 'slide-top').addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.card2',
+    offset: -100,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.card2', 'slide-top').addTo(controller);
 
 new ScrollMagic.Scene({
     triggerElement: '.section-banner',
@@ -152,3 +179,23 @@ new ScrollMagic.Scene({
     triggerHook: 0.9,
     reverse:false
 }).setClassToggle('.dev-icon9', 'slide-top').addTo(controller);
+//Event-Management color pallet 
+
+new ScrollMagic.Scene({
+    triggerElement: '.color-pallet-animation1',
+    offset: -100,
+    triggerHook: 1.4,
+    reverse:false
+}).setClassToggle('.color-pallet-animation1', 'slide-top').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.color-pallet-animation2',
+    offset: -100,
+    triggerHook: 1.2,
+    reverse:false
+}).setClassToggle('.color-pallet-animation2', 'slide-top').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.color-pallet-animation3',
+    offset: -100,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.color-pallet-animation3', 'slide-top').addTo(controller);
