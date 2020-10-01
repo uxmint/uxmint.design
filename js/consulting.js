@@ -120,3 +120,7 @@ if (jQuery().validate) {
     $(this).parents('.modal').hide();
   });
 }
+$('.hammenu,.navclose').click(function(e){
+  e.preventDefault();
+  $('.custom-nav-menu').toggleClass('active');
+});
