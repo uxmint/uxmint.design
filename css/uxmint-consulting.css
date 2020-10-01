@@ -63,8 +63,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding: 10%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -167,7 +166,12 @@
   line-height: 60px;
   font-weight: 500;
 }
-
+.text-h1_1 {
+  font-family: Inter, sans-serif;
+  font-size: 60px;
+  line-height: 85px;
+  font-weight: 500;
+}
 .text-accent-1 {
   color: #623ec6;
 }
@@ -498,7 +502,15 @@ svg.bi.bi-heart{
   line-height: 50px;
   text-decoration: none;
 }
-
+.text-navmenu-link-1:hover {
+  padding-bottom: 40px;
+  font-family: 'Noto Serif', sans-serif;
+  color: #ff6c6c;
+  transition: all 0.5s ease;
+  font-size: 48px;
+  line-height: 50px;
+  text-decoration: none;
+}
 .navclose {
   position: absolute;
   left: auto;
@@ -539,6 +551,14 @@ svg.bi.bi-heart{
 .text-navmenu-link-2 {
   margin-bottom: 30px;
   color: #0f0f0f;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.text-navmenu-link-2:hover {
+  margin-bottom: 30px;
+  color: #ff6c6c;
   font-size: 20px;
   line-height: 20px;
   font-weight: 300;
@@ -741,12 +761,19 @@ svg.bi.bi-heart{
   font-size: 16px;
   text-decoration: none;
 }
-
+.text-link-1-footer:hover {
+  color: #FA4E2E;
+  font-size: 16px;
+  text-decoration: none;
+}
 .text-link-2-footer {
   color: #c7c7c7;
   text-decoration: none;
 }
-
+.text-link-2-footer:hover {
+  color: #FA4E2E;
+  text-decoration: none;
+}
 .footer-divider-1 {
   width: 1px;
   height: 16px;
@@ -4610,6 +4637,10 @@ svg.bi.bi-heart{
     font-size: 18px;
     line-height: 37px;
   }
+  .text-h1_1 {
+    font-size: 26px;
+    line-height: 37px;
+  }
   .wrapper1-2{
     padding: 6% 10% 10% 8%;
   }
@@ -5540,7 +5571,7 @@ label.error {
   width: 0;
   height: 100%;
   border-radius: 7px;
-  background-color: #fa4e2e;
+  background-color: #FA4E2E;
   position: absolute;
   transition: all 0.5s ease;
   content: '';
