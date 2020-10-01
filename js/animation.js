@@ -18,12 +18,12 @@ new ScrollMagic.Scene({
     reverse:false
 }).setClassToggle('.grid-usability', 'slide-top').addTo(controller);
 
-new ScrollMagic.Scene({
-    triggerElement: '.custom-nav-menu',
-    offset: 0,
-    triggerHook: 1,
-    reverse:false
-}).setClassToggle('.custom-nav-menu', 'slide-in-right').addTo(controller);
+// new ScrollMagic.Scene({
+//     triggerElement: '.custom-nav-menu',
+//     offset: 0,
+//     triggerHook: 1,
+//     reverse:false
+// }).setClassToggle('.custom-nav-menu', 'slide-in-right').addTo(controller);
 
 new ScrollMagic.Scene({
     triggerElement: '.card1',
@@ -218,31 +218,31 @@ new ScrollMagic.Scene({
     offset: -100,
     triggerHook: 0.8,
     reverse:false
-}).setClassToggle('.end-icon1', 'bounce-in-bottom').addTo(controller);
+}).setClassToggle('.end-icon1', 'slide-top').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon2',
     offset: -100,
     triggerHook: 0.7,
     reverse:false
-}).setClassToggle('.end-icon2', 'bounce-in-bottom').addTo(controller);
+}).setClassToggle('.end-icon2', 'slide-top').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon3',
     offset: -100,
     triggerHook: 0.6,
     reverse:false
-}).setClassToggle('.end-icon3', 'bounce-in-bottom').addTo(controller);
+}).setClassToggle('.end-icon3', 'slide-top').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon4',
     offset: -100,
     triggerHook: 0.5,
     reverse:false
-}).setClassToggle('.end-icon4', 'bounce-in-bottom').addTo(controller);
+}).setClassToggle('.end-icon4', 'slide-top').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon5',
     offset: -100,
     triggerHook: 0.4,
     reverse:false
-}).setClassToggle('.end-icon5', 'bounce-in-bottom').addTo(controller);
+}).setClassToggle('.end-icon5', 'slide-top').addTo(controller);
 
 //Construction portal
 new ScrollMagic.Scene({
@@ -250,4 +250,4 @@ new ScrollMagic.Scene({
     offset: -100,
     triggerHook: 0.8,
     reverse:false
-}).setClassToggle('.construction-icon1', 'puff-in-center').addTo(controller);
+}).setClassToggle('.construction-icon1', 'slide-top').addTo(controller);

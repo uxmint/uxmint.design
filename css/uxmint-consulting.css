@@ -163,8 +163,8 @@
 
 .text-h1 {
   font-family: Inter, sans-serif;
-  font-size: 65px;
-  line-height: 85px;
+  font-size: 49px;
+  line-height: 60px;
   font-weight: 500;
 }
 
@@ -4607,7 +4607,7 @@ svg.bi.bi-heart{
     padding-left: 20px;
   }
   .text-h1 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 37px;
   }
   .wrapper1-2{
@@ -5520,4 +5520,51 @@ label.error {
     top: 20px;
     right: 20px;
     font-size: 25px;
+}
+.custom-nav-menu {
+  display: block;
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+}
+.custom-nav-menu.active {
+  transform: translateX(0%);
+}
+.button-1.outline.w-button {
+  position: relative;
+}
+.button-1.outline.w-button span {
+  position: relative;
+  z-index: 999;
+}
+.button-1.outline.w-button:after {
+  width: 0;
+  height: 100%;
+  border-radius: 7px;
+  background-color: #fa4e2e;
+  position: absolute;
+  transition: all 0.5s ease;
+  content: '';
+  top: 0;
+  left: 0;
+}
+.button-1.outline.w-button:hover:after {
+  width: 100%;
+}
+@media screen and (max-width: 300px) {
+  .text-h1 {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .div-block-122{
+    width: 70px;
+    height: 70px;
+    margin-top: 4px;
+    padding: 9px;
+  }
+  .text-hero {
+    color: #fff;
+    font-size: 11px;
+    line-height: 17px;
+    font-weight: 400;
+  }
 }
