@@ -216,30 +216,38 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: '.end-icon1',
     offset: -100,
-    triggerHook: 1.4,
+    triggerHook: 0.8,
     reverse:false
 }).setClassToggle('.end-icon1', 'bounce-in-bottom').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon2',
     offset: -100,
-    triggerHook: 1.2,
+    triggerHook: 0.7,
     reverse:false
 }).setClassToggle('.end-icon2', 'bounce-in-bottom').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon3',
     offset: -100,
-    triggerHook: 1,
+    triggerHook: 0.6,
     reverse:false
 }).setClassToggle('.end-icon3', 'bounce-in-bottom').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon4',
     offset: -100,
-    triggerHook: 0.8,
+    triggerHook: 0.5,
     reverse:false
 }).setClassToggle('.end-icon4', 'bounce-in-bottom').addTo(controller);
 new ScrollMagic.Scene({
     triggerElement: '.end-icon5',
     offset: -100,
-    triggerHook: 0.6,
+    triggerHook: 0.4,
     reverse:false
 }).setClassToggle('.end-icon5', 'bounce-in-bottom').addTo(controller);
+
+//Construction portal
+new ScrollMagic.Scene({
+    triggerElement: '.construction-icon1',
+    offset: -100,
+    triggerHook: 0.8,
+    reverse:false
+}).setClassToggle('.construction-icon1', 'puff-in-center').addTo(controller);
