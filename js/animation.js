@@ -11,6 +11,12 @@ new ScrollMagic.Scene({
     triggerHook: 1,
     reverse:false
 }).setClassToggle('.case-study-grid-2', 'slide-top').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.grid-usability',
+    offset: -100,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.grid-usability', 'slide-top').addTo(controller);
 
 new ScrollMagic.Scene({
     triggerElement: '.custom-nav-menu',
@@ -46,6 +52,13 @@ new ScrollMagic.Scene({
     triggerHook: 1,
     reverse:false
 }).setClassToggle('.slide-image', 'slide-top').addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.image-section-interface',
+    offset: -100,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.image-section-interface', 'slide-top').addTo(controller);
 
 // Home page Logos
 new ScrollMagic.Scene({
@@ -85,7 +98,7 @@ new ScrollMagic.Scene({
     reverse:false
 }).setClassToggle('.logo6', 'slide-top').addTo(controller);
 
-// Usability Testing 5 Icons 
+// Services 5 Icons 
 new ScrollMagic.Scene({
     triggerElement: '.icon1',
     offset: -100,
@@ -116,8 +129,14 @@ new ScrollMagic.Scene({
     triggerHook: 0.8,
     reverse:false
 }).setClassToggle('.icon5', 'slide-top').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.icon6',
+    offset: -100,
+    triggerHook: 0.6,
+    reverse:false
+}).setClassToggle('.icon6', 'slide-top').addTo(controller);
 
-//Usability Testing 9 Dev-icons dev-icon1
+//Services 9 Dev-icons dev-icon1
 new ScrollMagic.Scene({
     triggerElement: '.dev-icon1',
     offset: -100,
@@ -172,8 +191,8 @@ new ScrollMagic.Scene({
     triggerHook: 0.9,
     reverse:false
 }).setClassToggle('.dev-icon9', 'slide-top').addTo(controller);
-//Event-Management color pallet 
 
+//Event-Management color pallet 
 new ScrollMagic.Scene({
     triggerElement: '.color-pallet-animation1',
     offset: -100,
@@ -192,3 +211,35 @@ new ScrollMagic.Scene({
     triggerHook: 1,
     reverse:false
 }).setClassToggle('.color-pallet-animation3', 'slide-top').addTo(controller);
+
+// End-to-end devlopment 5 dev-icons
+new ScrollMagic.Scene({
+    triggerElement: '.end-icon1',
+    offset: -100,
+    triggerHook: 1.4,
+    reverse:false
+}).setClassToggle('.end-icon1', 'bounce-in-bottom').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.end-icon2',
+    offset: -100,
+    triggerHook: 1.2,
+    reverse:false
+}).setClassToggle('.end-icon2', 'bounce-in-bottom').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.end-icon3',
+    offset: -100,
+    triggerHook: 1,
+    reverse:false
+}).setClassToggle('.end-icon3', 'bounce-in-bottom').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.end-icon4',
+    offset: -100,
+    triggerHook: 0.8,
+    reverse:false
+}).setClassToggle('.end-icon4', 'bounce-in-bottom').addTo(controller);
+new ScrollMagic.Scene({
+    triggerElement: '.end-icon5',
+    offset: -100,
+    triggerHook: 0.6,
+    reverse:false
+}).setClassToggle('.end-icon5', 'bounce-in-bottom').addTo(controller);
