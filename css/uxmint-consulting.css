@@ -25,11 +25,20 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
-
-.sectionhero {
+.sectionhero-services {
   height: 75vh;
 }
-
+.sectionhero-services.services {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 .sectionhero.services {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3039,6 +3048,57 @@ svg.bi.bi-heart{
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
+.sectionhero {
+  height: 100%;
+  background-color: transparent;
+}
+
+.wrapper1-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  max-width: 1300px;
+  padding: 15% 10% 10% 20%;
+  background-color: #fff;
+  background-clip: border-box;
+}
+
+.div-block-122 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85px;
+  height: 90px;
+  margin-top: 10px;
+  padding: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fa4e2e;
+}
+ 
+.text-hero {
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  color: #fff;
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.div-block-123 {
+  padding-left: 5%;
+}
 @media screen and (max-width: 991px) {
   .wrapper {
     padding-right: 60px;
@@ -3061,6 +3121,9 @@ svg.bi.bi-heart{
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .wrapper1-2{
+    padding: 15% 10% 10% 10%;
   }
   .text-h1 {
     font-size: 45px;
@@ -3828,6 +3891,9 @@ svg.bi.bi-heart{
     padding-right: 10%;
     padding-left: 10%;
   }
+  .wrapper1-2{
+    padding: 15% 10% 10% 10%;
+  }
   .wrapper.services-definition {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4512,6 +4578,10 @@ svg.bi.bi-heart{
     padding-right: 20px;
     padding-left: 20px;
   }
+  .sectionhero-services.services {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .wrapper {
     padding-right: 20px;
     padding-left: 20px;
@@ -4537,8 +4607,11 @@ svg.bi.bi-heart{
     padding-left: 20px;
   }
   .text-h1 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 37px;
+  }
+  .wrapper1-2{
+    padding: 6% 10% 10% 8%;
   }
   .image-13-sify {
     display: block;
