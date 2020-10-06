@@ -293,6 +293,11 @@
 
 .section-new.banner-video {
   padding-top: 40px;
+  text-align: center;
+}
+
+.video{
+  width: 1000px;
 }
 
 .section-new.about-us-quote {
@@ -3126,7 +3131,15 @@ svg.bi.bi-heart{
 .div-block-123 {
   padding-left: 5%;
 }
+@media screen and (max-width: 1366px) {
+  .video{
+    width: 800px;
+  }
+}
 @media screen and (max-width: 991px) {
+  .video{
+    width: 600px;
+  }
   .wrapper {
     padding-right: 60px;
     padding-left: 60px;
@@ -3904,9 +3917,15 @@ svg.bi.bi-heart{
   .section-footer {
     height: 55vh;
   }
+  .wrapper1-2 {
+    padding: 15% 1% 10% 1%;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .video{
+    width: 300px;
+  }
   .wrapper {
     padding-right: 40px;
     padding-left: 40px;
@@ -5093,7 +5112,7 @@ svg.bi.bi-heart{
     align-items: flex-start;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
-    align-self: center;
+    align-self: left;
   }
   .text-block-14 {
     -webkit-align-self: flex-start;
