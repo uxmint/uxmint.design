@@ -610,6 +610,11 @@ svg.bi.bi-heart{
   height: 100vh;
   max-height: 100%;
   max-width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -625,7 +630,7 @@ svg.bi.bi-heart{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 260px;
+  width: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -3669,6 +3674,32 @@ svg.bi.bi-heart{
   text-decoration: none;
 }
 
+.heading {
+  margin-bottom: 20px;
+  font-family: Inter, sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.heading-2 {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+.div-block-130 {
+  font-family: Inter, sans-serif;
+  color: #888;
+  font-size: 16px;
+}
+
+.button-8 {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  background-color: #fa4e2e;
+  font-family: Inter, sans-serif;
+}
+
 @media screen and (max-width: 1366px) {
   .video{
     width: 800px;
@@ -6617,6 +6648,15 @@ svg.bi.bi-heart{
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
+  }
+  .heading {
+    margin-bottom: 0px;
+    font-size: 70px;
+  }
+  .div-block-130 {
+    margin-bottom: 10px;
+    color: #888;
+    line-height: 22px;
   }
 }
 
