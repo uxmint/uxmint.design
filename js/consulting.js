@@ -70,16 +70,16 @@ if (jQuery().validate) {
       },
       phone: {
         required: "Please enter your phone number",
-        number: "Please enter your age as a numerical value",
+        number: "Please enter your phone number as a numerical value",
         min: "Phone number is less than 10 digits"
       },
       email: {
-          required: "Email Id is Required",
+        required: "Mail Id is Required",
         email: "The email should be in the format: abc@domain.tld"
       },
       message: {
-        required: "Message is Required",
-        minlength: "Name should be at least 15 characters"
+        required: "Enquiry is Required",
+        minlength: "Enquiry should be at least 15 characters"
        }
     },
     submitHandler: function(form) {
