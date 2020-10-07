@@ -3031,7 +3031,7 @@ svg.bi.bi-heart{
   padding-top: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  background-color: #E8492B;
+  background-color: #000;
   box-shadow: 1px 35px 70px 0 rgba(0, 0, 0, 0.8);
   color: #fff;
 }
@@ -3547,7 +3547,7 @@ svg.bi.bi-heart{
   width: 170px;
   height: 180px;
   margin-top: -30px;
-  background-color: #fa4e2e;
+  background-color: #000;
   box-shadow: 0 30px 40px 3px rgba(0, 0, 0, 0.45);
   color: #fff;
 }
