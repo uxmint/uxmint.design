@@ -26,7 +26,7 @@
   grid-column-gap: 16px;
 }
 .sectionhero-services {
-  height: 75vh;
+  height: 100%;
 }
 .sectionhero-services.services {
   display: -webkit-box;
@@ -160,13 +160,13 @@
   font-family: Inter, sans-serif;
 }
 
-.text-h1 {
+.text-h1-home {
   font-family: Inter, sans-serif;
   font-size: 49px;
   line-height: 60px;
   font-weight: 500;
 }
-.text-h1-contact {
+.text-h1 {
   font-family: Inter, sans-serif;
   font-size: 65px;
   line-height: 85px;
@@ -3736,11 +3736,11 @@ svg.bi.bi-heart{
     -ms-flex-align: center;
     align-items: center;
   }
-  .text-h1 {
+  .text-h1-home {
     font-size: 45px;
     line-height: 60px;
   }
-  .text-h1-contact {
+  .text-h1 {
     font-size: 45px;
     line-height: 60px;
   }
@@ -5574,9 +5574,6 @@ svg.bi.bi-heart{
   padding-right: 0px;
   font-size: 18px;
 }
-.text-block-29 {
-  font-size: 18px;
-}
 .con-tab1 {
   padding-right: 0px;
   font-size: 18px;
@@ -5642,11 +5639,11 @@ svg.bi.bi-heart{
     padding-right: 20px;
     padding-left: 20px;
   }
-  .text-h1 {
+  .text-h1-home {
     font-size: 18px;
     line-height: 37px;
   }
-  .text-h1-contact {
+  .text-h1 {
     font-size: 30px;
     line-height: 40px;
   }
@@ -6512,6 +6509,9 @@ svg.bi.bi-heart{
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
   }
   .services-block1 {
     width: auto;
@@ -6847,7 +6847,7 @@ label.error {
   width: 100%;
 }
 @media screen and (max-width: 300px) {
-  .text-h1 {
+  .text-h1-home {
     font-size: 15px;
     line-height: 26px;
   }

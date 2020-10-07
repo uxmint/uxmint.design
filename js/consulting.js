@@ -45,9 +45,6 @@ Webflow.require('ix2').init(
 if (jQuery().validate) {
   $("form").validate({
     rules: {
-      position: {
-        required: true,
-      },
       name : {
         required: true,
         minlength: 3
@@ -67,9 +64,6 @@ if (jQuery().validate) {
       }
     },
     messages : {
-      position: {
-        required: "Position is Required",
-      },
       name: {
         required: "Name is Required",
         minlength: "Name should be at least 3 characters"
