@@ -3633,7 +3633,11 @@ svg.bi.bi-heart{
   padding: 25px;
   background-color: #f4f1e7;
 }
-
+.grid-2-column-service{
+    margin-top: 50px;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
 .grid-services-type-2 {
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
