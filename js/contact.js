@@ -42,3 +42,169 @@ t.exports=function(){var t={VERSION:"1.6.0-Webflow"},e={},n=Array.prototype,r=Ob
 Webflow.require('ix2').init(
 {"events":{"e":{"id":"e","name":"","eventTypeId":"MOUSE_CLICK","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-2"}},"mediaQueries":["main","medium","small","tiny"],"target":{"appliesTo":"ELEMENT","styleBlockIds":[],"id":"5b5faf5e-6f20-c943-a783-a960174af71e"},"targets":[],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1598963751932},"e-3":{"id":"e-3","name":"","eventTypeId":"MOUSE_CLICK","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-2","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-4"}},"mediaQueries":["main","medium","small","tiny"],"target":{"appliesTo":"ELEMENT","styleBlockIds":[],"id":"8a4fddf2-7cc4-77c8-ac00-81affe90f4c3"},"targets":[],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1598963836118}},"actionLists":{"a":{"id":"a","title":"Open menu","actionItemGroups":[{"actionItems":[{"id":"a-n","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"value":"flex","target":{"selector":".custom-nav-menu","selectorGuids":["7f7dc9b0-5e15-b2d3-15c8-4815015e7c86"]}}}]}],"createdOn":1598963766918,"useFirstGroupAsInitialState":false},"a-2":{"id":"a-2","title":"close menu","actionItemGroups":[{"actionItems":[{"id":"a-2-n","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"value":"none","target":{"useEventTarget":"PARENT","selector":".custom-nav-menu","selectorGuids":["7f7dc9b0-5e15-b2d3-15c8-4815015e7c86"]}}}]}],"createdOn":1598963841519,"useFirstGroupAsInitialState":false}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}
 );
+console.log(1);
+$('.position-inputs a').click(function(){
+    $('[name=position]').val(this.textContent);
+  });
+  if (jQuery().validate) {
+    $('#contact').validate({
+      rules: {
+        position: {
+          required: true
+        },
+        name : {
+          required: true,
+          minlength: 3
+        },
+        phone: {
+          required: true,
+          number: true,
+          min: 1000000000
+        },
+        email: {
+          required: true,
+          email: true
+        },
+        message : {
+          required: true,
+          minlength: 15
+        }
+      },
+      messages : {
+        position: {
+          required: "Position is Required"
+        },
+        name: {
+          required: "Name is Required",
+          minlength: "Name should be at least 3 characters"
+        },
+        phone: {
+          required: "Please enter your phone number",
+          number: "Please enter your phone number as a numerical value",
+          min: "Phone number is less than 10 digits"
+        },
+        email: {
+          required: "Mail Id is Required",
+          email: "The email should be in the format: abc@domain.tld"
+        },
+        message: {
+          required: "Enquiry is Required",
+          minlength: "Enquiry should be at least 15 characters"
+         }
+      },
+      submitHandler: function(form) {
+        var formData = new FormData();
+        var fields = $( form ).serializeArray();
+        jQuery.each( fields, function( i, field ) {
+            formData.append(field.name,field.value);
+        });
+        jQuery.ajax({
+            url: 'https://uxmint.in/uxmint.design/enquire.php',
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            beforeSend: function(){
+              $('.modal.progress').css('display', 'flex');
+            },
+            success: function(data){
+              if(JSON.parse(data).success){
+                $('form')[0].reset();
+                $('.modal.success').css('display', 'flex');
+              }else {
+                $('.modal.error').css('display', 'flex');
+              }
+  
+            },
+            error: function(){
+              $('.modal.error').css('display', 'flex');
+            },
+            complete: function(){
+              $('.modal.progress').hide();
+            }
+        });
+      }
+    });
+    $('.modal span').click(function(){
+      $(this).parents('.modal').hide();
+    });
+  
+    //career Form
+    $('#career').validate({
+      rules: {
+        name : {
+          required: true,
+          minlength: 3
+        },
+        phone: {
+          required: true,
+          number: true,
+          min: 1000000000
+        },
+        email: {
+          required: true,
+          email: true
+        },
+        portfolio_url : {
+          required: true      }
+      },
+      messages : {
+        name: {
+          required: "Name is Required",
+          minlength: "Name should be at least 3 characters"
+        },
+        phone: {
+          required: "Please enter your phone number",
+          number: "Please enter your phone number as a numerical value",
+          min: "Phone number is less than 10 digits"
+        },
+        email: {
+          required: "Mail Id is Required",
+          email: "The email should be in the format: abc@domain.tld"
+        },
+        portfolio_url: {
+          required: "Enquiry is Required"
+         }
+      },
+      submitHandler: function(form) {
+        var formData = new FormData();
+        var fields = $( form ).serializeArray();
+        jQuery.each( fields, function( i, field ) {
+            formData.append(field.name,field.value);
+        });
+        var res = document.getElementById ("resume");
+        console.log(res.value);
+        formData.append('resume', document.getElementById ("resume").value);
+        jQuery.ajax({
+            url: 'https://uxmint.in/uxmint.design/careerRequest.php',
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            beforeSend: function(){
+              $('.modal.progress').css('display', 'flex');
+            },
+            success: function(data){
+              if(JSON.parse(data).success){
+                $('form')[0].reset();
+                $('.modal.success').css('display', 'flex');
+              }else {
+                $('.modal.error').css('display', 'flex');
+              }
+  
+            },
+            error: function(){
+              $('.modal.error').css('display', 'flex');
+            },
+            complete: function(){
+              $('.modal.progress').hide();
+            }
+        });
+      }
+    });
+    $('.modal span').click(function(){
+      $(this).parents('.modal').hide();
+    });
+  }
