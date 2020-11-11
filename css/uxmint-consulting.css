@@ -522,6 +522,7 @@ svg.bi.bi-heart{
   line-height: 50px;
   text-decoration: none;
 }
+
 .navclose {
   position: absolute;
   left: auto;
@@ -3663,6 +3664,7 @@ svg.bi.bi-heart{
   display: flex;
   height: 25px;
   padding-left: 40px;
+  margin-bottom: 16px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
