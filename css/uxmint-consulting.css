@@ -3176,6 +3176,15 @@ svg.bi.bi-heart{
   background-color: #000;
 }
 
+.wrapper-4-contact {
+  height: 100%;
+  max-width: 100%;
+  padding-top: 0px;
+  padding-right: 150px;
+  padding-left: 200px;
+  background-color: #000;
+}
+
 .tabs-4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4505,6 +4514,10 @@ svg.bi.bi-heart{
     padding-right: 60px;
     padding-left: 60px;
   }
+  .wrapper-4-contact {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
   .section-new-3 {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -5388,6 +5401,10 @@ svg.bi.bi-heart{
   text-align: left;
 }
 .wrapper-4 {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.wrapper-4-contact {
   padding-right: 40px;
   padding-left: 40px;
 }
@@ -6418,6 +6435,10 @@ svg.bi.bi-heart{
     height: 90px;
   }
   .wrapper-4 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .wrapper-4-contact {
     padding-right: 20px;
     padding-left: 20px;
   }
