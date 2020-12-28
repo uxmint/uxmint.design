@@ -3720,9 +3720,18 @@ svg.bi.bi-heart{
   .video{
     width: 800px;
   }
+  .section-footer {
+    height: 45vh;
+  }
+  .terms-grid {
+    grid-template-columns: 0.28fr 0.45fr 0.11fr 0.0fr 0.13fr 0.04fr;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  .terms-grid {
+    grid-template-columns: 0.34fr 0.4fr 0.10fr 0.0fr 0.13fr 0.0fr;
+  }
   .video{
     width: 600px;
   }
@@ -4505,7 +4514,7 @@ svg.bi.bi-heart{
     padding-bottom: 60px;
   }
   .section-footer {
-    height: 55vh;
+    height: 58vh;
   }
   .wrapper1-2 {
     padding: 15% 1% 10% 1%;
@@ -5717,7 +5726,7 @@ svg.bi.bi-heart{
     grid-template-columns: 1fr 1fr;
   }
   .section-footer {
-    height: 115vh;
+    height: 135vh;
   }
   .terms-grid {
     height: 20%;
@@ -6887,4 +6896,14 @@ label.error {
     line-height: 17px;
     font-weight: 400;
   }
+}
+
+/* address */
+.location-icon{
+  vertical-align: top;
+  margin-top: -84px;
+  padding-right: 5px;
+}
+.location-text{
+  color: #c7c7c7;
 }
