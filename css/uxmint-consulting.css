@@ -236,6 +236,18 @@
   color: #0f0f0f;
 }
 
+.text-h3.bold {
+  font-weight: 500;
+}
+.text-h6 {
+  font-size: 14px;
+}
+.text-h6.grey {
+  color: #989898;
+}
+.text-h6.note {
+  font-weight:200;
+}
 .section-new {
   height: auto;
   padding-top: 100px;
@@ -1975,6 +1987,7 @@ svg.bi.bi-heart{
 .text-h3-2.black {
   color: #0f0f0f;
 }
+
 .text-h3-2.black-sify {
   color: #0f0f0f;
   font-size: 40px;
@@ -1983,7 +1996,9 @@ svg.bi.bi-heart{
 .text-h3-2.black {
   color: #0f0f0f;
 }
-
+.land {
+  margin-top: 30px;
+}
 .image-section {
   height: auto;
   min-width: 100%;
