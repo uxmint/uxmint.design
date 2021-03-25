@@ -1050,6 +1050,8 @@ svg.bi.bi-heart{
   font-size: 16px;
   line-height: 25px;
   text-transform: lowercase;
+  text-decoration: underline;
+  margin-left: 10px;
 }
 
 .text-button-link-1-usability1 {
@@ -2406,6 +2408,11 @@ svg.bi.bi-heart{
 
 .container-14 {
   max-width: 1300px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.container-14-career {
+  max-width: 818px;
   padding-right: 10%;
   padding-left: 10%;
 }
