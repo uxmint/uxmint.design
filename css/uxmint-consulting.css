@@ -1087,11 +1087,22 @@ svg.bi.bi-heart{
   line-height: 32px;
   font-weight: 300;
 }
-
+.text-h2-5-orange {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #fa4e2e;
+}
 .text-h2-5-5 {
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
+}
+.text-h2-5-5-orange {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #fa4e2e;
 }
 
 .project-image {
@@ -3951,7 +3962,15 @@ svg.bi.bi-heart{
     font-size: 20px;
     line-height: 24px;
   }
+  .text-h2-5-orange{
+    font-size: 20px;
+    line-height: 24px;
+  }
   .text-h2-5-5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .text-h2-5-5-orange {
     font-size: 16px;
     line-height: 24px;
   }
@@ -4835,7 +4854,13 @@ svg.bi.bi-heart{
   .text-h2-5 {
     font-size: 16px;
   }
+  .text-h2-5-orange{
+    font-size: 16px;
+  }
   .text-h2-5-5 {
+    font-size: 15px;
+  }
+  .text-h2-5-5-orange {
     font-size: 15px;
   }
   .text-h5-grey {
