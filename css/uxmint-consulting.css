@@ -278,6 +278,10 @@
   align-items: center;
 }
 
+.section-new.team.career {
+  padding-bottom: 0px;
+}
+
 .section-new.black {
   background-color: #0f0f0f;
 }
@@ -1040,6 +1044,14 @@ svg.bi.bi-heart{
   text-transform: lowercase;
 }
 
+.text-button-link-1.lower-case-1 {
+  margin-top: 0px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: lowercase;
+}
+
 .text-button-link-1-usability1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1072,6 +1084,12 @@ svg.bi.bi-heart{
 
 .text-h2-5 {
   font-size: 28px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.text-h2-5-5 {
+  font-size: 20px;
   line-height: 32px;
   font-weight: 300;
 }
@@ -3933,6 +3951,10 @@ svg.bi.bi-heart{
     font-size: 20px;
     line-height: 24px;
   }
+  .text-h2-5-5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .slider-services-right-arrow {
     left: 11%;
   }
@@ -4812,6 +4834,9 @@ svg.bi.bi-heart{
   }
   .text-h2-5 {
     font-size: 16px;
+  }
+  .text-h2-5-5 {
+    font-size: 15px;
   }
   .text-h5-grey {
     font-size: 14px;
@@ -5886,6 +5911,9 @@ svg.bi.bi-heart{
     display: none;
   }
   .text-button-link-1.lower-case {
+    letter-spacing: 0px;
+  }
+  .text-button-link-1.lower-case-1 {
     letter-spacing: 0px;
   }
   .text-button-link-1-usability1 {
