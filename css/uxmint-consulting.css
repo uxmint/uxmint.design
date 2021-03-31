@@ -6983,37 +6983,22 @@ label.error {
   color: #c7c7c7;
 }
 
-.gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  height:500px;
+iframe {
   width:600px;
-}
-
-.mapouter {
-  position:relative;
-  text-align:right;
-  height:500px;
-  width:600px;
+  height:450px;
 }
 
 @media screen and (max-width: 1366px) {
-  .mapouter {
+  iframe {
     width:500px;
-  }
-  .gmap_canvas {
-    width:500px;
+    height:450px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  .mapouter {
-    height:350px;
+  iframe {
     width:350px;
-  }
-  .gmap_canvas {
     height:350px;
-    width:350px;
   }
 }
 
@@ -7022,13 +7007,8 @@ label.error {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .mapouter {
-    text-align:center;
-    height:315px;
+  iframe {
     width:315px;
-  }
-  .gmap_canvas {
     height:315px;
-    width:315px;
   }
 }
