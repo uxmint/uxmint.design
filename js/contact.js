@@ -181,7 +181,7 @@ if (jQuery().validate) {
       });
       var res = document.getElementById ("resume");
       console.log(res.value);
-      formData.append('resume', document.getElementById ("resume").value);
+      formData.append('resume', $('#resume')[0].files[0], $('#resume')[0].files[0].name);
       jQuery.ajax({
           url: 'https://uxmint.in/uxmint.design/careerRequest.php',
           data: formData,
