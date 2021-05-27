@@ -5733,6 +5733,9 @@ svg.bi.bi-heart{
     padding-right: 20px;
     padding-left: 20px;
   }
+  .wrapper.c-address {
+    margin-left: 0;
+  }
   .wrapper.hero {
     padding-right: 20px;
     padding-left: 20px;
@@ -7013,7 +7016,7 @@ iframe {
 }
 
 .h4-hd{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -7043,7 +7046,7 @@ iframe {
   }
   
   .h4-hd{
-    font-size: 18px;
+    font-size: 14px;
     padding-top: 40px;
     padding-bottom: 20px;
   }
