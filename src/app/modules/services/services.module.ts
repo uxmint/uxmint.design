@@ -7,13 +7,14 @@ import { InterfaceDesignComponent } from './components/interface-design/interfac
 import { UiDevelopmentComponent } from './components/ui-development/ui-development.component';
 import { EndToEndDevelopmentComponent } from './components/end-to-end-development/end-to-end-development.component';
 import { UsabilityTestingComponent } from './components/usability-testing/usability-testing.component';
-
+import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [UserExperienceComponent, InterfaceDesignComponent, UiDevelopmentComponent, EndToEndDevelopmentComponent, UsabilityTestingComponent],
   imports: [
     CommonModule,
-    ServicesRoutingModule
+    ServicesRoutingModule,
+    NgbNavModule
   ]
 })
 export class ServicesModule { }

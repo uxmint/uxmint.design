@@ -1,1 +1,97 @@
-<p>user-experience works!</p>
+<div class="services">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="banner-content">
+                        <h1>User Experience</h1>
+                        <p>Digital Products we use in our daily lives should behave as good as the nicest person we know!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout1">
+        <div class="row">
+            <div class="col-md-6 left-layout">
+                <div class="container">
+                    <h3>A product with good User Experience will Improve Productivity drastically</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/images/services/image.png">
+            </div>
+        </div>
+    </div>
+    <div class="service-layout2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3>User experience is Acknowledging the emotions</h3>
+                    <p>Unravelling solutions for business problems in alignment with end-user expectations. Creating functional, Usable, Pleasurable Unique and Value for digital products.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="list">
+                        <img src="./assets/images/services/icon1.svg"><span>Understanding Business</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon2.svg"><span>Framework</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon3.svg"><span>Testing</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list">
+                        <img src="./assets/images/services/icon4.svg"><span>Platform</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon5.svg"><span>Manage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout3">
+        <div class="container">
+            <div class="d-flex">
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical">
+                  <li ngbNavItem="discussion">
+                    <a ngbNavLink><img src="./assets/images/services/icon6.svg">Discussion</a>
+                    <ng-template ngbNavContent>
+                      <h2>Stake Holder Discussion</h2>
+                      <p>We start our requirements gathering from the pillars of the business; the Product Owners, Business SME, CEO/CTO to get their perspectives, needs & current process issues that they encounter and the potential areas of improvement. Based on the inputs we define the features and the scope.</p>
+                      <p>On a broader scope the vision for the product and the market context gets defined. Next step would be SWAT Analysis on the competitors in the market.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="discovery">
+                    <a ngbNavLink><img src="./assets/images/services/icon7.svg">Discovery</a>
+                    <ng-template ngbNavContent>
+                      <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko </p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="solution">
+                    <a ngbNavLink><img src="./assets/images/services/icon8.svg">Solution</a>
+                    <ng-template ngbNavContent>
+                      <p>Sed commodo, leo at suscipit dictum, quam est porttitor sapien, eget sodales nibh elit id diam. Nulla facilisi. </p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="test">
+                    <a ngbNavLink><img src="./assets/images/services/icon9.svg">Test</a>
+                    <ng-template ngbNavContent>
+                      <p>Testing, leo at suscipit dictum, quam est porttitor sapien, eget sodales nibh elit id diam. Nulla facilisi. </p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="launch">
+                    <a ngbNavLink><img src="./assets/images/services/icon10.svg">Launch</a>
+                    <ng-template ngbNavContent>
+                      <p>Launch, leo at suscipit dictum, quam est porttitor sapien, eget sodales nibh elit id diam. Nulla facilisi. </p>
+                    </ng-template>
+                  </li>
+                </ul>
+              
+                <div [ngbNavOutlet]="nav" class="ml-4 px-5"></div>
+              </div>
+        </div>
+    </div>
+</div>

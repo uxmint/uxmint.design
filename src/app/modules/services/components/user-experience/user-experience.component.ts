@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-experience.component.scss']
 })
 export class UserExperienceComponent implements OnInit {
-
+  active = 'discussion';
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
