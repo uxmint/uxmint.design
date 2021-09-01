@@ -2,30 +2,39 @@
 @import './scss/bootstrap.scss';
 @import './scss/bootstrap-custom.scss';
 
-.container {
-    padding: 0 30px;
-    margin: 0 auto;
-}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Inter'; }
 
 /* Responsive */
-@media (min-width: 600px) {
-    .container{
-        max-width: 720px;
-        padding: 0 20px;
-    }
-}
-@media (min-width: 920px) {
-    .container{
-        max-width: 960px;
-        padding: 0 30px;
-    }
-}
-@media (min-width: 1280px) {
+@include media-breakpoint-down(xl) {
     .container{
         max-width: 1400px;
         padding: 0 70px;
         margin: 0 auto;
     }
+}
+@include media-breakpoint-down(lg) {
+    .container{
+        max-width: 960px;
+        padding: 0 30px;
+    }
+}
+@include media-breakpoint-down(md) {
+    .container{
+        max-width: 720px;
+        padding: 0 20px;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .container{
+        max-width: 540px;
+        padding: 0 20px;
+    }
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
 }
