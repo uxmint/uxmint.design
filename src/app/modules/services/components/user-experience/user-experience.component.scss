@@ -1,6 +1,11 @@
 .services{
     padding: 50px 0px;
 .banner{
+    background-image: url('/assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -51px;
+    position: relative;
     h1{
         font-size: 56px;
         color: #000000;
@@ -14,10 +19,15 @@
     }
 }
 .service-layout1{
+    margin-top: -51px;
+    .row{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
     .left-layout{
        background-color: #FF424B;
        color: #FFFFFF;
-       padding: 316px 0px;
+       padding: 285px 0px;
        h3{
            font-size: 48px;
        }
