@@ -2,7 +2,7 @@
 
     .about{
     background-color: #FF424B;
-    .desgin{
+    .design{
         padding: 150px 30px;
         h1{
             font-size: 56px;
@@ -25,10 +25,12 @@
             color: #282829;
             padding-top: 10px;
         }
-.desgin-layout{
+       
+.design-layout{
             background-color: #FCFCFC;
             padding-left: 60px;
-            .desgin-left{
+            
+            .design-left{
                 padding: 100px 30px;
             }
             .button{
@@ -45,33 +47,36 @@
                 border-radius: 0px;
             }
 }
-.desgin-layouts{
+.design-layouts{
             background-color: #282829;
             border: 1px solid #707070;
             text-align: center;
-            padding-top: 20px;
-            
-            .desgin-right{
-                padding: 140px 30px;
-                .blogs-image{
-                    img{
-                        width: 300px;
+           // padding-top: 20px;
+
+            .design-right{
+                padding: 170px 30px;
+                .logo{
+                    list-style: none;
+                    padding: 60px 0;
+                    li{
+                        margin-bottom: 70px;
                     }
                 }
                 }
-            }
-}
+            }  
+}      
+
 
 .about-layout1{
         background-color: #282829;
       
-            .desgin-layout{
+            .design-layout{
                 padding-left: 60px;
                 h2{
                     font-size: 48px;
                     color: #FFFFFF;
                 }
-                .desgin-left{
+                .design-left{
                     padding: 100px 30px;
                 }
                 .button{
@@ -88,7 +93,16 @@
                     border-radius: 0px;
                 }
             }
-.desgin-layouts{
+
+ .design-layouts{
+                    .layouts{
+                        height: 500px;
+                        overflow: auto;
+                    }
+
+                    ::-webkit-scrollbar {
+                        width: 0px;
+                    }
                 h5{
                     font-size: 36px;
                     color: #FFFFFF;
@@ -96,8 +110,9 @@
                 p{
                     font-size: 24px;
                     color: #FFFFFF;
+                    font-weight: 400;
                 }
-                .desgin-right{
+                .design-right{
                     padding: 100px 30px;
                 }
             }
@@ -105,7 +120,7 @@
 
 .about-layout2{
         background-color: #FF424B;
-            .desgin{
+            .design{
                 padding: 150px 30px;
                 h2{
                     font-size: 48px;
