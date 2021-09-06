@@ -64,8 +64,8 @@
 }
 .nav-tabs{
     border-bottom: 1px solid #dee2e6;
-    margin-right: -65px;
-    margin-left: -65px;
+    margin-right: -125px;
+    margin-left: -130px;
 }
 .nav-tabs .nav-link.active, .nav-pills .show > .nav-link{
     background-color: #FCFCFC; 
@@ -79,9 +79,10 @@
 .tabs{
     width: 340px;
     background-color: #E56635;
+    margin-left: -15px;
 }
 .tabs1{
-    width: 365px;
+    width: 370px;
     background-color: #E56635;
 }
 .nav-tabs .nav-link {
