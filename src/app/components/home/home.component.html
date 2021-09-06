@@ -1,1 +1,57 @@
-<p>home works!</p>
+<div class="home">
+    <div class="layout">
+        <div class="container">
+            <h2>We design and bring</h2>
+            <h1>Digital Transformation</h1>
+        </div>
+    </div>
+    <div class="feature-work">
+        <div [ngbNavOutlet]="nav" class="mt-2"></div>
+        <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills">
+            <li [ngbNavItem]="1">
+              <a ngbNavLink></a>
+              <ng-template ngbNavContent>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <h3>Feature Work</h3>
+                            <h2>Digital Transformation for Telcom</h2>
+                            <h4>UX . UI . Mobile . B2B</h4>
+                            <div class="button">
+                                <div class="btn">Case Study</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 step-image">
+                        <div class="image">
+                            <img src="./assets/images/home/digital-tranformation.png">
+                        </div>
+                    </div>
+                </div>
+              </ng-template>
+            </li>
+            <li [ngbNavItem]="2">
+              <a ngbNavLink></a>
+              <ng-template ngbNavContent>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <h3>Feature Work</h3>
+                            <h2>Event Hosting made stressless</h2>
+                            <h4>UX . UI . Mobile . B2B</h4>
+                            <div class="button">
+                                <div class="btn">Case Study</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 step-image">
+                        <div class="image">
+                            <img src="./assets/images/home/digital-tranformation.png">
+                        </div>
+                    </div>
+                </div>
+              </ng-template>
+            </li>
+        </ul>
+    </div>
+</div>
