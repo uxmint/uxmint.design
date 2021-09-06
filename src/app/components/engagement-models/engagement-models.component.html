@@ -10,8 +10,9 @@
 </div>
  <div class="engagement-layout1">
     <div class="container">
+      <div [ngbNavOutlet]="nav"></div>
        <ul ngbNav #nav="ngbNav" class="nav-tabs">
-          <li ngbNavItem>
+          <li ngbNavItem="engagement" class="tabs">
              <ng-template ngbNavContent>
                 <div class="row">
                    <div class="col-md-6 design-left">
@@ -74,9 +75,9 @@
                    </div>
                 </div>
              </ng-template>
-             <a ngbNavLink>Fixed Bid</a>
+             <a ngbNavLink></a>
           </li>
-          <li ngbNavItem>
+          <li ngbNavItem class="tabs1">
              <ng-template ngbNavContent>
                 <div class="row">
                    <div class="col-md-6 design-left">
@@ -127,9 +128,9 @@
                    </div>
                 </div>
              </ng-template>
-             <a ngbNavLink>Time & Material</a>
+             <a ngbNavLink></a>
           </li>
-          <li ngbNavItem>
+          <li ngbNavItem class="tabs1">
              <ng-template ngbNavContent>
                 <div class="row">
                    <div class="col-md-6 design-left">
@@ -179,9 +180,9 @@
                    </div>
                 </div>
              </ng-template>
-             <a ngbNavLink>Dedicated Team Model</a>
+             <a ngbNavLink></a>
           </li>
-          <li ngbNavItem>
+          <li ngbNavItem class="tabs1">
              <ng-template ngbNavContent>
                 <div class="row">
                    <div class="col-md-6 design-left">
@@ -231,10 +232,10 @@
                    </div>
                 </div>
              </ng-template>
-             <a ngbNavLink>Staff Augmentation Model</a>
+             <a ngbNavLink></a>
           </li>
-          <li ngbNavItem></li>
+         
        </ul>
-       <div [ngbNavOutlet]="nav"></div>
+      </div>
     </div>
- </div>
+ 

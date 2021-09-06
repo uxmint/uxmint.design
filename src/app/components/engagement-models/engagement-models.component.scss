@@ -1,14 +1,16 @@
 .engagement{
-  
+   
     .banner{
-        background-image: url('/assets/images/bg2.png');
+        background-image: url('/assets/images/bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        height: 770px;
         background-color: #FA6D37;
+        border-bottom: 1px solid #dee2e6;
 
         .engagement-layout{
-            padding: 200px 30px;
+            padding: 300px 30px;
         h1{
             font-size: 56px;
             color: #1f0b0c;
@@ -35,7 +37,7 @@
 .engagement-layout1{
     background-color: #FA6D37;
     .design-left{
-        padding: 100px 30px;
+        padding: 150px 30px;
 
         h2{
             font-size: 48px;
@@ -48,7 +50,7 @@
         }
     }
     .design-right{
-        padding: 100px 30px;
+        padding: 150px 30px;
 
           .logo-image{
             padding-top: 10px;
@@ -60,11 +62,23 @@
         }
     }
 }
- 
+.nav-tabs{
+    border-bottom: 1px solid #dee2e6;
+    margin-right: -65px;
+}
 .nav-tabs .nav-link.active, .nav-pills .show > .nav-link{
-    background-color: #FCFCFC;
-    color: #FF424B;
+    background-color: #FCFCFC; 
+}
+.nav-tabs .nav{
+ height: 18px;
 }
 .nav-tabs a{
     color: #FFFFFF;
+}
+.tabs{
+    width: 340px;
+    margin-left: -70px;
+}
+.tabs1{
+    width: 385px;
 }

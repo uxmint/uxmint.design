@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./engagement-models.component.scss']
 })
 export class EngagementModelsComponent implements OnInit {
-
+  active = 'engagement';
   constructor() { }
 
   ngOnInit(): void {
