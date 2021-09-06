@@ -1,10 +1,12 @@
 .services{
     padding: 50px 0px;
 .banner{
-    background-image: url('/assets/images/bg2.png');
+    background-image: url('/assets/images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    top: -53px;
+    height: 770px;
     h1{
         font-size: 56px;
         color: #000000;
@@ -14,7 +16,7 @@
         color: #000000;
     }
     .banner-content{
-        padding: 150px 0px;
+        padding: 300px 0px;
     }
 }
 .service-layout1{
