@@ -1,0 +1,85 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.home{
+    .layout{
+        background-image: url('/assets/images/layout-1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 780px;
+        h2{
+            font-size: 56px;
+            font-weight: 500;
+            color: #FFF;
+            padding-top: 300px;
+        }
+        h1{
+            font-size: 72px;
+            font-weight: 700;
+            color: #FF424B;
+        }
+    }
+    .feature-work{
+        .row{
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .card{
+            border: none;
+            padding: 100px 170px 100px 100px;
+            height: 600px;
+            h3{
+                font-size: 28px;
+                font-weight: 700;
+                color: #707070;
+                margin-bottom: 60px;
+            }
+            h2{
+                font-size: 48px;
+                font-weight: 700;
+                margin-bottom: 40px;
+            }
+            h4{
+                font-size: 20px;
+                font-weight: 400;
+                color: #707070;
+                margin-bottom: 60px;
+            }
+            .btn{
+                background-color: #FF424B;
+                border-radius: 0;
+                color: #FFF;
+            }
+        }
+        .step-image{
+            background-color: #3E4268;
+            text-align: center;
+            padding: 80px 0px;
+            margin-bottom: -12px;
+            img{
+                width: auto;
+                height: 100%;
+            }
+        }
+        .mt-2, .my-2 {
+            margin-top: 0 !important;
+        }
+        // .nav{
+        //     width: 51%;
+        // }
+        .nav-pills{
+            a{
+                padding: 6px 180px 6px 180px;
+            }
+            .nav-link{
+                border-radius: 0;
+                background-color: #E6E6E6;
+            }
+            .nav-link.active{
+                background-color: #FF424B;
+            }
+        }
+    }
+}
