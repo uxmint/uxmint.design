@@ -1,0 +1,84 @@
+.engagement{
+   
+    .banner{
+        background-image: url('/assets/images/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 770px;
+        background-color: #FA6D37;
+        border-bottom: 1px solid #dee2e6;
+
+        .engagement-layout{
+            padding: 300px 30px;
+        h1{
+            font-size: 56px;
+            color: #1f0b0c;
+            span{
+                color: #FFFFFF;
+            }
+        }
+        h6{ 
+            font-size: 36px;
+            
+            padding-top: 25px;
+                color: #1f0b0c;
+             span{
+                color: #FFFFFF;
+                text-decoration: underline;
+                //font-size: 36px;
+                
+            }
+        }
+    }      
+}
+}
+
+.engagement-layout1{
+    background-color: #FA6D37;
+    .design-left{
+        padding: 150px 30px;
+
+        h2{
+            font-size: 48px;
+            color: #FFFFFF;
+        }
+        p{
+            font-size: 24px;
+            color: #FFFFFF;
+            padding-top: 10px;
+        }
+    }
+    .design-right{
+        padding: 150px 30px;
+
+          .logo-image{
+            padding-top: 10px;
+            padding-bottom: 20px;
+          }
+          p{
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+    }
+}
+.nav-tabs{
+    border-bottom: 1px solid #dee2e6;
+    margin-right: -65px;
+}
+.nav-tabs .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #FCFCFC; 
+}
+.nav-tabs .nav{
+ height: 18px;
+}
+.nav-tabs a{
+    color: #FFFFFF;
+}
+.tabs{
+    width: 340px;
+    margin-left: -70px;
+}
+.tabs1{
+    width: 385px;
+}

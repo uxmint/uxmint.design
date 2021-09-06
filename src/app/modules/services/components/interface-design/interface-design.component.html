@@ -1,1 +1,98 @@
-<p>interface-design works!</p>
+<div class="services">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="banner-content">
+                        <h1>Interface Design</h1>
+                        <p>Having interface fluent enough for the user to communicate with the system or product is fundamental necessity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout1">
+        <div class="row">
+            <div class="col-md-6 left-layout">
+                <div class="container">
+                    <h3>A product with
+                        good Interface Design will
+                        Establish a visual language for seamless interaction</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/images/services/image.png">
+            </div>
+        </div>
+    </div>
+    <div class="service-layout2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3>Interface Design is the bridge between User and System</h3>
+                    <p>Aesthetically good design can instil curiosity for the customers to move beyond the landing page. Make your website come alive with best UI.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="list">
+                        <img src="./assets/images/services/icon1.svg"><span>Moodboard</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon2.svg"><span>Visual Language</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon3.svg"><span>Iconography</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list">
+                        <img src="./assets/images/services/icon4.svg"><span>Design systems</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon5.svg"><span>Illustrations</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon5.svg"><span>Brand identity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout3">
+        <div class="container">
+            <div class="d-flex">
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical">
+                  <li ngbNavItem="discussion">
+                    <a ngbNavLink><img src="./assets/images/services/icon6.svg">Design</a>
+                    <ng-template ngbNavContent>
+                      <h2>User Interface Design</h2>
+                      <p>The Interface Design is the skeleton on which all the components are to be laid, it also pays way for a Responsive Design when it spans across devices; making it with at most precision helps speed up the Development process and by making reusable components wherever possible.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="discovery">
+                    <a ngbNavLink><img src="./assets/images/services/icon7.svg">Evaluation</a>
+                    <ng-template ngbNavContent>
+                    <h2>User Interface Evaluation</h2>
+                      <p>Evaluating user interface design every once in a while will give us insights and ideas about enhancing design and business based on user’s feedback and analytics insights. Funnelling the areas of impact and enhancing the design helps the improve the overall customer satisfaction of the website or application.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="solution">
+                    <a ngbNavLink><img src="./assets/images/services/icon8.svg">Visual Design</a>
+                    <ng-template ngbNavContent>
+                      <h2>Visual Design System</h2>
+                        <p>The standard that define the companies branding in reference to Theme/Colour usage, fonts styles, visuals in accordance with the Product Topography even extending to tone and grammar. A well defined interface brings attention and notice to the Product even among thousands of other brands.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="test">
+                    <a ngbNavLink><img src="./assets/images/services/icon9.svg">Branding & Identity</a>
+                    <ng-template ngbNavContent>
+                        <h2>Branding & Identity</h2>
+                        <p>A great product demands individuality; as per studies, “it is often said that customers form an opinion about a Company/Product within seconds. A well-designed logo is an easy way to convey to potential customers that your business is professional, trustworthy, and provides quality goods or services”. In short it defines the personality of the Product!</p>
+                    </ng-template>
+                  </li>
+                </ul>
+              
+                <div [ngbNavOutlet]="nav" class="ml-4 px-5"></div>
+              </div>
+        </div>
+    </div>
+</div>

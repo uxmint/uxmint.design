@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ui-development.component.scss']
 })
 export class UiDevelopmentComponent implements OnInit {
+  active = 'discussion';
 
   constructor() { }
 

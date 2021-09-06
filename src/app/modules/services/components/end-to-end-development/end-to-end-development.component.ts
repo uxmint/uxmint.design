@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./end-to-end-development.component.scss']
 })
 export class EndToEndDevelopmentComponent implements OnInit {
-
+  active = 'discussion';
   constructor() { }
 
   ngOnInit(): void {

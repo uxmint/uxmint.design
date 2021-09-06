@@ -1,0 +1,109 @@
+.services{
+    padding: 50px 0px;
+.banner{
+    background-image: url('/assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -53px;
+    height: 770px;
+    h1{
+        font-size: 56px;
+        color: #000000;
+    }
+    p{
+        font-size: 30px;
+        color: #000000;
+    }
+    .banner-content{
+        padding: 300px 0px;
+    }
+}
+.service-layout1{
+    .row{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .left-layout{
+       background-color: #FF424B;
+       color: #FFFFFF;
+       padding: 285px 0px;
+       h3{
+           font-size: 48px;
+       }
+    }
+    .col-md-6{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    img{
+        width: 100%;
+    }
+}
+.service-layout2{
+    background-color: #282829;
+    color: #FFFFFF;
+    padding: 150px 0px;
+    h3{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 200;
+        margin-top: 60px;
+    }
+    .list{
+        padding: 50px 30px;
+        span{
+            font-size: 24px;
+            margin-left: 20px;
+            font-weight: 200;
+        }
+    }
+}
+.service-layout3{
+    background-color: #FCFCFC;
+    padding: 150px 0px;
+    color: #282829;
+    li{
+        list-style-type: none;
+        font-size: 28px;
+        cursor: pointer;
+        img{
+            margin-right: 10px;
+            &:active{
+                color: #FF424B;
+            }
+        }
+    }
+    h2{
+        font-size: 56px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+    .li{
+        font-size: 20px;
+        margin-top: 6px;
+    }
+}
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #FCFCFC;
+    color: #FF424B;
+    font-size: 36px;
+    font-weight: 600;
+}
+.nav-pills a{
+    color: #282829;
+}
+.nav-link{
+    display: flex;
+    padding: 0.5rem 15rem 1rem 0.5rem;
+}
+.flex-column{
+    padding: 75px 0px;
+}

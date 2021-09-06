@@ -1,1 +1,71 @@
-<p>ui-development works!</p>
+<div class="services">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="banner-content">
+                        <h1>UI Development</h1>
+                        <p>The design comes to life when the robust technologies are put in place to bring the best Experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout1">
+        <div class="row">
+            <div class="col-md-6 left-layout">
+                <div class="container">
+                    <h3>Our expertise in Language and framework for multiple platforms</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/images/services/image.png">
+            </div>
+        </div>
+    </div>
+    <div class="service-layout2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3>UI development is where vision becomes accomplishment</h3>
+                    <p>Helping the business reach the customers seamlessly to provide omni-channel experience.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="list">
+                        <img src="./assets/images/services/icon1.svg"><span>Understanding Business</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon2.svg"><span>Platform</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon3.svg"><span>Framework</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list">
+                        <img src="./assets/images/services/icon4.svg"><span>Manage</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon5.svg"><span>Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout3">
+        <div class="container">
+            <div class="d-flex">
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical">
+                  <li ngbNavItem="discussion">
+                    <a ngbNavLink><img src="./assets/images/services/icon6.svg">Understanding</a>
+                    <ng-template ngbNavContent>
+                      <h2>Business Understanding</h2>
+                      <p>When it comes to selecting a platform it can be challenging, since that defines how the product can or cannot expand in future without technical boundaries. We strongly believe technology should aid a Product in scaling higher and not cripple the growth in any way. Based on the product vision and road map appropriate technology needs to be selected.</p>
+                    </ng-template>
+                  </li>
+                </ul>
+                <div [ngbNavOutlet]="nav" class="ml-4 px-5"></div>
+              </div>
+        </div>
+    </div>
+</div>

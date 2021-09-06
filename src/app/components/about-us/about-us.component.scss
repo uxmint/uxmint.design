@@ -1,9 +1,14 @@
 .about-us{
 
     .about{
-    background-color: #FF424B;
+        background-image: url('/assets/images/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 770px;
+        background-color: #FF424B;
     .design{
-        padding: 150px 30px;
+        padding: 300px 30px;
         h1{
             font-size: 56px;
             color: #FCFCFC;
@@ -31,7 +36,7 @@
             padding-left: 60px;
             
             .design-left{
-                padding: 100px 30px;
+                padding: 150px 0px;
             }
             .button{
                 margin-top: 40px;
@@ -54,7 +59,7 @@
            // padding-top: 20px;
 
             .design-right{
-                padding: 170px 30px;
+                padding: 150px 0px;
                 .logo{
                     list-style: none;
                     padding: 60px 0;
@@ -69,7 +74,7 @@
 
 .about-layout1{
         background-color: #282829;
-      
+        padding: 100px 0px;
             .design-layout{
                 padding-left: 60px;
                 h2{
@@ -77,7 +82,7 @@
                     color: #FFFFFF;
                 }
                 .design-left{
-                    padding: 100px 30px;
+                    padding: 150px 30px;
                 }
                 .button{
                     margin-top: 40px;
@@ -113,7 +118,7 @@
                     font-weight: 400;
                 }
                 .design-right{
-                    padding: 100px 30px;
+                    padding: 150px 30px;
                 }
             }
     }

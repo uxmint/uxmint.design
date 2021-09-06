@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./usability-testing.component.scss']
 })
 export class UsabilityTestingComponent implements OnInit {
-
+  active = 'discussion';
   constructor() { }
 
   ngOnInit(): void {
