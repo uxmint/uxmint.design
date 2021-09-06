@@ -1,0 +1,70 @@
+.engagement{
+  
+    .banner{
+        background-image: url('/assets/images/bg2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: #FA6D37;
+
+        .engagement-layout{
+            padding: 200px 30px;
+        h1{
+            font-size: 56px;
+            color: #1f0b0c;
+            span{
+                color: #FFFFFF;
+            }
+        }
+        h6{ 
+            font-size: 36px;
+            
+            padding-top: 25px;
+                color: #1f0b0c;
+             span{
+                color: #FFFFFF;
+                text-decoration: underline;
+                //font-size: 36px;
+                
+            }
+        }
+    }      
+}
+}
+
+.engagement-layout1{
+    background-color: #FA6D37;
+    .design-left{
+        padding: 100px 30px;
+
+        h2{
+            font-size: 48px;
+            color: #FFFFFF;
+        }
+        p{
+            font-size: 24px;
+            color: #FFFFFF;
+            padding-top: 10px;
+        }
+    }
+    .design-right{
+        padding: 100px 30px;
+
+          .logo-image{
+            padding-top: 10px;
+            padding-bottom: 20px;
+          }
+          p{
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+    }
+}
+ 
+.nav-tabs .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #FCFCFC;
+    color: #FF424B;
+}
+.nav-tabs a{
+    color: #FFFFFF;
+}

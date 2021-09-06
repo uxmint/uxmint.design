@@ -1,8 +1,13 @@
 .blogs{
-
-    .blog-layout1{
-        background-color: #ffffff;
-        padding: 100px 30px;
+   
+    .banner{
+        background-image: url('/assets/images/bg2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        .blog-layout1{
+            padding: 200px 30px;
+        }
         h1{
             font-size: 56px;
             color: #FF424B;

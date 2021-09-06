@@ -1,9 +1,13 @@
 .about-us{
 
     .about{
-    background-color: #FF424B;
+        background-image: url('/assets/images/bg2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: #FF424B;
     .design{
-        padding: 150px 30px;
+        padding: 200px 30px;
         h1{
             font-size: 56px;
             color: #FCFCFC;
@@ -54,7 +58,7 @@
            // padding-top: 20px;
 
             .design-right{
-                padding: 170px 30px;
+               padding: 100px 30px;
                 .logo{
                     list-style: none;
                     padding: 60px 0;
@@ -69,7 +73,7 @@
 
 .about-layout1{
         background-color: #282829;
-      
+        padding: 100px 30px;
             .design-layout{
                 padding-left: 60px;
                 h2{
