@@ -1,1 +1,93 @@
-<p>usability-testing works!</p>
+<div class="services">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="banner-content">
+                        <h1>Usability testing</h1>
+                        <p>Reduce the risk of usability issues before the product launces into the market</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout1">
+        <div class="row">
+            <div class="col-md-6 left-layout">
+                <div class="container">
+                    <h3>A product with good User Experience will Improve Productivity drastically</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/images/services/image.png">
+            </div>
+        </div>
+    </div>
+    <div class="service-layout2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Usability testing is prevention is better than cure</h3>
+                    <p>It helps the business to evaluates the product or website before it is launched in the market by testing it with a sample population small group of actual users.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="list">
+                        <img src="./assets/images/services/icon1.svg"><span>Understanding User Objectives</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon2.svg"><span>Reduction in Development Cost</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon3.svg"><span>Upfront Risk Mitigation</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="list">
+                        <img src="./assets/images/services/icon4.svg"><span>Identifiying Key Tasks</span>
+                    </div>
+                    <div class="list">
+                        <img src="./assets/images/services/icon5.svg"><span>Better User Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-layout3">
+        <div class="container">
+            <div class="d-flex">
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical">
+                  <li ngbNavItem="discussion">
+                    <a ngbNavLink><img src="./assets/images/services/icon6.svg">Controlled</a>
+                    <ng-template ngbNavContent>
+                      <h2>Controlled Environment Testing</h2>
+                      <p>A controlled environment testing session is moderated in person or remotely by a trained researcher; who walks through the tasks to participants, answers their queries, and asks follow-up questions. Conversely, an uncontrolled test is done without direct supervision; participants might be in a lab, but it's more likely they are in their own homes and/or using their own devices to browse the website that is being tested. But they can also be unobtrusively monitored by the researcher.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="discovery">
+                    <a ngbNavLink><img src="./assets/images/services/icon7.svg">Exploratory</a>
+                    <ng-template ngbNavContent>
+                    <h2>Exploratory Testing</h2>
+                      <p>Researchers or Participants can browse through the website or application without any pre-planned tasks. The aim of the testing is mostly to uncover maximum usability issues with minimal time. This type of testing typically can be done in the early stages of product development and helps researchers pinpoint gaps in the market, identify potential new features, and workshop new ideas.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="solution">
+                    <a ngbNavLink><img src="./assets/images/services/icon8.svg">Remote</a>
+                    <ng-template ngbNavContent>
+                      <h2>Remote Testing</h2>
+                      <p>As the name suggest participants can be geographically in any location but would be instructed by trained researchers to brief them on the tasks to be performed and they are observed and analyzed based on their body language and facial expressions and follow-up questions.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="test">
+                    <a ngbNavLink><img src="./assets/images/services/icon9.svg">Contextual</a>
+                    <ng-template ngbNavContent>
+                        <h2>Contextual Testing</h2>
+                        <p>Contextual testing is a semi-informal method to obtain information about the context of use, where users are first asked a set of standard questions and then observed and questioned while they use the website or application in their own environments. This method suits when an existing application needs revamp or enhancement to collect maximum possible data for the existing users.</p>
+                    </ng-template>
+                  </li>
+                </ul>
+              
+                <div [ngbNavOutlet]="nav" class="ml-4 px-5"></div>
+              </div>
+        </div>
+    </div>
+</div>
