@@ -1,12 +1,14 @@
 .blogs{
    
     .banner{
-        background-image: url('/assets/images/bg2.png');
+        background-image: url('/assets/images/bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        top: -53px;
+        height: 770px;
         .blog-layout1{
-            padding: 200px 30px;
+            padding: 300px 30px;
         }
         h1{
             font-size: 56px;
@@ -28,7 +30,7 @@
 
     .blog-layout2{
                  background-color: #F7F7F7;
-                 padding: 100px 30px;
+                 padding: 150px 0px;
                 
              .image-center{
                  padding: 0 40px;
