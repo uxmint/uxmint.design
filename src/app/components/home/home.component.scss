@@ -51,6 +51,12 @@
                 background-color: #FF424B;
                 border-radius: 0;
                 color: #FFF;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 400;
+                img{
+                    padding-left: 12px;
+                }
             }
         }
         .step-image{
@@ -82,4 +88,213 @@
             }
         }
     }
+    .products{
+        background-color: #FF424B;
+        padding: 40px 0;
+        color: #FFF;
+        h2{
+            font-size: 48px;
+            font-weight: 500;
+            padding-top: 60px;
+            margin-bottom: 20px;
+            line-height: 60px;
+        }
+        h3{
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 38px;
+            margin-bottom: 50px;
+        }
+        .btn{
+            background-color: #FFF;
+            color: #FF424B;
+            border-radius: 0;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 400;
+                img{
+                    padding-left: 12px;
+                }
+        }
+        .flex{
+            display: flex;
+            padding: 150px 0px 40px 0px;
+            .icon1{
+                padding: 0 120px 0 0px;
+                position: relative;
+                img{
+                    position: absolute;
+                    //left: 0;
+                    bottom: 0;
+                }
+            }
+            .icon2{
+                padding: 0 220px 0 65px;
+                position: relative;
+                img{
+                    position: absolute;
+                    //left: 0;
+                    bottom: 0;
+                }
+            }
+            .icon3{
+                padding: 0 240px 0 65px;
+                position: relative;
+                img{
+                    position: absolute;
+                    //left: 0;
+                    bottom: 0;
+                }
+            }
+            .icon4{
+                padding: 0 140px 0 65px;
+                position: relative;
+                img{
+                    position: absolute;
+                    //left: 0;
+                    bottom: 0;
+                }
+            }
+            .icon5{
+                padding: 0 140px 0 65px;
+                position: relative;
+                img{
+                    position: absolute;
+                    //left: 0;
+                    bottom: 0;
+                }
+            }
+            .icon6{
+                padding: 0 0px 0 65px;
+                position: relative;
+                img{
+                    position: absolute;
+                    //left: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    .cater{
+        background-color: #282829;
+        padding: 100px 0px;
+        color: #FFF;
+        h2{
+            font-size: 56px;
+            font-weight: 500;
+            margin-bottom: 60px;
+        }
+        .btn{
+            background-color: #FF424B;
+            border-radius: 0;
+            color: #FFF;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 400;
+                img{
+                    padding-left: 12px;
+                }
+        }
+        h4{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+        }
+        .icon{
+            margin-top: 10px;
+        }
+        .types{
+            margin-bottom: 50px;
+            margin-left: 100px;
+        }
+    }
+    .blogs{
+        .row{
+            margin-left: 0;
+            margin-right: 0;
+            .col-md-6.right{
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+       .left{
+           padding: 40px 130px 80px 90px;
+           background-color: #FF424B;
+           h2{
+               font-size: 48px;
+               font-weight: 500;
+               color: #FFF;
+               margin-top: 120px;
+               margin-bottom: 80px;
+           }
+           .btn{
+               background-color: #FFF;
+               border-radius: 0;
+               color: #FF424B;
+               cursor: pointer;
+               font-size: 20px;
+               font-weight: 400;
+                img{
+                    padding-left: 12px;
+                }
+           }
+       }
+       .right{
+           .class{
+               .image{
+                   img{
+                       width: 100%;
+                   }
+               }
+               h3{
+                   font-size: 36px;
+                   font-weight: 500;
+                   margin: 40px 130px 20px 40px;
+               }
+               h4{
+                   font-size: 20px;
+                   font-weight: 400;
+                   margin: 0 0 10px 40px;
+               }
+           }
+       }
+    }
+}
+
+// Carousel
+.item{
+    padding: 0;
+}
+.ngucarousel-indicator{
+    // text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    li{
+        display: inline-block;
+        line-height: 22px;
+        a{
+            display: block;
+            margin: 0 5px;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #FFF;
+            background-color: #D0D0D0 !important;
+            text-indent: -999px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+            &.active{
+                width: 11px;
+                height: 11px;
+                border: 8px solid #FF424B;
+                background-color: #FF424B !important;
+            }
+        }
+    }
+}
+::ng-deep .tile{
+    border-radius: 15px;
+    box-shadow: none !important;
 }
