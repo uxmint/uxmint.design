@@ -70,11 +70,8 @@
         list-style-type: none;
         font-size: 28px;
         cursor: pointer;
-        img{
+        svg{
             margin-right: 10px;
-            &:active{
-                color: #FF424B;
-            }
         }
     }
     h2{
