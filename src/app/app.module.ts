@@ -11,6 +11,7 @@ import { EngagementModelsComponent } from './components/engagement-models/engage
 import { HomeComponent } from './components/home/home.component';
 import { WorksComponent } from './components/works/works.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NguCarouselModule } from '@ngu/carousel';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NguCarouselModule,
+  ],
+  exports: [
+    NguCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
