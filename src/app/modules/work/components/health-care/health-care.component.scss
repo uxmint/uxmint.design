@@ -1,0 +1,142 @@
+h2{
+    font-size: 56px;
+}
+p{
+    font-size: 24px;
+}
+h6{
+    font-size: 36px;
+}  
+    .banner{
+        background-color: #53BC67;
+        position: relative;
+        color: #FFFFFF;
+        padding: 150px 0px;
+        .banner-header{
+            padding: 150px 0px;
+        }
+    }
+    .about-project{
+        background-color: #FCFCFC;
+        padding: 200px 0px;
+        .row{
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+    .image{
+        img{
+            width: 100%;
+        }
+    }
+    .approach{
+        background-color: #3C3C3C;
+        color: #FCFCFC;
+        padding: 200px 0px;
+    }
+    .target-strategy{
+        background-color: #FCFCFC;
+        color: #3D3D3D;
+        padding: 150px 0px;
+        .strategy{
+            margin-top: 30px;
+        }
+    }
+    .needs-challenges{
+        background-color: #3C3C3C;
+        color: #FCFCFC;
+        padding: 50px 0px;
+        h1{
+            color: #53BC67;
+            font-size: 116px;
+            margin-top: 100px;
+        }
+        h2{
+            color: #53BC67;
+            font-weight: 300;
+        }
+        h6{
+            margin-bottom: 25px;
+        }
+        p{
+            font-weight: 300;
+        }
+        .needs{
+            height: 500px;
+            overflow: auto;
+        }
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
+        .needs-right{
+            padding: 100px 30px;
+        }
+    }
+    .research{
+        padding: 80px 0px;
+        color: #3D3D3D;
+        h6{
+            line-height: 55px;
+        }
+        p{
+            line-height: 40px;
+        }
+    }
+    .green-image{
+        background-color: #43BA55;
+        padding: 100px 0px 100px 100px;
+        img{
+            width: 100%;
+        }
+    }
+    .work-description1{
+        padding: 80px 0px;
+        color: #3D3D3D;
+        h6{
+            line-height: 55px;
+            margin-top: 150px;
+        }
+        p{
+            line-height: 40px;
+        }
+    }
+    .work-description2{
+        padding: 80px 0px;
+        color: #3D3D3D;
+        background-color: #FAFAFA;
+        h6{
+            line-height: 55px;
+            margin-top: 100px;
+        }
+        p{
+            line-height: 40px;
+        }
+    }
+    .design{
+        background-color: #3C3C3C;
+        color: #FCFCFC;
+        padding: 70px 0px;
+        h6{
+            margin-top: 200px;
+        }
+    }
+    .typography-image{
+        background-color: #FAFAFA;
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .work-layout{
+        background-color: #ADF4BA;
+        color: #3D3D3D;
+        padding: 80px 0px;
+        h6{
+            line-height: 55px;
+            margin-top: 100px;
+        }
+        p{
+            line-height: 40px;
+        }
+    } 
+    .other-case-study{
+
+    } 
