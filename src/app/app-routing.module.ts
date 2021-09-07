@@ -7,18 +7,19 @@ import { ContactComponent } from './components/contact/contact.component';
 import { EngagementModelsComponent } from './components/engagement-models/engagement-models.component';
 import { WorksComponent } from './components/works/works.component';
 import { HomeComponent } from './components/home/home.component';
-
+import { ServicesComponent } from './components/services/services.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'work', loadChildren : ()=> import('./modules/work/work.module').then(m=>m.WorkModule) },
-  { path: 'services', loadChildren : ()=> import('./modules/services/services.module').then(m=>m.ServicesModule) },
+  { path: 'service', loadChildren : ()=> import('./modules/services/services.module').then(m=>m.ServicesModule) },
   { path: 'blogs', component: BlogsComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-us', component: ContactComponent },
   { path: 'careers', component: CareerComponent },
   { path: 'engagement-models', component: EngagementModelsComponent },
-  { path: 'works', component: WorksComponent }
+  { path: 'works', component: WorksComponent },
+  { path: 'services', component: ServicesComponent }
 ];
 
 @NgModule({
