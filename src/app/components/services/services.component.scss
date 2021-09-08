@@ -5,6 +5,104 @@
 .services{
     .layout{
         background-color: #3A75DD;
-        padding: 100px 0;
+        background-image: url('/assets/images/bg3.png');
+        height: 750px;
+        border-bottom: 1px solid #739FED;
+        h1{
+            font-size: 56px;
+            font-weight: 700;
+            color: #FFF;
+            padding-top: 270px;
+        }
+        h2{
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        h3{
+            font-size: 36px;
+            font-weight: 400;
+            color: #FFF;
+            a{
+                color: #282829;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
     }
+    .types{
+        background-color: #3A75DD;
+        padding: 100px 0;
+        color: #FFF;
+        li{
+            font-size: 28px;
+            font-weight: 300;
+            cursor: pointer;
+        }
+        h2{
+            font-size: 56px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 60px;
+        }
+        .btn{
+            font-size: 20px;
+            font-weight: 400;
+            background-color: #FFF;
+            color: #3A75DD;
+            border-radius: 0;
+            img{
+                padding-left: 15px;
+            }
+        }
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+            background-color: #3A75DD;
+            color: #FFF;
+            font-size: 36px;
+            font-weight: 500;
+        }
+        .nav-pills a{
+            color: #FFF;
+        }
+    }
+    .cater{
+        padding: 100px 0;
+        li{
+            font-size: 28px;
+            font-weight: 300;
+            cursor: pointer;
+        }
+        h2{
+            font-size: 56px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 60px;
+        }
+        .nav-link{
+            color: #282829;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+            background-color: #FFF;
+            color: #3A75DD;
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+}
+.nav-pills{
+    width: 200%;
+}
+.tab-content{
+    width: 200%;
+}
+.nav-link{
+    padding: 0 20px 40px 20px;
 }
