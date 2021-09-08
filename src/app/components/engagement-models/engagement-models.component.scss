@@ -34,7 +34,6 @@
         }
     }      
 }
-
 @include media-breakpoint-down(lg) {
     .banner{
         height: 670px;
@@ -73,6 +72,8 @@
 
 .engagement-layout1{
     background-color: #FA6D37;
+    
+
     .design-left{
         padding: 150px 30px;
 
@@ -121,6 +122,7 @@
     }
 
     @include media-breakpoint-down(lg) {
+       
 
         .design-left{
             padding: 140px 20px;
@@ -143,6 +145,7 @@
         }
     }
     @include media-breakpoint-down(md) {
+ 
 
         .design-left{
             padding: 125px 15px;
@@ -176,7 +179,7 @@
         }
     }
     @include media-breakpoint-down(sm) {
-
+        
         .design-left{
             padding: 75px 5px;
         }
@@ -189,5 +192,85 @@
               }
         }
     }
+}
 
+.only-mobile{
+    display: none;
+}
+
+@include media-breakpoint-down(sm) {
+
+    .only-mobile{
+       
+        display: block;
+        
+        ::ng-deep{
+            .card{
+                background: #E56635 !important;
+            }
+        }
+
+        ::ng-deep{
+        .card-header {
+            background: #E56635 !important;
+        }
+        .btn-link:hover {
+            color: #FFFFFF;
+            font-size: 20px;
+        
+        }
+        .btn-link {
+            font-size: 20px;
+            font-weight: 700; 
+            color: #FFFFFF;
+            text-decoration: none;
+            width: 100%;
+        }
+        .dis_flex{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .btn:focus  {
+             outline: 0;
+             box-shadow: none !important; 
+        }
+        .collapsed .arrow_rotate{
+            -ms-transform: rotate(180deg);  
+            transform: rotate(180deg);
+        }
+    }
+    h2{
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+        .design-left{
+            padding: 40px 20px;
+    
+          
+            p{
+                font-size: 20px;
+                color: #FFFFFF;
+                padding-top: 10px;
+            }
+        }
+        .design-right{
+            padding: 30px 20px;
+    
+              .logo-image{
+                padding-top: 10px;
+                padding-bottom: 20px;
+              }
+              p{
+                font-size: 20px;
+                color: #FFFFFF;
+                margin-left: 80px;
+                margin-top: -55px;
+            }
+        }
+
+    }
+    .engagement-layout1{
+        display: none;
+    }
 }

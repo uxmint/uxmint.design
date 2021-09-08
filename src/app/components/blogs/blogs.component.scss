@@ -1,3 +1,7 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 .blogs{
    
     .banner{
@@ -26,6 +30,33 @@
                 text-decoration: underline;
             }
         }
+
+        @include media-breakpoint-down(lg) {
+            height: 650px;
+            .blog-layout1{
+                padding: 250px 25px;
+            }
+        }
+        @include media-breakpoint-down(md) {
+            height: 540px;
+            .blog-layout1{
+                padding: 210px 15px;
+            }
+            h1{
+                font-size: 36px;
+            }
+            h6{
+                font-size: 24px;
+               
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            height: 500px;
+            .blog-layout1{
+                padding: 150px 0px;
+            }
+        }
+
     }
 
     .blog-layout2{
@@ -45,21 +76,36 @@
                         }
                         img{
                             width: 100%;
+                            padding: 30px 0px 0px 0px;
 
                         }
                     }  
-              
+
+     @include media-breakpoint-down(lg) {  
+        padding: 130px 0px;
+
+        .image-center{
+          padding: 0 35px;
+    }  
+}
+    @include media-breakpoint-down(md) {
+        padding: 120px 0px;
+
+        .image-center{
+            padding: 0 30px;
+            h6{
+                font-size: 24px;
+                font-weight: 500;
+                padding-top: 20px;
+            }
+        }  
     }
-
-
-
-
-
-
-
-
-
-
-
-
+    @include media-breakpoint-down(sm) {
+        padding: 110px 0px;
+        .image-center{
+            padding: 0 20px;
+           
+            }  
+        }             
+    }
 }

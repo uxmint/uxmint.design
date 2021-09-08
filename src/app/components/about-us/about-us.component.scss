@@ -1,4 +1,11 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 .about-us{
+    .only-mobile{
+        display: none;
+    }
     .about{
         background-image: url('/assets/images/bg.png');
         background-repeat: no-repeat;
@@ -15,6 +22,31 @@
         h5{
             font-size: 36px;
             color: #282829;
+        }
+    }
+    @include media-breakpoint-down(lg) {
+        height: 650px;
+        .design{
+            padding: 225px 25px;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        height: 540px;
+        .design{
+            padding: 200px 15px;
+            h1{
+                font-size: 36px;
+            }
+            h5{
+                font-size: 24px;
+            }
+
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        height: 500px;
+        .design{
+            padding: 120px 0px;
         }
     }
 }
@@ -35,7 +67,7 @@
             padding-left: 60px;
             
             .design-left{
-                padding: 150px 0px;
+                padding: 150px 30px;
             }
             .button{
                 margin-top: 40px;
@@ -55,10 +87,9 @@
             background-color: #282829;
             border: 1px solid #707070;
             text-align: center;
-           // padding-top: 20px;
-
+            
             .design-right{
-                padding: 150px 0px;
+                padding: 150px 30px;
                 .logo{
                     list-style: none;
                     padding: 60px 0;
@@ -68,8 +99,127 @@
                 }
                 }
             }  
-}      
 
+            @include media-breakpoint-down(lg) {
+
+                .design-layout{
+                    padding-left: 50px;
+                    .design-left{
+                        padding: 130px 20px;
+                    }
+                }
+                .design-layouts{
+                    .design-right{
+                        padding: 130px 0px;
+                    }
+                }
+            }
+
+            @include media-breakpoint-down(md) {
+                .design-layout{
+                    padding-left: 50px;
+                    .design-left{
+                        padding: 120px 10px;
+                        h2{
+                            font-size: 36px;
+                        }
+                        h6{
+                            font-size: 20px;
+                            padding-top: 8px;
+                        }
+                    }
+                    .button{
+                        margin-top: 30px;
+                        img{
+                            margin-left: 35px;
+                        }
+                    }
+                    .btn-white{
+                        background-color: #FF424B;
+                        color: #FCFCFC;
+                        font-size: 16px;
+                        padding: 10px;
+                        border-radius: 0px;
+                    }
+                }
+
+                .design-layouts{
+                    .img_cover img{
+                        width: 110px; 
+                    }
+                    .design-right{
+                        padding: 120px 0px;
+                      
+                        .logo{
+                            list-style: none;
+                            padding: 40px 0;
+                            li{
+                                margin-bottom: 60px;
+                               
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            @include media-breakpoint-down(sm) {
+                .design-layout{
+                    padding-left: 15px;
+                }
+                .design-layouts{
+                    display: none;
+                }
+              
+                .flex{
+                    overflow-y: scroll;
+                    display: flex;
+                    padding: 100px 0px 40px 30px;
+                    .icon1{
+                        padding: 0 10px 0 0px;
+                        position: relative;
+                        img{
+                            bottom: 0;
+                        }
+                    }
+                    .icon2{
+                        padding: 0 20px 0 65px;
+                        position: relative;
+                        img{
+                            bottom: 0;
+                        }
+                    }
+                    .icon3{
+                        padding: 0 30px 0 65px;
+                        position: relative;
+                        img{
+                            bottom: 0;
+                        }
+                    }
+                    .icon4{
+                        padding: 0 40px 0 65px;
+                        position: relative;
+                        img{
+                            bottom: 0;
+                        }
+                    }
+                    .icon5{
+                        padding: 0 50px 0 65px;
+                        position: relative;
+                        img{
+                            bottom: 0;
+                        }
+                    }
+                    .icon6{
+                        padding: 0 60px 0 65px;
+                        position: relative;
+                        img{
+                            bottom: 0;
+                        }
+                    }
+                }
+            }
+}      
 
 .about-layout1{
         background-color: #282829;
@@ -120,6 +270,95 @@
                     padding: 150px 30px;
                 }
             }
+
+            @include media-breakpoint-down(lg) {  
+                padding: 80px 0px;
+                .design-layout{
+                    padding-left: 60px;
+                    .design-left{
+                        padding: 125px 30px;
+                    }
+                    .design-right{
+                        padding: 125px 30px;
+                    }
+                
+                }
+            }
+            @include media-breakpoint-down(md) {
+                padding: 60px 0px;
+                .design-layout{
+                    padding-left: 30px;
+                    h2{
+                        font-size: 36px;
+                    }
+                    .design-left{
+                        padding: 100px 10px;
+                    }
+                    .button{
+                        margin-top: 20px;
+                        img{
+                            margin-left: 25px;
+                        }
+                    }
+                    .btn-white{
+                        font-size: 16px;
+                        padding: 10px;
+                        border-radius: 0px;
+                    }
+                }
+                .design-layouts{
+                  
+                    .layouts{
+                       // height: 500px;
+                       // overflow: auto;
+                h5{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                .design-right{
+                    padding: 100px 25px;
+                }
+            }
+        }
+
+            }
+            @include media-breakpoint-down(sm) {
+               
+                padding: 50px 0px;
+                .design-layout{
+                    padding-left: 0px;
+                    .design-left{
+                        padding: 80px 15px;
+                    }
+                    .design-right{
+                        padding: 100px 30px;
+                    }
+                
+                }
+                .design-layouts{
+                  
+                    .layouts{
+                        height: 100%;
+                       overflow: visible;
+
+                       .design-right{
+                        padding: 45px 30px;
+                        h5{
+                            font-size: 28px;
+                        }
+                        p{
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+                    }
+            }
+        }
+
+            }
+
     }
 
 .about-layout2{
@@ -133,7 +372,7 @@
                 h6{
                     font-size: 24px;
                     color: #FCFCFC;
-                    padding-top: 15px;
+                    padding-top: 40px;
                 }
                 .button{
                     margin-top: 40px;
@@ -147,6 +386,39 @@
                     font-size: 20px;
                     padding: 15px;
                     border-radius: 0px;
+                }
+            }
+            @include media-breakpoint-down(lg) { 
+                .design{
+                    padding: 150px 30px;
+                }
+            }
+            @include media-breakpoint-down(md) {
+                .design{
+                    padding: 125px 10px;
+                    h2{
+                        font-size: 28px;
+                    }
+                    h6{
+                        font-size: 20px;
+                        padding-top: 30px;
+                    }
+                    .button{
+                        margin-top: 30px;
+                        img{
+                            margin-left: 25px;
+                        }
+                    }
+                    .btn-white{
+                        font-size: 16px;
+                        padding: 15px;
+                        border-radius: 0px;
+                    }
+                }
+            }
+            @include media-breakpoint-down(sm) {
+                .design{
+                    padding: 125px 10px;
                 }
             }
     }

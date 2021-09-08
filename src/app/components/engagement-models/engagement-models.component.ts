@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EngagementModelsComponent implements OnInit {
   active = '1';
+  activeIds = 'static-1';
   constructor() { }
 
   ngOnInit(): void {
