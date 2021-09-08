@@ -1,1 +1,158 @@
-<p>networking works!</p>
+<div class="works">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="banner-header">
+                        <h2>Digital Transformation for Telcom</h2>
+                        <h6>UX <span>. UI .</span><span> Mobile .</span><span> B2C</span></h6>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="container">
+                        <img src="./assets/images/works/net.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-project">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container">
+                    <h2>About Project</h2>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    <p>We were approached with redesign of their legacy system that required change in process from the ground-up. The portal was intertwined with multiple other platforms that was feeding inputs to the UI. It was a challenge to break down the functionalities into atomic structures to ensure ease of use and reusability for the UI Development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image">
+        <img src="./assets/images/works/net1.png">
+    </div>
+    <div class="approach">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Approach</h2>
+                    <p>Our aim was to create an Easily adaptable portal, with instant access to Products & Services; with least to none redundant tasks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="target-strategy">
+        <div class="container">
+            <div class="target">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Target Audience</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>The Owner or the Decision maker, Tech Savvy person or domain expert, The operations or the person responsible for purchases.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="strategy">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Strategy</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Empowering the user to take control of the wheel. Chi would enable Up selling and Cross selling other services & products of the company.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="needs-challenges">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Users Interviewed</h2>
+            </div>
+            <div class="col-md-8">
+                <div class="needs">
+                    <div class="needs-right">
+                       <h6>Needs</h6>
+                       <p> Promoting online and on-time payment of invoices</p>
+                       <p> Converting existing offline users to online process</p>
+                       <p> Reducing the manual intervention</p>
+                       <p> Avoiding delays in status intimation</p>
+                       <p> Improving customer retention</p>
+                    </div>
+                    <div class="needs-right">
+                        <h6>Challenges</h6>
+                        <p> Heavy dependency on Support Team</p>
+                        <p> Delay in communication</p>
+                        <p> Outstanding customer payments</p>
+                        <p> Avoiding cheque payments</p>
+                        <p> Multiple follow-ups to customers on purchase and billing</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="research">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <h6>Converting qualitative and quantitative data collected from research into design solutions</h6>
+                    <p>With the gathered data, We go ahead with the process of Information architecture, Task-flows, Wire frames, Feature mapping, prototyping to match our conceptual model to user’s mental models.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="green-image">
+        <img src="./assets/images/works/healthcare2.png">
+    </div>
+    <div class="work-description">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Creating a Design System</h6>
+                    <p>Making a design system to adapt to different devices, scalable services, Upcoming products and consistency throughout the visual language.</p>
+                </div>
+                <div class="col-md-8">
+                    <img src="./assets/images/works/net3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="typography-image">
+        <img src="./assets/images/works/net2.png">
+    </div>
+    <div class="other-case-studies">
+        <div class="row">
+            <div class="col-md-6 left">
+                <h2>Other Case Studies</h2>
+                <div class="button">
+                    <div class="btn">See All Works <img src="./assets/images/home/red-arrow.png"></div>
+                </div>
+            </div>
+            <div class="col-md-6 right">
+                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
+                    <ngu-tile *nguCarouselDef="let item; let i = index">
+                        <div class="class">
+                            <div class="image">
+                                <img [src]="item.img">
+                            </div>
+                            <h3>{{ item.title }}</h3>
+                            <h4>{{ item.sub }}</h4>
+                        </div>
+                    </ngu-tile>
+                    <ul class="ngucarousel-indicator" NguCarouselPoint>
+                      <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
+                        <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
+                      </li>
+                    </ul>
+                </ngu-carousel>
+            </div>
+        </div>
+    </div>
+</div>
