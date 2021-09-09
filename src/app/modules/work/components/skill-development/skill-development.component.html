@@ -1,1 +1,164 @@
-<p>skill-development works!</p>
+<div class="works">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="banner-header">
+                        <h2>A designers platform for creative upskill</h2>
+                        <h6>UX <span>. UI .</span><span> Mobile </span><span>. Web .</span><span> B2C</span></h6>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <img src="./assets/images/works/skill1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-project">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container">
+                    <h2>About Project</h2>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    <p>Platform for designers, design aspirants/students and mentor to collaborate and share their ideology, design methods, process and uplift their skills in the Design domain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image">
+        <img src="./assets/images/works/skill2.jpg">
+    </div>
+    <div class="approach">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Approach</h2>
+                    <p>The way designers need to be evaluated is by looking at their skills and not their years of experience, this is the base idea that this platform was designed upon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="target-strategy">
+        <div class="container">
+            <div class="target">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Target Audience</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Aspiring designers</p>
+                        <p>Freshers in Design</p>
+                        <p>Experienced Designers</p>
+                        <p>Mentors in Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="strategy">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Strategy</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>The entire platform and its features were based on the one base idea. The strategy is to encourage designers to showcase the different skills related to design and learn from the community and grow together.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="needs-challenges">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1>50 +</h1>
+                <h2>Users Interviewed</h2>
+            </div>
+            <div class="col-md-8">
+                <div class="needs">
+                    <div class="needs-right">
+                       <h6>Needs</h6>
+                       <p> Awareness among younger generation on Creative Job</p>
+                       <p> Understand how the field works</p>
+                       <p> Need a mentor to Guide</p>
+                       <p> Portfolio review by experts</p>
+                       <p> Know current trends and new methods to debate with Industry vetrans</p>
+                    </div>
+                    <div class="needs-right">
+                        <h6>Challenges</h6>
+                        <p> Finding the right people to learn from</p>
+                        <p> If the portfolio that they do is up to industry standards</p>
+                        <p> To know people who are in the industries that one is interested in</p>
+                        <p> To know what kind of work does a designer do in different offices</p>
+                        <p> Difficult to find and cook new and tasty dishes every now and then</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="research">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <h6>User interviews and focus groups helps to gain more clarity on user behaviours</h6>
+                    <p>With the gathered data we started by ideating solutions in a systematic approach. With several possible solutions at hand we started by building low fidelity prototypes which was iterated and tested with know users and build them with our quality engineers to take it to the real world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="green-image">
+        <img src="./assets/images/works/skill3.jpg">
+    </div>
+    <div class="work-description">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h6>The visual language for the platform was based on the mood boards developed through the design process</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="typography-image">
+        <img src="./assets/images/works/skill4.jpg">
+    </div>
+    <div class="typography-image">
+        <img src="./assets/images/works/skill5.png">
+    </div>
+    <div class="typography-image">
+        <img src="./assets/images/works/skill6.png">
+    </div>
+    <div class="other-case-studies">
+        <div class="row">
+            <div class="col-md-6 left">
+                <h2>Other Case Studies</h2>
+                <div class="button">
+                    <div class="btn">See All Works <img src="./assets/images/home/red-arrow.png"></div>
+                </div>
+            </div>
+            <div class="col-md-6 right">
+                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
+                    <ngu-tile *nguCarouselDef="let item; let i = index">
+                        <div class="class">
+                            <div class="image">
+                                <img [src]="item.img">
+                            </div>
+                            <h3>{{ item.title }}</h3>
+                            <h4>{{ item.sub }}</h4>
+                        </div>
+                    </ngu-tile>
+                    <ul class="ngucarousel-indicator" NguCarouselPoint>
+                      <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
+                        <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
+                      </li>
+                    </ul>
+                </ngu-carousel>
+            </div>
+        </div>
+    </div>
+</div>

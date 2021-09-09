@@ -1,1 +1,143 @@
-<p>construction-portal works!</p>
+<div class="works">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="banner-header">
+                        <h2>Repository of Accomplishments</h2>
+                        <h6>UX <span>. UI .</span><span> Web .</span><span> B2C</span></h6>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                        <img src="./assets/images/works/construction0.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-project">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container">
+                    <h2>About Project</h2>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    <p>A Conglomerate with global operation approached us for an Engineering Portal that would serve as a Dashboard for showcasing all their previous Construction Portfolio. This would be predominantly used be the Engireening and Marketing team for sales pitches.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image">
+        <img src="./assets/images/works/construction1.png">
+    </div>
+    <div class="approach">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Approach</h2>
+                    <p>Our aim was to solve and ease the process of find-ability and to create multi leveled navigation system.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="target-strategy">
+        <div class="container">
+            <div class="target">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Target Audience</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Engineers, Folks from sales department who want to showcase maintain the repository of accomplishments in a single place.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="strategy">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Strategy</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>We devised a one-stop solution for the repeated tasks by analysing the various segments involved in the usage of proposed portal. Based on the inputs we found the predominant user group would be using the application in bigger screens like projectors and the portals interactions were designed to support the Sales team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="needs-challenges">
+        <div class="row">
+            <div class="col-md-5 left">
+                <div class="container">
+                    <h2>Focus areas</h2>
+                </div>
+            </div>
+            <div class="col-md-7 right">
+                <div class="container">
+                    <div class="needs">
+                        <div class="needs-right">
+                            <h6>Needs</h6>
+                            <p>Due to the nature of the project it had volumes of numeric data which required representation in Graphical Interface to better comprehend the numeric data by comparison and trends.</p>
+                        </div>
+                        <div class="needs-right">
+                            <h6>Challenges</h6>
+                            <p>Preparing proposal presentation for every pitch</p>
+                            <p>Searching previous project details from huge repository</p>
+                            <p>Multiple version of presentations</p>
+                            <p>Access to required data spontaneously</p>
+                            <p>Interpretation of humongous numeric data</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="typography-image">
+        <img src="./assets/images/works/construction2.png">
+    </div>
+    <div class="typography-image">
+        <ul>
+            <li><img src="./assets/images/works/Group 6669.png"></li>
+            <li><img src="./assets/images/works/Group 6670.png"></li>
+            <li><img src="./assets/images/works/Group 6671.png"></li>
+            <li><img src="./assets/images/works/Group 6672.png"></li>
+            <li><img src="./assets/images/works/Group 6673.png"></li>
+            <li><img src="./assets/images/works/Group 6674.png"></li>
+        </ul>
+        
+    </div>
+    <div class="typography-image">
+        <img src="./assets/images/works/construction3.png">
+    </div>
+    <div class="typography-image">
+        <img src="./assets/images/works/construction4.png">
+    </div>
+    <div class="other-case-studies">
+        <div class="row">
+            <div class="col-md-6 left">
+                <h2>Other Case Studies</h2>
+                <div class="button">
+                    <div class="btn">See All Works <img src="./assets/images/home/red-arrow.png"></div>
+                </div>
+            </div>
+            <div class="col-md-6 right">
+                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
+                    <ngu-tile *nguCarouselDef="let item; let i = index">
+                        <div class="class">
+                            <div class="image">
+                                <img [src]="item.img">
+                            </div>
+                            <h3>{{ item.title }}</h3>
+                            <h4>{{ item.sub }}</h4>
+                        </div>
+                    </ngu-tile>
+                    <ul class="ngucarousel-indicator" NguCarouselPoint>
+                      <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
+                        <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
+                      </li>
+                    </ul>
+                </ngu-carousel>
+            </div>
+        </div>
+    </div>
+</div>

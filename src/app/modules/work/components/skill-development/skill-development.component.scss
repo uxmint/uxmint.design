@@ -1,0 +1,205 @@
+h2{
+    font-size: 56px;
+}
+p{
+    font-size: 24px;
+}
+h6{
+    font-size: 36px;
+}  
+    .banner{
+        background-color: #742EB1;
+        position: relative;
+        color: #FFFFFF;
+        padding-top: 150px;
+        .banner-header{
+            padding: 150px 0px;
+        }
+        h6{
+            font-weight: 300;
+            margin-top: 30px;
+        }
+    }
+    .about-project{
+        background-color: #FCFCFC;
+        padding: 200px 0px;
+        .row{
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+    .image{
+        img{
+            width: 100%;
+        }
+    }
+    .approach{
+        background-color: #3C3C3C;
+        color: #FCFCFC;
+        padding: 200px 0px;
+        h2{
+            margin-bottom: 30px;
+        }
+        p{
+            line-height: 40px;
+        }
+    }
+    .target-strategy{
+        background-color: #FCFCFC;
+        color: #3D3D3D;
+        padding: 150px 0px;
+        .strategy{
+            margin-top: 30px;
+        }
+    }
+    .needs-challenges{
+        background-color: #3C3C3C;
+        color: #FCFCFC;
+        padding: 50px 0px;
+        h1{
+            color: #742EB1;
+            font-size: 116px;
+            margin-top: 100px;
+        }
+        h2{
+            color: #742EB1;
+            font-weight: 300;
+        }
+        h6{
+            margin-bottom: 25px;
+        }
+        p{
+            font-weight: 300;
+        }
+        .needs{
+            height: 500px;
+            overflow: auto;
+        }
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
+        .needs-right{
+            padding: 100px 30px;
+        }
+    }
+    .research{
+        padding: 80px 0px;
+        color: #3D3D3D;
+        h6{
+            line-height: 55px;
+        }
+        p{
+            line-height: 40px;
+        }
+    }
+    .green-image{
+        background-color: #742EB1;
+        padding: 50px;
+        img{
+            width: 100%;
+        }
+    }
+    .work-description{
+        padding: 80px 0px;
+        color: #3D3D3D;
+        background-color: #FAFAFA;
+        h6{
+            line-height: 55px;
+            margin-top: 100px;
+        }
+        p{
+            line-height: 40px;
+        }
+    }
+    .typography-image{
+        background-color: #FAFAFA;
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .other-case-studies{
+        .row{
+            margin-left: 0;
+            margin-right: 0;
+            .col-md-6.right{
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+       .left{
+           padding: 40px 130px 80px 90px;
+           background-color: #FF424B;
+           h2{
+               font-weight: 400;
+               color: #FFF;
+               margin-top: 120px;
+               margin-bottom: 80px;
+           }
+           .btn{
+               background-color: #FFF;
+               border-radius: 0;
+               color: #FF424B;
+               cursor: pointer;
+               font-size: 20px;
+               font-weight: 400;
+                img{
+                    padding-left: 12px;
+                }
+           }
+       }
+       .right{
+           .class{
+               .image{
+                   img{
+                       width: 100%;
+                   }
+               }
+               h3{
+                   font-size: 36px;
+                   font-weight: 500;
+                   margin: 40px 130px 20px 40px;
+               }
+               h4{
+                   font-size: 20px;
+                   font-weight: 400;
+                   margin: 0 0 10px 40px;
+               }
+           }
+       }
+    }
+
+// Carousel
+.item{
+    padding: 0;
+}
+.ngucarousel-indicator{
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    li{
+        display: inline-block;
+        line-height: 22px;
+        a{
+            display: block;
+            margin: 0 5px;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #FFF;
+            background-color: #D0D0D0 !important;
+            text-indent: -999px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+            &.active{
+                width: 11px;
+                height: 11px;
+                border: 8px solid #FF424B;
+                background-color: #FF424B !important;
+            }
+        }
+    }
+}
+::ng-deep .tile{
+    border-radius: 15px;
+    box-shadow: none !important;
+}

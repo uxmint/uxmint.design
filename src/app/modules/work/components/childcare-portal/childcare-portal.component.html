@@ -1,1 +1,124 @@
-<p>childcare-portal works!</p>
+<div class="works">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="banner-header">
+                        <h2>Child Care Portal</h2>
+                        <h6>UX <span>. UI .</span><span> Mobile </span><span>. Web .</span><span> B2C</span></h6>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <img src="./assets/images/works/Child1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-project">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container">
+                    <h2>About Project</h2>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    <p>A worldwide NGO approached us for thier PoC on tablet based application for children in under-previlidged countries which will be used on shared tablets by multiple children.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image">
+        <img src="./assets/images/works/child2.jpg">
+    </div>
+    <div class="approach">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Approach</h2>
+                    <p>Kids should be encouraged and motivated through our designs which will help them to think and grow with joy in their early age</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="target-strategy">
+        <div class="container">
+            <div class="target">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Target Audience</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Kids of age 6 - 12</p>
+                        <p>Coordinators who takes care of kids</p>
+                    </div>
+                </div>
+            </div>
+            <div class="strategy">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Strategy</h6>
+                    </div>
+                    <div class="col-md-8">
+                        <p>The platform should encourage students and motivate them in what they do and enable them to do things that makes them happy with the help of the technology.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="needs-challenges">
+        <div class="row">
+            <div class="col-md-5 left-red">
+                <div class="container">
+                    <h6>The Challenge</h6>
+                    <p>The challenge was to create a intuitive prototype which the kids can use to create new things and show their love for their donors.</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="container">
+                    <div class="needs">
+                        <div class="needs-right">
+                           <h6>Solutions</h6>
+                            <p>Character specific interface themes.
+                            <p>Simple and Enjoyable interactive games for learning reducing difficulty</p>
+                            <p>Functionalities that lets them show their love and engage with their sponsors in a much easy and fun way.</p>
+                            <p>Age specific features to cater a larger crowd</p>
+                            <p>Remote data loading to allow usage even in regions of no network connectivity</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="other-case-studies">
+        <div class="row">
+            <div class="col-md-6 left">
+                <h2>Other Case Studies</h2>
+                <div class="button">
+                    <div class="btn">See All Works <img src="./assets/images/home/red-arrow.png"></div>
+                </div>
+            </div>
+            <div class="col-md-6 right">
+                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
+                    <ngu-tile *nguCarouselDef="let item; let i = index">
+                        <div class="class">
+                            <div class="image">
+                                <img [src]="item.img">
+                            </div>
+                            <h3>{{ item.title }}</h3>
+                            <h4>{{ item.sub }}</h4>
+                        </div>
+                    </ngu-tile>
+                    <ul class="ngucarousel-indicator" NguCarouselPoint>
+                      <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
+                        <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
+                      </li>
+                    </ul>
+                </ngu-carousel>
+            </div>
+        </div>
+    </div>
+</div>
