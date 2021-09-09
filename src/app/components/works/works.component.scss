@@ -88,29 +88,47 @@
         @include media-breakpoint-down(md) {
         
             .five{
-                padding: 85px 25px;
-            }
-            .seven{
-                padding: 85px 25px;
-            }
-        }
-        
-        @include media-breakpoint-down(sm) {
-        
-            .five{
                 padding: 40px 80px;
                 h1{
                     font-size: 56px;
+                    white-space: nowrap;
+                }
+                span{
+                    font-size: 24px;
+                    white-space: nowrap;
+                }
+            }
+            .seven{
+                padding: 40px 80px;
+                h1{
+                    font-size: 56px;
+                    white-space: nowrap;
                 
                 }
                 span{
                     font-size: 24px;
                 }
             }
-            .seven{
-                padding: 40px 80px;
+        }
+        
+        @include media-breakpoint-down(sm) {
+            flex-wrap: nowrap;
+            .five{
+                padding: 35px 30px;
                 h1{
                     font-size: 56px;
+                    white-space: nowrap;
+                }
+                span{
+                    font-size: 24px;
+                    white-space: nowrap;
+                }
+            }
+            .seven{
+                padding: 35px 30px;
+                h1{
+                    font-size: 56px;
+                    white-space: nowrap;
                 
                 }
                 span{
