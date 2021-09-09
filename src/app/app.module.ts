@@ -10,6 +10,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { EngagementModelsComponent } from './components/engagement-models/engagement-models.component';
 import { HomeComponent } from './components/home/home.component';
 import { WorksComponent } from './components/works/works.component';
+import { ServicesComponent } from './components/services/services.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
 
@@ -22,7 +23,8 @@ import { NguCarouselModule } from '@ngu/carousel';
     ContactComponent,
     EngagementModelsComponent,
     HomeComponent,
-    WorksComponent
+    WorksComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
