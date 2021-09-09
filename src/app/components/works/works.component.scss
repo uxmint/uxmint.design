@@ -1,0 +1,373 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.banner{
+        background-image: url('/assets/images/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 700px;
+        .work-layout{
+            padding: 300px 30px;
+
+        h1{
+            font-size: 56px;
+            color: #000000;
+
+            span{
+                color: #FF424B;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+       
+        height: 650px;
+        .work-layout{
+            padding: 180px 25px;
+        }
+    }
+    @include media-breakpoint-down(md) {
+
+        height: 540px;
+        .work-layout{
+            padding: 125px 15px;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        height: 500px;
+        .work-layout{
+            padding: 100px 0px;
+            h1{
+                font-size: 36px;
+            }
+       }
+    }
+}
+
+.layout{
+  
+    .five{
+        background-color: #FF424B;
+        color: #FCFCFC;
+        padding: 100px 100px;
+            h1{
+                font-size: 116px;
+            
+            }
+            span{
+                font-size: 56px;
+            }
+}
+
+    .seven{
+            background-color: #282829;
+            color: #FCFCFC;
+            padding: 100px 100px;
+            h1{
+                font-size: 116px;
+            
+            }
+            span{
+                font-size: 56px;
+            }  
+        }    
+        @include media-breakpoint-down(lg) {  
+
+            .five{
+                padding: 85px 25px;
+        
+            }
+            .seven{
+                padding: 85px 25px;
+        
+            }
+        }
+        
+        @include media-breakpoint-down(md) {
+        
+            .five{
+                padding: 85px 25px;
+            }
+            .seven{
+                padding: 85px 25px;
+            }
+        }
+        
+        @include media-breakpoint-down(sm) {
+        
+            .five{
+                padding: 40px 80px;
+                h1{
+                    font-size: 56px;
+                
+                }
+                span{
+                    font-size: 24px;
+                }
+            }
+            .seven{
+                padding: 40px 80px;
+                h1{
+                    font-size: 56px;
+                
+                }
+                span{
+                    font-size: 24px;
+                }
+            }
+        }        
+        
+}
+.only-mobile{
+    display: none;
+}
+.design-layout{
+    background-color: #3E4268;
+    color: #FFFFFF;
+    padding-top: 150px;
+    .banner-header{
+       
+        padding: 150px 0px;
+        h1{
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 65px;
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 30px;
+        }
+        .button{
+            margin-top: 40px;
+            img{
+                margin-left: 35px;
+            }
+        }
+        .btn-white{
+            background-color: #FCFCFC;
+            color: #FF424B;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 0px;
+        }
+    }
+   
+    @include media-breakpoint-down(lg) {  
+        padding-top: 150px;
+        .banner-header{
+            padding: 130px 0px;
+        }
+    }  
+    @include media-breakpoint-down(md) {
+        padding-top: 130px;
+        .banner-header{
+            padding: 100px 0px;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        padding-top: 100px;
+        padding-left: 15px;
+        .only-mobile{
+            display: block;
+        }
+      
+            .only_web{
+                display: none;
+            }
+      
+        .banner-header{
+            padding: 100px 0px;
+            h1{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 50px;
+            }
+            h6{
+                font-size: 16px;
+                font-weight: 300;
+                margin-top: 30px;
+            }
+            .button{
+                margin-top: 40px;
+                img{
+                    margin-left: 35px;
+                }
+            }
+            .btn-white{
+                font-size: 16px;
+                padding: 15px;
+                border-radius: 0px;
+            }
+        }
+    
+    }
+}
+
+.design-layout1{
+    background-color: #FF6C6C;
+    position: relative;
+    color: #FFFFFF;
+    padding-top: 150px;
+    .banner-header{
+        padding: 150px 0px;
+        h1{
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 65px;
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 30px;
+        }
+        .button{
+            margin-top: 40px;
+            img{
+                margin-left: 35px;
+            }
+        }
+        .btn-white{
+            background-color: #FCFCFC;
+            color: #FF424B;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 0px;
+        }
+       
+    }
+    @include media-breakpoint-down(lg) {  
+        padding-top: 150px;
+        .banner-header{
+            padding: 130px 0px;
+        }
+    }  
+    @include media-breakpoint-down(md) {
+        padding-top: 130px;
+        .banner-header{
+            padding: 100px 0px;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        padding-top: 100px;
+        padding-left: 15px;
+        .only-mobile{
+            display: block;
+        }
+      
+            .only_web{
+                display: none;
+            }
+      
+        .banner-header{
+            padding: 100px 0px;
+            h1{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 50px;
+            }
+            h6{
+                font-size: 16px;
+                font-weight: 300;
+                margin-top: 30px;
+            }
+            .button{
+                margin-top: 40px;
+                img{
+                    margin-left: 35px;
+                }
+            }
+            .btn-white{
+                font-size: 16px;
+                padding: 15px;
+                border-radius: 0px;
+            }
+        }
+    
+    }
+ 
+}
+
+.design-layout2{
+    background-color: #53BC67;
+    position: relative;
+    color: #FFFFFF;
+    padding-top: 150px;
+    .banner-header{
+        padding: 150px 0px;
+        h1{
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 65px;
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 30px;
+        }
+        .button{
+            margin-top: 40px;
+            img{
+                margin-left: 35px;
+            }
+        }
+        .btn-white{
+            background-color: #FCFCFC;
+            color: #FF424B;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 0px;
+        }
+    }
+    @include media-breakpoint-down(lg) {  
+        padding-top: 150px;
+        .banner-header{
+            padding: 130px 0px;
+        }
+    }  
+    @include media-breakpoint-down(md) {
+        padding-top: 130px;
+        .banner-header{
+            padding: 100px 0px;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        padding-top: 100px;
+        padding-left: 15px;
+        .only-mobile{
+            display: block;
+        }
+      
+            .only_web{
+                display: none;
+            }
+      
+        .banner-header{
+            padding: 100px 0px;
+            h1{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 50px;
+            }
+            h6{
+                font-size: 16px;
+                font-weight: 300;
+                margin-top: 30px;
+            }
+            .button{
+                margin-top: 40px;
+                img{
+                    margin-left: 35px;
+                }
+            }
+            .btn-white{
+                font-size: 16px;
+                padding: 15px;
+                border-radius: 0px;
+            }
+        }
+    
+    }
+}
