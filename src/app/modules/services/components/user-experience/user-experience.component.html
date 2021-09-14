@@ -18,7 +18,7 @@
                     <h3>A product with good User Experience will Improve Productivity drastically</h3>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 right-layout">
                 <img src="./assets/images/services/image.png">
             </div>
         </div>
@@ -165,5 +165,83 @@
                 <div [ngbNavOutlet]="nav" class="ml-4 px-5"></div>
               </div>
         </div>
+    </div>
+    <div class="service-layout3-responsive">
+      <ngb-accordion [closeOthers]="true" activeIds="static-1">
+        <ngb-panel id="static-1"  >  
+           <ng-template ngbPanelTitle>
+              <div class="dis_flex">
+                 <div> Stake Holder Discussion </div>
+                 <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+              </div>
+            </ng-template> 
+          <ng-template ngbPanelContent >
+           <div class="row">
+              <div class="col-md-6 design-left">
+                <p>We start our requirements gathering from the pillars of the business; the Product Owners, Business SME, CEO/CTO to get their perspectives, needs & current process issues that they encounter and the potential areas of improvement. Based on the inputs we define the features and the scope.</p>
+                <p>On a broader scope the vision for the product and the market context gets defined. Next step would be SWAT Analysis on the competitors in the market.</p>
+              </div>
+           </div>
+          </ng-template>
+        </ngb-panel>
+        <ngb-panel id="static-2">
+           <ng-template ngbPanelTitle>
+              <div class="dis_flex">
+                 <div><h2>Discovering User Needs</h2></div>
+                 <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+              </div>
+            </ng-template> 
+           <ng-template ngbPanelContent>
+              <div class="row">
+                 <div class="col-md-6 design-left">
+                  <p>We funnel the requirements from the Stakeholders, Business Team and the End-Users - align according to the Vision of the Product. It takes a series of process to get the inference from the Research Data. Based on the inputs gleaned from the extensive research and analysis we plot the Journey Maps & Persona. This allowing us to Empathise with the end-users bringing value to the Design Strategy.</p>
+                  <p>The Divergent & Convergent Thinking Process aims to unearth the innovative solutions and to nail the needs & challenges of the end-users & the business.</p>
+                  <div class="li">1. User Research</div>
+                  <div class="li">2. User Persona</div>
+                  <div class="li">3. Users Journey Map</div>
+                  <div class="li">4. Root Cause Analysis</div>
+                 </div>
+              </div>
+           </ng-template>
+         </ngb-panel>
+         <ngb-panel id="static-3">
+           <ng-template ngbPanelTitle>
+              <div class="dis_flex">
+                 <div><h2>Supporting Solution</h2></div>
+                 <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+              </div>
+            </ng-template>
+           <ng-template ngbPanelContent>
+              <div class="row">
+                 <div class="col-md-6 design-left">
+                  <p>We combine the research and the insights to conceptualize to build the wireframes and iterate the prototypes with the business, technical team and the consumers.</p>
+                  <div class="li">1. Conceptual Model</div>
+                  <div class="li">2. Task Flow</div>
+                  <div class="li">3. Card Sorting</div>
+                  <div class="li">4. Information Architecture</div>
+                 </div>
+              </div>
+           </ng-template>
+         </ngb-panel>
+         <ngb-panel id="static-4">
+           <ng-template ngbPanelTitle>
+              <div class="dis_flex">
+                 <div><h2>Test Feature Viability</h2></div>
+                 <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+              </div>
+            </ng-template>
+           <ng-template ngbPanelContent>
+              <div class="row">
+                 <div class="col-md-6 design-left">
+                  <p>We value your time & effort, we employ Early Testing to avoid rework due to mismatch between the users/market needs. We design Visual Prototype and test in multiple stages. Iterate design based on the feedback avoiding changes during the product development or even worse after market launch which could be very expensive for the business.</p>
+                  <div class="li">1. Low Fidelity Wireframe</div>
+                  <div class="li">2. High Fidelity Wireframe</div>
+                  <div class="li">3. Clickable Prototyping</div>
+                  <div class="li">4. Iteration</div>
+                 </div>
+              </div>
+           </ng-template>
+         </ngb-panel>
+      </ngb-accordion>
     </div>
 </div>

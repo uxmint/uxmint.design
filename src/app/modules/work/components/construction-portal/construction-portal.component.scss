@@ -1,12 +1,24 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
 h2{
     font-size: 56px;
+    @include media-breakpoint-down(sm) {
+        font-size: 36px;
+    }
 }
 p{
     font-size: 24px;
+    @include media-breakpoint-down(sm) {
+        font-size: 20px;
+    }
 }
 h6{
     font-size: 36px;
-}  
+    @include media-breakpoint-down(sm) {
+        font-size: 28px;
+    }
+} 
     .banner{
         background-color: #DDFAFF;
         position: relative;
@@ -179,4 +191,12 @@ h6{
 ::ng-deep .tile{
     border-radius: 15px;
     box-shadow: none !important;
+}
+
+@include media-breakpoint-down(sm) {
+.banner{
+    img{
+        width: 100%;
+    }
+}
 }

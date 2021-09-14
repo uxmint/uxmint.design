@@ -1,3 +1,6 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
 .services{
     padding: 50px 0px;
 .banner{
@@ -7,6 +10,9 @@
     position: relative;
     top: -53px;
     height: 770px;
+    @include media-breakpoint-down(sm){
+        background-position: center;
+    }
     h1{
         font-size: 56px;
         color: #000000;
@@ -28,9 +34,17 @@
        background-color: #FF424B;
        color: #FFFFFF;
        padding: 285px 0px;
+       @include media-breakpoint-down(sm){
+        padding: 150px 0px;
+       }
        h3{
            font-size: 48px;
        }
+    }
+    .right-layout{
+        @include media-breakpoint-down(sm){
+            display: none;
+        }
     }
     .col-md-6{
         padding-left: 0px !important;
@@ -54,10 +68,13 @@
         margin-top: 60px;
     }
     .list{
-        padding: 50px 30px;
+        padding: 30px;
+        @include media-breakpoint-down(sm){
+            padding: 12px;
+        }
         span{
             font-size: 24px;
-            margin-left: 20px;
+            margin-left: 5px;
             font-weight: 200;
         }
     }
@@ -97,12 +114,18 @@
     font-size: 36px;
     font-weight: 600;
 }
-.nav-pills a{
-    color: #282829;
+.nav-pills{
+    width: 150%;
+}
+.tab-content{
+    width: 200%;
 }
 .nav-link{
     display: flex;
-    padding: 0.5rem 15rem 1rem 0.5rem;
+    padding: 0 20px 40px 20px;
+}
+.nav-pills a{
+    color: #282829;
 }
 .flex-column{
     padding: 75px 0px;
