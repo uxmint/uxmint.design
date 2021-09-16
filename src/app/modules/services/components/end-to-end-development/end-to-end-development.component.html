@@ -74,4 +74,39 @@
               </div>
         </div>
     </div>
+    <div class="service-layout3-responsive">
+        <ngb-accordion [closeOthers]="true" activeIds="static-1">
+          <ngb-panel id="static-1"  >  
+             <ng-template ngbPanelTitle>
+                <div class="dis_flex">
+                   <div> Implementation </div>
+                   <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+                </div>
+              </ng-template> 
+            <ng-template ngbPanelContent >
+             <div class="row">
+                <div class="col-md-6 design-left">
+                    <p>We define the stubs in correlation with the Interface needs with scope for future enhancements with minimal changes. The API driven development allows us to integrate with multiple platforms and services in agile mode. We manage the code via Git repositories for a hassle free hand-over and deployment.</p>
+                </div>
+             </div>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel id="static-2">
+             <ng-template ngbPanelTitle>
+                <div class="dis_flex">
+                   <div><h2>Testing & Support</h2></div>
+                   <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+                </div>
+              </ng-template> 
+             <ng-template ngbPanelContent>
+                <div class="row">
+                   <div class="col-md-6 design-left">
+                    <p>Quality is the key for any product success, with a well-defined quality process we delivery the product or application that are ready for go-live.</p>
+                    <p>With the core implementation done there is always scope for changes and customer exprience enhancements for which we work along with your team in Release/Patch Managment to suite the end-user demand.</p>
+                   </div>
+                </div>
+             </ng-template>
+           </ngb-panel>
+        </ngb-accordion>
+      </div>
 </div>

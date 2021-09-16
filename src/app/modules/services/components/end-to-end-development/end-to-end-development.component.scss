@@ -10,9 +10,6 @@
     position: relative;
     top: -53px;
     height: 770px;
-    @include media-breakpoint-down(sm){
-        background-position: center;
-    }
     h1{
         font-size: 56px;
         color: #000000;
@@ -24,6 +21,36 @@
     .banner-content{
         padding: 300px 0px;
     }
+    @include media-breakpoint-down(lg){
+        .row{
+            .col-md-6{
+                flex: 0 0 60%;
+                max-width: 60%;
+            }
+        }
+    }
+    @include media-breakpoint-down(md){
+        height: 600px;
+        .row{
+            .col-md-6{
+                flex: 0 0 80%;
+                max-width: 80%;
+            }
+        }
+        .banner-content{
+            padding: 200px 0px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        background-position: center;
+        height: 770px;
+        .row{
+            .col-md-6{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
 }
 .service-layout1{
     .row{
@@ -34,11 +61,19 @@
        background-color: #FF424B;
        color: #FFFFFF;
        padding: 285px 0px;
-       @include media-breakpoint-down(sm){
-        padding: 150px 0px;
-       }
        h3{
            font-size: 48px;
+       }
+       @include media-breakpoint-down(lg){
+        padding: 100px 0px;
+       }
+       @include media-breakpoint-down(md){
+        h3{
+            font-size: 34px;
+        }
+       }
+       @include media-breakpoint-down(sm){
+        padding: 150px 0px;
        }
     }
     .right-layout{
@@ -69,17 +104,68 @@
     }
     .list{
         padding: 30px;
-        @include media-breakpoint-down(sm){
-            padding: 12px;
-        }
         span{
             font-size: 24px;
             margin-left: 5px;
             font-weight: 200;
         }
     }
+    @include media-breakpoint-down(lg){
+        .row{
+            .col-md-5{
+                flex: 0 0 37%;
+                max-width: 37%;
+            }
+            .col-md-4{
+                flex: 0 0 35%;
+                max-width: 35%;
+            }
+            .col-md-3{
+                flex: 0 0 28%;
+                max-width: 28%;
+            }
+        }
+    }
+    @include media-breakpoint-down(md){
+        .row{
+            .col-md-5{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-4{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+            .col-md-3{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+    }
+    @include media-breakpoint-down(sm){
+        .list{
+            padding: 12px;
+        }
+        .row{
+            .col-md-5{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-4{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-3{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
 }
 .service-layout3{
+    @include media-breakpoint-down(sm){
+        display: none;
+    }
     background-color: #FCFCFC;
     padding: 150px 0px;
     color: #282829;
@@ -106,7 +192,79 @@
         font-size: 20px;
         margin-top: 6px;
     }
+
+    @include media-breakpoint-down(md){
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+            margin-left: -60px;
+        }
+        .tab-content{
+            width: 68%;
+        }
+    
+    }
 }
+
+}
+.service-layout3-responsive{
+    display: none;
+}
+@include media-breakpoint-down(sm) {
+
+    .service-layout3-responsive{
+        margin-top: 150px;
+        display: block;
+        ::ng-deep{
+            .card{
+                background-color: #FFFFFF !important;
+            }
+        }
+        ::ng-deep{
+        .card-header {
+            background-color: #FFFFFF !important;
+        }
+        .btn-link:hover {
+            color: #FF424B;
+            font-size: 20px;
+        
+        }
+        .btn-link {
+            font-size: 20px;
+            font-weight: 700; 
+            color: #FF424B;
+            text-decoration: none;
+            width: 100%;
+        }
+        .dis_flex{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .btn:focus  {
+             outline: 0;
+             box-shadow: none !important; 
+        }
+        .collapsed .arrow_rotate{
+            -ms-transform: rotate(180deg);  
+            transform: rotate(180deg);
+        }
+    }
+    h2{
+        font-size: 20px;
+        color: #282829;
+    }
+    .design-left{
+        padding: 40px 20px;
+            p{
+                font-size: 20px;
+                color: #282829;
+                padding-top: 10px;
+            }
+            .li{
+                font-size: 20px;
+                margin-top: 6px;
+            }
+        }
+    }
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
     background-color: #FCFCFC;
