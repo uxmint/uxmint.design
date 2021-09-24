@@ -31,6 +31,16 @@ h6{
             font-weight: 300;
             margin-top: 30px;
         }
+        @include media-breakpoint-down(lg){
+            .banner-header{
+                padding: 150px 0px;
+            }
+        }
+        @include media-breakpoint-down(md){
+            .banner-header{
+                padding: 85px 0px;
+            }
+        }
     }
     .about-project{
         background-color: #FCFCFC;
@@ -39,10 +49,22 @@ h6{
             margin-right: 0;
             margin-left: 0;
         }
+        @include media-breakpoint-down(lg){
+            padding: 200px 0px;
+        }
+        @include media-breakpoint-down(md){
+            padding: 150px 0px;
+        }
     }
     .image{
         img{
             width: 100%;
+        }
+        @include media-breakpoint-down(sm){
+            img{
+                width: 100%;
+                display: none !important;
+            }  
         }
     }
     .approach{
@@ -90,6 +112,28 @@ h6{
         }
         p{
             font-weight: 300;
+        }
+        @include media-breakpoint-down(lg){
+            padding: 50px 0px;
+        }
+        @include media-breakpoint-down(md){
+            padding: 50px 0px;
+            h1{
+                font-size: 72px; 
+            }
+            h2{
+                font-size: 36px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            padding: 50px 0px;
+            .needs{
+                height: 800px;
+                overflow: hidden;
+            }
+            .needs-right{
+                padding: 50px 30px;
+            }
         }
     }
     .other-case-studies{

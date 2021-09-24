@@ -50,6 +50,12 @@
                 max-width: 100%;
             }
         }
+        h1{
+            font-size: 36px;
+        }
+        p{
+            font-size: 24px;
+        }
     }
 }
 .service-layout1{
@@ -145,6 +151,9 @@
     @include media-breakpoint-down(sm){
         .list{
             padding: 12px;
+            span{
+                font-size: 20px;
+            }
         }
         .row{
             .col-md-5{
@@ -159,6 +168,12 @@
                 flex: 0 0 100%;
                 max-width: 100%;
             }
+        }
+        h3{
+            font-size: 28px;
+        }
+        p{
+            font-size: 20px;
         }
     }
 }
@@ -200,7 +215,9 @@
         .tab-content{
             width: 68%;
         }
-    
+        h2{
+            font-size: 36px;
+        }
     }
 }
 
@@ -211,7 +228,7 @@
 @include media-breakpoint-down(sm) {
 
     .service-layout3-responsive{
-        margin-top: 150px;
+        margin-top: 100px;
         display: block;
         ::ng-deep{
             .card{
@@ -247,6 +264,7 @@
             -ms-transform: rotate(180deg);  
             transform: rotate(180deg);
         }
+      
     }
     h2{
         font-size: 20px;
