@@ -13,6 +13,7 @@ import { WorksComponent } from './components/works/works.component';
 import { ServicesComponent } from './components/services/services.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,8 @@ import { NguCarouselModule } from '@ngu/carousel';
     AppRoutingModule,
     NgbModule,
     NguCarouselModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   exports: [
     NguCarouselModule
