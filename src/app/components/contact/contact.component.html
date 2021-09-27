@@ -19,66 +19,32 @@
                   <div  class="col-md-12 layout-right">
                      <div class="layouts">
                         <h2>Let us Know what you are looking <br> forward to discuss.</h2>
-                        <div class="row layouts1">
-                           <div class="col-md-6">
-                              <label class="checkbox">UX Consulting
-                              <input type="checkbox" checked="checked">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Strategy Design
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Mobile App Design
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Product Design
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Something more
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
+                        <form [formGroup]="form" id="contactForm" name="contactForm" class="contactForm">
+                           <div class="row layouts1">
+                              <div class="col-md-6"  *ngFor="let position of positions">
+                                 <div class="custom-control custom-checkbox custom-control-inline">
+                                       <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onChange(position.value)"  class="custom-control-input">
+                                       <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
+                                    </div>
+                              </div>
                            </div>
-                           <div class="col-md-6">
-                              <label class="checkbox">UX Resourcing
-                              <input type="checkbox" checked="checked">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Usability Testing
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Branding
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Digital Transformation
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                           </div>
-                        </div>
-                        <form  id="contactForm" name="contactForm" class="contactForm">
                            <div class="row">
                               <div class="col-md-5">
                                  <div class="form-group bg-light">
                                     <label class="label" for="name">Name</label>
-                                    <input type="text" class="form-control" name="name" id="name" placeholder=" Your name">
+                                    <input type="text" class="form-control" formControlName="name" name="name" id="name" placeholder=" Your name">
                                  </div>
                               </div>
                               <div class="col-md-5">
                                  <div class="form-group bg-light">
                                     <label class="label" for="email">Email </label>
-                                    <input type="email" class="form-control" name="email" id="email" placeholder=" Your@email.com">
+                                    <input type="email" class="form-control" formControlName="phone" name="email" id="email" placeholder=" Your@email.com">
                                  </div>
                               </div>
                               <div class="col-md-5">
                                  <div class="form-group bg-light">
                                     <label class="label" for="name">Phone</label>
-                                    <input type="text" class="form-control" name="number" id="number" placeholder=" Your phone number">
+                                    <input type="text" class="form-control" formControlName="email" name="number" id="number" placeholder=" Your phone number">
                                  </div>
                               </div>
                               <div class="col-md-5">
@@ -89,12 +55,12 @@
                               </div>
                               <div class="col-md-10">
                                  <div class="form-group bg-light">
-                                    <label class="label" for="#">Message</label>
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder=" Start typing here..."></textarea>
+                                    <label class="label" for="message">Message</label>
+                                    <textarea name="message" class="form-control" formControlName="message" id="message" cols="30" rows="4" placeholder=" Start typing here..."></textarea>
                                  </div>
                               </div>
                               <div class="button">
-                                 <div class="btn btn-white">Submit <img src="./assets/images/rightarrow-white.svg"></div>
+                                 <div class="btn btn-white" (click)="submit()">Submit <img src="./assets/images/rightarrow-white.svg"></div>
                               </div>
                            </div>
                         </form>
@@ -110,60 +76,38 @@
                   <div  class="col-md-12 layout-right">
                      <div class="layouts">
                         <h2>Hey, Fill in the details below<br> to join us.</h2>
-                        <div class="row">
-                           <div class="col-md-6">
-                              <label class="checkbox">UX Designer
-                              <input type="checkbox" checked="checked">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Product Designer
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Front-End Developer
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
+                        <form [formGroup]="craeerform" id="careerForm" name="careerForm" class="careerForm">
+                           <div class="row layouts1">
+                              <div class="col-md-6"  *ngFor="let position of careerPositions">
+                                 <div class="custom-control custom-checkbox custom-control-inline">
+                                       <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onCareerChange(position.value)"  class="custom-control-input">
+                                       <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
+                                    </div>
+                              </div>
                            </div>
-                           <div class="col-md-6">
-                              <label class="checkbox">UI Designer
-                              <input type="checkbox" checked="checked">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Brand Consultant
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                              <label class="checkbox">Mobile Developer
-                              <input type="checkbox">
-                              <span class="checkmark"></span>
-                              </label>
-                           </div>
-                        </div>
-                        <form  id="contactForm" name="contactForm" class="contactForm">
                            <div class="row">
                               <div class="col-md-5">
                                  <div class="form-group bg-light">
                                     <label class="label" for="name">Name</label>
-                                    <input type="text" class="form-control" name="name" id="name" placeholder=" Your name">
+                                    <input type="text" class="form-control" formControlName="name" name="name" id="name" placeholder=" Your name">
                                  </div>
                               </div>
                               <div class="col-md-5">
                                  <div class="form-group bg-light">
-                                    <label class="label" for="email">Email </label>
-                                    <input type="email" class="form-control" name="email" id="email" placeholder=" Your@email.com">
+                                    <label class="label" for="emailId">Email </label>
+                                    <input type="email" class="form-control"  formControlName="emailId" name="emailId"  id="emailId" placeholder=" Your@email.com">
                                  </div>
                               </div>
                               <div class="col-md-5">
                                  <div class="form-group bg-light">
-                                    <label class="label" for="name">Phone</label>
-                                    <input type="text" class="form-control" name="name" id="name" placeholder=" Your phone number">
+                                    <label class="label" for="phonenumber">Phone</label>
+                                    <input type="text" class="form-control"  formControlName="phonenumber" name="phonenumber" id="phonenumber" placeholder=" Your phone number">
                                  </div>
                               </div>
                               <div class="col-md-5">
                                  <div class="form-group bg-light">
-                                    <label class="label" for="name">Portfolio URL</label>
-                                    <input type="text" class="form-control" name="name" id="name" placeholder=" Your Portfolio link">
+                                    <label class="label" for="portfolioUrl">Portfolio URL</label>
+                                    <input type="text" class="form-control"  formControlName="portfolioUrl" name="portfolioUrl" id="portfolioUrl" placeholder=" Your Portfolio link">
                                  </div>
                               </div>
                               <div class="col-md-10">
@@ -173,7 +117,7 @@
                                  </div>
                               </div>
                               <div class="button">
-                                 <div class="btn btn-white">Submit <img src="./assets/images/rightarrow-white.svg"></div>
+                                 <div class="btn btn-white" (click)="submitcareer()">Submit <img src="./assets/images/rightarrow-white.svg"></div>
                               </div>
                            </div>
                         </form>

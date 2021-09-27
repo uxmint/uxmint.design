@@ -63,7 +63,7 @@
 
    .layout-left{
     background-color: #FFE14D;
-    padding: 100px 100px;
+    padding: 90px 100px;
     h2{
         font-size: 36px;
     }
@@ -73,7 +73,7 @@
         color: #FFE14D;
       }
     background-color: #282829;
-    padding: 100px 100px;
+    padding: 90px 100px;
     h2{
         font-size: 36px;
         color: #FCFCFC;
@@ -94,7 +94,7 @@
         padding: 100px 100px;
       
         .layouts{
-            height: 400px;
+            height: 480px;
             overflow: auto;
         }
 
@@ -108,9 +108,8 @@
         .checkbox {
             display: block;
             position: relative;
-            padding-left: 35px;
-            margin-bottom: 50px;
-            margin-top: 30px;
+            padding-left: 15px;
+            margin: 30px 0px;
             cursor: pointer;
             font-size: 20px;
             -webkit-user-select: none;
@@ -125,39 +124,6 @@
             height: 0;
             width: 0;
           }
-          .checkmark {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 25px;
-            width: 25px;
-            background-color: #eee;
-          }
-          .checkbox:hover input ~ .checkmark {
-            background-color: #ccc;
-          }
-          .checkbox input:checked ~ .checkmark {
-            background-color: #FF424B;
-          }
-          .checkmark:after {
-            content: "";
-            position: absolute;
-            display: none;
-          }
-          .checkbox input:checked ~ .checkmark:after {
-            display: block;
-          }
-          .checkbox .checkmark:after {
-            left: 9px;
-            top: 5px;
-            width: 5px;
-            height: 10px;
-            border: solid white;
-            border-width: 0 3px 3px 0;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-          }
           .button{
             margin-top: 40px;
             img{
@@ -171,26 +137,6 @@
             padding: 15px;
             border-radius: 0px;
             padding-left: 25px;
-        }
-          .contactForm{
-            .label{
-                color: #282829;
-                font-size: 20px;
-                font-weight: 400;
-               padding-left: 10px;
-               padding-top: 15px;
-            }
-            .form-control{
-                border: none;
-                font-size: 20px;
-               background-color: #f8f9fa;
-                padding-left: 5px;
-                transition: none !important;
-            }
-            .form-control:focus{
-                border-color: #ced4da;
-                box-shadow: none;
-              }
         }
         .form-control-file{
             border: none;
@@ -347,4 +293,36 @@ p{
     @include media-breakpoint-down(sm) {
         padding: 60px 20px;
     }
+}
+.custom-control-label::before{
+    width: 24px;
+    height: 24px;
+}
+.custom-checkbox .custom-control-label::before{
+    border-radius: 0px;
+}
+.custom-control-input:checked ~ .custom-control-label::before{
+    color: #fff;
+    border-color: #FF424B;
+    background-color: #FF424B;
+}
+.custom-control-label::after{
+    top: 0px;
+    left: -27px;
+    width: 2rem;
+    height: 2rem;
+}
+.form-control{
+    border: none;
+    font-size: 20px;
+    background-color: #f8f9fa;
+    padding-left: 5px;
+    transition: none !important;
+}
+.label{
+    color: #282829;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 15px;
 }

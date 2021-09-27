@@ -13,6 +13,7 @@ import { WorksComponent } from './components/works/works.component';
 import { ServicesComponent } from './components/services/services.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CareerUiComponent } from './components/career-ui/career-ui.component';
 import { CareerUxComponent } from './components/career-ux/career-ux.component';
 
@@ -35,6 +36,8 @@ import { CareerUxComponent } from './components/career-ux/career-ux.component';
     AppRoutingModule,
     NgbModule,
     NguCarouselModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   exports: [
     NguCarouselModule
