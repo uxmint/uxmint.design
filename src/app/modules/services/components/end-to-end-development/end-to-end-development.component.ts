@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EndToEndDevelopmentComponent implements OnInit {
   active = 'discussion';
+  activeIds = 'static-1';
   constructor() { }
 
   ngOnInit(): void {

@@ -10,9 +10,6 @@
     position: relative;
     top: -53px;
     height: 770px;
-    @include media-breakpoint-down(sm){
-        background-position: center;
-    }
     h1{
         font-size: 56px;
         color: #000000;
@@ -30,6 +27,42 @@
     .banner-content{
         padding: 300px 0px;
     }
+    @include media-breakpoint-down(lg){
+        .row{
+            .col-md-5{
+                flex: 0 0 60%;
+                max-width: 60%;
+            }
+        }
+    }
+    @include media-breakpoint-down(md){
+        height: 600px;
+        .row{
+            .col-md-5{
+                flex: 0 0 80%;
+                max-width: 80%;
+            }
+        }
+        .banner-content{
+            padding: 200px 0px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        background-position: center;
+        height: 770px;
+        .row{
+            .col-md-5{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+        h1{
+            font-size: 36px;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
 }
 .service-layout1{
     .row{
@@ -40,11 +73,19 @@
        background-color: #FF424B;
        color: #FFFFFF;
        padding: 285px 0px;
-       @include media-breakpoint-down(sm){
-        padding: 150px 0px;
-       }
        h3{
            font-size: 48px;
+       }
+       @include media-breakpoint-down(lg){
+        padding: 100px 0px;
+       }
+       @include media-breakpoint-down(md){
+        h3{
+            font-size: 34px;
+        }
+       }
+       @include media-breakpoint-down(sm){
+        padding: 150px 0px;
        }
     }
     .right-layout{
@@ -57,7 +98,7 @@
         padding-right: 0px !important;
     }
     img{
-        width: 100%;
+        width: 107%;
     }
 }
 .service-layout2{
@@ -75,13 +116,70 @@
     }
     .list{
         padding: 30px;
-        @include media-breakpoint-down(sm){
-            padding: 12px;
-        }
         span{
             font-size: 24px;
             margin-left: 5px;
             font-weight: 200;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        .row{
+            .col-md-5{
+                flex: 0 0 37%;
+                max-width: 37%;
+            }
+            .col-md-4{
+                flex: 0 0 35%;
+                max-width: 35%;
+            }
+            .col-md-3{
+                flex: 0 0 28%;
+                max-width: 28%;
+            }
+        }
+    }
+    @include media-breakpoint-down(md){
+        .row{
+            .col-md-5{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-4{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+            .col-md-3{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+    }
+    @include media-breakpoint-down(sm){
+        .list{
+            padding: 12px;
+            span{
+                font-size: 20px;
+            }
+        }
+        .row{
+            .col-md-5{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-4{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-3{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+        h3{
+            font-size: 28px;
+        }
+        p{
+            font-size: 20px;
         }
     }
 }
@@ -124,7 +222,7 @@
 @include media-breakpoint-down(sm) {
 
     .service-layout3-responsive{
-        margin-top: 150px;
+        margin-top: 100px;
         display: block;
         ::ng-deep{
             .card{

@@ -14,6 +14,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CareerUiComponent } from './components/career-ui/career-ui.component';
+import { CareerUxComponent } from './components/career-ux/career-ux.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     EngagementModelsComponent,
     HomeComponent,
     WorksComponent,
-    ServicesComponent
+    ServicesComponent,
+    CareerUiComponent,
+    CareerUxComponent
   ],
   imports: [
     BrowserModule,
