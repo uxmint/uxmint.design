@@ -269,9 +269,10 @@
 .ngucarousel-indicator{
     // text-align: center;
     width: 100%;
-    //padding-bottom: 20px;
-    //padding-top: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     padding-left: 40px;
+    margin-top: -40px;
     li{
         display: inline-block;
         line-height: 22px;
