@@ -29,6 +29,24 @@
                 cursor: pointer;
             }
         }
+        @include media-breakpoint-down(lg){
+            height: 750px;
+        }
+        @include media-breakpoint-down(md){
+            height: 700px;
+            h1{
+                font-size: 36px;
+            }
+            h2{
+                font-size: 36px;
+            }
+            h3{
+                font-size: 24px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            height: 690px;
+        }
     }
     .types{
         background-color: #3A75DD;
@@ -68,7 +86,84 @@
         .nav-pills a{
             color: #FFF;
         }
+        @include media-breakpoint-down(lg){
+            padding: 100px 0;
+        }
+        @include media-breakpoint-down(md){
+            padding: 100px 0;
+            h2{
+                font-size: 36px;
+            }
+        }
+   
     }
+    .types-responsive{
+        display: none;
+    }
+
+    @include media-breakpoint-down(sm) {
+
+        .types-responsive{
+            margin-top: 75px;
+            display: block;
+            ::ng-deep{
+                .card{
+                    background-color: #FFFFFF !important;
+                }
+            }
+            ::ng-deep{
+            .card-header {
+                background-color: #FFFFFF !important;
+            }
+            .btn-link:hover {
+                color: #FF424B;
+                font-size: 20px;
+            
+            }
+            .btn-link {
+                font-size: 20px;
+                font-weight: 700; 
+                color: #FF424B;
+                text-decoration: none;
+                width: 100%;
+            }
+            .dis_flex{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .btn:focus  {
+                 outline: 0;
+                 box-shadow: none !important; 
+            }
+            .collapsed .arrow_rotate{
+                -ms-transform: rotate(180deg);  
+                transform: rotate(180deg);
+            }
+          
+        }
+        h2{
+            font-size: 20px;
+            color: #282829;
+        }
+        .design-left{
+            padding: 40px 20px;
+                p{
+                    font-size: 20px;
+                    color: #282829;
+                    padding-top: 10px;
+                }
+                .li{
+                    font-size: 20px;
+                    margin-top: 6px;
+                }
+            }
+        }
+        .types{
+            display: none;
+        }
+    }
+
     .cater{
         padding: 100px 0;
         li{
@@ -95,8 +190,86 @@
             font-size: 28px;
             font-weight: 500;
         }
+        @include media-breakpoint-down(lg){
+            padding: 100px 0;
+        }
+        @include media-breakpoint-down(md){
+            padding: 100px 0;
+            h2{
+                font-size: 36px;
+            }
+        }
+   
     }
-}
+    .cater-responsive{
+        display: none;
+    }
+
+    @include media-breakpoint-down(sm) {
+
+        .cater-responsive{
+            margin-top: 75px;
+            display: block;
+            ::ng-deep{
+                .card{
+                    background-color: #FFFFFF !important;
+                }
+            }
+            ::ng-deep{
+            .card-header {
+                background-color: #FFFFFF !important;
+            }
+            .btn-link:hover {
+                color: #FF424B;
+                font-size: 20px;
+            
+            }
+            .btn-link {
+                font-size: 20px;
+                font-weight: 700; 
+                color: #FF424B;
+                text-decoration: none;
+                width: 100%;
+            }
+            .dis_flex{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .btn:focus  {
+                 outline: 0;
+                 box-shadow: none !important; 
+            }
+            .collapsed .arrow_rotate{
+                -ms-transform: rotate(180deg);  
+                transform: rotate(180deg);
+            }
+          
+        }
+        h2{
+            font-size: 20px;
+            color: #282829;
+        }
+        .design-left{
+            padding: 40px 20px;
+                p{
+                    font-size: 20px;
+                    color: #282829;
+                    padding-top: 10px;
+                }
+                .li{
+                    font-size: 20px;
+                    margin-top: 6px;
+                }
+            }
+        }
+        .cater{
+            display: none;
+        }
+    }
+    }
+
+
 .nav-pills{
     width: 200%;
 }

@@ -37,6 +37,19 @@ export class HomeComponent implements OnInit {
       title: 'Even thought why does the colour green or sound...',
       sub: 'by Krithika Thirunavukkarasu'
     }
+   
+  ];
+
+  work:any[] = [
+    { 
+      title: 'Digital Transformation for Telcom',
+      sub: 'UX . UI . Mobile . B2B'
+    },
+    { 
+      title: 'Event Hosting made stressless',
+      sub: 'UX . UI . Mobile . B2B'
+    }
+   
   ];
 
   constructor() { }

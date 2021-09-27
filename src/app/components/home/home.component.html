@@ -1,206 +1,236 @@
 <div class="home">
     <div class="layout">
-        <div class="container">
-            <h2>We design and bring</h2>
-            <h1>Digital Transformation</h1>
-        </div>
+       <div class="container">
+          <h2>We design and bring</h2>
+          <h1>Digital Transformation</h1>
+       </div>
     </div>
+    <!--<div class="feature-work">
+       <div [ngbNavOutlet]="nav" class="mt-2"></div>
+       <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills">
+           <li [ngbNavItem]="1">
+             <a ngbNavLink></a>
+             <ng-template ngbNavContent>
+               <div class="row">
+                   <div class="col-md-6">
+                       <div class="card">
+                           <h3>Feature Work</h3>
+                           <h2>Digital Transformation for Telcom</h2>
+                           <h4>UX . UI . Mobile . B2B</h4>
+                           <div class="button">
+                               <div class="btn">Case Study <img src="./assets/images/home/white-arrow.png"></div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6 step-image">
+                       <div class="image">
+                           <img src="./assets/images/home/digital-tranformation.png">
+                       </div>
+                   </div>
+               </div>
+             </ng-template>
+           </li>
+           <li [ngbNavItem]="2">
+             <a ngbNavLink></a>
+             <ng-template ngbNavContent>
+               <div class="row">
+                   <div class="col-md-6">
+                       <div class="card">
+                           <h3>Feature Work</h3>
+                           <h2>Event Hosting made stressless</h2>
+                           <h4>UX . UI . Mobile . B2B</h4>
+                           <div class="button">
+                               <div class="btn">Case Study</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6 step-image">
+                       <div class="image">
+                           <img src="./assets/images/home/digital-tranformation.png">
+                       </div>
+                   </div>
+               </div>
+             </ng-template>
+           </li>
+       </ul>
+       </div>-->
     <div class="feature-work">
-        <div [ngbNavOutlet]="nav" class="mt-2"></div>
-        <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills">
-            <li [ngbNavItem]="1">
-              <a ngbNavLink></a>
-              <ng-template ngbNavContent>
+       <div class="row">
+          <div class="col-md-12">
+             <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="work">
+             <ngu-tile *nguCarouselDef="let item; let i = index">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="card">
-                            <h3>Feature Work</h3>
-                            <h2>Digital Transformation for Telcom</h2>
-                            <h4>UX . UI . Mobile . B2B</h4>
-                            <div class="button">
-                                <div class="btn">Case Study <img src="./assets/images/home/white-arrow.png"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 step-image">
-                        <div class="image">
-                            <img src="./assets/images/home/digital-tranformation.png">
-                        </div>
-                    </div>
+                   <div class="col-md-6 left">
+                    <h3>Feature Work</h3>
+                    <h3>{{ item.title }}</h3>
+                    <h4>{{ item.sub }}</h4>
+                      <div class="button">
+                         <div class="btn">Case Study <img src="./assets/images/home/white-arrow.png"></div>
+                      </div>
+                   </div>
+                   <div class="col-md-6 right ">
+                      <div class="image">
+                         <img src="./assets/images/home/digital-tranformation.png">
+                      </div>
+                   </div>
                 </div>
-              </ng-template>
-            </li>
-            <li [ngbNavItem]="2">
-              <a ngbNavLink></a>
-              <ng-template ngbNavContent>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card">
-                            <h3>Feature Work</h3>
-                            <h2>Event Hosting made stressless</h2>
-                            <h4>UX . UI . Mobile . B2B</h4>
-                            <div class="button">
-                                <div class="btn">Case Study</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 step-image">
-                        <div class="image">
-                            <img src="./assets/images/home/digital-tranformation.png">
-                        </div>
-                    </div>
-                </div>
-              </ng-template>
-            </li>
-        </ul>
+             </ngu-tile>
+             <ul class="ngucarousel-indicator" NguCarouselPoint>
+                <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
+                   <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
+                </li>
+             </ul>
+             </ngu-carousel>
+          </div>
+       </div>
     </div>
     <div class="products">
-        <div class="container">
-            <div class="logo">
-                <img src="./assets/images/logo-white.png">
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2>Sculpting products that Users admire & Businesses benefit</h2>
-                </div>
-                <div class="col-md-3"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-7">
-                    <h3>We’ve created and collaborated on to build lots of great products like Information portals, Enterprise applications, Digital transformation, Mobile apps, Product Developments & More...</h3>
-                </div>
-                <div class="col-md-5"></div>
-            </div>
-            <div class="button">
-                <div class="btn">Get to know us <img src="./assets/images/home/red-arrow.png"></div>
-            </div>
-            <div class="flex">
-                <div class="icon1">
-                    <img src="./assets/images/home/sify.png">
-                </div>
-                <div class="icon2">
-                    <img src="./assets/images/home/larsen-toubro.png">
-                </div>
-                <div class="icon3">
-                    <img src="./assets/images/home/world-vision.png">
-                </div>
-                <div class="icon4">
-                    <img src="./assets/images/home/bigfday.png">
-                </div>
-                <div class="icon5">
-                    <img src="./assets/images/home/fca.png">
-                </div>
-                <div class="icon6">
-                    <img src="./assets/images/home/sgv.png">
-                </div>
-            </div>
-        </div>
+       <div class="container">
+          <div class="logo">
+             <img src="./assets/images/logo-white.png">
+          </div>
+          <div class="row">
+             <div class="col-md-9">
+                <h2>Sculpting products that Users admire & Businesses benefit</h2>
+             </div>
+             <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+             <div class="col-md-7">
+                <h3>We’ve created and collaborated on to build lots of great products like Information portals, Enterprise applications, Digital transformation, Mobile apps, Product Developments & More...</h3>
+             </div>
+             <div class="col-md-5"></div>
+          </div>
+          <div class="button">
+             <div class="btn">Get to know us <img src="./assets/images/home/red-arrow.png"></div>
+          </div>
+          <div class="flex">
+             <div class="icon1">
+                <img src="./assets/images/home/sify.png">
+             </div>
+             <div class="icon2">
+                <img src="./assets/images/home/larsen-toubro.png">
+             </div>
+             <div class="icon3">
+                <img src="./assets/images/home/world-vision.png">
+             </div>
+             <div class="icon4">
+                <img src="./assets/images/home/bigfday.png">
+             </div>
+             <div class="icon5">
+                <img src="./assets/images/home/fca.png">
+             </div>
+             <div class="icon6">
+                <img src="./assets/images/home/sgv.png">
+             </div>
+          </div>
+       </div>
     </div>
     <div class="cater">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>We can cater our services to your needs</h2>
-                    <div class="button">
-                        <div class="btn">Our Services <img src="./assets/images/home/white-arrow.png"></div>
-                    </div>
+       <div class="container">
+          <div class="row">
+             <div class="col-md-4">
+                <h2>We can cater our services to your needs</h2>
+                <div class="button">
+                   <div class="btn">Our Services <img src="./assets/images/home/white-arrow.png"></div>
                 </div>
-                <div class="col-md-4">
-                    <div class="row types">
-                        <div class="col-md-3">
-                            <div class="icon">
-                                <img src="./assets/images/home/enterprise-application.png">
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <h4>Enterprise <br>Applications</h4>
-                        </div>
-                    </div>
-                    <div class="row types">
-                        <div class="col-md-3">
-                            <div class="icon">
-                                <img src="./assets/images/home/product-development.png">
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <h4>Product <br>Development</h4>
-                        </div>
-                    </div>
-                    <div class="row types">
-                        <div class="col-md-3">
-                            <div class="icon">
-                                <img src="./assets/images/home/strategy-design.png">
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <h4>Strategy <br>Design</h4>
-                        </div>
-                    </div>
+             </div>
+             <div class="col-md-4">
+                <div class="row types">
+                   <div class="col-md-3">
+                      <div class="icon">
+                         <img src="./assets/images/home/enterprise-application.png">
+                      </div>
+                   </div>
+                   <div class="col-md-9">
+                      <h4>Enterprise <br>Applications</h4>
+                   </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="row types">
-                        <div class="col-md-3">
-                            <div class="icon">
-                                <img src="./assets/images/home/information-portals.png">
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <h4>Information <br>Portals</h4>
-                        </div>
-                    </div>
-                    <div class="row types">
-                        <div class="col-md-3">
-                            <div class="icon">
-                                <img src="./assets/images/home/digital-transformation.png">
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <h4>Digital <br>Transformation</h4>
-                        </div>
-                    </div>
-                    <div class="row types">
-                        <div class="col-md-3">
-                            <div class="icon">
-                                <img src="./assets/images/home/mobile-application.png">
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <h4>Mobile <br>Applications</h4>
-                        </div>
-                    </div>
+                <div class="row types">
+                   <div class="col-md-3">
+                      <div class="icon">
+                         <img src="./assets/images/home/product-development.png">
+                      </div>
+                   </div>
+                   <div class="col-md-9">
+                      <h4>Product <br>Development</h4>
+                   </div>
                 </div>
-            </div>
-        </div>
+                <div class="row types">
+                   <div class="col-md-3">
+                      <div class="icon">
+                         <img src="./assets/images/home/strategy-design.png">
+                      </div>
+                   </div>
+                   <div class="col-md-9">
+                      <h4>Strategy <br>Design</h4>
+                   </div>
+                </div>
+             </div>
+             <div class="col-md-4">
+                <div class="row types">
+                   <div class="col-md-3">
+                      <div class="icon">
+                         <img src="./assets/images/home/information-portals.png">
+                      </div>
+                   </div>
+                   <div class="col-md-9">
+                      <h4>Information <br>Portals</h4>
+                   </div>
+                </div>
+                <div class="row types">
+                   <div class="col-md-3">
+                      <div class="icon">
+                         <img src="./assets/images/home/digital-transformation.png">
+                      </div>
+                   </div>
+                   <div class="col-md-9">
+                      <h4>Digital <br>Transformation</h4>
+                   </div>
+                </div>
+                <div class="row types">
+                   <div class="col-md-3">
+                      <div class="icon">
+                         <img src="./assets/images/home/mobile-application.png">
+                      </div>
+                   </div>
+                   <div class="col-md-9">
+                      <h4>Mobile <br>Applications</h4>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
     </div>
     <div class="blogs">
-        <div class="row">
-            <div class="col-md-6 left">
-                <div class="logo">
-                    <img src="./assets/images/logo-white.png">
+       <div class="row">
+          <div class="col-md-6 left">
+             <div class="logo">
+                <img src="./assets/images/logo-white.png">
+             </div>
+             <h2>MINTify your thoughts with our latest blogs and articles</h2>
+             <div class="button">
+                <div class="btn">Read Blog <img src="./assets/images/home/red-arrow.png"></div>
+             </div>
+          </div>
+          <div class="col-md-6 right">
+             <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
+             <ngu-tile *nguCarouselDef="let item; let i = index">
+                <div class="class">
+                   <div class="image">
+                      <img [src]="item.img">
+                   </div>
+                   <h3>{{ item.title }}</h3>
+                   <h4>{{ item.sub }}</h4>
                 </div>
-                <h2>MINTify your thoughts with our latest blogs and articles</h2>
-                <div class="button">
-                    <div class="btn">Read Blog <img src="./assets/images/home/red-arrow.png"></div>
-                </div>
-            </div>
-            <div class="col-md-6 right">
-                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
-                    <ngu-tile *nguCarouselDef="let item; let i = index">
-                        <div class="class">
-                            <div class="image">
-                                <img [src]="item.img">
-                            </div>
-                            <h3>{{ item.title }}</h3>
-                            <h4>{{ item.sub }}</h4>
-                        </div>
-                    </ngu-tile>
-                    <ul class="ngucarousel-indicator" NguCarouselPoint>
-                      <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
-                        <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
-                      </li>
-                    </ul>
-                </ngu-carousel>
-            </div>
-        </div>
+             </ngu-tile>
+             <ul class="ngucarousel-indicator" NguCarouselPoint>
+                <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
+                   <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
+                </li>
+             </ul>
+             </ngu-carousel>
+          </div>
+       </div>
     </div>
-</div>
+ </div>
