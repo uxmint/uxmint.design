@@ -145,6 +145,10 @@
             padding-left: 5px;
             transition: none !important;
         }
+        .form-control:focus{
+            border-color: #ced4da;
+            box-shadow: none;
+          }
     }
   
 
