@@ -39,7 +39,7 @@
         @include media-breakpoint-down(md) {
             height: 540px;
             .careerux-layout1{
-                padding: 210px 15px;
+                padding: 170px 15px;
             }
             h1{
                 font-size: 36px;
@@ -91,6 +91,10 @@
                 border-radius: 0px;
                 border-color: #8B8B8F;
             }
+            .btn-white:focus{
+                border-color: #ced4da;
+                box-shadow: none;
+              }
             .layout-right{
               
                 .layouts{
@@ -125,39 +129,6 @@
                     height: 0;
                     width: 0;
                   }
-                  .checkmark {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 25px;
-                    width: 25px;
-                    background-color: #eee;
-                  }
-                  .checkbox:hover input ~ .checkmark {
-                    background-color: #ccc;
-                  }
-                  .checkbox input:checked ~ .checkmark {
-                    background-color: #FF424B;
-                  }
-                  .checkmark:after {
-                    content: "";
-                    position: absolute;
-                    display: none;
-                  }
-                  .checkbox input:checked ~ .checkmark:after {
-                    display: block;
-                  }
-                  .checkbox .checkmark:after {
-                    left: 9px;
-                    top: 5px;
-                    width: 5px;
-                    height: 10px;
-                    border: solid white;
-                    border-width: 0 3px 3px 0;
-                    -webkit-transform: rotate(45deg);
-                    -ms-transform: rotate(45deg);
-                    transform: rotate(45deg);
-                  }
                   .button{
                     margin-top: 40px;
                     img{
@@ -172,33 +143,49 @@
                     border-radius: 0px;
                     padding-left: 25px;
                 }
-                  .contactForm{
-                    .label{
-                        color: #282829;
-                        font-size: 20px;
-                        font-weight: 400;
-                       padding-left: 10px;
-                       padding-top: 15px;
-                    }
-                    .form-control{
-                        border: none;
-                        font-size: 20px;
-                       background-color: #f8f9fa;
-                        padding-left: 5px;
-                        transition: none !important;
-                    }
-                    .form-control:focus{
-                        border-color: #ced4da;
-                        box-shadow: none;
-                      }
-                  
-                }
+                
+                .form-control:focus{
+                    border-color: #ced4da;
+                    box-shadow: none;
+                  }
                 .form-control-file{
                     border: none;
                     font-size: 20px;
                    background-color: #f8f9fa;
                     padding-left: 5px;
                     transition: none !important;
+                }
+                .custom-control-label::before{
+                    width: 24px;
+                    height: 24px;
+                }
+                .custom-checkbox .custom-control-label::before{
+                    border-radius: 0px;
+                }
+                .custom-control-input:checked ~ .custom-control-label::before{
+                    color: #fff;
+                    border-color: #FF424B;
+                    background-color: #FF424B;
+                }
+                .custom-control-label::after{
+                    top: 0px;
+                    left: -27px;
+                    width: 2rem;
+                    height: 2rem;
+                }
+                .form-control{
+                    border: none;
+                    font-size: 20px;
+                    background-color: #f8f9fa;
+                    padding-left: 5px;
+                    transition: none !important;
+                }
+                .label{
+                    color: #282829;
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding-left: 10px;
+                    padding-top: 15px;
                 }
             }
         }
@@ -226,7 +213,41 @@
                     h2{
                         font-size: 24px;
                     }
-           
+                    .checkbox {
+                        padding-left: 15px;
+                      }
+                    .custom-control-label::before{
+                        width: 24px;
+                        height: 24px;
+                    }
+                    .custom-checkbox .custom-control-label::before{
+                        border-radius: 0px;
+                    }
+                    .custom-control-input:checked ~ .custom-control-label::before{
+                        color: #fff;
+                        border-color: #FF424B;
+                        background-color: #FF424B;
+                    }
+                    .custom-control-label::after{
+                        top: 0px;
+                        left: -27px;
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                    .form-control{
+                        border: none;
+                        font-size: 20px;
+                        background-color: #f8f9fa;
+                        padding-left: 5px;
+                        transition: none !important;
+                    }
+                    .label{
+                        color: #282829;
+                        font-size: 20px;
+                        font-weight: 400;
+                        padding-left: 10px;
+                        padding-top: 15px;
+                    }
                 }
             }
         }
@@ -266,4 +287,5 @@
             }
         }
     }
+  
 }
