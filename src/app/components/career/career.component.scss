@@ -55,9 +55,7 @@
             }
         }
 
-    }
-   
-
+    }  
     .career-layout{
         padding: 100px 30px;
       
@@ -67,13 +65,15 @@
                 font-size: 28px;
                 color: #282829;
                 padding-bottom: 25px; 
+                font-weight: 200;
              }
             .designer{
-               padding-top: 50px;
+                padding: 20px 0px;
             h1{
                 font-size: 36px;
                 font-weight: 500;
                 color: #000000;
+                cursor: pointer;
             }
             h6{
                 font-size: 20px;
