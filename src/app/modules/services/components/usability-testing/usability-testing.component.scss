@@ -2,7 +2,10 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 .services{
-    padding: 50px 0px;
+    padding: 0px 0px;
+    .only-mobile{
+        display: none;
+    }
 .banner{
     background-image: url('/assets/images/bg.png');
     background-repeat: no-repeat;
@@ -64,7 +67,7 @@
         margin-right: 0px !important;
     }
     .left-layout{
-       background-color: #FF424B;
+       background-color: #C3343C;
        color: #FFFFFF;
        padding: 285px 0px;
        h3{
@@ -224,14 +227,14 @@
             background-color: #FFFFFF !important;
         }
         .btn-link:hover {
-            color: #FF424B;
+            color: #C3343C;
             font-size: 20px;
         
         }
         .btn-link {
             font-size: 20px;
             font-weight: 700; 
-            color: #FF424B;
+            color: #C3343C;
             text-decoration: none;
             width: 100%;
         }
@@ -269,7 +272,7 @@
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
     background-color: #FCFCFC;
-    color: #FF424B;
+    color: #C3343C;
     font-size: 36px;
     font-weight: 600;
 }
@@ -288,4 +291,72 @@
 }
 .flex-column{
     padding: 75px 0px;
+}
+
+.process-layout{
+    background-color: #C3343C;
+    padding: 40px 0;
+    color: #FFF;
+    h2{
+        font-size: 48px;
+        font-weight: 500;
+        padding-top: 60px;
+        margin-bottom: 20px;
+        line-height: 60px;
+    }
+    .layout{
+    .flex{
+        display: flex;
+        padding: 50px 0px ;
+        .process{
+            margin-left: 0px;
+            p{
+                font-size: 16px;
+            }
+        }
+       .process-right{
+          margin-left: 8%;
+           p{
+               font-size: 16px;
+           }
+       }
+    }
+}
+    @include media-breakpoint-down(lg) {
+        .layout{
+        .flex{
+            display: flex;
+            .process-right{
+              margin-left: 4%;
+            }
+        }
+    }
+}
+    @include media-breakpoint-down(md) {
+        .layout{
+        .flex{
+            display: flex;
+           .process-right{
+               padding-left: 0%;
+           }
+        }
+    }
+    }
+    @include media-breakpoint-down(sm) {
+        padding: 40px 0;
+        .layout{
+            display: none;
+        }
+        .flex{
+            overflow-y: scroll;
+            display: flex;
+           
+         li{
+             padding-top: 15px;
+             padding-bottom: 15px;
+             font-size: 16px;
+         }
+        }
+      
+    }
 }

@@ -9,6 +9,8 @@ export class ServicesComponent implements OnInit {
 
   active1 = 'user-experience';
   active2 = 'enterprise-applications';
+  active = 'discussion';
+  activeIds = 'static-1';
 
   constructor() { }
 
