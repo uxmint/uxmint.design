@@ -70,7 +70,7 @@
 }
 }
 
-.engagement-layout1{
+/*.engagement-layout1{
     background-color: #FA6D37;
     
 
@@ -192,7 +192,7 @@
               }
         }
     }
-}
+}*/
 
 .only-mobile{
     display: none;
@@ -270,7 +270,142 @@
         }
 
     }
-    .engagement-layout1{
+    .feature-work{
         display: none;
     }
+}
+
+.feature-work{
+    background-color: #FA6D37;
+    padding: 0 0 4px 5px;
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .card{
+        border: none;
+        padding: 100px 170px 100px 100px;
+        height: 600px;
+        background-color: #FA6D37;
+        p{
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+        h2{
+            font-size: 48px;
+            font-weight: 500;
+            margin-bottom: 40px;
+            color: #FFFFFF;
+        }
+    }
+    .design-right{
+        padding: 150px 30px;
+
+          .logo-image{
+            padding-top: 10px;
+            padding-bottom: 20px;
+          }
+          p{
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+    }
+    .mt-2, .my-2 {
+        margin-top: 0 !important;
+    }
+    .nav-pills{
+        a{
+            padding: 6px 180px 6px 180px;
+        }
+        .nav-link{
+            border-radius: 0;
+            background-color: #E6E6E6;
+        }
+        .nav-link.active{
+            background-color: #C3343C;
+        }
+    }
+    @include media-breakpoint-down(lg) {
+        padding: 0 0 4px 5px;
+        .card{
+            border: none;
+            padding: 100px 60px 0px 80px;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        padding: 0 0 4px 5px;
+        .card{
+            border: none;
+            padding: 100px 10px 0px 25px;
+        }
+        .design-right{
+            padding: 150px 0px;
+        }
+    }
+}
+// Carousel
+.item{
+    padding: 0;
+}
+.ngucarousel-indicator{
+    // text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    li{
+        display: inline-block;
+        line-height: 22px;
+        a{
+            display: block;
+            margin: 0 5px;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #FFF;
+            background-color: #D0D0D0 !important;
+            text-indent: -999px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+            &.active{
+                width: 11px;
+                height: 11px;
+                border: 8px solid #C3343C;
+                background-color: #C3343C !important;
+            }
+        }
+    }
+}
+.ngucarousel-indicator-two{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-left: 0px;
+    li{
+        display: inline-block;
+        line-height: 22px;
+        a{
+            display: block;
+            margin: 0 5px;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #FFF;
+            background-color: #D0D0D0 !important;
+            text-indent: -999px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+            &.active{
+                width: 11px;
+                height: 11px;
+                border: 8px solid #C3343C;
+                background-color: #C3343C !important;
+            }
+        }
+    }
+}
+::ng-deep .tile{
+    border-radius: 15px;
+    box-shadow: none !important;
 }

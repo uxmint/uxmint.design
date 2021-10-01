@@ -5,6 +5,34 @@
           <h1>Digital Transformation</h1>
        </div>
     </div>
+    <div class="feature-work">
+      <ngu-carousel class="work-carousel" #workCarousel [inputs]="worksCarouselConfig" [dataSource]="works">
+         <ngu-tile *nguCarouselDef="let item; let i = index">
+            <div class="row">
+               <div class="col-md-6">
+                   <div class="card">
+                       <h3>Feature Work</h3>
+                       <h2>{{ item.title }}</h2>
+                       <h4>UX . UI . Mobile . B2B</h4>
+                       <div class="button">
+                           <div class="btn" [routerLink]="item.link">Case Study <img src="./assets/images/home/white-arrow.png"></div>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-6 step-image">
+                   <div class="image">
+                       <img [src]="item.img">
+                   </div>
+               </div>
+           </div>
+         </ngu-tile>
+         <ul class="ngucarousel-indicator-two" NguCarouselPoint>
+            <li *ngFor="let pointer of workCarousel.pointNumbers; let i = index">
+               <a (click)="workCarousel.moveTo(i)" [class.active]="workCarousel.activePoint == i">&nbsp;</a>
+            </li>
+         </ul>
+         </ngu-carousel>
+    </div>
     <!--<div class="feature-work">
        <div [ngbNavOutlet]="nav" class="mt-2"></div>
        <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills">
@@ -54,36 +82,6 @@
            </li>
        </ul>
        </div>-->
-    <div class="feature-work">
-       <div class="row">
-          <div class="col-md-12">
-             <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="work">
-             <ngu-tile *nguCarouselDef="let item; let i = index">
-                <div class="row">
-                   <div class="col-md-6 left">
-                    <h3>Feature Work</h3>
-                    <h3>{{ item.title }}</h3>
-                    <h4>{{ item.sub }}</h4>
-                      <div class="button">
-                         <div class="btn">Case Study <img src="./assets/images/home/white-arrow.png"></div>
-                      </div>
-                   </div>
-                   <div class="col-md-6 right ">
-                      <div class="image">
-                         <img src="./assets/images/home/digital-tranformation.png">
-                      </div>
-                   </div>
-                </div>
-             </ngu-tile>
-             <ul class="ngucarousel-indicator" NguCarouselPoint>
-                <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
-                   <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
-                </li>
-             </ul>
-             </ngu-carousel>
-          </div>
-       </div>
-    </div>
     <div class="products">
        <div class="container">
           <div class="logo">

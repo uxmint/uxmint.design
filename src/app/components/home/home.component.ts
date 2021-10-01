@@ -37,19 +37,35 @@ export class HomeComponent implements OnInit {
       title: 'Even thought why does the colour green or sound...',
       sub: 'by Krithika Thirunavukkarasu'
     }
-   
   ];
 
-  work:any[] = [
+  worksCarouselConfig:NguCarouselConfig = {
+    grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
+    slide: 1,
+    speed: 400,
+    interval: {
+      timing: 4000,
+      initialDelay: 1000
+    },
+    point: {
+      visible: true
+    },
+    load: 2,
+    touch: true,
+    loop: true
+  };
+
+  works:any[] = [
     { 
+      img: './assets/images/home/digital-tranformation.png',
       title: 'Digital Transformation for Telcom',
-      sub: 'UX . UI . Mobile . B2B'
+      link: '/'
     },
     { 
+      img: './assets/images/home/digital-tranformation.png',
       title: 'Event Hosting made stressless',
-      sub: 'UX . UI . Mobile . B2B'
+      link: '/'
     }
-   
   ];
 
   constructor() { }
