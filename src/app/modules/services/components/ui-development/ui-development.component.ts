@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class UiDevelopmentComponent implements OnInit {
   active = 'discussion';
   activeIds = 'static-1';
+  active2 = 'code-repository';
   constructor() { }
 
   ngOnInit(): void {

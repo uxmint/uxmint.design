@@ -298,3 +298,107 @@
 .flex-column{
     padding: 75px 0px;
 }
+
+.repository{
+    padding: 100px 0;
+    li{
+        font-size: 28px;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    h2{
+        font-size: 56px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 60px;
+    }
+    .nav-link{
+        color: #282829;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+        background-color: #FFF;
+        color: #C3343C;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    @include media-breakpoint-down(lg){
+        padding: 100px 0;
+    }
+    @include media-breakpoint-down(md){
+        padding: 100px 0;
+        h2{
+            font-size: 36px;
+        }
+    }
+
+}
+.repository-responsive{
+    display: none;
+}
+
+@include media-breakpoint-down(sm) {
+
+    .repository-responsive{
+        margin-top: 75px;
+        display: block;
+        ::ng-deep{
+            .card{
+                background-color: #FFFFFF !important;
+            }
+        }
+        ::ng-deep{
+        .card-header {
+            background-color: #FFFFFF !important;
+        }
+        .btn-link:hover {
+            color: #C3343C;
+            font-size: 20px;
+        
+        }
+        .btn-link {
+            font-size: 20px;
+            font-weight: 700; 
+            color: #C3343C;
+            text-decoration: none;
+            width: 100%;
+        }
+        .dis_flex{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .btn:focus  {
+             outline: 0;
+             box-shadow: none !important; 
+        }
+        .collapsed .arrow_rotate{
+            -ms-transform: rotate(180deg);  
+            transform: rotate(180deg);
+        }
+      
+    }
+    h2{
+        font-size: 20px;
+        color: #282829;
+    }
+    .design-left{
+        padding: 40px 20px;
+            p{
+                font-size: 20px;
+                color: #282829;
+                padding-top: 10px;
+            }
+            .li{
+                font-size: 20px;
+                margin-top: 6px;
+            }
+        }
+    }
+    .repository{
+        display: none;
+    }
+}

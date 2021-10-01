@@ -360,3 +360,29 @@
       
     }
 }
+
+.situations-layout{
+    background-color: #0f0f0f;
+    padding: 100px 0px;
+    color: #FFF;
+    h2{
+        font-size: 36px;
+    }
+
+    .nav-link{
+        display: flex;
+        padding: 0 20px 40px 20px;
+        margin-top: 90px;
+    }
+    @include media-breakpoint-down(lg) {
+        padding: 100px 0px;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 80px 0px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding: 70px 0px;
+    }
+}
+
+

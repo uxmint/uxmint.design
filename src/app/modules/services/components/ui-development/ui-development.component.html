@@ -87,4 +87,61 @@
           </ngb-panel>
         </ngb-accordion>
       </div>
+      <div class="repository">
+        <div class="container">
+            <div class="d-flex">
+                <ul ngbNav #nav2="ngbNav" [(activeId)]="active2" class="nav-pills" orientation="vertical">
+                  <li ngbNavItem="code-repository">
+                    <a ngbNavLink> Code  Repository</a>
+                    <ng-template ngbNavContent>
+                      <h2>Code  Repository</h2>
+                      <p>We manage the code in Git repository with version control to allow multiple teams to colloborate in a distributed environment.</p>
+                    </ng-template>
+                  </li>
+                  <li ngbNavItem="testing-implementation">
+                    <a ngbNavLink>Testing  & Implementation</a>
+                    <ng-template ngbNavContent>
+                    <h2>Testing  & Implementation</h2>
+                    <p>We never settle for anything less than best, we iterate with the business and end-users to refine the interface periodically. With focus on cross-platform and cross-browser testing to achieve the best results.</p>
+                    </ng-template>
+                  </li>
+                </ul>
+                <div [ngbNavOutlet]="nav2" class="ml-4 px-5"></div>
+            </div>
+        </div>
+    </div>
+    <div class="repository-responsive">
+        <ngb-accordion [closeOthers]="true" activeIds="static-1">
+          <ngb-panel id="static-1"  >  
+             <ng-template ngbPanelTitle>
+                <div class="dis_flex">
+                   <div>Code  Repository </div>
+                   <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+                </div>
+              </ng-template> 
+            <ng-template ngbPanelContent >
+             <div class="row">
+                <div class="col-md-6 design-left">
+                    <p>We manage the code in Git repository with version control to allow multiple teams to colloborate in a distributed environment.</p>
+                </div>
+             </div>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel id="static-2">
+             <ng-template ngbPanelTitle>
+                <div class="dis_flex">
+                   <div><h2>Testing  & Implementation</h2></div>
+                   <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
+                </div>
+              </ng-template> 
+             <ng-template ngbPanelContent>
+                <div class="row">
+                   <div class="col-md-6 design-left">
+                    <p>We never settle for anything less than best, we iterate with the business and end-users to refine the interface periodically. With focus on cross-platform and cross-browser testing to achieve the best results.</p>
+                   </div>
+                </div>
+             </ng-template>
+           </ngb-panel>
+        </ngb-accordion>
+      </div>
 </div>
