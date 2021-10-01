@@ -1,0 +1,291 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.career-ux{
+   
+    .banner{
+        background-image: url('/assets/images/bg3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: #995BEB;
+        height: 770px;
+        .careerux-layout1{
+            padding: 300px 30px;
+        }
+        h1{
+            font-size: 56px;
+            color: #000000;
+            span{
+                color: #FFFFFF;
+            }
+        }
+        h6{
+            font-size: 36px;
+            color: #282829;
+            padding-top: 25px;
+            span{
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            height: 650px;
+            .careerux-layout1{
+                padding: 250px 25px;
+            }
+        }
+        @include media-breakpoint-down(md) {
+            height: 540px;
+            .careerux-layout1{
+                padding: 170px 15px;
+            }
+            h1{
+                font-size: 36px;
+            }
+            h6{
+                font-size: 24px; 
+            }
+        }
+        @include media-breakpoint-down(sm) {
+           
+            display: none;
+            height: 500px;
+            .careerux-layout1{
+                padding: 100px 0px;
+            }
+        }
+    }
+
+    .careerux-layout{
+        padding: 100px 30px;
+        .careerux-design{
+            padding: 50px 30px;
+            h1{
+                font-size: 36px;
+                font-weight: 500;
+                color: #000000;
+            }
+            h6{
+                font-size: 20px;
+                color: #8B8B8F;
+                padding-top: 50px;
+            }
+            h5{
+                font-size: 20px;
+                color: #282829;  
+            }
+            .button{
+                margin-top: 40px;
+                img{
+                    margin-left: 5px;
+                    margin-right: 20px;
+                }
+            }
+            .btn-white{
+                background-color: #FFFFFF;
+                color: #282829;
+                font-size: 20px;
+                padding: 15px;
+                border-radius: 0px;
+                border-color: #8B8B8F;
+            }
+            .btn-white:focus{
+                border-color: #ced4da;
+                box-shadow: none;
+              }
+            .layout-right{
+              
+                .layouts{
+                    height: 400px;
+                    overflow: auto;
+                }
+        
+                ::-webkit-scrollbar {
+                    width: 0px;
+                }
+                h2{
+                    font-size: 36px;
+                    color: #FF424B;
+                }
+                .checkbox {
+                    display: block;
+                    position: relative;
+                    padding-left: 35px;
+                    margin-bottom: 50px;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    font-size: 20px;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                  }
+                  .checkbox input {
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0;
+                  }
+                  .button{
+                    margin-top: 40px;
+                    img{
+                        margin-left: 35px;
+                    }
+                }
+                .btn-white{
+                    background-color: #FF424B;
+                    color: #FCFCFC;
+                    font-size: 20px;
+                    padding: 15px;
+                    border-radius: 0px;
+                    padding-left: 25px;
+                }
+                
+                .form-control:focus{
+                    border-color: #ced4da;
+                    box-shadow: none;
+                  }
+                .form-control-file{
+                    border: none;
+                    font-size: 20px;
+                   background-color: #f8f9fa;
+                    padding-left: 5px;
+                    transition: none !important;
+                }
+                .custom-control-label::before{
+                    width: 24px;
+                    height: 24px;
+                }
+                .custom-checkbox .custom-control-label::before{
+                    border-radius: 0px;
+                }
+                .custom-control-input:checked ~ .custom-control-label::before{
+                    color: #fff;
+                    border-color: #FF424B;
+                    background-color: #FF424B;
+                }
+                .custom-control-label::after{
+                    top: 0px;
+                    left: -27px;
+                    width: 2rem;
+                    height: 2rem;
+                }
+                .form-control{
+                    border: none;
+                    font-size: 20px;
+                    background-color: #f8f9fa;
+                    padding-left: 5px;
+                    transition: none !important;
+                }
+                .label{
+                    color: #282829;
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding-left: 10px;
+                    padding-top: 15px;
+                }
+            }
+        }
+        @include media-breakpoint-down(lg) { 
+
+            padding: 100px 30px;
+            .careerux-design{
+                padding: 50px 30px;
+            }
+        }
+
+        @include media-breakpoint-down(md) { 
+
+            padding: 80px 0px;
+            .careerux-design{
+                padding: 40px 0px;
+                .layout-right{
+                    .layouts{
+                        height: 400px;
+                        overflow: auto;
+                    }
+                    ::-webkit-scrollbar {
+                        width: 0px;
+                    }
+                    h2{
+                        font-size: 24px;
+                    }
+                    .checkbox {
+                        padding-left: 15px;
+                      }
+                    .custom-control-label::before{
+                        width: 24px;
+                        height: 24px;
+                    }
+                    .custom-checkbox .custom-control-label::before{
+                        border-radius: 0px;
+                    }
+                    .custom-control-input:checked ~ .custom-control-label::before{
+                        color: #fff;
+                        border-color: #FF424B;
+                        background-color: #FF424B;
+                    }
+                    .custom-control-label::after{
+                        top: 0px;
+                        left: -27px;
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                    .form-control{
+                        border: none;
+                        font-size: 20px;
+                        background-color: #f8f9fa;
+                        padding-left: 5px;
+                        transition: none !important;
+                    }
+                    .label{
+                        color: #282829;
+                        font-size: 20px;
+                        font-weight: 400;
+                        padding-left: 10px;
+                        padding-top: 15px;
+                    }
+                }
+            }
+        }
+
+        @include media-breakpoint-down(sm) { 
+            padding: 50px 0px;
+            .only-mobile{
+                display: none;
+            } 
+            .careerux-design{
+                padding: 0px 0px;
+                .layout-right{
+                    .layouts{
+                        height: 1420px;
+                        overflow: hidden;
+                    }
+                    ::-webkit-scrollbar {
+                        display: none;
+                    }
+                    h2{
+                        font-size: 24px;
+                    }
+                    .checkbox {
+                        display: block;
+                        position: relative;
+                        padding-left: 35px;
+                        margin-bottom: 50px;
+                        margin-top: 30px;
+                        cursor: pointer;
+                        font-size: 20px;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                      }
+                }
+            }
+        }
+    }
+  
+}
