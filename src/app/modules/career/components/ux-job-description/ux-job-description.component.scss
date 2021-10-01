@@ -1,0 +1,209 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.career-ui{
+   
+    .banner{
+        background-image: url('/assets/images/bg3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: #995BEB;
+        height: 770px;
+        .careerui-layout1{
+            padding: 300px 30px;
+        }
+        h1{
+            font-size: 56px;
+            color: #000000;
+            span{
+                color: #FFFFFF;
+            }
+        }
+        h6{
+            font-size: 36px;
+            color: #282829;
+            padding-top: 25px;
+            span{
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
+        }
+      
+        @include media-breakpoint-down(lg) {
+            height: 650px;
+            .careerui-layout1{
+                padding: 250px 25px;
+            }
+        }
+        @include media-breakpoint-down(md) {
+            height: 540px;
+            .careerui-layout1{
+                padding: 210px 15px;
+            }
+            h1{
+                font-size: 36px;
+            }
+            h6{
+                font-size: 24px; 
+            }
+        }
+        @include media-breakpoint-down(sm) {
+           
+            display: none;
+            height: 500px;
+            .careerui-layout1{
+                padding: 100px 0px;
+            }
+        }
+    }
+
+    .careerui-layout{
+        padding: 150px 30px;
+        .careerui-design{
+            padding: 50px 30px;
+            h1{
+                font-size: 36px;
+                font-weight: 500;
+                color: #000000;
+            }
+            h6{
+                font-size: 20px;
+                color: #8B8B8F;
+                padding-top: 50px;
+            }
+            h5{
+                font-size: 20px;
+                color: #282829;  
+            }
+            .button{
+                margin-top: 40px;
+                img{
+                    margin-left: 5px;
+                    margin-right: 20px;
+                }
+            }
+            .btn-white{
+                background-color: #FFFFFF;
+                color: #282829;
+                font-size: 20px;
+                padding: 15px;
+                border-radius: 0px;
+                border-color: #8B8B8F;
+            }
+            .btn-white:focus{
+                border-color: #ced4da;
+                box-shadow: none;
+              }
+            .description{
+                overflow: auto;
+                height: 600px;
+                h6{
+                    font-size: 24px;
+                    color: #8B8B8F;
+                }
+                p{
+                    font-size: 20px;
+                    color: #282829;
+                    padding-top: 35px;
+                    line-height: 45px;
+                }
+                .button{
+                    margin-top: 40px;
+                    img{
+                        margin-left: 35px;
+                    }
+                }
+                .btn-white{
+                    background-color: #FF424B;
+                    color: #FCFCFC;
+                    font-size: 20px;
+                    padding: 15px;
+                    border-radius: 0px;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(lg) {  
+            padding: 150px 30px;
+            .careerui-design{
+                padding: 50px 30px;
+            }
+    }
+    @include media-breakpoint-down(md) {  
+        padding: 130px 20px;
+        .careerui-design{
+            padding: 30px 20px;
+            h1{
+                font-size: 24px;
+                font-weight: 700;
+            }
+            h6{
+                font-size: 20px;
+                padding-top: 40px;
+            }
+            h5{
+                font-size: 20px;
+            }
+           
+            .button{
+                margin-top: 30px;
+                img{
+                    margin-left: 5px;
+                    margin-right: 20px;
+                }
+            }
+            .btn-white{
+                font-size: 20px;
+                padding: 15px;
+            }
+            .description{
+                h6{
+                    font-size: 20px;
+                    margin-top: -15px;
+                }
+                p{
+                    font-size: 20px;
+                    padding-top: 35px;
+                    line-height: 45px;
+                }
+                .button{
+                    margin-top: 40px;
+                    img{
+                        margin-left: 35px;
+                    }
+                }
+                .btn-white{
+                    font-size: 20px;
+                    padding: 15px;
+                }
+            }
+        }
+}
+
+@include media-breakpoint-down(sm) { 
+    .only-mobile{
+        display: none;
+    } 
+    padding: 100px 0px;
+    .careerui-design{
+        padding: 10px 0px;
+        .careerui-design{
+            padding: 30px 20px;
+            .button{
+                margin-top: 30px;
+                img{
+                    margin-left: 5px;
+                    margin-right: 20px;
+                }
+            }
+            .btn-white{
+                font-size: 20px;
+                padding: 15px;
+                    }  
+                }
+           }
+        }
+    }
+}

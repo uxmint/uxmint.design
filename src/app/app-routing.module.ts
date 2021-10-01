@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'work', loadChildren : ()=> import('./modules/work/work.module').then(m=>m.WorkModule) },
   { path: 'service', loadChildren : ()=> import('./modules/services/services.module').then(m=>m.ServicesModule) },
+  { path: 'career', loadChildren : ()=> import('./modules/career/career.module').then(m=>m.CareerModule)},
   { path: 'blogs', component: BlogsComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-us', component: ContactComponent },
