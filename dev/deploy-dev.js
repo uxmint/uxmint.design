@@ -1,3 +1,15 @@
+const fs = require('fs-extra');
+if(!fs.existsSync('dist')){
+    fs.mkdirSync('dist');
+}
+fs.readdirSync('./').forEach(function(file){
+    if(file.endsWith('.html') || file == 'CNAME'){
+        fs.copyFileSync(file,`dist/${file}`);
+    }
+    if(['js','css','images'].includes(file)){
+       fs.copySync(file,`dist/${file}`);
+    }
+});
 const ghpages = require('gh-pages');
 console.log('Publishing Please Wait...');
 ghpages.publish('./',{
