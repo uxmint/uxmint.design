@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 console.log('Publishing Please Wait...');
 const { parseAngularRoutes } = require('guess-parser');
 const routes = parseAngularRoutes('tsconfig.app.json');
-routes.forEach(route=>{
+routes.filter(route=>route.path).forEach(route=>{
     if(!fs.existsSync(`dist/uxmint${route.path}`)){
         fs.mkdirSync(`dist/uxmint${route.path}`,{ recursive: true });
     }
