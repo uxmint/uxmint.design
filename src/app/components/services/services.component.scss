@@ -5,7 +5,10 @@
 .services{
     .layout{
         background-color: #3A75DD;
-        background-image: url('/assets/images/bg3.png');
+        background-image: url('/./assets/images/bg3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
         height: 750px;
         border-bottom: 1px solid #739FED;
         h1{
