@@ -1,0 +1,25 @@
+{
+  "name": "uxmint.design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node deploy.js",
+    "deploy-dev": "node deploy-dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxmint/uxmint.design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxmint/uxmint.design/issues"
+  },
+  "homepage": "https://github.com/uxmint/uxmint.design#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "lodash": "^4.17.21"
+  }
+}
