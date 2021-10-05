@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="73" height="73" viewBox="0 0 73 73">
-  <g id="Group_5784" data-name="Group 5784" transform="translate(-498 -3147)">
-    <g id="Rectangle_4410" data-name="Rectangle 4410" transform="translate(498 3147)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
-      <rect width="73" height="73" stroke="none"/>
-      <rect x="0.5" y="0.5" width="72" height="72" fill="none"/>
-    </g>
-    <path id="Icon_awesome-angular" data-name="Icon awesome-angular" d="M26.2,37.138h11.26L31.831,23.6ZM31.831,2.25,1.125,13.244l4.7,40.74L31.831,68.45,57.839,53.984l4.7-40.74ZM51.071,52.757H43.889l-3.872-9.664H23.674L19.8,52.757h-7.2L31.831,9.565Z" transform="translate(502.875 3148.75)" fill="#623ec6"/>
-  </g>
-</svg>
