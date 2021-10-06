@@ -1,7 +1,11 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 footer{
     background-color: #282829;
     color: #FFFFFF;
-    padding: 100px 30px;
+    padding: 100px 0px 20px 0px;
     h2{
         font-size: 48px;
     }
@@ -49,6 +53,31 @@ footer{
         font-size: 20px;
         a{
             cursor: pointer;
+        }
+    }
+    @include media-breakpoint-down(md){
+        h2{
+            font-size: 36px;
+        }
+        .btn-white{
+            font-size: 16px;
+        }
+        h4{
+            font-size: 20px;
+        }
+        a{
+            font-size: 16px;
+        }
+        .credits{
+            font-size: 14px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        .btn-white{
+            margin-bottom: 100px;
+        }
+        a{
+            font-size: 14px;
         }
     }
 }

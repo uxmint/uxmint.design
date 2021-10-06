@@ -49,7 +49,7 @@
             }
         }
         @include media-breakpoint-down(sm) {
-            height: 500px;
+            height: 600px;
             .career-layout1{
                 padding: 150px 0px;
             }
@@ -83,48 +83,47 @@
             }
             }
 
-            @include media-breakpoint-down(lg) {  
-                padding: 100px 30px;
-                .career-design{
-                padding: 60px 0px;
-             
-                }
-
-        }
-
-        @include media-breakpoint-down(md) {  
-            padding: 50px 0px;
-            .career-design{
-            padding: 50px 0px;
-            h2{
-                font-size: 24px;
-                padding-bottom: 25px; 
-             }
-            .designer{
-               padding-top: 40px;
-               h1{
-                font-size: 24px;
-                font-weight: 500;
-            }
-            h6{
-                font-size: 20px;
-            }
-        }
     }
-
-}
-
-    @include media-breakpoint-down(sm) {  
-        .only-mobile{
-            display: none;
-        }
-        padding: 50px 0px;
+    @include media-breakpoint-down(lg) {  
+        padding: 100px 30px;
         .career-design{
-        padding: 0px 0px;
+        padding: 60px 0px;
+     
         }
 
 }
 
+@include media-breakpoint-down(md) {  
+    padding: 50px 0px;
+    .career-design{
+    padding: 50px 0px;
+    h2{
+        font-size: 24px;
+        padding-bottom: 25px; 
+     }
+    .designer{
+       padding-top: 40px;
+       h1{
+        font-size: 24px;
+        font-weight: 500;
     }
+    h6{
+        font-size: 20px;
+    }
+}
+}
+
+}
+
+@include media-breakpoint-down(sm) {  
+.only-mobile{
+    display: none;
+}
+padding: 100px 0px;
+.career-design{
+padding: 0px 0px;
+}
+
+}
 }
 }
