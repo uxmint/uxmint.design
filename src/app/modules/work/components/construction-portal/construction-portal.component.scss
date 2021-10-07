@@ -200,6 +200,7 @@ h6{
            padding: 40px 130px 80px 90px;
            background-color: #C3343C;
            h2{
+               font-size: 36px;
                font-weight: 400;
                color: #FFF;
                margin-top: 120px;
@@ -215,6 +216,17 @@ h6{
                 img{
                     padding-left: 12px;
                 }
+           }
+           @include media-breakpoint-down(sm){
+            padding: 0px 40px 80px 20px;
+            h2{
+                font-size: 30px;
+                margin-top: 80px;
+                margin-bottom: 40px;
+            }
+            .btn{
+                font-size: 16px;
+            }
            }
        }
        .right{
@@ -234,6 +246,13 @@ h6{
                    font-weight: 400;
                    margin: 0 0 10px 40px;
                }
+           }
+           @include media-breakpoint-down(sm){
+            .class{
+                h3{
+                    font-size: 24px;
+                }
+            }
            }
        }
     }

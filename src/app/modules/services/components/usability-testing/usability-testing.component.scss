@@ -155,6 +155,9 @@
     @include media-breakpoint-down(sm){
         .list{
             padding: 12px;
+            span{
+                font-size: 20px;
+            }
         }
         .row{
             .col-md-4{
