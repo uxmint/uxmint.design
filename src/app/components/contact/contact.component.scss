@@ -61,19 +61,19 @@
 
 .contact-layout1{
 
-   .layout-left{
-    background-color: #FFE14D;
-    padding: 90px 100px;
-    h2{
-        font-size: 36px;
-    }
-   }
+//    .layout-left{
+//     background-color: #FFE14D;
+//     padding: 90px 100px;
+//     h2{
+//         font-size: 36px;
+//     }
+//    }
    .layout-left1{
-    a:hover {
-        color: #FFE14D;
-      }
-    background-color: #282829;
-    padding: 90px 100px;
+    // a:hover {
+    //     color: #FFE14D;
+    //   }
+    //background-color: #282829;
+    //padding: 90px 100px;
     h2{
         font-size: 36px;
         color: #FCFCFC;
@@ -81,13 +81,18 @@
 }
     
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-    background-color: transparent !important;
+    background-color: #FFE14D !important;
     font-size: 36px;
     font-weight: 500;
+    padding: 120px 100px;
+    border-radius: 0;
 } 
 .nav-pills a{
     color: #FFF;
     font-size: 36px;
+    padding: 120px 100px;
+    background-color: #282829;
+    border-radius: 0;
 } 
 
     .layout-right{
@@ -211,12 +216,12 @@
             line-height: 48px;
         }
         p{
-            font-size: 20px;
+            font-size: 18px;
             color: #282829;
             margin-top: 65px;
         }
         h4{
-            font-size: 20px;
+            font-size: 18px;
             color: #282829;
             margin-top: 40px;
         }
@@ -276,7 +281,7 @@ h3{
    padding-bottom: 20px;
 }
 p{
-    font-size: 24px;
+    font-size: 18px;
     color: #282829;
     padding-bottom: 20px;
 }

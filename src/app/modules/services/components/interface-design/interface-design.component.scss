@@ -13,16 +13,10 @@
     h1{
         font-size: 56px;
         color: #000000;
-        @include media-breakpoint-down(sm){
-            font-size: 36px;
-        }
     }
     p{
-        font-size: 30px;
+        font-size: 18px;
         color: #000000;
-        @include media-breakpoint-down(sm){
-            font-size: 24px;
-        }
     }
     .banner-content{
         padding: 300px 0px;
@@ -36,7 +30,7 @@
         }
     }
     @include media-breakpoint-down(md){
-        height: 600px;
+        height: 450px;
         .row{
             .col-md-5{
                 flex: 0 0 80%;
@@ -46,21 +40,21 @@
         .banner-content{
             padding: 200px 0px;
         }
+        h1{
+            font-size: 36px;
+        }
+        p{
+            font-size: 16px;
+        }
     }
     @include media-breakpoint-down(sm){
         background-position: center;
-        height: 770px;
+        height: 560px;
         .row{
             .col-md-5{
                 flex: 0 0 100%;
                 max-width: 100%;
             }
-        }
-        h1{
-            font-size: 36px;
-        }
-        p{
-            font-size: 24px;
         }
     }
 }
@@ -81,11 +75,8 @@
        }
        @include media-breakpoint-down(md){
         h3{
-            font-size: 34px;
+            font-size: 30px;
         }
-       }
-       @include media-breakpoint-down(sm){
-        padding: 150px 0px;
        }
     }
     .right-layout{
@@ -110,14 +101,14 @@
         margin-bottom: 30px;
     }
     p{
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 200;
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .list{
         padding: 30px;
         span{
-            font-size: 24px;
+            font-size: 20px;
             margin-left: 5px;
             font-weight: 200;
         }
@@ -153,13 +144,22 @@
                 max-width: 50%;
             }
         }
+        h3{
+            font-size: 28px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .list{
+            span{
+                font-size: 18px;
+            }
+        }
     }
     @include media-breakpoint-down(sm){
+        padding: 100px 0;
         .list{
             padding: 12px;
-            span{
-                font-size: 20px;
-            }
         }
         .row{
             .col-md-5{
@@ -174,12 +174,6 @@
                 flex: 0 0 100%;
                 max-width: 100%;
             }
-        }
-        h3{
-            font-size: 28px;
-        }
-        p{
-            font-size: 20px;
         }
     }
 }
@@ -205,13 +199,18 @@
         font-size: 56px;
     }
     p{
-        font-size: 20px;
+        font-size: 16px;
         line-height: 30px;
         margin-top: 40px;
     }
     .li{
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 6px;
+    }
+    @include media-breakpoint-down(md){
+        h2{
+            font-size: 36px;
+        }
     }
 }
 }
@@ -220,58 +219,51 @@
 }
 
 @include media-breakpoint-down(sm) {
-
     .service-layout3-responsive{
-        margin-top: 100px;
+        margin: 100px 0;
         display: block;
-        ::ng-deep{
-            .card{
-                background-color: #FFFFFF !important;
-            }
-        }
-        ::ng-deep{
-        .card-header {
+        .card{
             background-color: #FFFFFF !important;
         }
-        .btn-link:hover {
-            color: #C3343C;
-            font-size: 20px;
-        
+        ::ng-deep .card-header {
+            background-color: #FFFFFF !important;
         }
-        .btn-link {
-            font-size: 20px;
-            font-weight: 700; 
+        ::ng-deep .btn-link:hover {
             color: #C3343C;
+            font-size: 20px;
+        }
+        ::ng-deep .btn-link {
+            font-size: 20px;
+            font-weight: 500; 
+            color: #282829;
             text-decoration: none;
             width: 100%;
         }
-        .dis_flex{
+        ::ng-deep .btn-link.active {
+            color: #C3343C;
+        }
+        ::ng-deep .dis_flex{
             display:flex;
             align-items: center;
             justify-content: space-between;
         }
-        .btn:focus  {
+        ::ng-deep .btn:focus  {
              outline: 0;
              box-shadow: none !important; 
         }
-        .collapsed .arrow_rotate{
+        ::ng-deep .collapsed .arrow_rotate{
             -ms-transform: rotate(180deg);  
             transform: rotate(180deg);
         }
-    }
-    h2{
-        font-size: 20px;
-        color: #282829;
-    }
     .design-left{
-        padding: 40px 20px;
+        padding: 10px 20px 40px 20px;
             p{
-                font-size: 20px;
+                font-size: 16px;
                 color: #282829;
                 padding-top: 10px;
             }
             .li{
-                font-size: 20px;
+                font-size: 16px;
                 margin-top: 6px;
             }
         }
@@ -282,6 +274,15 @@
     color: #C3343C;
     font-size: 36px;
     font-weight: 600;
+    svg{
+        margin-top: 8px !important;
+    }
+    @include media-breakpoint-down(md){
+        font-size: 28px;
+        svg{
+            margin-top: 0px !important;
+        }
+    }
 }
 .nav-pills{
     width: 150%;
@@ -295,7 +296,10 @@
 }
 .nav-pills a{
     color: #282829;
+    svg{
+        margin-right: 10px;
+    }
 }
-.flex-column{
-    padding: 75px 0px;
-}
+// .flex-column{
+//     padding: 75px 0px;
+// }

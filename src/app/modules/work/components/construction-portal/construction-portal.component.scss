@@ -3,19 +3,20 @@
 @import '~bootstrap/scss/mixins';
 h2{
     font-size: 56px;
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 36px;
     }
 }
 p{
-    font-size: 24px;
-    @include media-breakpoint-down(sm) {
-        font-size: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    @include media-breakpoint-down(md) {
+        font-size: 14px;
     }
 }
 h6{
     font-size: 36px;
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 28px;
     }
 } 
@@ -55,6 +56,9 @@ h6{
         @include media-breakpoint-down(md){
             padding: 150px 0px;
         }
+        @include media-breakpoint-down(sm){
+            padding: 80px 0px;
+        }
     }
     .image-event{
         img{
@@ -74,9 +78,9 @@ h6{
         h2{
             margin-bottom: 30px;
         }
-        p{
-            line-height: 40px;
-        }
+        // p{
+        //     line-height: 40px;
+        // }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
         }
@@ -84,15 +88,15 @@ h6{
             padding: 150px 0px;
         }
         @include media-breakpoint-down(sm){
-            padding: 150px 0px;
+            padding: 80px 0px;
             h2{
                 font-size: 36px;
                 margin-bottom: 30px;
             }
-            p{
-                font-size: 24px;
-                line-height: 40px;
-            }
+            // p{
+            //     font-size: 24px;
+            //     line-height: 40px;
+            // }
         }
     }
     .target-strategy{
@@ -102,10 +106,13 @@ h6{
         .strategy{
             margin-top: 30px;
         }
+        @include media-breakpoint-down(sm){
+            padding: 80px 0px;
+        }
     }
     .needs-challenges{
-        margin-bottom: 70px;
-        padding: 50px 0px;
+        //margin-bottom: 70px;
+        //padding: 50px 0px;
         .left{
             background-color: #DDFAFF;
             padding: 50px 0px;
@@ -122,11 +129,12 @@ h6{
             width: 0px;
         }
         .needs-right{
-            padding: 100px 30px;
+            padding: 150px 30px 100px 30px;
         }
         h2{
             color: #003F72;
             font-weight: 300;
+            margin-top: 50px;
         }
         h6{
             margin-bottom: 25px;
@@ -134,26 +142,34 @@ h6{
         p{
             font-weight: 300;
         }
-        @include media-breakpoint-down(lg){
-            padding: 50px 0px;
-        }
+        // @include media-breakpoint-down(lg){
+        //     padding: 50px 0px;
+        // }
         @include media-breakpoint-down(md){
-            padding: 50px 0px;
+            // padding: 50px 0px;
             h1{
                 font-size: 72px; 
             }
             h2{
                 font-size: 36px;
+                padding-left: 20px;
             }
         }
         @include media-breakpoint-down(sm){
-            padding: 50px 0px;
+            // padding: 0px 0px;
+            .left{
+                background-color: #003F72;
+                padding: 50px 0px 0 0;
+            }
+            h2{
+                color: #FFF;
+            }
             .needs{
-                height: 1000px;
+                height: 700px;
                 overflow: hidden;
             }
             .needs-right{
-                padding: 50px 30px;
+                padding: 50px 0 0 0;
             }
         }
     }
@@ -171,19 +187,24 @@ h6{
                 width: 110%;
                 margin-top: 100px;
             }
+            li{
+                margin-right: 70px;
+            }
         }
         @include media-breakpoint-down(md){
             padding: 75px 0px;
             img{
                 width: 100%;
-                margin-top: 100px;
+                margin-top: 40px;
+            }
+            li{
+                margin-right: 40px;
             }
         }
         @include media-breakpoint-down(sm){
             padding: 50px 0px;
             img{
                 width: 100%;
-                margin-top: 100px;
             }
         }
     }
@@ -217,8 +238,8 @@ h6{
                     padding-left: 12px;
                 }
            }
-           @include media-breakpoint-down(sm){
-            padding: 0px 40px 80px 20px;
+           @include media-breakpoint-down(md){
+            padding: 100px 40px 80px 30px;
             h2{
                 font-size: 30px;
                 margin-top: 80px;
@@ -227,6 +248,9 @@ h6{
             .btn{
                 font-size: 16px;
             }
+           }
+           @include media-breakpoint-down(sm){
+            padding: 0px 40px 80px 20px;
            }
        }
        .right{
@@ -242,12 +266,12 @@ h6{
                    margin: 40px 130px 20px 40px;
                }
                h4{
-                   font-size: 20px;
+                   font-size: 16px;
                    font-weight: 400;
                    margin: 0 0 10px 40px;
                }
            }
-           @include media-breakpoint-down(sm){
+           @include media-breakpoint-down(md){
             .class{
                 h3{
                     font-size: 24px;

@@ -18,7 +18,7 @@
         color: #000000;
     }
     p{
-        font-size: 30px;
+        font-size: 18px;
         color: #000000;
     }
     .banner-content{
@@ -33,7 +33,7 @@
         }
     }
     @include media-breakpoint-down(md){
-        height: 600px;
+        height: 450px;
         .row{
             .col-md-5{
                 flex: 0 0 80%;
@@ -43,21 +43,24 @@
         .banner-content{
             padding: 200px 0px;
         }
+        h1{
+            font-size: 36px;
+        }
+        p{
+            font-size: 16px;
+        }
     }
     @include media-breakpoint-down(sm){
         background-position: center;
-        height: 770px;
+        height: 560px;
         .row{
             .col-md-5{
                 flex: 0 0 100%;
                 max-width: 100%;
             }
         }
-        h1{
-            font-size: 36px;
-        }
-        p{
-            font-size: 24px;
+        .banner-content{
+            padding: 250px 0px 200px 0;
         }
     }
 }
@@ -78,11 +81,8 @@
        }
        @include media-breakpoint-down(md){
         h3{
-            font-size: 34px;
+            font-size: 30px;
         }
-       }
-       @include media-breakpoint-down(sm){
-        padding: 150px 0px;
        }
     }
     .right-layout{
@@ -107,14 +107,14 @@
         margin-bottom: 30px;
     }
     p{
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 200;
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .list{
         padding: 30px;
         span{
-            font-size: 24px;
+            font-size: 20px;
             margin-left: 5px;
             font-weight: 200;
         }
@@ -135,6 +135,11 @@
                 max-width: 28%;
             }
         }
+        .list{
+            span{
+                font-size: 18px;
+            }
+        }
     }
     @include media-breakpoint-down(md){
         .row{
@@ -151,13 +156,17 @@
                 max-width: 33%;
             }
         }
+        h3{
+            font-size: 28px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
     @include media-breakpoint-down(sm){
+        padding: 100px 0;
         .list{
             padding: 12px;
-            span{
-                font-size: 20px;
-            }
         }
         .row{
             .col-md-4{
@@ -173,18 +182,9 @@
                 max-width: 100%;
             }
         }
-        h3{
-            font-size: 28px;
-        }
-        p{
-            font-size: 20px;
-        }
     }
 }
 .service-layout3{
-    @include media-breakpoint-down(sm){
-        display: none;
-    }
     background-color: #FCFCFC;
     padding: 150px 0px;
     color: #282829;
@@ -201,13 +201,21 @@
         font-size: 56px;
     }
     p{
-        font-size: 20px;
+        font-size: 16px;
         line-height: 30px;
         margin-top: 40px;
     }
     .li{
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 6px;
+    }
+    @include media-breakpoint-down(md){
+        h2{
+            font-size: 36px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        display: none;
     }
 }
 }
@@ -216,58 +224,52 @@
 }
 
 @include media-breakpoint-down(sm) {
-
     .service-layout3-responsive{
-        margin-top: 100px;
+        margin: 100px 0;
         display: block;
-        ::ng-deep{
-            .card{
-                background-color: #FFFFFF !important;
-            }
-        }
-        ::ng-deep{
-        .card-header {
+        .card{
             background-color: #FFFFFF !important;
         }
-        .btn-link:hover {
-            color: #C3343C;
-            font-size: 20px;
-        
+        ::ng-deep .card-header {
+            background-color: #FFFFFF !important;
         }
-        .btn-link {
-            font-size: 20px;
-            font-weight: 700; 
+        ::ng-deep .btn-link:hover {
             color: #C3343C;
+            font-size: 20px;
+        }
+        ::ng-deep .btn-link {
+            font-size: 20px;
+            font-weight: 500;
+            text-align: left;
+            color: #282829;
             text-decoration: none;
             width: 100%;
         }
-        .dis_flex{
+        ::ng-deep .btn-link.active {
+            color: #C3343C;
+        }
+        ::ng-deep .dis_flex{
             display:flex;
             align-items: center;
             justify-content: space-between;
         }
-        .btn:focus  {
+        ::ng-deep .btn:focus  {
              outline: 0;
              box-shadow: none !important; 
         }
-        .collapsed .arrow_rotate{
+        ::ng-deep .collapsed .arrow_rotate{
             -ms-transform: rotate(180deg);  
             transform: rotate(180deg);
         }
-    }
-    h2{
-        font-size: 20px;
-        color: #282829;
-    }
     .design-left{
-        padding: 40px 20px;
+        padding: 10px 20px 40px 20px;
             p{
-                font-size: 20px;
+                font-size: 16px;
                 color: #282829;
                 padding-top: 10px;
             }
             .li{
-                font-size: 20px;
+                font-size: 16px;
                 margin-top: 6px;
             }
         }
@@ -278,6 +280,15 @@
     color: #C3343C;
     font-size: 36px;
     font-weight: 600;
+    svg{
+        margin-top: 14px !important;
+    }
+    @include media-breakpoint-down(md){
+        font-size: 28px;
+        svg{
+            margin-top: 7px !important;
+        }
+    }
 }
 .nav-pills{
     width: 150%;
@@ -292,9 +303,9 @@
 .nav-pills a{
     color: #282829;
 }
-.flex-column{
-    padding: 75px 0px;
-}
+// .flex-column{
+//     padding: 75px 0px;
+// }
 
 .process-layout{
     background-color: #C3343C;
@@ -336,9 +347,22 @@
     }
 }
     @include media-breakpoint-down(md) {
+        h2{
+            font-size: 36px;
+        }
         .layout{
         .flex{
             display: flex;
+            .process{
+                p{
+                    font-size: 12px;
+                }
+            }
+            .process-right{
+                p{
+                    font-size: 12px;
+                }
+            }
            .process-right{
                padding-left: 0%;
            }
@@ -353,7 +377,16 @@
         .flex{
             overflow-y: scroll;
             display: flex;
-           
+            .process{
+                p{
+                    font-size: 12px;
+                }
+            }
+            .process-right{
+                p{
+                    font-size: 12px;
+                }
+            }
          li{
              padding-top: 15px;
              padding-bottom: 15px;
@@ -376,14 +409,60 @@
         padding: 0 20px 40px 20px;
         margin-top: 90px;
     }
+    .row{
+        .col-md-5 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .col-md-7 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
     @include media-breakpoint-down(lg) {
         padding: 100px 0px;
+        .row{
+            .col-md-5 {
+                flex: 0 0 35%;
+                max-width: 35%;
+            }
+            .col-md-7 {
+                flex: 0 0 65%;
+                max-width: 65%;
+            }
+        }
     }
     @include media-breakpoint-down(md) {
         padding: 80px 0px;
+        h2{
+            font-size: 20px;
+        }
+        .row{
+            .col-md-5 {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+            .col-md-7 {
+                flex: 0 0 80%;
+                max-width: 80%;
+            }
+        }
     }
     @include media-breakpoint-down(sm) {
         padding: 70px 0px;
+        h2{
+            padding-bottom: 40px;
+        }
+        .row{
+            .col-md-5 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-7 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
     }
 }
 
