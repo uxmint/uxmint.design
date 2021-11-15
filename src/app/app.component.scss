@@ -7,7 +7,8 @@ footer{
     color: #FFFFFF;
     padding: 100px 0px 20px 0px;
     h2{
-        font-size: 48px;
+        font-size: 20px;
+        font-family: GD Sherpa;
     }
     .button{
         margin-top: 40px;
@@ -33,32 +34,26 @@ footer{
             margin-bottom: 20px;
         }
         a{
-            font-size: 20px;
-            color: #FFFFFF;
-            text-decoration: underline;
-            font-weight: 300;
+            font-size: 14px;
+            color: #707070;
+           font-family: Muli;
         }
     }
-    .socialmedia{
-            padding-left: 0px;
-        li{
-            list-style: none;
-            display: inline-flex;
-            margin-right: 20px;
-            cursor: pointer;
-        }
-    }
-    .credits{
-        color: #A9A9A9;
-        font-size: 16px;
-        a{
-            cursor: pointer;
-        }
+    hr.line {
+        border-top: 1px solid #707070;
+      }
+      .footer-bottom{
+          padding-top: 5px;
+          padding-bottom: 15px;
+      .rights{
+          h2{
+              font-family: GD Sherpa;
+              font-size: 14px;
+              color: #707070;
+          }
+      }
     }
     @include media-breakpoint-down(md){
-        h2{
-            font-size: 36px;
-        }
         .btn-white{
             font-size: 16px;
         }
@@ -67,9 +62,6 @@ footer{
         }
         a{
             font-size: 16px;
-        }
-        .credits{
-            font-size: 14px;
         }
     }
     @include media-breakpoint-down(sm){
