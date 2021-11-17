@@ -28,13 +28,13 @@ export class HomeComponent implements OnInit {
 
   blogs:any[] = [
     { 
-      img: './assets/images/services/image1.png',
-      title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      img: './assets/images/home/image1.png',
+      title: 'How to experience Five Senses — in Digital Commerce',
+      sub: 'by Veera Thiruppal'
     },
     { 
-      img: './assets/images/services/image2.png',
-      title: 'Even thought why does the colour green or sound...',
+      img: './assets/images/home/image2.png',
+      title: 'Ever thought why does the colour green or sound of water brings calmness?',
       sub: 'by Krithika Thirunavukkarasu'
     }
   ];

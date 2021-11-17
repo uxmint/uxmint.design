@@ -3,33 +3,31 @@
 @import '~bootstrap/scss/mixins';
 
 .banner{
-        background-image: url('/dev/assets/images/layout-2.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        height: 700px;
+       background-color: #FCFCFC;
+        height: 550px;
         .work-layout{
             padding: 300px 30px;
 
         h1{
-            font-size: 56px;
+            font-size: 64px;
+            font-family: Baskerville;
             color: #000000;
 
             span{
                 color: #C3343C;
             }
         }
+        hr.line {
+            border-top: 1px solid #707070;
+            
+          }
     }
 
     @include media-breakpoint-down(lg) {
-       
         height: 650px;
-        .work-layout{
-            padding: 180px 25px;
-        }
+       
     }
     @include media-breakpoint-down(md) {
-
         height: 400px;
         .work-layout{
             padding: 125px 15px;
@@ -46,128 +44,92 @@
     }
 }
 
-.layout{
-  
-    .five{
-        background-color: #C3343C;
-        color: #FCFCFC;
-        padding: 100px 100px;
-            h1{
-                font-size: 116px;
-            
-            }
-            span{
-                font-size: 56px;
-            }
-}
-
-    .seven{
-            background-color: #282829;
-            color: #FCFCFC;
-            padding: 100px 100px;
-            h1{
-                font-size: 116px;
-            
-            }
-            span{
-                font-size: 56px;
-            }  
-        }    
-        @include media-breakpoint-down(lg) {  
-
-            .five{
-                padding: 85px 25px;
-                h1{
-                    font-size: 100px;
-                
-                }
-                span{
-                    font-size: 40px;
-                }
-            }
-            .seven{
-                padding: 85px 25px;
-                h1{
-                    font-size: 100px;
-                
-                }
-                span{
-                    font-size: 40px;
-                }
+.cater{
+    background-color: #FCFCFC;
+    padding: 100px 0px;
+    color: #FFF;
+    .left{
+        margin-left: -100px;
+    }
+    h1{
+        font-size: 92px;
+        font-family: Inter;
+        color: #C3343C;
+    }
+    h4{
+        font-size: 24px;
+        font-family: Muli;
+        color: #020202;
+        line-height: 36px;
+        padding-top: 10px;
+    }
+    .types{
+        background-color: #FFFFFF;
+        cursor: pointer;
+        //padding: 5px 5px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+    @include media-breakpoint-down(lg){
+        padding: 50px 0px;
+        .types{
+            margin-left: 0px;
+        }
+        .left{
+            margin-left: -20px;
+        }
+    }
+    @include media-breakpoint-down(md){
+        padding: 0px 0px;
+        .row{
+            .col-md-5{
+                flex: 0 0 45%;
+                max-width: 50%;
             }
         }
-        
-        @include media-breakpoint-down(md) {
-        
-            .five{
-                padding: 40px 80px;
-                h1{
-                    font-size: 56px;
-                    white-space: nowrap;
-                }
-                span{
-                    font-size: 24px;
-                    white-space: nowrap;
-                }
+        h1{
+            font-size: 72px;
+        }
+        .left{
+            margin-left: -17px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        padding: 5px 0px 20px 0px;
+        h1{
+            font-size: 52px;
+        }
+        .types{
+            .col-md-7{
+                width: 25%;
             }
-            .seven{
-                padding: 40px 80px;
-                h1{
-                    font-size: 56px;
-                    white-space: nowrap;
-                
-                }
-                span{
-                    font-size: 24px;
-                }
+            .col-md-3{
+                width: 75%;
             }
         }
-        
-        @include media-breakpoint-down(sm) {
-            flex-wrap: nowrap;
-            .five{
-                padding: 35px 30px;
-                h1{
-                    font-size: 56px;
-                    white-space: nowrap;
-                }
-                span{
-                    font-size: 24px;
-                    white-space: nowrap;
-                }
-            }
-            .seven{
-                padding: 35px 30px;
-                h1{
-                    font-size: 56px;
-                    white-space: nowrap;
-                
-                }
-                span{
-                    font-size: 24px;
-                }
-            }
-        }        
-        
+    }
 }
+
 .only-mobile{
     display: none;
 }
 .design-layout{
-    background-color: #3E4268;
+    background-color: #FCFCFC;
     color: #FFFFFF;
     padding: 100px 0 80px 0;
     .banner-header{
        
         padding: 60px 0px;
         h1{
-            font-size: 48px;
-            font-weight: 500;
+            font-size: 57px;
+            font-family: Baskerville;
             line-height: 65px;
+            color: #000000;
         }
         h6{
             font-size: 20px;
-            font-weight: 300;
+            font-family: Muli;
+            color: #707070;
             margin-top: 30px;
         }
         .button{
@@ -177,11 +139,17 @@
             }
         }
         .btn-white{
-            background-color: #FCFCFC;
-            color: #C3343C;
+            border: 2px solid #707070;
+            border-radius: 0;
+            color: #0D0D0D;
+            cursor: pointer;
             font-size: 20px;
-            padding: 15px;
-            border-radius: 0px;
+            font-family: Muli;
+        }
+    }
+    .image{
+        img{
+            margin-left: -30%;
         }
     }
    
@@ -192,7 +160,7 @@
         }
     }  
     @include media-breakpoint-down(md) {
-        padding-top: 130px;
+        padding-top: 100px;
         .banner-header{
             padding: 100px 0px;
             h1{
@@ -239,20 +207,22 @@
 }
 
 .design-layout1{
-    background-color: #C3343C;
-    position: relative;
+    background-color: #FCFCFC;
     color: #FFFFFF;
+    position: relative;
     padding: 100px 0 80px 0;
     .banner-header{
         padding: 100px 0px;
         h1{
-            font-size: 48px;
-            font-weight: 500;
+            font-size: 57px;
+            font-family: Baskerville;
             line-height: 65px;
+            color: #000000;
         }
         h6{
             font-size: 20px;
-            font-weight: 300;
+            font-family: Muli;
+            color: #707070;
             margin-top: 30px;
         }
         .button{
@@ -262,13 +232,19 @@
             }
         }
         .btn-white{
-            background-color: #FCFCFC;
-            color: #C3343C;
+            border: 2px solid #707070;
+            border-radius: 0;
+            color: #0D0D0D;
+            cursor: pointer;
             font-size: 20px;
-            padding: 15px;
-            border-radius: 0px;
+            font-family: Muli;
         }
        
+    }
+    .image{
+        img{
+            margin-left: -0%;
+        }
     }
     @include media-breakpoint-down(lg) {  
         padding-top: 150px;
@@ -325,20 +301,22 @@
 }
 
 .design-layout2{
-    background-color: #53BC67;
+    background-color: #FCFCFC;
     position: relative;
     color: #FFFFFF;
     padding-top: 100px;
     .banner-header{
         padding: 150px 0px;
         h1{
-            font-size: 48px;
-            font-weight: 500;
+            font-size: 57px;
+            font-family: Baskerville;
             line-height: 65px;
+            color: #000000;
         }
         h6{
             font-size: 20px;
-            font-weight: 300;
+            font-family: Muli;
+            color: #707070;
             margin-top: 30px;
         }
         .button{
@@ -348,11 +326,17 @@
             }
         }
         .btn-white{
-            background-color: #FCFCFC;
-            color: #C3343C;
+            border: 2px solid #707070;
+            border-radius: 0;
+            color: #0D0D0D;
+            cursor: pointer;
             font-size: 20px;
-            padding: 15px;
-            border-radius: 0px;
+            font-family: Muli;
+        }
+    }
+    .image{
+        img{
+            margin-left: -10%;
         }
     }
     @include media-breakpoint-down(lg) {  
@@ -407,3 +391,36 @@
     
     }
 }
+.craft{
+    background-color: #C3343C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h2{
+        font-size: 57px;
+        font-family: Baskerville;
+        color: #FCFCFC;
+    }
+    .button{
+        margin-top: 80px;
+    }
+    .btn-white{
+        border: 2px solid #FFFFFF;
+        color: #FCFCFC;
+        font-size: 20px;
+        padding: 8px;
+        border-radius: 0px;
+        font-family: Muli;
+    }
+    @include media-breakpoint-down(md){
+        h2{
+            font-size: 37px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        .button{
+            margin-top: 50px;
+           padding-left: 15px;
+        }
+    }
+}
+
