@@ -25,19 +25,19 @@ export class HealthCareComponent implements OnInit {
 
   blogs:any[] = [
     { 
-      img: './assets/images/services/image1.png',
-      title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      img: './assets/images/works/customer.png',
+      title: 'A Customer Advocacy Platform',
+      sub: 'UX . UI . Web . Mobile . B2C'
     },
     { 
-      img: './assets/images/services/image2.png',
-      title: 'Even thought why does the colour green or sound...',
-      sub: 'by Krithika Thirunavukkarasu'
+      img: './assets/images/works/child.png',
+      title: 'Child Care Portal',
+      sub: 'UX . UI . Tablet . B2C'
     },
     { 
-      img: './assets/images/services/image1.png',
-      title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      img: './assets/images/works/event.png',
+      title: 'Event Hosting made stressless',
+      sub: 'UX . UI . Web . Mobile . B2C'
     }
   ];
 
