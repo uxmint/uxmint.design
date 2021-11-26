@@ -3,20 +3,15 @@
 @import '~bootstrap/scss/mixins';
 
 .banner{
-    background-image: url('/dev/assets/images/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: #FFE14D;
     position: relative;
     height: 700px;
-    border-bottom: 1px solid #FCFCFC;
+    padding: 245px 0px;
     .contact-layout{
-        padding: 300px 30px;
-
     h1{
         font-size: 56px;
         color: #000000;
-
+        font-family: Baskerville;
         span{
             color: #C3343C;
         }
@@ -25,6 +20,7 @@
         font-size: 36px;
         padding-top: 25px;
         color: #1f0b0c;
+        font-family: Muli;
          span{
             color: #C3343C;
             text-decoration: underline;
@@ -34,14 +30,12 @@
 }
 @include media-breakpoint-down(lg) {
     height: 650px;
-    .contact-layout{
-        padding: 250px 25px;
-    }
+    padding: 245px 0px;
 }
 @include media-breakpoint-down(md) {
     height: 540px;
+    padding: 180px 0px;
     .contact-layout{
-        padding: 230px 15px;
         h1{
             font-size: 36px;
         }
@@ -53,27 +47,12 @@
 }
   @include media-breakpoint-down(sm) {
         height: 500px;
-        .contact-layout{
-            padding: 120px 0px;
-        }
+        padding: 150px 0px;
     }
 }
 
 .contact-layout1{
-
-//    .layout-left{
-//     background-color: #FFE14D;
-//     padding: 90px 100px;
-//     h2{
-//         font-size: 36px;
-//     }
-//    }
    .layout-left1{
-    // a:hover {
-    //     color: #FFE14D;
-    //   }
-    //background-color: #282829;
-    //padding: 90px 100px;
     h2{
         font-size: 36px;
         color: #FCFCFC;
@@ -93,6 +72,7 @@
     padding: 120px 100px;
     background-color: #282829;
     border-radius: 0;
+    font-family: Baskerville;
 } 
 
     .layout-right{
@@ -109,6 +89,7 @@
         h2{
             font-size: 36px;
             color: #C3343C;
+            font-family: Baskerville;
         }
         .checkbox {
             display: block;
@@ -117,6 +98,7 @@
             margin: 30px 0px;
             cursor: pointer;
             font-size: 20px;
+            font-family: Muli;
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
@@ -142,6 +124,7 @@
             padding: 15px;
             border-radius: 0px;
             padding-left: 25px;
+            font-family: Muli;
         }
         .form-control-file{
             border: none;
@@ -214,16 +197,19 @@
             font-size: 28px;
             color: #282829;
             line-height: 48px;
+            font-family: Baskerville;
         }
         p{
             font-size: 18px;
             color: #282829;
             margin-top: 65px;
+            font-family: Muli;
         }
         h4{
             font-size: 18px;
             color: #282829;
             margin-top: 40px;
+            font-family: Muli;
         }
     }
     .col-md-6{
@@ -279,11 +265,13 @@ h3{
     font-size: 28px;
     color: #282829;
    padding-bottom: 20px;
+   font-family: Baskerville;
 }
 p{
     font-size: 18px;
     color: #282829;
     padding-bottom: 20px;
+    font-family: Muli;
 }
     }
     @include media-breakpoint-down(lg) {
