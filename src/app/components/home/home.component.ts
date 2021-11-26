@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
@@ -28,6 +28,11 @@ export class HomeComponent implements OnInit {
 
   blogs:any[] = [
     { 
+      img: './assets/images/home/image3.png',
+      title: 'Designing a successful product: Is not a daydream',
+      sub: 'by Udaya Kumar Sivagurunathan'
+    },
+    { 
       img: './assets/images/home/image1.png',
       title: 'How to experience Five Senses — in Digital Commerce',
       sub: 'by Veera Thiruppal'
@@ -39,9 +44,10 @@ export class HomeComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private cdr: ChangeDetectorRef) { }
 
   ngOnInit(): void {
+    this.cdr.detectChanges();
   }
 
 }

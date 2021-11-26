@@ -6,13 +6,13 @@ import { NetworkingComponent } from './components/networking/networking.componen
 import { EventManagementComponent } from './components/event-management/event-management.component';
 import { HealthCareComponent } from './components/health-care/health-care.component';
 import { NguCarouselModule } from '@ngu/carousel';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AutomobileUsabilityComponent } from './components/automobile-usability/automobile-usability.component';
 import { ChildcarePortalComponent } from './components/childcare-portal/childcare-portal.component';
 import { ConstructionPortalComponent } from './components/construction-portal/construction-portal.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { SkillDevelopmentComponent } from './components/skill-development/skill-development.component';
 import { UxaheadComponent } from './components/uxahead/uxahead.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({

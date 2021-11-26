@@ -4,28 +4,27 @@
 
 .services{
     .layout{
-        background-color: #3A75DD;
-        background-image: url('/dev/assets/images/bg3.png');
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color: #5277BA;
         position: relative;
-        height: 750px;
-        border-bottom: 1px solid #739FED;
+        height: 700px;
+        padding: 245px 0px;
         h1{
-            font-size: 56px;
-            font-weight: 700;
+            font-size: 60px;
+            font-weight: 400;
             color: #FFF;
-            padding-top: 270px;
+            font-family: Baskerville;
         }
         h2{
-            font-size: 56px;
-            font-weight: 700;
+            font-size: 60px;
+            font-weight: 400;
             margin-bottom: 40px;
+            font-family: Baskerville;
         }
         h3{
             font-size: 36px;
             font-weight: 400;
             color: #FFF;
+            font-family: Muli;
             a{
                 color: #282829;
                 text-decoration: underline;
@@ -52,39 +51,44 @@
         }
     }
     .types{
-        background-color: #3A75DD;
+        background-color: #5277BA;
         padding: 100px 0;
         color: #FFF;
         li{
             font-size: 28px;
             font-weight: 300;
             cursor: pointer;
+            font-family: Baskerville;
         }
         h2{
             font-size: 56px;
             font-weight: 500;
             margin-bottom: 30px;
+            font-family: Baskerville;
         }
         p{
             font-size: 18px;
             font-weight: 300;
             margin-bottom: 60px;
+            line-height: 40px;
+            font-family: Muli;
         }
         .btn{
             font-size: 20px;
             font-weight: 400;
             background-color: #FFF;
-            color: #3A75DD;
+            color: #5277BA;
             border-radius: 0;
+            font-family: Muli;
             img{
                 padding-left: 15px;
             }
         }
         .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-            background-color: #3A75DD;
+            background-color: #5277BA;
             color: #FFF;
             font-size: 36px;
-            font-weight: 500;
+            font-weight: 600;
         }
         .nav-pills a{
             color: #FFF;
@@ -173,25 +177,37 @@
             font-size: 28px;
             font-weight: 300;
             cursor: pointer;
+            font-family: Baskerville;
         }
         h2{
             font-size: 56px;
             font-weight: 500;
             margin-bottom: 30px;
+            font-family: Baskerville;
         }
         p{
             font-size: 18px;
             font-weight: 300;
             margin-bottom: 60px;
+            line-height: 35px;
+            font-family: Muli;
         }
         .nav-link{
             color: #282829;
+            // padding-left: 0px;  
         }
         .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
             background-color: #FFF;
-            color: #3A75DD;
+            color: #5277BA;
             font-size: 28px;
             font-weight: 500;
+            text-decoration: underline;
+            text-decoration-thickness: 20%;
+            text-underline-offset: 8px;
+            // border-bottom: 5px solid grey;
+            // border-radius: 0px;
+            // width: 45%;
+            // padding: 0px 0px;
         }
         @include media-breakpoint-down(lg){
             padding: 100px 0;
@@ -295,6 +311,3 @@
 .nav-pills a{
     color: #282829;
 }
-// .flex-column{
-//     padding: 75px 0px;
-// }

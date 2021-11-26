@@ -2,29 +2,28 @@
     <div class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 ordertwo">
+                <div class="col-md-4 ordertwo">
                     <div class="banner-header">
                         <h2>To adapt organic food as a Lifestyle</h2>
                         <h6>UX <span>. UI .</span><span> Mobile</span></h6>
                     </div>
                 </div>
-                <div class="col-md-6 orderone">
+                <div class="col-md-1"></div>
+                <div class="col-md-7 orderone">
                     <div class="container">
-                        <img src="./assets/images/works/mobile.png">
+                        <img src="./assets/images/works/MicrosoftTeams-image.png">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="about-project">
+        <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="container">
                     <h2>About Project</h2>
-                </div>
             </div>
             <div class="col-md-8">
-                <div class="container">
                     <p>With a shift towards organic food consumption by people, and increased middle-men commissions the life of a normal farmer becomes worse day by day. This platform helps the local farming communities to produce food based on customer demand and deliver them directly avoiding the middle-men thus creating a sustainable and happy farming community.</p>
                 </div>
             </div>
@@ -34,29 +33,17 @@
         <img src="./assets/images/works/healthcare1.png">
     </div>
     <div class="approach">
+        <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="container">
                     <h2>Approach</h2>
-                </div>
             </div>
             <div class="col-md-8">
-                <div class="container">
                     <p>The idea was no to just help consumers buy organic food from the farmer but to build a platform where homemakers can share their culinary skills and learn from others</p>
-                </div>
             </div>
+        </div>
         </div>
     </div>
-    <!--<div class="approach">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h2>Approach</h2>
-                    <p>The idea was no to just help consumers buy organic food from the farmer but to build a platform where homemakers can share their culinary skills and learn from others</p>
-                </div>
-            </div>
-        </div>
-    </div>-->
     <div class="target-strategy">
         <div class="container">
             <div class="target">
@@ -197,11 +184,11 @@
             <div class="col-md-6 left">
                 <h2>Other Case Studies</h2>
                 <div class="button">
-                    <div class="btn">See All Works</div>
+                    <div class="btn btnn">See All Works</div>
                 </div>
             </div>
             <div class="col-md-6 right">
-                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
+                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="otherCaseStudies">
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">
