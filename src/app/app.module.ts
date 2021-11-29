@@ -14,6 +14,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NgbModule,
     NguCarouselModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   exports: [
     NguCarouselModule

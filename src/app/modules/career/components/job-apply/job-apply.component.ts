@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-
 @Component({
-  selector: 'app-ux-job-apply',
-  templateUrl: './ux-job-apply.component.html',
-  styleUrls: ['./ux-job-apply.component.scss']
+  selector: 'app-job-apply',
+  templateUrl: './job-apply.component.html',
+  styleUrls: ['./job-apply.component.scss']
 })
-export class UxJobApplyComponent implements OnInit {
-  careerform: FormGroup;
+export class JobApplyComponent implements OnInit {
+
+ /*careerform: FormGroup;
   careerPositions: any[] = [
     { id: 1, name : 'UX Designer', value : 'UX Designer', checked: false },
     { id: 2, name : 'UI Designer', value : 'UI Designer', checked: false },
@@ -40,7 +40,25 @@ export class UxJobApplyComponent implements OnInit {
       message: this.careerform.get('message').value
     }
         console.log('FormData-Contact', formData);
+  }*/
+
+  form: FormGroup;
+
+  constructor(private fb:FormBuilder) {
+    this.form = this.fb.group({
+      title: [null, [Validators.required]],
+      url: [null, [Validators.required]],
+      type: [null, [Validators.required]],
+      mode: [null, [Validators.required]],
+      location: [null, [Validators.required]],
+      description: [null, [Validators.required]],
+    });
+   }
+
+   hasError(control:string, validation:string):boolean{
+    return this.form.get(control).hasError(validation);
   }
+
   submitcareer(){
     
   }

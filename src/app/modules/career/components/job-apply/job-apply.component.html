@@ -21,7 +21,70 @@
                       <div class="btn btn-white" routerLink="/careers"><img src="./assets/images/left-arrow.svg"> Back</div>
                    </div>
                 </div>
-                <div class="col-md-7 layout-right">
+                <div class="col-md-7 add-form">
+                  <div class="container">
+                      <form [formGroup]= "form" autocomplete="off">
+                          <div class="form-group">
+                              <div class="field-group">
+                                  <span>Title</span>
+                                  <mat-form-field appearance="outline">
+                                      <input matInput type="text" placeholder="Ex: How human centre design building Successful products?" formControlName="title">
+                                      <mat-error *ngIf="hasError('title','required')">Please enter Title</mat-error>
+                                  </mat-form-field>
+                              </div>
+                              <div class="field-group">
+                                  <span>URL</span>
+                                  <mat-form-field appearance="outline">
+                                      <input matInput type="text" placeholder="Type or Paste the URL here" formControlName="url">
+                                      <mat-error *ngIf="hasError('url','required')">Please enter URL</mat-error>
+                                  </mat-form-field>
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-4">
+                                      <div class="field-group">
+                                          <span>Job Type</span>
+                                          <mat-form-field appearance="outline">
+                                              <mat-select placeholder="Ex: Full Time">
+                                                <mat-option value="full-time">Full Time</mat-option>
+                                                <mat-option value="part-time">Part Time</mat-option>
+                                              </mat-select>
+                                          </mat-form-field>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <div class="field-group">
+                                          <span>Job mode</span>
+                                          <mat-form-field appearance="outline">
+                                              <mat-select placeholder="Ex: Remote">
+                                                <mat-option value="remote">Remote</mat-option>
+                                                <mat-option value="content2">Content 2</mat-option>
+                                              </mat-select>
+                                          </mat-form-field>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="field-group">
+                                  <span>Location</span>
+                                  <mat-form-field appearance="outline">
+                                      <input matInput type="text" placeholder="Ex: Disneyland Hotel, Anaheim, CA 92802, USA" formControlName="location">
+                                      <mat-error *ngIf="hasError('location','required')">Please enter Location</mat-error>
+                                  </mat-form-field>
+                              </div>
+                              <div class="field-group">
+                                  <span>Description</span>
+                                  <mat-form-field appearance="outline">
+                                      <textarea matInput type="text" placeholder="Ex: Our mission is to drive and deliver innovative business and IT solutions to our clients to achieve their organizational and customer goals......." formControlName="description"></textarea>
+                                      <mat-error *ngIf="hasError('description','required')">Please enter Description</mat-error>
+                                  </mat-form-field>
+                              </div>
+                              <div class="button">
+                                 <div class="btn btn-white" (click)="submitcareer()">Submit <img src="./assets/images/rightarrow-white.svg"></div>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+                <!--<div class="col-md-7 layout-right">
                    <div class="layouts">
                       <h2>Hey, Fill in the details below<br> to join us.</h2>
                       <form [formGroup]="careerform" id="careerForm" name="careerForm" class="careerForm">
@@ -70,7 +133,7 @@
                          </div>
                       </form>
                    </div>
-                </div>
+                </div>-->
              </div>
           </div>
        </div>

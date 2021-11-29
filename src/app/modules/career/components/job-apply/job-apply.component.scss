@@ -1,0 +1,163 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.career-ux{
+   
+    .banner{
+        background-image: url('/dev/assets/images/bg3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: #995BEB;
+        height: 770px;
+        .careerux-layout1{
+            padding: 300px 30px;
+        }
+        h1{
+            font-size: 56px;
+            color: #000000;
+            span{
+                color: #FFFFFF;
+            }
+        }
+        h6{
+            font-size: 36px;
+            color: #282829;
+            padding-top: 25px;
+            span{
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            height: 650px;
+            .careerux-layout1{
+                padding: 250px 25px;
+            }
+        }
+        @include media-breakpoint-down(md) {
+            height: 540px;
+            .careerux-layout1{
+                padding: 170px 15px;
+            }
+            h1{
+                font-size: 36px;
+            }
+            h6{
+                font-size: 24px; 
+            }
+        }
+        @include media-breakpoint-down(sm) {
+           
+            display: none;
+            height: 500px;
+            .careerux-layout1{
+                padding: 100px 0px;
+            }
+        }
+    }
+
+    .careerux-layout{
+        padding: 100px 30px;
+        .careerux-design{
+            padding: 50px 30px;
+            h1{
+                font-size: 36px;
+                font-weight: 500;
+                color: #000000;
+            }
+            h6{
+                font-size: 20px;
+                color: #8B8B8F;
+                padding-top: 50px;
+            }
+            h5{
+                font-size: 20px;
+                color: #282829;  
+            }
+            .button{
+                margin-top: 40px;
+                img{
+                    margin-left: 5px;
+                    margin-right: 20px;
+                }
+            }
+            .btn-white{
+                background-color: #FFFFFF;
+                color: #282829;
+                font-size: 20px;
+                padding: 15px;
+                border-radius: 0px;
+                border-color: #8B8B8F;
+            }
+            .btn-white:focus{
+                border-color: #ced4da;
+                box-shadow: none;
+              }
+        }
+        .add-form{
+            margin: 40px 0;
+            .field-group{
+                span{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #464646;
+                }
+            }
+            mat-form-field{
+                width: 100%;
+                border-radius: 6px;
+                margin-bottom: 30px;
+            }
+            ::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+                padding: 20px 10px;
+                border-top: 0;
+            }
+            .button{
+                margin-top: 40px;
+                img{
+                    margin-left: 35px;
+                }
+                .btn-white{
+                    background-color: #C3343C;
+                    color: #FCFCFC;
+                    font-size: 20px;
+                    padding: 15px;
+                    border-radius: 0px;
+                    padding-left: 25px;
+                }
+            }
+          
+        }
+        @include media-breakpoint-down(lg) { 
+
+            padding: 100px 30px;
+            .careerux-design{
+                padding: 50px 30px;
+            }
+        }
+
+        @include media-breakpoint-down(md) { 
+
+            padding: 80px 0px;
+            .careerux-design{
+                padding: 40px 0px;
+                h1{
+                    font-size: 28px;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(sm) { 
+            padding: 50px 0px;
+            .only-mobile{
+                display: none;
+            } 
+            .careerux-design{
+                padding: 0px 0px;
+            }
+        }
+    }
+  
+}
