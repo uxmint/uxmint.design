@@ -4,10 +4,8 @@
 .career{
 
     .banner{
-        background-image: url('/dev/assets/images/bg3.png');
-        background-repeat: no-repeat;
-        background-size: cover;
         position: relative;
+        padding: 10px 0px;
         background-color: #995BEB;
         height: 770px;
         .career-layout1{
@@ -16,6 +14,7 @@
         h1{
             font-size: 56px;
             color: #000000;
+            font-family: Baskerville;
             span{
                 color: #FFFFFF;
             }
@@ -24,6 +23,7 @@
             font-size: 36px;
             color: #282829;
             padding-top: 25px;
+            font-family: Muli;
             span{
                 color: #FFFFFF;
                 text-decoration: underline;
@@ -66,6 +66,7 @@
                 color: #282829;
                 padding-bottom: 25px; 
                 font-weight: 200;
+                font-family: Baskerville;
              }
             .designer{
                 padding: 20px 0px;
@@ -74,12 +75,14 @@
                 font-weight: 500;
                 color: #000000;
                 cursor: pointer;
+                font-family: Baskerville;
             }
             h6{
                 font-size: 20px;
                 color: #282829;
                 padding-top: 5px;
                 font-weight: 400;
+                font-family: Muli;
             }
             }
 
