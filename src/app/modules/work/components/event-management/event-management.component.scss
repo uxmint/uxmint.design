@@ -51,7 +51,7 @@ h6{
         background-color: #FCFCFC;
         padding: 200px 0px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }
@@ -81,7 +81,7 @@ h6{
         color: #000000;
         padding: 200px 0px;
         p{
-            font-size: 22px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 50px;
         }
@@ -110,7 +110,7 @@ h6{
             font-family: Baskerville;
         }
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }
@@ -137,7 +137,7 @@ h6{
         }
         p{
             font-weight: 300;
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
         }
         .needs{
@@ -185,7 +185,7 @@ h6{
         }
         p{
             font-family: Muli;
-            font-size: 20px;
+            font-size: 18px;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
@@ -219,7 +219,7 @@ h6{
             font-family: Baskerville;
         }
         P{
-            font-size: 20px;
+             font-size: 18px;
             font-family: Muli;
         }
         @include media-breakpoint-down(lg){
@@ -323,7 +323,7 @@ h6{
                }
                h4{
                 font-family: Muli;
-                font-size: 20px;
+                 font-size: 18px;
                    margin: 0 0 10px 40px;
                }
            }
@@ -385,7 +385,7 @@ h6{
         border-radius: 0;
         color: #0D0D0D;
         cursor: pointer;
-        font-size: 20px;
+         font-size: 18px;
         font-family: Muli;
         &:hover{
             background-color: #C3343C;

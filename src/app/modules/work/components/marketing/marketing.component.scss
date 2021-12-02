@@ -54,7 +54,7 @@ h6{
         background-color: #FCFCFC;
         padding: 200px 0px;
         p{
-            font-size: 22px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 35px;
         }
@@ -86,7 +86,7 @@ h6{
         p{
             line-height: 35px;
             font-family: Muli;
-            font-size: 20px;
+            font-size: 18px;
         }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
@@ -114,7 +114,7 @@ h6{
             font-size: 36px;
         }
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }
@@ -141,7 +141,7 @@ h6{
             font-size: 36px;
         }
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
         }
         .needs{
@@ -190,7 +190,7 @@ h6{
         }
         p{
             font-family: Muli;
-            font-size: 20px;
+            font-size: 18px;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){

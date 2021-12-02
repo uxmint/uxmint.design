@@ -10,8 +10,8 @@
     <div class="careerux-layout">
        <div class="container">
           <div class="careerux-design">
-             <div class="row">
-                <div class="col-md-5 only-mobile">
+             <div class="row  justify-content-center">
+                <!--div class="col-md-5 only-mobile">
                    <h1>UI Designer</h1>
                    <h6>Experience</h6>
                    <h5>2 to 4 years</h5>
@@ -20,22 +20,22 @@
                    <div class="button ">
                       <div class="btn btn-white" routerLink="/careers"> Back</div>
                    </div>
-                </div>
-                <div class="col-md-7 add-form">
+                </div>-->
+                <div class="col-md-6 add-form">
                   <div class="container">
                       <form [formGroup]= "form" autocomplete="off">
                           <div class="form-group">
                               <div class="field-group">
                                   <span>Title</span>
                                   <mat-form-field appearance="outline">
-                                      <input matInput type="text" placeholder="Ex: How human centre design building Successful products?" formControlName="title">
+                                      <input matInput type="text" placeholder="Ex: UI Developement" formControlName="title">
                                       <mat-error *ngIf="hasError('title','required')">Please enter Title</mat-error>
                                   </mat-form-field>
                               </div>
                               <div class="field-group">
                                   <span>URL</span>
                                   <mat-form-field appearance="outline">
-                                      <input matInput type="text" placeholder="Type or Paste the URL here" formControlName="url">
+                                      <input matInput type="text" placeholder="Type Linked in URL here" formControlName="url">
                                       <mat-error *ngIf="hasError('url','required')">Please enter URL</mat-error>
                                   </mat-form-field>
                               </div>
@@ -66,14 +66,14 @@
                               <div class="field-group">
                                   <span>Location</span>
                                   <mat-form-field appearance="outline">
-                                      <input matInput type="text" placeholder="Ex: Disneyland Hotel, Anaheim, CA 92802, USA" formControlName="location">
+                                      <input matInput type="text" placeholder="Enter the  Location" formControlName="location">
                                       <mat-error *ngIf="hasError('location','required')">Please enter Location</mat-error>
                                   </mat-form-field>
                               </div>
                               <div class="field-group">
                                   <span>Description</span>
                                   <mat-form-field appearance="outline">
-                                      <textarea matInput type="text" placeholder="Ex: Our mission is to drive and deliver innovative business and IT solutions to our clients to achieve their organizational and customer goals......." formControlName="description"></textarea>
+                                      <textarea matInput type="text" placeholder="Enter the  Description" formControlName="description"></textarea>
                                       <mat-error *ngIf="hasError('description','required')">Please enter Description</mat-error>
                                   </mat-form-field>
                               </div>

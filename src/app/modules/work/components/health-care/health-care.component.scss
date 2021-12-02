@@ -10,7 +10,7 @@ h2{
     }
 }
 p{
-    font-size: 22px;
+    font-size: 18px;
     font-family: Muli;
     color: #000000;
     @include media-breakpoint-down(md) {
@@ -59,7 +59,7 @@ h6{
         background-color: #FCFCFC;
         padding: 200px 0px;
         p{
-            font-size: 20px;
+             font-size: 18px;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
@@ -88,7 +88,7 @@ h6{
         color: #FCFCFC;
         padding: 200px 0px;
         p{
-            font-size: 22px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 50px;
         }
@@ -122,7 +122,7 @@ h6{
             font-family: Baskerville;
         }
         p{
-            font-size: 20px;
+             font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }
@@ -153,7 +153,7 @@ h6{
         }
         p{
             font-weight: 300;
-            font-size: 20px;
+             font-size: 18px;
             font-family: Muli;
         }
         .needs{
@@ -202,7 +202,7 @@ h6{
         }
         p{
             font-family: Muli;
-            font-size: 20px;
+             font-size: 18px;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
@@ -215,7 +215,7 @@ h6{
                line-height: 43px;
             }
             // p{
-            //     font-size: 20px;
+            //      font-size: 18px;
             //     line-height: 35px;
             // }
         }
@@ -242,7 +242,7 @@ h6{
         p{
             line-height: 40px;
             font-family: Muli;
-            font-size: 20px;
+             font-size: 18px;
         }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
@@ -285,7 +285,7 @@ h6{
         p{
             line-height: 40px;
             font-family: Muli;
-            font-size: 20px;
+             font-size: 18px;
         }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
@@ -341,7 +341,7 @@ h6{
                font-size: 28px;
             }
             p{
-               font-size: 24px;
+               font-size: 18px;
             }
         }
        
@@ -404,7 +404,7 @@ h6{
          p{
             line-height: 40px;
             font-family: Muli;
-            font-size: 20px;
+             font-size: 18px;
         }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
@@ -468,7 +468,7 @@ h6{
                }
                h4{
                 font-family: Muli;
-                font-size: 20px;
+                 font-size: 18px;
                    margin: 0 0 10px 40px;
                }
            }
@@ -540,7 +540,7 @@ h6{
         .btn-white{
             border: 2px solid #FFFFFF;
             color: #FCFCFC;
-            font-size: 20px;
+             font-size: 18px;
             padding: 8px;
             border-radius: 0px;
             font-family: Muli;
@@ -562,7 +562,7 @@ h6{
         border-radius: 0;
         color: #0D0D0D;
         cursor: pointer;
-        font-size: 20px;
+         font-size: 18px;
         font-family: Muli;
         &:hover{
             background-color: #C3343C;
