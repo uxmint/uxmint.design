@@ -26,19 +26,19 @@ export class ChildcarePortalComponent implements OnInit {
 
   blogs:any[] = [
     { 
-      img: './assets/images/services/image1.png',
-      title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      img: './assets/images/works/Website.png',
+      title: 'Website for Startup',
+      sub: 'UX . UI . B2C'
     },
     { 
-      img: './assets/images/services/image2.png',
-      title: 'Even thought why does the colour green or sound...',
-      sub: 'by Krithika Thirunavukkarasu'
+      img: './assets/images/works/designers.png',
+      title: 'A designers platform for creative upskill',
+      sub: 'UX . UI . Web . Mobile . B2C'
     },
     { 
-      img: './assets/images/services/image1.png',
-      title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      img: './assets/images/works/Digital.png',
+      title: 'Digital Transformation for telcom',
+      sub: 'UX . UI . Mobile . B2B'
     }
   ];
 

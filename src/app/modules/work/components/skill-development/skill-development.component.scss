@@ -2,7 +2,8 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 h2{
-    font-size: 56px;
+    font-size: 57px;
+    font-family: Baskerville;
     @include media-breakpoint-down(md) {
         font-size: 36px;
     }
@@ -10,23 +11,31 @@ h2{
 p{
     font-size: 16px;
     line-height: 30px;
+    font-family: Muli;
     @include media-breakpoint-down(md) {
         font-size: 14px;
     }
 }
 h6{
     font-size: 36px;
+    font-family: Muli;
     @include media-breakpoint-down(md) {
         font-size: 28px;
     }
-}  
+} 
     .banner{
-        background-color: #742EB1;
+        background-color: #DDDDDD;
         position: relative;
         color: #FFFFFF;
-        padding-top: 150px;
+        padding: 150px 0px;
         .banner-header{
             padding: 150px 0px;
+        }
+        img{
+            position: absolute;
+            width: 100%;
+            top: 20px;
+            right: 20px;
         }
         h6{
             font-weight: 300;
@@ -35,6 +44,12 @@ h6{
         @include media-breakpoint-down(lg){
             .banner-header{
                 padding: 150px 0px;
+            }
+            img{
+                position: absolute;
+                width: 100%;
+                top: 20%;
+                right: 20px;
             }
         }
         @include media-breakpoint-down(md){
@@ -50,6 +65,10 @@ h6{
             margin-right: 0;
             margin-left: 0;
         }
+        p{
+            font-size: 18px;
+           line-height: 40px;
+       }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
         }
@@ -71,16 +90,28 @@ h6{
             }  
         }
     }
-    .approach{
-        background-color: #3C3C3C;
-        color: #FCFCFC;
-        padding: 200px 0px;
-        h2{
-            margin-bottom: 30px;
+    .green-image{
+        //background-color: #E4F0EC;
+        //padding: 100px 0px 100px 100px;
+        img{
+            width: 100%;
         }
-        // p{
-        //     line-height: 40px;
-        // }
+    }
+    .approach{
+        background-color: #EBEBEB;
+        color: #000000;
+        padding: 150px 0px;
+        p{
+            font-size: 18px;
+            font-family: Muli;
+            line-height: 50px;
+        }
+        img{
+            position: absolute;
+            width: 100%;
+            top: 20px;
+            right: 20px;
+        }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
         }
@@ -88,16 +119,19 @@ h6{
             padding: 150px 0px;
         }
         @include media-breakpoint-down(sm){
-            padding: 80px 0px;
             h2{
                 font-size: 36px;
                 margin-bottom: 30px;
             }
-            // p{
-            //     font-size: 24px;
-            //     line-height: 40px;
-            // }
+            img{
+                top: -25px;
+                right: 45px;
+            }
         }
+    }
+    .background{
+        background-color: #FCFCFC;
+        padding: 50px;
     }
     .target-strategy{
         background-color: #FCFCFC;
@@ -106,28 +140,43 @@ h6{
         .strategy{
             margin-top: 30px;
         }
+        h6{
+            font-size: 36px;
+            font-family: Baskerville;
+        }
+        p{
+             font-size: 18px;
+            font-family: Muli;
+            line-height: 40px;
+        }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
         }
     }
     .needs-challenges{
-        background-color: #3C3C3C;
-        color: #FCFCFC;
+        background-color: #EBEBEB;
         padding: 50px 0px;
         h1{
-            color: #742EB1;
+            color: #222222;
             font-size: 116px;
+            font-family: Muli;
             margin-top: 100px;
         }
         h2{
-            color: #742EB1;
+            font-size: 56px;
+            font-family: Baskerville;
+            color: #222222;
             font-weight: 300;
         }
         h6{
             margin-bottom: 25px;
+            font-family: Baskerville;
+            font-size: 36px;
         }
         p{
             font-weight: 300;
+             font-size: 18px;
+            font-family: Muli;
         }
         .needs{
             height: 500px;
@@ -161,7 +210,7 @@ h6{
                 overflow: hidden;
             }
             .needs-right{
-                padding: 50px 0 0 0;
+                padding: 10px 0 0 0;
             }
         }
     }
@@ -170,10 +219,14 @@ h6{
         color: #3D3D3D;
         h6{
             line-height: 55px;
+            font-family: Baskerville;
+            font-size: 36px;
         }
-        // p{
-        //     line-height: 40px;
-        // }
+        p{
+            font-family: Muli;
+             font-size: 18px;
+            line-height: 40px;
+        }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
         }
@@ -183,20 +236,9 @@ h6{
                font-size: 28px;
                line-height: 43px;
             }
-            // p{
-            //     font-size: 20px;
-            //     line-height: 35px;
-            // }
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
-        }
-    }
-    .green-image{
-        background-color: #742EB1;
-        padding: 50px;
-        img{
-            width: 100%;
         }
     }
     .work-description{
@@ -204,12 +246,11 @@ h6{
         color: #3D3D3D;
         background-color: #FAFAFA;
         h6{
+            font-size: 36px;
+            font-family: Baskerville;
             line-height: 55px;
-            margin-top: 100px;
+            margin-top: 150px;
         }
-        // p{
-        //     line-height: 40px;
-        // }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
             img{
@@ -222,9 +263,6 @@ h6{
             h6{
                font-size: 28px;
             }
-            // p{
-            //    font-size: 24px;
-            // }
         }
         @include media-breakpoint-down(sm){
             padding: 40px 0px;
@@ -263,6 +301,38 @@ h6{
             }
         }
     }
+    .craft{
+        background-color: #C3343C;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #FCFCFC;
+        }
+        .button{
+            margin-top: 80px;
+        }
+        .btn-white{
+            border: 2px solid #FFFFFF;
+            color: #FCFCFC;
+             font-size: 18px;
+            padding: 8px;
+            border-radius: 0px;
+            font-family: Muli;
+        }
+        @include media-breakpoint-down(md){
+            h2{
+                font-size: 37px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .button{
+                margin-top: 50px;
+               padding-left: 15px;
+            }
+        }
+    }
     .other-case-studies{
         .row{
             margin-left: 0;
@@ -274,25 +344,27 @@ h6{
         }
        .left{
            padding: 40px 130px 80px 90px;
-           background-color: #C3343C;
+           background-color: #EBEBEB;
            h2{
-               font-size: 36px;
-               font-weight: 400;
-               color: #FFF;
-               margin-top: 120px;
-               margin-bottom: 80px;
-           }
-           .btn{
-               background-color: #FFF;
-               border-radius: 0;
-               color: #C3343C;
-               cursor: pointer;
-               font-size: 20px;
-               font-weight: 400;
-                img{
-                    padding-left: 12px;
-                }
-           }
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #282829;
+            margin-top: 120px;
+            margin-bottom: 80px;
+        }
+        .btnn{
+            border: 2px solid #0D0D0D;
+            border-radius: 0;
+            color: #0D0D0D;
+            cursor: pointer;
+            font-size: 20px;
+            font-family: Muli;
+            &:hover{
+                background-color: #C3343C;
+                color: #FFFFFF;
+                border: 2px solid #E2E2E2;
+            }
+        }
            @include media-breakpoint-down(md){
             padding: 100px 40px 80px 30px;
             h2{
@@ -316,15 +388,15 @@ h6{
                    }
                }
                h3{
-                   font-size: 36px;
-                   font-weight: 500;
-                   margin: 40px 130px 20px 40px;
-               }
-               h4{
-                   font-size: 16px;
-                   font-weight: 400;
-                   margin: 0 0 10px 40px;
-               }
+                font-size: 36px;
+                font-family: Baskerville;
+                margin: 40px 130px 20px 40px;
+            }
+            h4{
+             font-family: Muli;
+             font-size: 20px;
+                margin: 0 0 10px 40px;
+            }
            }
            @include media-breakpoint-down(md){
             .class{
@@ -376,6 +448,7 @@ h6{
     .banner{
         img{
             width: 100%;
+            margin-top: -48%;
         }
     }
     }

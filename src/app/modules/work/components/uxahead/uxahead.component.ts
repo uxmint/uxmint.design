@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
@@ -42,9 +42,11 @@ export class UxaheadComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private cdr: ChangeDetectorRef) { }
+ngOnInit(): void {
 
-  ngOnInit(): void {
-  }
+this.cdr.detectChanges();
+
+}
 
 }
