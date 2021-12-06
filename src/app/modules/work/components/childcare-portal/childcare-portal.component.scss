@@ -2,7 +2,8 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 h2{
-    font-size: 56px;
+    font-size: 57px;
+    font-family: Baskerville;
     @include media-breakpoint-down(md) {
         font-size: 36px;
     }
@@ -10,18 +11,20 @@ h2{
 p{
     font-size: 16px;
     line-height: 30px;
+    font-family: Muli;
     @include media-breakpoint-down(md) {
         font-size: 14px;
     }
 }
 h6{
     font-size: 36px;
+    font-family: Muli;
     @include media-breakpoint-down(md) {
         font-size: 28px;
     }
 }   
     .banner{
-        background-color: #FA4E2E;
+        background-color: #FDDED8;
         position: relative;
         color: #FFFFFF;
         padding-top: 150px;
@@ -47,6 +50,7 @@ h6{
         background-color: #FCFCFC;
         padding: 200px 0px;
         .row{
+            padding-bottom: 50px;
             margin-right: 0;
             margin-left: 0;
         }
@@ -71,71 +75,47 @@ h6{
             }  
         }
     }
-    .approach{
-        background-color: #3C3C3C;
-        color: #FCFCFC;
-        padding: 200px 0px;
-        h2{
-            margin-bottom: 30px;
-        }
-        // p{
-        //     line-height: 40px;
-        // }
-        @include media-breakpoint-down(lg){
-            padding: 200px 0px;
-        }
-        @include media-breakpoint-down(md){
-            padding: 150px 0px;
-        }
-        @include media-breakpoint-down(sm){
-            padding: 80px 0px;
-            h2{
-                font-size: 36px;
-                margin-bottom: 30px;
-            }
-            // p{
-            //     font-size: 24px;
-            //     line-height: 40px;
-            // }
-        }
-    }
     .target-strategy{
         background-color: #FCFCFC;
         color: #3D3D3D;
         padding: 150px 0px;
-        .strategy{
-            margin-top: 30px;
+        h6{
+            font-size: 26px;
+            font-family: Baskerville;
+            padding-top: 30px;
+        }
+        p{
+             font-size: 18px;
+            font-family: Muli;
+            line-height: 40px;
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
         }
     }
     .needs-challenges{
-        background-color: #3C3C3C;
-        color: #FCFCFC;
-        //margin-bottom: 70px;
-        .left-red{
-            background-color: #FA4E2E;
-            color: #FFFFFF;
-            padding: 50px 0px;
-        }
+        background-color: #F5F5F5;
+        color: #3D3D3D;
+        padding: 100px 0px;
         .needs{
             padding: 50px 0px;
         }
-        h1{
-            color: #FA4E2E;
-            font-size: 116px;
-            margin-top: 100px;
+        hr.line{
+            border-bottom: 5px solid #C3343C;
+            width: 48%;
+            text-align: left;
+            margin-left: 0;
+            margin-top: -7px;
         }
         h2{
-            color: #FA4E2E;
-            font-weight: 300;
-        }
-        h6{
-            margin-bottom: 25px;
+            font-size: 57px;
+            font-family: Baskerville;
         }
         p{
-            font-weight: 300;
+            font-size: 18px;
+            line-height: 30px;
+            font-family: Muli;
+            padding-left: 85px;
         }
         @include media-breakpoint-down(lg){
             padding: 50px 0px;
@@ -153,16 +133,52 @@ h6{
             }
         }
         @include media-breakpoint-down(sm){
-            padding: 0px 0px;
+            padding: 50px 0px;
             .left-red{
                 padding: 50px 0px 50px 10px;
             }
             .needs{
-                height: 600px;
+                height: 700px;
                 overflow: hidden;
             }
             .needs-right{
                 padding: 50px 0 0 0;
+            }
+        }
+    }
+    .background{
+        background-color: #FCFCFC;
+        padding: 50px;
+    }
+    .craft{
+        background-color: #C3343C;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #FCFCFC;
+        }
+        .button{
+            margin-top: 80px;
+        }
+        .btn-white{
+            border: 2px solid #FFFFFF;
+            color: #FCFCFC;
+             font-size: 18px;
+            padding: 8px;
+            border-radius: 0px;
+            font-family: Muli;
+        }
+        @include media-breakpoint-down(md){
+            h2{
+                font-size: 37px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .button{
+                margin-top: 50px;
+               padding-left: 15px;
             }
         }
     }
@@ -177,25 +193,27 @@ h6{
         }
        .left{
            padding: 40px 130px 80px 90px;
-           background-color: #C3343C;
+           background-color: #EBEBEB;
            h2{
-               font-size: 36px;
-               font-weight: 400;
-               color: #FFF;
-               margin-top: 120px;
-               margin-bottom: 80px;
-           }
-           .btn{
-               background-color: #FFF;
-               border-radius: 0;
-               color: #C3343C;
-               cursor: pointer;
-               font-size: 20px;
-               font-weight: 400;
-                img{
-                    padding-left: 12px;
-                }
-           }
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #282829;
+            margin-top: 120px;
+            margin-bottom: 80px;
+        }
+        .btnn{
+            border: 2px solid #0D0D0D;
+            border-radius: 0;
+            color: #0D0D0D;
+            cursor: pointer;
+             font-size: 18px;
+            font-family: Muli;
+            &:hover{
+                background-color: #C3343C;
+                color: #FFFFFF;
+                border: 2px solid #E2E2E2;
+            }
+        }
            @include media-breakpoint-down(md){
             padding: 100px 40px 80px 30px;
             h2{
@@ -219,15 +237,15 @@ h6{
                    }
                }
                h3{
-                   font-size: 36px;
-                   font-weight: 500;
-                   margin: 40px 130px 20px 40px;
-               }
-               h4{
-                   font-size: 16px;
-                   font-weight: 400;
-                   margin: 0 0 10px 40px;
-               }
+                font-size: 36px;
+                font-family: Baskerville;
+                margin: 40px 130px 20px 40px;
+            }
+            h4{
+             font-family: Muli;
+              font-size: 18px;
+                margin: 0 0 10px 40px;
+            }
            }
            @include media-breakpoint-down(md){
             .class{

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
@@ -23,7 +23,12 @@ export class HealthCareComponent implements OnInit {
     loop: true
   };
 
-  blogs:any[] = [
+  otherCaseStudies:any[] = [
+    { 
+      img: './assets/images/works/Website.png',
+      title: 'Website for Startup',
+      sub: 'UX . UI . B2C'
+    },
     { 
       img: './assets/images/works/customer.png',
       title: 'A Customer Advocacy Platform',
@@ -33,17 +38,13 @@ export class HealthCareComponent implements OnInit {
       img: './assets/images/works/child.png',
       title: 'Child Care Portal',
       sub: 'UX . UI . Tablet . B2C'
-    },
-    { 
-      img: './assets/images/works/event.png',
-      title: 'Event Hosting made stressless',
-      sub: 'UX . UI . Web . Mobile . B2C'
     }
   ];
 
-  constructor() { }
+  constructor(private cdr: ChangeDetectorRef) { }
 
   ngOnInit(): void {
+    this.cdr.detectChanges();
   }
 
 }

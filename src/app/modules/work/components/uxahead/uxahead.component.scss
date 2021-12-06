@@ -2,7 +2,8 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 h2{
-    font-size: 56px;
+    font-size: 57px;
+    font-family: Baskerville;
     @include media-breakpoint-down(md) {
         font-size: 36px;
     }
@@ -16,17 +17,18 @@ p{
 }
 h6{
     font-size: 36px;
+    font-family: Muli;
     @include media-breakpoint-down(md) {
         font-size: 28px;
     }
 }  
     .banner{
-        background-color: #C72A3F;
+        background-color: #F0DBDE;
         position: relative;
-        color: #FFFFFF;
-        padding-top: 150px;
+        color: #000000;
+        padding: 150px 0px;
         .banner-header{
-            padding: 150px 0px;
+            padding: 95px 0px;
         }
         h6{
             font-weight: 300;
@@ -50,6 +52,11 @@ h6{
             margin-right: 0;
             margin-left: 0;
         }
+        p{
+            font-size: 18px;
+            font-family: Muli;
+            line-height: 40px;
+        }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
         }
@@ -64,6 +71,13 @@ h6{
         img{
             width: 100%;
         }
+        h6{
+            font-size: 36px;
+            font-family: Baskerville;
+            @include media-breakpoint-down(md) {
+                font-size: 28px;
+            }
+        } 
         @include media-breakpoint-down(sm){
             img{
                 width: 100%;
@@ -72,15 +86,14 @@ h6{
         }
     }
     .approach{
-        background-color: #3C3C3C;
-        color: #FCFCFC;
+        background-color: #EBEBEB;
+        color: #000000;
         padding: 200px 0px;
-        h2{
-            margin-bottom: 30px;
+        p{
+            font-size: 18px;
+            font-family: Muli;
+            line-height: 50px;
         }
-        // p{
-        //     line-height: 40px;
-        // }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
         }
@@ -103,8 +116,16 @@ h6{
         background-color: #FCFCFC;
         color: #3D3D3D;
         padding: 150px 0px;
-        .strategy{
-            margin-top: 30px;
+        .target{
+            margin-bottom: 120px;
+        }
+        h6{
+            font-family: Baskerville;
+        }
+        p{
+            font-size: 18px;
+            font-family: Muli;
+            line-height: 40px;
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -115,10 +136,13 @@ h6{
         color: #3D3D3D;
         h6{
             line-height: 55px;
+            font-family: Baskerville;
         }
-        // p{
-        //     line-height: 40px;
-        // }
+        p{
+            font-family: Muli;
+            font-size: 18px;
+            line-height: 40px;
+        }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
         }
@@ -128,26 +152,24 @@ h6{
                font-size: 28px;
                line-height: 43px;
             }
-            // p{
-            //     font-size: 20px;
-            //     line-height: 35px;
-            // }
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
         }
     }
     .work-description{
-        padding: 80px 0px;
+        padding: 100px 0px;
         color: #3D3D3D;
         background-color: #FAFAFA;
         h6{
             line-height: 55px;
-            margin-top: 100px;
+            margin-top: 55px;
+            font-family: Baskerville;
         }
-        // p{
-        //     line-height: 40px;
-        // }
+        P{
+            font-size: 18px;
+            font-family: Muli;
+        }
         img{
             padding: 200px 125px;
         }
@@ -164,9 +186,6 @@ h6{
                font-size: 28px;
                margin-top: 0px;
             }
-            // p{
-            //    font-size: 24px;
-            // }
             img{
                 padding: 90px 20px;
                 margin-top: 0px;
@@ -186,7 +205,6 @@ h6{
     }
     .typography-image{
         background-color: #FFFFFF;
-        text-align: center;
         padding: 100px 0px;
         @include media-breakpoint-down(lg){
             padding: 100px 0px;
@@ -210,6 +228,38 @@ h6{
             }
         }
     }
+    .craft{
+        background-color: #C3343C;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #FCFCFC;
+        }
+        .button{
+            margin-top: 80px;
+        }
+        .btn-white{
+            border: 2px solid #FFFFFF;
+            color: #FCFCFC;
+             font-size: 18px;
+            padding: 8px;
+            border-radius: 0px;
+            font-family: Muli;
+        }
+        @include media-breakpoint-down(md){
+            h2{
+                font-size: 37px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .button{
+                margin-top: 50px;
+               padding-left: 15px;
+            }
+        }
+    }
     .other-case-studies{
         .row{
             margin-left: 0;
@@ -221,25 +271,27 @@ h6{
         }
        .left{
            padding: 40px 130px 80px 90px;
-           background-color: #C3343C;
+           background-color: #EBEBEB;
            h2{
-               font-size: 36px;
-               font-weight: 400;
-               color: #FFF;
-               margin-top: 120px;
-               margin-bottom: 80px;
-           }
-           .btn{
-               background-color: #FFF;
-               border-radius: 0;
-               color: #C3343C;
-               cursor: pointer;
-               font-size: 20px;
-               font-weight: 400;
-                img{
-                    padding-left: 12px;
-                }
-           }
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #282829;
+            margin-top: 120px;
+            margin-bottom: 80px;
+        }
+           .btnn{
+            border: 2px solid #0D0D0D;
+            border-radius: 0;
+            color: #0D0D0D;
+            cursor: pointer;
+            font-size: 20px;
+            font-family: Muli;
+            &:hover{
+                background-color: #C3343C;
+                color: #FFFFFF;
+                border: 2px solid #E2E2E2;
+            }
+        }
            @include media-breakpoint-down(md){
             padding: 100px 40px 80px 30px;
             h2{
@@ -263,15 +315,15 @@ h6{
                    }
                }
                h3{
-                   font-size: 36px;
-                   font-weight: 500;
-                   margin: 40px 130px 20px 40px;
-               }
-               h4{
-                   font-size: 16px;
-                   font-weight: 400;
-                   margin: 0 0 10px 40px;
-               }
+                font-size: 36px;
+                font-family: Baskerville;
+                margin: 40px 130px 20px 40px;
+            }
+            h4{
+             font-family: Muli;
+             font-size: 20px;
+                margin: 0 0 10px 40px;
+            }
            }
            @include media-breakpoint-down(md){
             .class{

@@ -2,29 +2,27 @@
     <div class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 ordertwo">
+                <div class="col-md-5 ordertwo">
                     <div class="banner-header">
                         <h2>A Customer Advocacy Platform</h2>
                         <h6>UX <span>. UI .</span><span> Web .</span><span> B2B2C</span></h6>
                     </div>
                 </div>
-                <div class="col-md-6 orderone">
+                <div class="col-md-7 orderone">
                     <div class="container">
-                        <img src="./assets/images/works/marketing1.png">
+                        <img src="./assets/images/works/market1.png">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="about-project">
+        <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="container">
                     <h2>About Project</h2>
-                </div>
             </div>
-            <div class="col-md-8">
-                <div class="container">
+            <div class="col-md-7">
                     <p>The platform allows to collect different source of reviews by business that enables a better reach through customer voice. All in one platform allows to keep track of different social media platform in the same place.</p>
                 </div>
             </div>
@@ -36,8 +34,10 @@
     <div class="approach">
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-4">
                     <h2>Approach</h2>
+                </div>
+                <div class="col-md-7">
                     <p>Our Primary objective is to resurrect idea of "Word of Mouth" to merge with Consumer Advocacy that can enable endless possibilities.</p>
                 </div>
             </div>
@@ -132,11 +132,11 @@
             <div class="col-md-6 left">
                 <h2>Other Case Studies</h2>
                 <div class="button">
-                    <div class="btn">See All Works <img src="./assets/images/rightarrow-red.svg"></div>
+                    <div class="btn btnn">See All Works</div>
                 </div>
             </div>
             <div class="col-md-6 right">
-                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
+                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="otherCaseStudies">
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">

@@ -15,6 +15,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { HeaderComponent } from './components/header/header.component';
     NgbModule,
     NguCarouselModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCardModule,
+    BrowserAnimationsModule
   ],
   exports: [
     NguCarouselModule

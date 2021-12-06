@@ -7,33 +7,31 @@
         display: none;
     }
     .about{
-        background-image: url('/dev/assets/images/bg3.png');
-        background-repeat: no-repeat;
-        background-size: cover;
         position: relative;
-        height: 770px;
+        height: 700px;
+        padding: 245px 0px;
         background-color: #C3343C;
     .design{
-        padding: 300px 30px;
+        //padding: 300px 30px;
         h1{
             font-size: 56px;
             color: #FCFCFC;
+            font-family: Baskerville;
         }
         h5{
             font-size: 36px;
             color: #282829;
+            font-family: Muli;
         }
     }
     @include media-breakpoint-down(lg) {
         height: 650px;
-        .design{
-            padding: 225px 25px;
-        }
+        padding: 245px 0px;
     }
     @include media-breakpoint-down(md) {
         height: 540px;
+        padding: 180px 0px;
         .design{
-            padding: 200px 15px;
             h1{
                 font-size: 36px;
             }
@@ -45,9 +43,7 @@
     }
     @include media-breakpoint-down(sm) {
         height: 500px;
-        .design{
-            padding: 120px 0px;
-        }
+        padding: 150px 0px;
     }
 }
 
@@ -55,11 +51,13 @@
         h2{
             font-size: 48px;
             color: #C3343C;
+            font-family: Baskerville;
         }
         h6{
             font-size: 20px;
             color: #282829;
             padding-top: 10px;
+            font-family: Muli;
         }
        
 .design-layout{
@@ -71,9 +69,6 @@
             }
             .button{
                 margin-top: 40px;
-                img{
-                    margin-left: 35px;
-                }
             }
             .btn-white{
                 background-color: #C3343C;
@@ -81,6 +76,7 @@
                 font-size: 20px;
                 padding: 15px;
                 border-radius: 0px;
+                font-family: Muli;
             }
 }
 .design-layouts{
@@ -227,6 +223,7 @@
             .design-layout{
                 padding-left: 60px;
                 h2{
+                    font-family: Baskerville;
                     font-size: 48px;
                     color: #FFFFFF;
                 }
@@ -235,9 +232,6 @@
                 }
                 .button{
                     margin-top: 40px;
-                    img{
-                        margin-left: 35px;
-                    }
                 }
                 .btn-white{
                     background-color: #C3343C;
@@ -245,6 +239,7 @@
                     font-size: 20px;
                     padding: 15px;
                     border-radius: 0px;
+                    font-family: Muli;
                 }
             }
 
@@ -260,11 +255,13 @@
                 h5{
                     font-size: 36px;
                     color: #FFFFFF;
+                    font-family: Baskerville;
                 }
                 p{
                     font-size: 18px;
                     color: #FFFFFF;
                     font-weight: 400;
+                    font-family: Muli;
                 }
                 .design-right{
                     padding: 180px 30px;
@@ -368,11 +365,13 @@
                 h2{
                     font-size: 48px;
                     color: #FCFCFC;
+                    font-family: Baskerville;
                 }
                 h6{
                     font-size: 20px;
                     color: #FCFCFC;
                     padding-top: 40px;
+                    font-family: Muli;
                 }
                 .button{
                     margin-top: 40px;
@@ -386,6 +385,7 @@
                     font-size: 20px;
                     padding: 15px;
                     border-radius: 0px;
+                    font-family: Muli;
                 }
             }
             @include media-breakpoint-down(lg) { 

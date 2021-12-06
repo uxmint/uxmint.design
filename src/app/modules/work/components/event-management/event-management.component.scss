@@ -2,7 +2,8 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 h2{
-    font-size: 56px;
+    font-size: 57px;
+    font-family: Baskerville;
     @include media-breakpoint-down(md) {
         font-size: 36px;
     }
@@ -16,21 +17,23 @@ p{
 }
 h6{
     font-size: 36px;
+    font-family: Muli;
     @include media-breakpoint-down(md) {
         font-size: 28px;
     }
 } 
     .banner{
-        background-color: #ff6c6c;
+        background-color: #EBEBEB;
         position: relative;
-        color: #FFFFFF;
-        padding-top: 150px;
+        color: #000000;
+        padding: 150px 0px;
         .banner-header{
-            padding: 150px 0px;
+            padding: 95px 0px;
         }
         h6{
             font-weight: 300;
-            margin-top: 30px;
+            font-size: 24px;
+            margin-top: 50px;
         }
         @include media-breakpoint-down(lg){
             .banner-header{
@@ -47,9 +50,10 @@ h6{
     .about-project{
         background-color: #FCFCFC;
         padding: 200px 0px;
-        .row{
-            margin-right: 0;
-            margin-left: 0;
+        p{
+            font-size: 18px;
+            font-family: Muli;
+            line-height: 40px;
         }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
@@ -73,15 +77,14 @@ h6{
         }
     }
     .approach{
-        background-color: #3C3C3C;
-        color: #FCFCFC;
+        background-color: #EBEBEB;
+        color: #000000;
         padding: 200px 0px;
-        h2{
-            margin-bottom: 30px;
+        p{
+            font-size: 18px;
+            font-family: Muli;
+            line-height: 50px;
         }
-        // p{
-        //     line-height: 40px;
-        // }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
         }
@@ -94,41 +97,48 @@ h6{
                 font-size: 36px;
                 margin-bottom: 30px;
             }
-            // p{
-            //     font-size: 24px;
-            //     line-height: 40px;
-            // }
         }
     }
     .target-strategy{
         background-color: #FCFCFC;
         color: #3D3D3D;
         padding: 150px 0px;
-        .strategy{
-            margin-top: 30px;
+        .target{
+            margin-bottom: 120px;
+        }
+        h6{
+            font-family: Baskerville;
+        }
+        p{
+            font-size: 18px;
+            font-family: Muli;
+            line-height: 40px;
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
         }
     }
     .needs-challenges{
-        background-color: #3C3C3C;
-        color: #FCFCFC;
+        background-color: #EBEBEB;
+        color: #000000;
         padding: 50px 0px;
         h1{
-            color: #ff6c6c;
+            color: #FF6C6C;
             font-size: 116px;
             margin-top: 100px;
         }
         h2{
-            color: #ff6c6c;
+            color: #FF6C6C;
             font-weight: 300;
         }
         h6{
             margin-bottom: 25px;
+            font-family: Baskerville;
         }
         p{
             font-weight: 300;
+            font-size: 18px;
+            font-family: Muli;
         }
         .needs{
             height: 500px;
@@ -171,10 +181,13 @@ h6{
         color: #3D3D3D;
         h6{
             line-height: 55px;
+            font-family: Baskerville;
         }
-        // p{
-        //     line-height: 40px;
-        // }
+        p{
+            font-family: Muli;
+            font-size: 18px;
+            line-height: 40px;
+        }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
         }
@@ -184,33 +197,31 @@ h6{
                font-size: 28px;
                line-height: 43px;
             }
-            // p{
-            //     font-size: 20px;
-            //     line-height: 35px;
-            // }
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
         }
     }
-    .green-image{
-        background-color: #ff6c6c;
-        padding: 100px 0px 100px 100px;
+    .event-image{
+        background-color: #FCFCFC;
+        padding: 150px 200px;
         img{
             width: 100%;
         }
     }
  .work-description{
-        padding: 80px 0px;
+        padding: 100px 0px;
         color: #3D3D3D;
         background-color: #FAFAFA;
         h6{
             line-height: 55px;
-            margin-top: 100px;
+            margin-top: 55px;
+            font-family: Baskerville;
         }
-        // p{
-        //     line-height: 40px;
-        // }
+        P{
+             font-size: 18px;
+            font-family: Muli;
+        }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
             img{
@@ -275,24 +286,13 @@ h6{
         }
        .left{
            padding: 40px 130px 80px 90px;
-           background-color: #C3343C;
+           background-color: #EBEBEB;
            h2{
-               font-size: 36px;
-               font-weight: 400;
-               color: #FFF;
+               font-size: 57px;
+               font-family: Baskerville;
+               color: #282829;
                margin-top: 120px;
                margin-bottom: 80px;
-           }
-           .btn{
-               background-color: #FFF;
-               border-radius: 0;
-               color: #C3343C;
-               cursor: pointer;
-               font-size: 20px;
-               font-weight: 400;
-                img{
-                    padding-left: 12px;
-                }
            }
            @include media-breakpoint-down(md){
             padding: 100px 40px 80px 30px;
@@ -318,12 +318,12 @@ h6{
                }
                h3{
                    font-size: 36px;
-                   font-weight: 500;
+                   font-family: Baskerville;
                    margin: 40px 130px 20px 40px;
                }
                h4{
-                   font-size: 16px;
-                   font-weight: 400;
+                font-family: Muli;
+                 font-size: 18px;
                    margin: 0 0 10px 40px;
                }
            }
@@ -379,4 +379,17 @@ h6{
             width: 100%;
         }
     }
+    }
+    .btnn{
+        border: 2px solid #0D0D0D;
+        border-radius: 0;
+        color: #0D0D0D;
+        cursor: pointer;
+         font-size: 18px;
+        font-family: Muli;
+        &:hover{
+            background-color: #C3343C;
+            color: #FFFFFF;
+            border: 2px solid #E2E2E2;
+        }
     }

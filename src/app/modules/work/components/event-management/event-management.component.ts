@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
@@ -23,27 +23,28 @@ export class EventManagementComponent implements OnInit {
     loop: true
   };
 
-  blogs:any[] = [
+  otherCaseStudies:any[] = [
     { 
-      img: './assets/images/services/image1.png',
-      title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      img: './assets/images/works/adapt 2.png',
+      title: 'To adapt organic food as a Lifestyle',
+      sub: 'UX . UI . Mobile . B2C'
     },
     { 
-      img: './assets/images/services/image2.png',
-      title: 'Even thought why does the colour green or sound...',
-      sub: 'by Krithika Thirunavukkarasu'
+      img: './assets/images/works/designers.png',
+      title: 'A designers platform for creative upskill',
+      sub: 'UX . UI . Web . Mobile . B2C'
     },
     { 
-      img: './assets/images/services/image1.png',
-      title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      img: './assets/images/works/automobile.png',
+      title: 'Automobile Usability Testing',
+      sub: 'UX . UI . Web . Mobile . B2C'
     }
   ];
 
-  constructor() { }
+  constructor(private cdr: ChangeDetectorRef) { }
 
   ngOnInit(): void {
+    this.cdr.detectChanges();
   }
 
 }

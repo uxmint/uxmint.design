@@ -3,20 +3,15 @@
 @import '~bootstrap/scss/mixins';
 
 .career-ui{
-   
     .banner{
-        background-image: url('/dev/assets/images/bg3.png');
-        background-repeat: no-repeat;
-        background-size: cover;
         position: relative;
+        padding: 245px 0px;
         background-color: #995BEB;
         height: 770px;
-        .careerui-layout1{
-            padding: 300px 30px;
-        }
         h1{
             font-size: 56px;
             color: #000000;
+            font-family: Baskerville;
             span{
                 color: #FFFFFF;
             }
@@ -25,6 +20,7 @@
             font-size: 36px;
             color: #282829;
             padding-top: 25px;
+            font-family: Muli;
             span{
                 color: #FFFFFF;
                 text-decoration: underline;
@@ -33,15 +29,9 @@
       
         @include media-breakpoint-down(lg) {
             height: 650px;
-            .careerui-layout1{
-                padding: 250px 25px;
-            }
         }
         @include media-breakpoint-down(md) {
             height: 540px;
-            .careerui-layout1{
-                padding: 210px 15px;
-            }
             h1{
                 font-size: 36px;
             }
@@ -50,47 +40,47 @@
             }
         }
         @include media-breakpoint-down(sm) {
-           
             display: none;
             height: 500px;
-            .careerui-layout1{
-                padding: 100px 0px;
-            }
         }
     }
 
     .careerui-layout{
-        padding: 150px 30px;
         .careerui-design{
-            padding: 50px 30px;
+            padding: 130px 30px;
             h1{
                 font-size: 36px;
                 font-weight: 500;
                 color: #000000;
+                font-family: Baskerville;
             }
             h6{
                 font-size: 20px;
                 color: #8B8B8F;
                 padding-top: 50px;
+                font-family: Muli;
             }
             h5{
                 font-size: 20px;
-                color: #282829;  
+                color: #282829;
+                font-family: Muli;  
             }
             .button{
                 margin-top: 40px;
-                img{
-                    margin-left: 5px;
-                    margin-right: 20px;
-                }
             }
             .btn-white{
-                background-color: #FFFFFF;
-                color: #282829;
+                border: 2px solid #0D0D0D;
+                border-radius: 0;
+                color: #0D0D0D;
+                cursor: pointer;
                 font-size: 20px;
-                padding: 15px;
-                border-radius: 0px;
-                border-color: #8B8B8F;
+                font-family: Muli;
+                padding: 8px 25px;
+                &:hover{
+                    background-color: #C3343C;
+                    color: #FFFFFF;
+                    border: 2px solid #FFFFFF;
+                }
             }
             .btn-white:focus{
                 border-color: #ced4da;
@@ -100,40 +90,48 @@
                 h6{
                     font-size: 24px;
                     color: #8B8B8F;
-                    margin-top: -90px;
+                    margin-top: -45px;
+                    font-family: Baskerville;
                 }
                 p{
                     font-size: 16px;
                     color: #282829;
                     padding-top: 35px;
                     line-height: 45px;
+                    font-family: Muli;
                 }
                 .button{
                     margin-top: 40px;
-                    img{
-                        margin-left: 35px;
-                    }
                 }
                 .btn-white{
-                    background-color: #C3343C;
-                    color: #FCFCFC;
+                    border: 2px solid #0D0D0D;
+                    border-radius: 0;
+                    color: #0D0D0D;
+                    cursor: pointer;
                     font-size: 20px;
-                    padding: 15px;
-                    border-radius: 0px;
+                    font-family: Muli;
+                    padding: 8px 25px;
+                    &:hover{
+                        background-color: #C3343C;
+                        color: #FFFFFF;
+                        border: 2px solid #FFFFFF;
+                    }
                 }
+                .btn-white:focus{
+                    border-color: #ced4da;
+                    box-shadow: none;
+                  }
             }
         }
 
         @include media-breakpoint-down(lg) {  
-            padding: 150px 30px;
             .careerui-design{
-                padding: 50px 30px;
+                padding: 130px 30px;
             }
     }
     @include media-breakpoint-down(md) {  
-        padding: 130px 20px;
         .careerui-design{
-            padding: 30px 20px;
+            padding: 100px 20px;
             h1{
                 font-size: 24px;
                 font-weight: 700;
@@ -145,37 +143,22 @@
             h5{
                 font-size: 20px;
             }
-           
-            .button{
-                margin-top: 30px;
-                img{
-                    margin-left: 5px;
-                    margin-right: 20px;
-                }
-            }
             .btn-white{
                 font-size: 20px;
-                padding: 15px;
+                padding: 8px 25px;
             }
             .description{
                 h6{
                     font-size: 20px;
-                    margin-top: -15px;
                 }
                 p{
                     font-size: 20px;
                     padding-top: 35px;
                     line-height: 45px;
                 }
-                .button{
-                    margin-top: 40px;
-                    img{
-                        margin-left: 35px;
-                    }
-                }
                 .btn-white{
                     font-size: 20px;
-                    padding: 15px;
+                    padding: 8px 25px;
                 }
             }
         }
@@ -190,19 +173,14 @@
         padding: 10px 0px;
         .careerui-design{
             padding: 30px 20px;
-            
-            .button{
-                margin-top: 30px;
-                img{
-                    margin-left: 5px;
-                    margin-right: 20px;
                 }
-            }
-            .btn-white{
-                font-size: 20px;
-                padding: 15px;
-                     }  
-                  
+                .description{
+                    h6{
+                        margin-top: 10px;
+                    }
+                    .btn-white{
+                        padding: 8px 25px;
+                    }
                 }
            }
         }

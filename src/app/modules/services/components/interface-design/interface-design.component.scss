@@ -4,19 +4,28 @@
 .services{
     padding: 50px 0px;
 .banner{
-    background-image: url('/dev/assets/images/bg.png');
+    // background-image: url('/dev/assets/images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     top: -53px;
     height: 770px;
     h1{
-        font-size: 56px;
-        color: #000000;
+        font-size: 96px;
+        color: #C3343C;
+        font-family: Baskerville;
+    }
+    hr.line{
+        border-bottom: 10px solid gray;
+        width: 50%;
+        text-align: left;
+        margin-left: 0;
+        margin-top: -7px;
     }
     p{
-        font-size: 18px;
+        font-size: 24px;
         color: #000000;
+        font-family: Muli;
     }
     .banner-content{
         padding: 300px 0px;
@@ -69,6 +78,7 @@
        padding: 285px 0px;
        h3{
            font-size: 48px;
+           font-family: Baskerville;
        }
        @include media-breakpoint-down(lg){
         padding: 100px 0px;
@@ -99,11 +109,13 @@
     h3{
         font-size: 36px;
         margin-bottom: 30px;
+        font-family: Baskerville;
     }
     p{
         font-size: 18px;
         font-weight: 200;
         margin-top: 40px;
+        font-family: Muli;
     }
     .list{
         padding: 30px;
@@ -111,6 +123,7 @@
             font-size: 20px;
             margin-left: 5px;
             font-weight: 200;
+            font-family: Muli;
         }
     }
     @include media-breakpoint-down(lg){
@@ -197,11 +210,13 @@
     }
     h2{
         font-size: 56px;
+        font-family: Baskerville;
     }
     p{
         font-size: 16px;
         line-height: 30px;
         margin-top: 40px;
+        font-family: Muli;
     }
     .li{
         font-size: 16px;
@@ -274,6 +289,7 @@
     color: #C3343C;
     font-size: 36px;
     font-weight: 600;
+    font-family: Baskerville;
     svg{
         margin-top: 8px !important;
     }
@@ -296,6 +312,7 @@
 }
 .nav-pills a{
     color: #282829;
+    font-family: Baskerville;
     svg{
         margin-right: 10px;
     }

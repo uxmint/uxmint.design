@@ -1,0 +1,212 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.career-ux{
+    .banner{
+        position: relative;
+        background-color: #995BEB;
+        height: 770px;
+        padding: 245px 0px;
+        h1{
+            font-size: 56px;
+            color: #000000;
+            font-family: Baskerville;
+            span{
+                color: #FFFFFF;
+            }
+        }
+        h6{
+            font-size: 36px;
+            color: #282829;
+            padding-top: 25px;
+            font-family: Muli;
+            span{
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            height: 650px;
+        }
+        @include media-breakpoint-down(md) {
+            height: 540px;
+            h1{
+                font-size: 36px;
+            }
+            h6{
+                font-size: 24px; 
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            display: none;
+            height: 500px;
+        }
+    }
+
+    .careerux-layout{
+        .careerux-design{
+            padding: 60px 30px;
+            .button{
+                margin-top: 40px;
+            }
+            .btn-white{
+                border: 1px solid #292929;
+                border-radius: 0;
+                color: #0D0D0D;
+                cursor: pointer;
+                font-size: 20px;
+                font-family: Muli;
+                padding: 8px 25px;
+                &:hover{
+                    background-color: #C3343C;
+                    color: #FFFFFF;
+                    border: 2px solid #FFFFFF;
+                }
+            }
+            .btn-white:focus{
+                border-color: #ced4da;
+                box-shadow: none;
+              }
+        }
+        .add-form{
+            margin: 40px 0;
+            h2{
+                font-size: 36px;
+                font-family: Baskerville;
+                color: #C3343C;
+                padding-bottom: 40px;
+            }
+            h6{
+                font-size: 18px;
+                padding-top: 20px;
+                font-family: Muli;
+                color: #464646;
+                padding-left: 20px;
+            }
+            .field-group{
+                span{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #464646;
+                    font-family: Muli;
+                }
+            }
+            h5{
+                font-size: 18px;
+                padding-top: 20px;
+                font-family: Muli;
+                color: #464646;
+            }
+            mat-form-field{
+                width: 100%;
+                border-radius: 6px;
+                margin-bottom: 20px;
+            }
+            ::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+                padding: 20px 10px;
+                border-top: 0;
+            }
+            .button{
+                margin-top: 40px;
+                .btn-white{
+                    border: 1px solid #292929;
+                    border-radius: 0;
+                    color: #0D0D0D;
+                    cursor: pointer;
+                    font-size: 20px;
+                    font-family: Muli;
+                    padding: 8px 25px;
+                    &:hover{
+                        background-color: #C3343C;
+                        color: #FFFFFF;
+                        border: 2px solid #FFFFFF;
+                    }
+                }
+                .btn-white:focus{
+                    border-color: #ced4da;
+                    box-shadow: none;
+                  }
+            }
+            .position {
+                margin-top: -15px;
+                padding-bottom: 30px;
+              .containerRadio {
+                display: inline-block;
+                position: relative;
+                padding-left: 35px;
+                cursor: pointer;
+                font-size: 14px;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                padding: 0px 30px;
+                line-height: 14px;
+              }
+              .containerRadio input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+              }
+              .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 20px;
+                width: 20px;
+                background-color: #FFFFFF;
+                border: 2px solid #474747;
+                border-radius: 50%;
+              }
+              .containerRadio:hover input ~ .checkmark {
+                background-color: #FFFFFF;
+              }
+              .containerRadio input:checked ~ .checkmark {
+                border: 2px solid #C3343C;
+              }
+              .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+              }
+              .containerRadio input:checked ~ .checkmark:after {
+                display: block;
+              }
+              .containerRadio .checkmark:after {
+                top: 2px;
+                left: 2px;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background: #C3343C;
+              }
+            }
+
+        }
+        @include media-breakpoint-down(lg) { 
+            .careerux-design{
+                padding: 50px 30px;
+            }
+        }
+
+        @include media-breakpoint-down(md) { 
+            .careerux-design{
+                padding: 40px 30px;
+                h1{
+                    font-size: 28px;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(sm) { 
+            .only-mobile{
+                display: none;
+            } 
+            .careerux-design{
+                padding: 40px 0px;
+            }
+        }
+    }
+  
+}
