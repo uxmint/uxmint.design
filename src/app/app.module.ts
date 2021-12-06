@@ -14,6 +14,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     EngagementModelsComponent,
     HomeComponent,
     WorksComponent,
-    ServicesComponent
+    ServicesComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +41,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NguCarouselModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    HeaderComponent
+  ]
 })
 export class AppModule { }

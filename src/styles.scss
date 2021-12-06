@@ -53,3 +53,16 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
         order: 2;
     }
 }
+
+
+.menu.modal{
+    .modal-dialog{
+        max-width: 100%;
+        margin: 0;
+    }
+    .modal-content{
+        border-radius: 0;
+        border: 0;
+        background-color: #282828;
+    }
+}
