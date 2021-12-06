@@ -2,10 +2,8 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 .career{
-
     .banner{
         position: relative;
-        padding: 10px 0px;
         background-color: #995BEB;
         height: 770px;
         .career-layout1{
@@ -58,12 +56,12 @@
     }  
     .career-layout{
         padding: 100px 30px;
-      
         .career-design{
             padding: 70px 30px;
+            color: #292929;
             h2{
-                font-size: 28px;
-                color: #282829;
+                font-size: 36px;
+                color: #808080;
                 padding-bottom: 25px; 
                 font-weight: 200;
                 font-family: Baskerville;
@@ -73,19 +71,34 @@
             h1{
                 font-size: 36px;
                 font-weight: 500;
-                color: #000000;
                 cursor: pointer;
                 font-family: Baskerville;
             }
             h6{
                 font-size: 20px;
-                color: #282829;
                 padding-top: 5px;
                 font-weight: 400;
+                color: #808080;
                 font-family: Muli;
             }
+            h5{
+                font-size: 20px; 
+                font-family: Muli;
+                font-weight: 400;
             }
-
+            .button{
+                margin-top: 10px;
+            }
+            .btn-white{
+               background-color: #2A71F6;
+                border-radius: 0;
+                color: #FFFFFF;
+                cursor: pointer;
+                font-size: 20px;
+                font-family: Muli;
+                padding: 8px 25px;
+            }
+        }
     }
     @include media-breakpoint-down(lg) {  
         padding: 100px 30px;
@@ -93,9 +106,7 @@
         padding: 60px 0px;
      
         }
-
 }
-
 @include media-breakpoint-down(md) {  
     padding: 50px 0px;
     .career-design{
@@ -115,7 +126,6 @@
     }
 }
 }
-
 }
 
 @include media-breakpoint-down(sm) {  

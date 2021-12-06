@@ -25,18 +25,18 @@ export class EventManagementComponent implements OnInit {
 
   otherCaseStudies:any[] = [
     { 
-      img: './assets/images/works/customer.png',
-      title: 'A Customer Advocacy Platform',
+      img: './assets/images/works/adapt 2.png',
+      title: 'To adapt organic food as a Lifestyle',
+      sub: 'UX . UI . Mobile . B2C'
+    },
+    { 
+      img: './assets/images/works/designers.png',
+      title: 'A designers platform for creative upskill',
       sub: 'UX . UI . Web . Mobile . B2C'
     },
     { 
-      img: './assets/images/works/child.png',
-      title: 'Child Care Portal',
-      sub: 'UX . UI . Tablet . B2C'
-    },
-    { 
-      img: './assets/images/works/event.png',
-      title: 'Event Hosting made stressless',
+      img: './assets/images/works/automobile.png',
+      title: 'Automobile Usability Testing',
       sub: 'UX . UI . Web . Mobile . B2C'
     }
   ];

@@ -26,19 +26,19 @@ export class NetworkingComponent implements OnInit {
 
   otherCaseStudies:any[] = [
     { 
+      img: './assets/images/works/designers.png',
+      title: 'A designers platform for creative upskill',
+      sub: 'UX . UI . Web . Mobile . B2C'
+    },
+    { 
       img: './assets/images/works/customer.png',
       title: 'A Customer Advocacy Platform',
       sub: 'UX . UI . Web . Mobile . B2C'
     },
     { 
-      img: './assets/images/works/child.png',
-      title: 'Child Care Portal',
-      sub: 'UX . UI . Tablet . B2C'
-    },
-    { 
-      img: './assets/images/works/event.png',
-      title: 'Event Hosting made stressless',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      img: './assets/images/works/Accomplishments.png',
+      title: 'Repository of Accomplishments',
+      sub: 'UX . UI . Web . B2C'
     }
   ];
 

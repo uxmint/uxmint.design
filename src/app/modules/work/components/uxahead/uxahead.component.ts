@@ -43,10 +43,9 @@ export class UxaheadComponent implements OnInit {
   ];
 
   constructor(private cdr: ChangeDetectorRef) { }
-ngOnInit(): void {
-
-this.cdr.detectChanges();
-
-}
+  
+        ngOnInit(): void {
+        this.cdr.detectChanges();
+        }
 
 }

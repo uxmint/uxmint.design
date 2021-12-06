@@ -8,68 +8,86 @@
        </div>
     </div>
     <div class="careerux-layout">
-       <div class="container">
           <div class="careerux-design">
-             <div class="row  justify-content-center">
-                <!--div class="col-md-5 only-mobile">
-                   <h1>UI Designer</h1>
-                   <h6>Experience</h6>
-                   <h5>2 to 4 years</h5>
-                   <h6>Location</h6>
-                   <h5>Chennai, India</h5>
-                   <div class="button ">
-                      <div class="btn btn-white" routerLink="/careers"> Back</div>
-                   </div>
-                </div>-->
+             <div class="row justify-content-center">
                 <div class="col-md-6 add-form">
                   <div class="container">
+                    <h2>Add job vacancy </h2>
                       <form [formGroup]= "form" autocomplete="off">
                           <div class="form-group">
                               <div class="field-group">
-                                  <span>Title</span>
+                                  <span>Job Title</span>
                                   <mat-form-field appearance="outline">
-                                      <input matInput type="text" placeholder="Ex: UI Developement" formControlName="title">
+                                      <input matInput type="text" placeholder="" formControlName="title">
                                       <mat-error *ngIf="hasError('title','required')">Please enter Title</mat-error>
                                   </mat-form-field>
                               </div>
+                              <div class="formField">
+                                <div class="position">
+                                   <label class="containerRadio">Full-time
+                                     <input type="radio" name="radio">
+                                     <span class="checkmark"></span>
+                                   </label>
+                                   <label class="containerRadio">Part-time
+                                     <input type="radio" name="radio">
+                                     <span class="checkmark"></span>
+                                   </label>
+                                 </div>
+                             </div>
                               <div class="field-group">
-                                  <span>URL</span>
+                                  <span>Linkedin URL</span>
                                   <mat-form-field appearance="outline">
-                                      <input matInput type="text" placeholder="Type Linked in URL here" formControlName="url">
+                                      <input matInput type="text" placeholder="" formControlName="url">
                                       <mat-error *ngIf="hasError('url','required')">Please enter URL</mat-error>
                                   </mat-form-field>
                               </div>
-                              <div class="row">
-                                  <div class="col-md-4">
-                                      <div class="field-group">
-                                          <span>Job Type</span>
-                                          <mat-form-field appearance="outline">
-                                              <mat-select placeholder="Ex: Full Time">
-                                                <mat-option value="full-time">Full Time</mat-option>
-                                                <mat-option value="part-time">Part Time</mat-option>
-                                              </mat-select>
-                                          </mat-form-field>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-4">
-                                      <div class="field-group">
-                                          <span>Job mode</span>
-                                          <mat-form-field appearance="outline">
-                                              <mat-select placeholder="Ex: Remote">
-                                                <mat-option value="remote">Remote</mat-option>
-                                                <mat-option value="content2">Content 2</mat-option>
-                                              </mat-select>
-                                          </mat-form-field>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="field-group">
+                              <div class="formField">
+                                <div class="position">
+                                   <label class="containerRadio">On site
+                                     <input type="radio" name="radio">
+                                     <span class="checkmark"></span>
+                                   </label>
+                                   <label class="containerRadio">Remote
+                                     <input type="radio" name="radio">
+                                     <span class="checkmark"></span>
+                                   </label>
+                                 </div>
+                             </div>
+                             <div class="field-group">
+                                <span>Location</span>
+                                <mat-form-field appearance="outline">
+                                    <mat-select placeholder="Ex: Location">
+                                      <mat-option value="chennai">Chennai</mat-option>
+                                      <mat-option value="thoraipakkam">Thoraipakkam</mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                            </div>
+                              <!--div class="field-group">
                                   <span>Location</span>
                                   <mat-form-field appearance="outline">
-                                      <input matInput type="text" placeholder="Enter the  Location" formControlName="location">
+                                      <input matInput type="text" placeholder="" formControlName="location">
                                       <mat-error *ngIf="hasError('location','required')">Please enter Location</mat-error>
                                   </mat-form-field>
-                              </div>
+                              </div>-->
+                              <h5>Experience :</h5>
+                              <div class="row">
+                                <h6>Min</h6>
+                                <div class="col-md-4">
+                                    <div class="field-group">
+                                        <mat-form-field appearance="outline">
+                                            <input matInput type="text" placeholder="0" formControlName="location">
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <h6>Max</h6>
+                                <div class="col-md-4">
+                                    <div class="field-group">
+                                        <mat-form-field appearance="outline">
+                                            <input matInput type="text" placeholder="0" formControlName="location">
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                            </div>
                               <div class="field-group">
                                   <span>Description</span>
                                   <mat-form-field appearance="outline">
@@ -77,8 +95,17 @@
                                       <mat-error *ngIf="hasError('description','required')">Please enter Description</mat-error>
                                   </mat-form-field>
                               </div>
-                              <div class="button">
-                                 <div class="btn btn-white" (click)="submitcareer()">Submit</div>
+                              <div class="row">
+                                <div class="col-md-4">
+                                    <div class="button">
+                                      <div class="btn btn-white">Cancel</div>
+                                   </div>
+                               </div>
+                                  <div class="col-md-4">
+                                <div class="button">
+                                    <div class="btn btn-white" (click)="submitcareer()">Submit</div>
+                                 </div>
+                                </div>
                               </div>
                           </div>
                       </form>
@@ -88,4 +115,4 @@
           </div>
        </div>
     </div>
- </div>
+ 

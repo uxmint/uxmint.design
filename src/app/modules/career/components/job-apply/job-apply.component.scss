@@ -47,28 +47,11 @@
     .careerux-layout{
         .careerux-design{
             padding: 60px 30px;
-            h1{
-                font-size: 36px;
-                font-weight: 500;
-                color: #000000;
-                font-family: Baskerville;
-            }
-            h6{
-                font-size: 20px;
-                color: #8B8B8F;
-                padding-top: 50px;
-                font-family: Muli;
-            }
-            h5{
-                font-size: 20px;
-                color: #282829; 
-                font-family: Muli; 
-            }
             .button{
                 margin-top: 40px;
             }
             .btn-white{
-                border: 2px solid #0D0D0D;
+                border: 1px solid #292929;
                 border-radius: 0;
                 color: #0D0D0D;
                 cursor: pointer;
@@ -88,6 +71,19 @@
         }
         .add-form{
             margin: 40px 0;
+            h2{
+                font-size: 36px;
+                font-family: Baskerville;
+                color: #C3343C;
+                padding-bottom: 40px;
+            }
+            h6{
+                font-size: 18px;
+                padding-top: 20px;
+                font-family: Muli;
+                color: #464646;
+                padding-left: 20px;
+            }
             .field-group{
                 span{
                     font-size: 18px;
@@ -96,10 +92,16 @@
                     font-family: Muli;
                 }
             }
+            h5{
+                font-size: 18px;
+                padding-top: 20px;
+                font-family: Muli;
+                color: #464646;
+            }
             mat-form-field{
                 width: 100%;
                 border-radius: 6px;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
             ::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
                 padding: 20px 10px;
@@ -108,7 +110,7 @@
             .button{
                 margin-top: 40px;
                 .btn-white{
-                    border: 2px solid #0D0D0D;
+                    border: 1px solid #292929;
                     border-radius: 0;
                     color: #0D0D0D;
                     cursor: pointer;
@@ -126,6 +128,61 @@
                     box-shadow: none;
                   }
             }
+            .position {
+                margin-top: -15px;
+                padding-bottom: 30px;
+              .containerRadio {
+                display: inline-block;
+                position: relative;
+                padding-left: 35px;
+                cursor: pointer;
+                font-size: 14px;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                padding: 0px 30px;
+                line-height: 14px;
+              }
+              .containerRadio input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+              }
+              .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 20px;
+                width: 20px;
+                background-color: #FFFFFF;
+                border: 2px solid #474747;
+                border-radius: 50%;
+              }
+              .containerRadio:hover input ~ .checkmark {
+                background-color: #FFFFFF;
+              }
+              .containerRadio input:checked ~ .checkmark {
+                border: 2px solid #C3343C;
+              }
+              .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+              }
+              .containerRadio input:checked ~ .checkmark:after {
+                display: block;
+              }
+              .containerRadio .checkmark:after {
+                top: 2px;
+                left: 2px;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background: #C3343C;
+              }
+            }
+
         }
         @include media-breakpoint-down(lg) { 
             .careerux-design{
