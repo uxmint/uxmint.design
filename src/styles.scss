@@ -45,6 +45,17 @@ $uxmint-theme: mat-light-theme((
 
 html, body { height: 100%;overflow-x: hidden; }
 body { margin: 0; font-family: 'Inter', sans-serif; }
+app-root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+    header,footer{
+    flex-shrink: 0;
+    }
+    main{
+    flex-grow: 1;
+    }
 
 /* Responsive */
 @include media-breakpoint-down(xl) {

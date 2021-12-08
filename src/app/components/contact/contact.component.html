@@ -23,9 +23,9 @@
                            <div class="row layouts1">
                               <div class="col-md-6"  *ngFor="let position of positions">
                                  <div class="custom-control custom-checkbox custom-control-inline">
-                                       <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onChange(position.value)"  class="custom-control-input">
-                                       <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
-                                    </div>
+                                    <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onChange(position.value)"  class="custom-control-input">
+                                    <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
+                                 </div>
                               </div>
                            </div>
                            <div class="row">
@@ -80,9 +80,9 @@
                            <div class="row layouts1">
                               <div class="col-md-6"  *ngFor="let position of careerPositions">
                                  <div class="custom-control custom-checkbox custom-control-inline">
-                                       <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onCareerChange(position.value)"  class="custom-control-input">
-                                       <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
-                                    </div>
+                                    <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onCareerChange(position.value)"  class="custom-control-input">
+                                    <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
+                                 </div>
                               </div>
                            </div>
                            <div class="row">
@@ -146,7 +146,7 @@
          <div class="col-md-6 only-mobile">
             <div class="map-route">
                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.638548413615!2d80.2329289!3d12.9295839!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd520a88b9abf07ec!2sUXMINT!5e0!3m2!1sen!2sin!4v1617021616096!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-             </div>
+            </div>
          </div>
       </div>
    </div>

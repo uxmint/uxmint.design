@@ -1,26 +1,30 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
-
+:host{
+    padding-top: 0px;
+}
 .about-us{
     .only-mobile{
         display: none;
     }
     .about{
+        padding-top: 140px;
+        top: -100px;
         position: relative;
-        height: 700px;
-        padding: 245px 0px;
-        background-color: #C3343C;
+        height: 830px;
+        padding: 350px 0px;
+        background-color: #FCFCFC;
     .design{
-        //padding: 300px 30px;
         h1{
             font-size: 56px;
-            color: #FCFCFC;
+            color: #C3343C;
             font-family: Baskerville;
+            padding-bottom: 20px;
         }
-        h5{
-            font-size: 36px;
-            color: #282829;
+        h4{
+            font-size: 26px;
+            color: #707071;
             font-family: Muli;
         }
     }
@@ -38,7 +42,6 @@
             h5{
                 font-size: 24px;
             }
-
         }
     }
     @include media-breakpoint-down(sm) {
@@ -46,37 +49,42 @@
         padding: 150px 0px;
     }
 }
-
 .about-layout{  
+    margin-top: -100px;
         h2{
-            font-size: 48px;
+            font-size: 56px;
             color: #C3343C;
             font-family: Baskerville;
+            padding-bottom: 20px;
         }
         h6{
             font-size: 20px;
-            color: #282829;
+            color: #3B3B3B;
             padding-top: 10px;
             font-family: Muli;
-        }
-       
+        }   
 .design-layout{
-            background-color: #FCFCFC;
+            background-color: #ebebeb;
             padding-left: 60px;
-            
             .design-left{
                 padding: 150px 30px;
             }
             .button{
-                margin-top: 40px;
+                margin-top: 60px;
             }
-            .btn-white{
-                background-color: #C3343C;
-                color: #FCFCFC;
+            .btn{
+                border: 2px solid #0D0D0D;
+                border-radius: 0;
+                color: #0D0D0D;
+                cursor: pointer;
                 font-size: 20px;
-                padding: 15px;
-                border-radius: 0px;
+                padding: 10px 20px;
                 font-family: Muli;
+                &:hover{
+                    background-color: #C3343C;
+                    color: #FFFFFF;
+                    border: 2px solid #FFFFFF;
+                }
             }
 }
 .design-layouts{
@@ -95,9 +103,7 @@
                 }
                 }
             }  
-
             @include media-breakpoint-down(lg) {
-
                 .design-layout{
                     padding-left: 50px;
                     .design-left{
@@ -110,7 +116,6 @@
                     }
                 }
             }
-
             @include media-breakpoint-down(md) {
                 .design-layout{
                     padding-left: 50px;
@@ -130,15 +135,21 @@
                             margin-left: 35px;
                         }
                     }
-                    .btn-white{
-                        background-color: #C3343C;
-                        color: #FCFCFC;
-                        font-size: 16px;
-                        padding: 10px;
-                        border-radius: 0px;
+                    .btnn{
+                        border: 2px solid #0D0D0D;
+                        border-radius: 0;
+                        color: #0D0D0D;
+                        cursor: pointer;
+                        font-size: 20px;
+                        padding: 10px 20px;
+                        font-family: Muli;
+                        &:hover{
+                            background-color: #C3343C;
+                            color: #FFFFFF;
+                            border: 2px solid #E2E2E2;
+                        }
                     }
                 }
-
                 .design-layouts{
                     .img_cover img{
                         width: 110px; 
@@ -156,9 +167,7 @@
                         }
                     }
                 }
-
             }
-
             @include media-breakpoint-down(sm) {
                 .design-layout{
                     padding-left: 15px;
@@ -166,7 +175,6 @@
                 .design-layouts{
                     display: none;
                 }
-              
                 .flex{
                     overflow-y: scroll;
                     display: flex;
@@ -216,58 +224,64 @@
                 }
             }
 }      
-
 .about-layout1{
-        background-color: #282829;
-        padding: 100px 0px;
+        background-color: #FCFCFC;
+        //padding: 100px 0px;
             .design-layout{
                 padding-left: 60px;
                 h2{
                     font-family: Baskerville;
-                    font-size: 48px;
-                    color: #FFFFFF;
+                    font-size: 56px;
+                    color: #3B3B3B;
                 }
                 .design-left{
                     padding: 150px 30px;
                 }
                 .button{
-                    margin-top: 40px;
+                    margin-top: 60px;
                 }
-                .btn-white{
-                    background-color: #C3343C;
-                    color: #FCFCFC;
+                .btnn{
+                    border: 2px solid #0D0D0D;
+                    border-radius: 0;
+                    color: #0D0D0D;
+                    cursor: pointer;
                     font-size: 20px;
-                    padding: 15px;
-                    border-radius: 0px;
+                    padding: 10px 20px;
                     font-family: Muli;
+                    &:hover{
+                        background-color: #C3343C;
+                        color: #FFFFFF;
+                        border: 2px solid #E2E2E2;
+                    }
                 }
             }
-
- .design-layouts{
+            .design-layouts{
                     .layouts{
                         height: 500px;
-                        overflow: auto;
+                        //overflow: auto;
+                        padding-top: 80px;
                     }
-
                     ::-webkit-scrollbar {
                         width: 0px;
                     }
                 h5{
                     font-size: 36px;
-                    color: #FFFFFF;
+                    color: #3B3B3B;
                     font-family: Baskerville;
                 }
                 p{
                     font-size: 18px;
-                    color: #FFFFFF;
+                    color: #707071;
                     font-weight: 400;
                     font-family: Muli;
                 }
                 .design-right{
-                    padding: 180px 30px;
+                    padding: 70px 30px;
+                }
+                .design-rights{
+                    padding: 0px 30px;
                 }
             }
-
             @include media-breakpoint-down(lg) {  
                 padding: 80px 0px;
                 .design-layout{
@@ -278,7 +292,6 @@
                     .design-right{
                         padding: 125px 30px;
                     }
-                
                 }
             }
             @include media-breakpoint-down(md) {
@@ -297,14 +310,13 @@
                             margin-left: 25px;
                         }
                     }
-                    .btn-white{
+                    .btnn{
                         font-size: 16px;
                         padding: 10px;
                         border-radius: 0px;
                     }
                 }
                 .design-layouts{
-                  
                     .layouts{
                        // height: 500px;
                        // overflow: auto;
@@ -320,10 +332,8 @@
                 }
             }
         }
-
-            }
+    }
             @include media-breakpoint-down(sm) {
-               
                 padding: 50px 0px;
                 .design-layout{
                     padding-left: 0px;
@@ -333,14 +343,11 @@
                     .design-right{
                         padding: 100px 30px;
                     }
-                
                 }
                 .design-layouts{
-                  
                     .layouts{
                         height: 100%;
                        overflow: visible;
-
                        .design-right{
                         padding: 45px 30px;
                         h5{
@@ -353,37 +360,35 @@
                     }
             }
         }
-
             }
-
     }
-
 .about-layout2{
         background-color: #C3343C;
             .design{
-                padding: 150px 30px;
+                padding: 150px 0px;
+                margin-left: -20px;
                 h2{
                     font-size: 48px;
                     color: #FCFCFC;
                     font-family: Baskerville;
+                    padding-bottom: 20px;
                 }
                 h6{
                     font-size: 20px;
                     color: #FCFCFC;
-                    padding-top: 40px;
                     font-family: Muli;
                 }
                 .button{
-                    margin-top: 40px;
+                    margin-top: 60px;
                     img{
                         margin-left: 35px;
                     }
                 }
                 .btn-white{
-                    background-color: #FCFCFC;
-                    color: #C3343C;
+                    border: 2px solid #FFFFFF;
+                    color: #FCFCFC;
                     font-size: 20px;
-                    padding: 15px;
+                    padding: 10px 20px;
                     border-radius: 0px;
                     font-family: Muli;
                 }
@@ -409,7 +414,7 @@
                             margin-left: 25px;
                         }
                     }
-                    .btn-white{
+                    .btnn{
                         font-size: 16px;
                         padding: 15px;
                         border-radius: 0px;

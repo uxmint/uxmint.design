@@ -22,11 +22,16 @@ h6{
         font-size: 28px;
     }
 } 
+:host{
+    padding-top: 0px;
+}
     .banner{
         background-color: #EBEBEB;
-        position: relative;
-        color: #000000;
-        padding: 150px 0px;
+       padding-top: 140px;
+       top: -100px;
+       position: relative;
+       height: 830px;
+       padding: 350px 0px;
         .banner-header{
             padding: 95px 0px;
         }
@@ -37,7 +42,7 @@ h6{
         }
         @include media-breakpoint-down(lg){
             .banner-header{
-                padding: 150px 0px;
+                padding: 15px 0px;
             }
         }
         @include media-breakpoint-down(md){
@@ -50,6 +55,7 @@ h6{
     .about-project{
         background-color: #FCFCFC;
         padding: 200px 0px;
+        margin-top: -100px;
         p{
             font-size: 18px;
             font-family: Muli;
@@ -125,15 +131,19 @@ h6{
         h1{
             color: #FF6C6C;
             font-size: 116px;
+            font-family: Muli;
             margin-top: 100px;
         }
         h2{
+            font-size: 56px;
+            font-family: Baskerville;
             color: #FF6C6C;
             font-weight: 300;
         }
         h6{
             margin-bottom: 25px;
             font-family: Baskerville;
+            font-size: 36px;
         }
         p{
             font-weight: 300;
@@ -168,7 +178,7 @@ h6{
         @include media-breakpoint-down(sm){
             padding: 0px 0px;
             .needs{
-                height: 860px;
+                height: 900px;
                 overflow: hidden;
             }
             .needs-right{
@@ -207,6 +217,9 @@ h6{
         padding: 150px 200px;
         img{
             width: 100%;
+        }
+        @include media-breakpoint-down(sm){
+            padding: 50px 50px;
         }
     }
  .work-description{
@@ -272,6 +285,38 @@ h6{
             img{
                 width: 110%;
                 margin-top: 50px;
+            }
+        }
+    }
+    .craft{
+        background-color: #C3343C;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #FCFCFC;
+        }
+        .button{
+            margin-top: 80px;
+        }
+        .btn-white{
+            border: 2px solid #FFFFFF;
+            color: #FCFCFC;
+            font-size: 20px;
+            padding: 8px;
+            border-radius: 0px;
+            font-family: Muli;
+        }
+        @include media-breakpoint-down(md){
+            h2{
+                font-size: 37px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .button{
+                margin-top: 50px;
+               padding-left: 15px;
             }
         }
     }

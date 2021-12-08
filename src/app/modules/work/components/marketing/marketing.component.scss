@@ -23,15 +23,18 @@ h6{
 }   
     .banner{
         background-color: #E4F0EC;
-        position: relative;
-        color: #000000;
-        padding: 150px 0px;
-        img{
-            margin-top: 70px;
-        }
-        .banner-header{
-            padding: 150px 0px;
-        }
+        padding-top: 140px;
+       top: -100px;
+       position: relative;
+       height: 830px;
+       padding: 350px 0px;
+       img{
+        position: absolute;
+        width: 85%;
+        margin-top: -20%;
+        top: 100px;
+        right: 20px;
+    }
         h6{
             font-weight: 300;
             font-size: 24px;
@@ -41,18 +44,28 @@ h6{
         }
         @include media-breakpoint-down(lg){
             .banner-header{
-                padding: 150px 0px;
+                padding: 15px 0px;
             }
         }
         @include media-breakpoint-down(md){
             .banner-header{
-                padding: 85px 0px;
+                padding: 15px 0px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .banner-header{
+                padding: 250px 0px;
+            }
+            img{
+                margin-top: -70%;
+                margin-left: -40px;
             }
         }
     }
     .about-project{
         background-color: #FCFCFC;
         padding: 200px 0px;
+        margin-top: -100px;
         p{
             font-size: 18px;
             font-family: Muli;
@@ -75,7 +88,7 @@ h6{
         @include media-breakpoint-down(sm){
             img{
                 width: 100%;
-                display: none !important;
+                //display: none !important;
             }  
         }
     }

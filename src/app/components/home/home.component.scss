@@ -1,13 +1,17 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
-
+:host{
+    padding-top: 0px;
+}
 .home{
     .banner{
-        background-color: #E2E2E2;
+        padding-top: 140px;
+        top: -100px;
         position: relative;
-        height: 700px;
-        padding: 245px 0px;
+        background-color: #E2E2E2;
+        height: 830px;
+        padding: 350px 0px;
         h2{
             font-size: 48px;
             color: #3B3B3B;
@@ -19,9 +23,10 @@
             font-family: Baskerville;
         }
         p{
-            font-size: 16px;
+            font-size: 18px;
             color: #707071;
             padding-top: 10px;
+            font-family: Muli;
         }
         @include media-breakpoint-down(md){
             height: 500px;
@@ -37,7 +42,6 @@
         }
         @include media-breakpoint-down(sm){
             height: 500px;
-           
         }
     }
     .feature-work{
@@ -51,19 +55,19 @@
             h3{
                 font-size: 24px;
                 font-family: Muli;
-                color: #282829;
-                margin-bottom: 40px;
+                color: #707071;
+                margin-bottom: 30px;
             }
             h2{
                 font-size: 57px;
                 font-family: Baskerville;
-                color: #222222;
-                margin-bottom: 40px;
+                color: #3B3B3B;
+                margin-bottom: 20px;
             }
             h4{
-                font-size: 20px;
+                font-size: 18px;
                 font-family: Muli;
-                color: #5A5A5A;
+                color: #707071;
                 margin-bottom: 60px;
             }
         }
@@ -105,18 +109,14 @@
             }
         }
         @include media-breakpoint-down(sm){
-           
             .card{
-                //background-color: #3E4268;
                 padding: 40px 0px 0px 10px;
                 height: 220px;
                
                 h2{
-                    //color: #FFF;
                     margin-bottom: 20px;
                 }
                 h4{
-                    //color: #FFF;
                     margin-bottom: 30px;
                 }
             }
@@ -126,28 +126,21 @@
         }
     }
     .products{
-        //background-color: #C3343C;
         padding: 80px 0;
         color: #FFF;
-        h4{
-            font-size: 28px;
-            font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-            color: #FFF;
-            font-weight: 400;
-        }
         h2{
             font-size: 57px;
             font-family: Baskerville;
-            color: #101010;
+            color: #3B3B3B;
             padding-top: 60px;
             margin-bottom: 20px;
             line-height: 60px;
         }
         h3{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 32px;
-            color: #6F6F6E;
+            color: #707071;
             margin-bottom: 50px;
         }
         .icon{
@@ -227,23 +220,9 @@
         .flex{
          overflow-y: scroll;
          display: flex;
-         padding: 100px 0px 40px 30px;
+         padding: 30px 0px 30px 30px;
         }
     }
-    @include media-breakpoint-down(lg){
-        .flex{
-            overflow-y: scroll;
-            display: flex;
-            padding: 100px 0px 40px 30px;
-           }
-        }
-        @include media-breakpoint-down(lg){
-            .flex{
-                overflow-y: scroll;
-                display: flex;
-                padding: 100px 0px 40px 30px;
-               }
-        }
 }
     .cater{
         background-color: #FCFCFC;
@@ -252,16 +231,16 @@
         h2{
             font-size: 57px;
            font-family: Baskerville;
-           color: #020202;
+           color: #3B3B3B;
             margin-bottom: 60px;
         }
         .left{
-            margin-left: -100px;
+            margin-left: -115px;
         }
         h4{
             font-size: 18px;
             font-weight: 400;
-            color: #020202;
+            color: #707071;
             line-height: 36px;
             padding-top: 10px;
         }
@@ -350,16 +329,10 @@
        .left{
            padding: 40px 130px 80px 90px;
            background-color: #E2E2E2;
-           h4{
-               font-size: 28px;
-               font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-               color: #282829;
-               font-weight: 400;
-           }
            h2{
                font-size: 57px;
              font-family: Baskerville;
-               color: #282829;
+               color: #3B3B3B;
                margin-top: 120px;
                margin-bottom: 80px;
            }
@@ -374,11 +347,14 @@
                h3{
                    font-size: 36px;
                    font-family: Baskerville;
+                   font-weight: 400;
+                   color: #3B3B3B;
                    margin: 40px 130px 20px 40px;
                }
                h4{
-                   font-size: 20px;
+                   font-size: 18px;
                    font-family: Muli;
+                   color: #707071;
                    margin: 0 0 10px 40px;
                }
            }
@@ -440,7 +416,7 @@
         h2{
             font-size: 57px;
             font-family: Baskerville;
-            color: #FCFCFC;
+            color: #FFFFFF;
         }
         .button{
             margin-top: 80px;
@@ -449,7 +425,7 @@
             border: 2px solid #FFFFFF;
             color: #FCFCFC;
             font-size: 20px;
-            padding: 8px;
+            padding: 10px 20px;
             border-radius: 0px;
             font-family: Muli;
         }
@@ -550,6 +526,7 @@
     color: #0D0D0D;
     cursor: pointer;
     font-size: 20px;
+    padding: 10px 20px;
     font-family: Muli;
     &:hover{
         background-color: #C3343C;
@@ -563,6 +540,7 @@
     color: #0D0D0D;
     cursor: pointer;
     font-size: 20px;
+    padding: 10px 20px;
     font-family: Muli;
     &:hover{
         background-color: #C3343C;

@@ -104,8 +104,11 @@
                 margin-bottom: 20px;
             }
             ::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
-                padding: 20px 10px;
+                padding: 20px 5px;
                 border-top: 0;
+            }
+           .min{
+                width: 60px;
             }
             .button{
                 margin-top: 40px;

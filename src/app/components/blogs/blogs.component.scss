@@ -1,24 +1,25 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
-
 .blogs{
     .banner{
         background-color: #E2E2E2;
+        padding-top: 140px;
+        top: -100px;
         position: relative;
-        height: 700px;
-        padding: 245px 0px;
+        height: 830px;
+        padding: 350px 0px;
         h1{
             font-size: 56px;
             color: #C3343C;
             font-family: Baskerville;
             span{
-                color: #000000;
+                color: #3B3B3B;
             }
         }
-        h6{
-            font-size: 36px;
-            color: #282829;
+        h4{
+            font-size: 26px;
+            color: #707071;
             padding-top: 25px;
             font-family: Muli;
             span{
@@ -26,14 +27,13 @@
                 text-decoration: underline;
             }
         }
-
         @include media-breakpoint-down(lg) {
             height: 650px;
             padding: 245px 0px;
         }
         @include media-breakpoint-down(md) {
             height: 540px;
-            padding: 180px 0px;
+            padding: 300px 0px;
             h1{
                 font-size: 36px;
             }
@@ -46,30 +46,26 @@
             height: 500px;
             padding: 150px 0px;
         }
-
     }
-
     .blog-layout2{
                  background-color: #F7F7F7;
                  padding: 150px 0px;
-                
+                 margin-top: -100px;
              .image-center{
                  padding: 0 40px;
                         h5{
                             font-size: 28px;
-                            color: #282829;
-                            font-weight: 600;
+                            color: #3B3B3B;
                             padding-top: 25px;
                             font-family: Baskerville;
                         }
                         span{
-                            color: #282829;
+                            color: #707071;
                             font-family: Muli;
                         }
                         img{
                             width: 100%;
                             padding: 30px 0px 0px 0px;
-
                         }
                     }  
 
@@ -81,13 +77,10 @@
 }
     @include media-breakpoint-down(md) {
         padding: 120px 0px;
-
         .image-center{
             padding: 0 30px;
             h5{
                 font-size: 24px;
-                font-weight: 500;
-                padding-top: 20px;
             }
         }  
     }

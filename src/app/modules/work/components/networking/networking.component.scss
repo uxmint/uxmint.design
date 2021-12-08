@@ -24,15 +24,14 @@ h6{
 }  
     .banner{
         background-color: #EBEBEB;
-        position: relative;
-        color: #000000;
-        padding: 40px 0px;
-        .banner-header{
-            padding: 150px 0px;
-        }
+        padding-top: 140px;
+       top: -100px;
+       position: relative;
+       height: 830px;
+       padding: 350px 0px;
         img{
             position: absolute;
-            top: 31px;
+            margin-top: -115px;
         }
         h6{
             font-weight: 300;
@@ -49,10 +48,18 @@ h6{
                 padding: 85px 0px;
             }
         }
+        @include media-breakpoint-down(sm){
+            img{
+                width: 100%;
+                margin-top: -70%;
+                margin-left: -40px;
+            }
+        }
     }
     .about-project{
         background-color: #FCFCFC;
         padding: 200px 0px;
+        margin-top: -100px;
         p{
             font-size: 18px;
             font-family: Muli;
@@ -99,6 +106,20 @@ h6{
             h2{
                 font-size: 36px;
                 margin-bottom: 30px;
+            }
+        }
+    }
+    .wireframe{
+        background-color: #FCFCFC;
+        h2{
+            font-family: Baskerville;
+            font-size: 36px;
+            color: #000000;
+        }
+        @include media-breakpoint-down(sm){
+            h2{
+                font-size: 25px;
+                line-height: 35px;
             }
         }
     }
@@ -184,27 +205,31 @@ h6{
         }
     }
     .design-system{
-        padding: 80px 0px;
-        color: #3D3D3D;
+        padding: 60px 0px;
+        color: #000000;
         background-color: #FCFCFC;
         p{
             font-family: Baskerville;
-            font-size: 18px;
+            font-size: 26px;
             line-height: 40px;
             padding: 0px 100px;
+            text-align: center;
         }
         @include media-breakpoint-down(lg){
-            padding: 80px 0px;
+            padding: 60px 0px;
         }
         @include media-breakpoint-down(md){
-            padding: 80px 0px;
+            padding: 60px 0px;
         }
         @include media-breakpoint-down(sm){
-            padding: 80px 0px;
+            padding: 60px 0px;
+            p{
+                padding: 0px 0px; 
+            }
         }
     }
     .research{
-        padding: 80px 0px;
+        padding: 90px 0px;
         color: #3D3D3D;
         background-color: #FCFCFC;
         h6{
@@ -239,8 +264,9 @@ h6{
         background-color: #FCFCFC;
         text-align: center;
         padding: 100px 0px;
+        margin-top: -50px;
         @include media-breakpoint-down(lg){
-            padding: 100px 0px;
+            //margin-top: -100px;
             img{
                 width: 100%;
                 margin-top: 100px;
@@ -258,6 +284,38 @@ h6{
             img{
                 width: 100%;
                 margin-top: 50px;
+            }
+        }
+    }
+    .craft{
+        background-color: #C3343C;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #FCFCFC;
+        }
+        .button{
+            margin-top: 80px;
+        }
+        .btn-white{
+            border: 2px solid #FFFFFF;
+            color: #FCFCFC;
+            font-size: 20px;
+            padding: 8px;
+            border-radius: 0px;
+            font-family: Muli;
+        }
+        @include media-breakpoint-down(md){
+            h2{
+                font-size: 37px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .button{
+                margin-top: 50px;
+               padding-left: 15px;
             }
         }
     }

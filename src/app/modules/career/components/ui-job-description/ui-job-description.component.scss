@@ -8,6 +8,7 @@
         padding: 245px 0px;
         background-color: #995BEB;
         height: 770px;
+        margin-top: -100px;
         h1{
             font-size: 56px;
             color: #000000;
@@ -71,7 +72,6 @@
             .btn-white{
                 border: 2px solid #0D0D0D;
                 border-radius: 0;
-                color: #0D0D0D;
                 cursor: pointer;
                 font-size: 20px;
                 font-family: Muli;
@@ -80,6 +80,10 @@
                     background-color: #C3343C;
                     color: #FFFFFF;
                     border: 2px solid #FFFFFF;
+                }
+                a{
+                    color: #0D0D0D;
+                    text-decoration: none;
                 }
             }
             .btn-white:focus{

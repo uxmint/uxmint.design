@@ -1,14 +1,17 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
+:host{
+    padding-top: 0px;
+}
 .career{
     .banner{
-        position: relative;
         background-color: #995BEB;
-        height: 770px;
-        .career-layout1{
-            padding: 300px 30px;
-        }
+        padding-top: 140px;
+        top: -100px;
+        position: relative;
+        height: 830px;
+        padding: 350px 0px;
         h1{
             font-size: 56px;
             color: #000000;
@@ -29,37 +32,26 @@
         }
         @include media-breakpoint-down(lg) {
             height: 650px;
-            .career-layout1{
-                padding: 250px 25px;
-            }
         }
         @include media-breakpoint-down(md) {
             height: 540px;
-            .career-layout1{
-                padding: 210px 15px;
-            }
             h1{
                 font-size: 36px;
             }
             h6{
                 font-size: 24px;
-               
             }
         }
         @include media-breakpoint-down(sm) {
             height: 600px;
-            .career-layout1{
-                padding: 150px 0px;
-            }
         }
-
     }  
     .career-layout{
         padding: 100px 30px;
         .career-design{
             padding: 70px 30px;
             color: #292929;
-            h2{
+            h1{
                 font-size: 36px;
                 color: #808080;
                 padding-bottom: 25px; 
@@ -68,11 +60,11 @@
              }
             .designer{
                 padding: 20px 0px;
-            h1{
-                font-size: 36px;
+            h2{
+                font-size: 24px;
                 font-weight: 500;
                 cursor: pointer;
-                font-family: Baskerville;
+                font-family: Muli;
             }
             h6{
                 font-size: 20px;
@@ -104,39 +96,40 @@
         padding: 100px 30px;
         .career-design{
         padding: 60px 0px;
-     
         }
 }
 @include media-breakpoint-down(md) {  
-    padding: 50px 0px;
-    .career-design{
-    padding: 50px 0px;
-    h2{
-        font-size: 24px;
-        padding-bottom: 25px; 
-     }
-    .designer{
-       padding-top: 40px;
-       h1{
-        font-size: 24px;
-        font-weight: 500;
-    }
-    h6{
-        font-size: 20px;
-    }
+                padding: 50px 0px;
+                .career-design{
+                padding: 50px 0px;
+                h2{
+                    font-size: 24px;
+                    padding-bottom: 25px; 
+                }           
+                .designer{
+                padding-top: 40px;
+                h1{
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+                h6{
+                    font-size: 20px;
+                }
+                .btn-white{
+                width: 85px;
+                padding: 8px 15px;
+                }
+            }
+        }
 }
-}
-}
-
 @include media-breakpoint-down(sm) {  
-.only-mobile{
-    display: none;
-}
-padding: 100px 0px;
-.career-design{
-padding: 0px 0px;
-}
-
-}
-}
+            .only-mobile{
+                display: none;
+            }
+            padding: 100px 0px;
+            .career-design{
+            padding: 0px 0px;
+            }
+        }
+    }
 }

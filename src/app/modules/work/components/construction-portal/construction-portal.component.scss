@@ -27,30 +27,46 @@ h6{
 }  
     .banner{
         background-color: #DDFAFF;
+        padding-top: 140px;
+        top: -100px;
         position: relative;
-        color: #003F72;
-        padding-top: 150px;
-        .banner-header{
-            padding: 150px 0px;
-        }
+        height: 830px;
+        padding: 350px 0px;
         h6{
             font-weight: 300;
             margin-top: 30px;
         }
+        img{
+            position: absolute;
+            width: 85%;
+            margin-top: -25%;
+            top: 100px;
+            right: 20px;
+        }
         @include media-breakpoint-down(lg){
             .banner-header{
-                padding: 150px 0px;
+                padding: 15px 0px;
             }
         }
         @include media-breakpoint-down(md){
             .banner-header{
-                padding: 85px 0px;
+                padding: 15px 0px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .banner-header{
+                padding: 250px 0px;
+            }
+            img{
+                margin-top: -70%;
+                margin-left: -40px;
             }
         }
     }
     .about-project{
         background-color: #FCFCFC;
         padding: 200px 0px;
+        margin-top: -100px;
         .row{
             padding-bottom: 50px;
             margin-right: 0;
@@ -355,12 +371,4 @@ h6{
 ::ng-deep .tile{
     border-radius: 15px;
     box-shadow: none !important;
-}
-
-@include media-breakpoint-down(sm) {
-.banner{
-    img{
-        width: 100%;
-    }
-}
 }

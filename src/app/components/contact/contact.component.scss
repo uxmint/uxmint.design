@@ -1,12 +1,16 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
-
+:host{
+    padding-top: 0px;
+}
 .banner{
     background-color: #FFE14D;
+    padding-top: 140px;
+    top: -100px;
     position: relative;
-    height: 700px;
-    padding: 245px 0px;
+    height: 830px;
+    padding: 350px 0px;
     .contact-layout{
     h1{
         font-size: 56px;
@@ -42,7 +46,6 @@
         h6{
             font-size: 24px;
         }
-
     }
 }
   @include media-breakpoint-down(sm) {
@@ -50,15 +53,14 @@
         padding: 150px 0px;
     }
 }
-
 .contact-layout1{
+    margin-top: -100px;
    .layout-left1{
     h2{
         font-size: 36px;
         color: #FCFCFC;
     }
-}
-    
+}  
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
     background-color: #FFE14D !important;
     font-size: 36px;
@@ -74,15 +76,12 @@
     border-radius: 0;
     font-family: Baskerville;
 } 
-
     .layout-right{
         padding: 100px 100px;
-      
         .layouts{
             height: 480px;
             overflow: auto;
         }
-
         ::-webkit-scrollbar {
             width: 0px;
         }
@@ -138,13 +137,8 @@
             box-shadow: none;
           }
     }
-  
-
     @include media-breakpoint-down(lg) { 
         .layout-left{
-            padding: 100px 40px;
-        }
-        .layout-left1{
             padding: 100px 40px;
         }
         .layout-right{
@@ -155,22 +149,15 @@
         .layout-left{
             padding: 100px 0px;
         }
-        .layout-left1{
-            padding: 100px 0px;
-        }
         .layout-right{
             padding: 100px 20px;
         }
-
     }
     @include media-breakpoint-down(sm) {
         .d-flex{
             flex-direction: column;
         }
         .layout-left{       
-            padding: 100px 0px;
-        }
-        .layout-left1{
             padding: 100px 0px;
         }
         h2{
@@ -189,7 +176,6 @@
         }
     }
 }
-
 .contact-layout2{
     .layout-left{
         padding: 100px 100px;
@@ -256,7 +242,6 @@
         // }
     }
 }
-
 .contact-layout3{
     background-color: #FFE14D;
     padding: 100px 100px;
@@ -323,7 +308,6 @@ p{
     padding-left: 10px;
     padding-top: 15px;
 }
-
 iframe {
     width:100%;
     height:560px;

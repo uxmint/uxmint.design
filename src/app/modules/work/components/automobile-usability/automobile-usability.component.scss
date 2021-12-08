@@ -24,15 +24,18 @@ h6{
 } 
     .banner{
         background-color: #6DAFD8;
-        position: relative;
-        color: #FFFFFF;
-        //padding-top: 150px;
+        padding-top: 140px;
+       top: -100px;
+       position: relative;
+       //height: 830px;
+       //padding: 350px 0px;
         h6{
             font-weight: 300;
             margin-top: 30px;
         }
     }
     .image-event{
+        margin-top: -100px;
         img{
             width: 100%;
         }
