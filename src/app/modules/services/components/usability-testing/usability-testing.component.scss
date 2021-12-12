@@ -8,11 +8,8 @@
     }
 .banner{
     // background-image: url('/assets/images/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: -53px;
     height: 770px;
+    //padding: 300px 0px;
     h1{
         font-size: 96px;
         color: #C3343C;
@@ -84,7 +81,7 @@
     .left-layout{
        background-color: #C3343C;
        color: #FFFFFF;
-       padding: 285px 0px;
+       padding: 250px 0px 200px;
        h3{
            font-size: 48px;
            font-family: Baskerville;
@@ -100,6 +97,7 @@
        }
     }
     .right-layout{
+        background-color: #C3343C;
         @include media-breakpoint-down(sm){
             display: none;
         }
@@ -109,7 +107,9 @@
         padding-right: 0px !important;
     }
     img{
-        width: 100%;
+        padding-top: 120px;
+        width: 75%;
+        padding-left: 40px;
     }
 }
 .service-layout2{
@@ -203,7 +203,7 @@
     }
 }
 .service-layout3{
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
     padding: 150px 0px;
     color: #282829;
     li{
@@ -296,7 +296,7 @@
     }
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
     color: #C3343C;
     font-size: 36px;
     font-weight: 600;
@@ -325,9 +325,6 @@
     color: #282829;
     font-family: Baskerville;
 }
-// .flex-column{
-//     padding: 75px 0px;
-// }
 
 .process-layout{
     background-color: #C3343C;
@@ -421,10 +418,32 @@
     }
 }
 
+.service-layout4{
+    background-color: #FCFCFC;
+    padding: 200px 0px;
+    h3{
+        font-size: 36px;
+        font-family: Baskerville;
+    }
+    p{
+         font-size: 18px;
+        line-height: 40px;
+        font-family: Muli;
+    }
+    @include media-breakpoint-down(lg){
+        padding: 200px 0px;
+    }
+    @include media-breakpoint-down(md){
+        padding: 150px 0px;
+    }
+    @include media-breakpoint-down(sm){
+        padding: 80px 0px;
+    }
+}
 .situations-layout{
-    background-color: #0f0f0f;
+    background-color: #FFFFFF;
     padding: 150px 0px;
-    color: #FFF;
+    //color: #FFF;
     h2{
         font-size: 36px;
         font-family: Baskerville;

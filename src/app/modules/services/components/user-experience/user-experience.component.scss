@@ -2,14 +2,11 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 .services{
-    padding: 50px 0px;
+    //padding: 50px 0px;
 .banner{
     // background-image: url('/assets/images/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: -53px;
     height: 770px;
+    //padding: 300px 0px;
     h1{
         font-size: 96px;
         color: #C3343C;
@@ -78,7 +75,7 @@
     .left-layout{
        background-color: #C3343C;
        color: #FFFFFF;
-       padding: 285px 0px;
+       padding: 250px 0px 300px;
        h3{
            font-size: 48px;
            font-family: Baskerville;
@@ -94,6 +91,7 @@
        }
     }
     .right-layout{
+        background-color: #C3343C;
         @include media-breakpoint-down(sm){
             display: none;
         }
@@ -103,7 +101,9 @@
         padding-right: 0px !important;
     }
     img{
-        width: 100%;
+        padding-top: 120px;
+        width: 75%;
+        padding-left: 40px;
     }
 }
 .service-layout2{

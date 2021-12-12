@@ -6,27 +6,25 @@
 }
 .career{
     .banner{
-        background-color: #995BEB;
+        background-color: #D3B1FF;
         padding-top: 140px;
-        top: -100px;
-        position: relative;
-        height: 830px;
-        padding: 350px 0px;
+        height: 700px;
+        padding: 250px 0px;
         h1{
             font-size: 56px;
-            color: #000000;
+            color: #3B3B3B;
             font-family: Baskerville;
             span{
-                color: #FFFFFF;
+                color: #C3343C;
             }
         }
-        h6{
-            font-size: 36px;
-            color: #282829;
+        h4{
+            font-size: 26px;
+            color: #3B3B3B;
             padding-top: 25px;
             font-family: Muli;
             span{
-                color: #FFFFFF;
+                color: #C3343C;
                 text-decoration: underline;
             }
         }
@@ -47,20 +45,21 @@
         }
     }  
     .career-layout{
-        padding: 100px 30px;
+        padding: 150px 30px;
+        padding-bottom: 150px;
         .career-design{
-            padding: 70px 30px;
-            color: #292929;
+            //padding: 70px 30px;
             h1{
                 font-size: 36px;
-                color: #808080;
-                padding-bottom: 25px; 
+                color: #3B3B3B;
+                padding-bottom: 30px; 
                 font-weight: 200;
                 font-family: Baskerville;
              }
             .designer{
                 padding: 20px 0px;
             h2{
+                color: #3B3B3B;
                 font-size: 24px;
                 font-weight: 500;
                 cursor: pointer;
@@ -70,7 +69,7 @@
                 font-size: 20px;
                 padding-top: 5px;
                 font-weight: 400;
-                color: #808080;
+                color: #707071;
                 font-family: Muli;
             }
             h5{
@@ -81,14 +80,19 @@
             .button{
                 margin-top: 10px;
             }
-            .btn-white{
-               background-color: #2A71F6;
+            .btnn{
+                border: 2px solid #0D0D0D;
                 border-radius: 0;
-                color: #FFFFFF;
+                color: #0D0D0D;
                 cursor: pointer;
                 font-size: 20px;
+                padding: 5px 20px;
                 font-family: Muli;
-                padding: 8px 25px;
+                &:hover{
+                    background-color: #C3343C;
+                    color: #FFFFFF;
+                    border: 2px solid #E2E2E2;
+                }
             }
         }
     }

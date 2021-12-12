@@ -4,7 +4,7 @@
 h2{
     font-size: 57px;
     font-family: Baskerville;
-    color: #000000;
+    color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 36px;
     }
@@ -12,7 +12,7 @@ h2{
 p{
     font-size: 18px;
     font-family: Muli;
-    color: #000000;
+    color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 14px;
     }
@@ -20,7 +20,7 @@ p{
 h6{
     font-size: 24px;
     font-family: Muli;
-    color: #000000;
+    color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 28px;
     }
@@ -28,13 +28,11 @@ h6{
     .banner{
         background-color: #DDFAFF;
         padding-top: 140px;
-        top: -100px;
-        position: relative;
         height: 830px;
         padding: 350px 0px;
         h6{
             font-weight: 300;
-            margin-top: 30px;
+            margin-top: 40px;
         }
         img{
             position: absolute;
@@ -66,7 +64,6 @@ h6{
     .about-project{
         background-color: #FCFCFC;
         padding: 200px 0px;
-        margin-top: -100px;
         .row{
             padding-bottom: 50px;
             margin-right: 0;
@@ -210,9 +207,14 @@ h6{
             border: 2px solid #FFFFFF;
             color: #FCFCFC;
              font-size: 18px;
-            padding: 8px;
             border-radius: 0px;
             font-family: Muli;
+            padding: 10px 20px;
+            cursor: pointer;
+            &:hover{
+                background-color: #FFFFFF;
+                color: #C3343C;
+            }
         }
         @include media-breakpoint-down(md){
             h2{
@@ -287,6 +289,7 @@ h6{
             cursor: pointer;
             font-size: 20px;
             font-family: Muli;
+            padding: 10px 15px;
             &:hover{
                 background-color: #C3343C;
                 color: #FFFFFF;
@@ -353,7 +356,7 @@ h6{
             margin: 0 5px;
             width: 15px;
             height: 15px;
-            border: 2px solid #FFF;
+            //border: 2px solid #FFF;
             background-color: #D0D0D0 !important;
             text-indent: -999px;
             overflow: hidden;

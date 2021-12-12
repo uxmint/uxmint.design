@@ -68,10 +68,11 @@ button{
             &:hover{
                 text-decoration: none;
             }
-        }
     }
-    img{
-        height: 30px;
+    .medium{
+        height: 23px;
         width: auto;
+        padding-top: 5px;
+    }
     }
 }

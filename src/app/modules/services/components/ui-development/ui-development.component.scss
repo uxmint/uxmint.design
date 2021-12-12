@@ -2,14 +2,11 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 .services{
-    padding: 50px 0px;
+    //padding: 50px 0px;
 .banner{
     // background-image: url('/assets/images/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: -53px;
     height: 770px;
+    padding: 300px 0px;
     h1{
         font-size: 96px;
         color: #C3343C;
@@ -27,9 +24,6 @@
         color: #000000;
         font-family: Muli;
     }
-    .banner-content{
-        padding: 300px 0px;
-    }
     @include media-breakpoint-down(lg){
         .row{
             .col-md-5{
@@ -40,14 +34,12 @@
     }
     @include media-breakpoint-down(md){
         height: 450px;
+        padding: 200px 0px;
         .row{
             .col-md-5{
                 flex: 0 0 80%;
                 max-width: 80%;
             }
-        }
-        .banner-content{
-            padding: 200px 0px;
         }
         h1{
             font-size: 36px;
@@ -75,7 +67,7 @@
     .left-layout{
        background-color: #C3343C;
        color: #FFFFFF;
-       padding: 285px 0px;
+       padding: 250px 0px 190px;
        h3{
            font-size: 48px;
            font-family: Baskerville;
@@ -93,6 +85,7 @@
        }
     }
     .right-layout{
+        background-color: #C3343C;
         @include media-breakpoint-down(sm){
             display: none;
         }
@@ -102,7 +95,9 @@
         padding-right: 0px !important;
     }
     img{
-        width: 100%;
+        padding-top: 120px;
+        width: 75%;
+        padding-left: 40px;
     }
 }
 .service-layout2{
@@ -219,6 +214,9 @@
             font-weight: 300;
             padding-top: 10px;
             font-family: Muli;
+        }
+        .lists{
+            padding-left: 10px;
         }
     }
     h2{
@@ -346,103 +344,4 @@
 }
 .nav-pills a{
     color: #282829;
-}
-
-.repository{
-    padding: 100px 0;
-    li{
-        font-size: 28px;
-        font-weight: 300;
-        cursor: pointer;
-    }
-    h2{
-        font-size: 56px;
-        font-weight: 500;
-        margin-bottom: 30px;
-        font-family: Baskerville;
-    }
-    p{
-        font-size: 16px;
-        font-weight: 300;
-        margin-bottom: 60px;
-        font-family: Muli;
-    }
-    .nav-link{
-        color: #282829;
-        font-family: Baskerville;
-    }
-    .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-        background-color: #FFF;
-        color: #C3343C;
-        font-size: 28px;
-        font-weight: 600;
-        font-family: Baskerville;
-    }
-    @include media-breakpoint-down(lg){
-        padding: 100px 0;
-    }
-    @include media-breakpoint-down(md){
-        padding: 100px 0;
-        h2{
-            font-size: 36px;
-        }
-    }
-}
-.repository-responsive{
-    display: none;
-}
-
-@include media-breakpoint-down(sm) {
-    .repository-responsive{
-        margin: 100px 0;
-        display: block;
-        .card{
-            background-color: #FFFFFF !important;
-        }
-        ::ng-deep .card-header {
-            background-color: #FFFFFF !important;
-        }
-        ::ng-deep .btn-link:hover {
-            color: #C3343C;
-            font-size: 20px;
-        }
-        ::ng-deep .btn-link {
-            font-size: 20px;
-            font-weight: 500; 
-            color: #282829;
-            text-decoration: none;
-            width: 100%;
-        }
-        ::ng-deep .btn-link.active {
-            color: #C3343C;
-        }
-        ::ng-deep .dis_flex{
-            display:flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        ::ng-deep .btn:focus  {
-             outline: 0;
-             box-shadow: none !important; 
-        }
-        ::ng-deep .collapsed .arrow_rotate{
-            -ms-transform: rotate(180deg);  
-            transform: rotate(180deg);
-        }
-    .design-left{
-        padding: 10px 20px 40px 20px;
-            p{
-                font-size: 16px;
-                color: #282829;
-                padding-top: 10px;
-            }
-            .li{
-                font-size: 20px;
-                margin-top: 6px;
-            }
-        }
-    }
-    .repository{
-        display: none;
-    }
 }

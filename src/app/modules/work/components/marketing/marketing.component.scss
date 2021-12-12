@@ -4,6 +4,7 @@
 h2{
     font-size: 56px;
     font-family: Baskerville;
+    color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 36px;
     }
@@ -11,12 +12,14 @@ h2{
 p{
     font-size: 16px;
     line-height: 30px;
+    color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 14px;
     }
 }
 h6{
     font-size: 24px;
+    color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 28px;
     }
@@ -24,8 +27,6 @@ h6{
     .banner{
         background-color: #E4F0EC;
         padding-top: 140px;
-       top: -100px;
-       position: relative;
        height: 830px;
        padding: 350px 0px;
        img{
@@ -38,7 +39,7 @@ h6{
         h6{
             font-weight: 300;
             font-size: 24px;
-            margin-top: 50px;
+            margin-top: 40px;
             font-family: Muli;
 
         }
@@ -65,7 +66,6 @@ h6{
     .about-project{
         background-color: #FCFCFC;
         padding: 200px 0px;
-        margin-top: -100px;
         p{
             font-size: 18px;
             font-family: Muli;
@@ -92,6 +92,43 @@ h6{
             }  
         }
     }
+    .craft{
+        background-color: #C3343C;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #FCFCFC;
+        }
+        .button{
+            margin-top: 80px;
+        }
+        .btn-white{
+            border: 2px solid #FFFFFF;
+            color: #FCFCFC;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 0px;
+            font-family: Muli;
+            cursor: pointer;
+            &:hover{
+                background-color: #FFFFFF;
+                color: #C3343C;
+            }
+        }
+        @include media-breakpoint-down(md){
+            h2{
+                font-size: 37px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .button{
+                margin-top: 50px;
+               padding-left: 15px;
+            }
+        }
+    }
     .approach{
         background-color: #EBEBEB;
         color: #000000;
@@ -99,7 +136,7 @@ h6{
         p{
             line-height: 35px;
             font-family: Muli;
-            font-size: 18px;
+            font-size: 20px;
         }
         @include media-breakpoint-down(lg){
             padding: 200px 0px;
@@ -226,35 +263,6 @@ h6{
         img{
             width: 100%;
         }
-    }
-    .work-description{
-        padding: 80px 0px;
-        color: #3D3D3D;
-        background-color: #FAFAFA;
-        h6{
-            line-height: 55px;
-            margin-top: 100px;
-        }
-        @include media-breakpoint-down(lg){
-            padding: 80px 0px;
-            img{
-                width: 100%;
-                margin-top: 100px;
-            }
-        }
-        @include media-breakpoint-down(md){
-            padding: 40px 0px;
-            h6{
-               font-size: 28px;
-            }
-        }
-        @include media-breakpoint-down(sm){
-            padding: 40px 0px;
-            img{
-                width: 100%;
-                margin-top: 50px;
-            }
-    }
     }
     .typography-image{
         background-color: #FAFAFA;

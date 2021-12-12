@@ -2,14 +2,11 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 .services{
-    padding: 50px 0px;
+    //padding: 50px 0px;
 .banner{
     // background-image: url('/dev/assets/images/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: -53px;
     height: 770px;
+    padding: 300px 0px;
     h1{
         font-size: 96px;
         color: #C3343C;
@@ -27,9 +24,6 @@
         color: #000000;
         font-family: Muli;
     }
-    .banner-content{
-        padding: 300px 0px;
-    }
     @include media-breakpoint-down(lg){
         .row{
             .col-md-5{
@@ -40,14 +34,12 @@
     }
     @include media-breakpoint-down(md){
         height: 450px;
+        padding: 200px 0px;
         .row{
             .col-md-5{
                 flex: 0 0 80%;
                 max-width: 80%;
             }
-        }
-        .banner-content{
-            padding: 200px 0px;
         }
         h1{
             font-size: 36px;
@@ -75,7 +67,7 @@
     .left-layout{
        background-color: #C3343C;
        color: #FFFFFF;
-       padding: 285px 0px;
+       padding: 250px 0px 200px;
        h3{
            font-size: 48px;
            font-family: Baskerville;
@@ -90,6 +82,7 @@
        }
     }
     .right-layout{
+        background-color: #C3343C;
         @include media-breakpoint-down(sm){
             display: none;
         }
@@ -99,7 +92,9 @@
         padding-right: 0px !important;
     }
     img{
-        width: 107%;
+        padding-top: 100px;
+        width: 75%;
+        padding-left: 40px;
     }
 }
 .service-layout2{
@@ -188,6 +183,28 @@
                 max-width: 100%;
             }
         }
+    }
+}
+.service-layout4{
+    background-color: #FFFFFF;
+    padding: 200px 0px;
+    p{
+         font-size: 18px;
+        line-height: 40px;
+        font-family: Muli;
+    }
+    h3{
+        font-size: 36px;
+        font-family: Baskerville;
+    }
+    @include media-breakpoint-down(lg){
+        padding: 200px 0px;
+    }
+    @include media-breakpoint-down(md){
+        padding: 150px 0px;
+    }
+    @include media-breakpoint-down(sm){
+        padding: 80px 0px;
     }
 }
 .service-layout3{

@@ -7,15 +7,13 @@
 .engagement{
     .banner{
         padding-top: 140px;
-        top: -100px;
-        position: relative;
-        height: 830px;
-        padding: 350px 0px;
-        background-color: #FA6D37;
+        height: 700px;
+        padding: 250px 0px;
+        background-color: #FAA55B;
         .engagement-layout{
         h1{
             font-size: 56px;
-            color: #1f0b0c;
+            color: #3B3B3B;
             font-family: Baskerville;
             span{
                 color: #FFFFFF;
@@ -24,7 +22,7 @@
         h6{ 
             font-size: 36px;
             padding-top: 25px;
-            color: #1f0b0c;
+            color: #3B3B3B;
             font-family: Muli;
              span{
                 color: #FFFFFF;
@@ -138,12 +136,11 @@
     }
 }
 .hr{
-    border-top: 1px solid #707070;
+    border-top: 1px solid #FFFFFF;
 }
 .feature-work{
-    background-color: #FA6D37;
+    background-color: #FAA55B;
     padding: 0 0 4px 5px;
-    margin-top: -100px;
     .row{
         margin-right: 0;
         margin-left: 0;
@@ -152,7 +149,7 @@
         border: none;
         padding: 100px 170px 100px 100px;
         height: 600px;
-        background-color: #FA6D37;
+        background-color: #FAA55B;
         p{
             font-size: 18px;
             color: #FFFFFF;
@@ -191,7 +188,7 @@
             background-color: #E6E6E6;
         }
         .nav-link.active{
-            background-color: #C3343C;
+            background-color: #FAA55B;
         }
     }
     @include media-breakpoint-down(lg) {

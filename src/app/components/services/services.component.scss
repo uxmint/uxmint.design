@@ -8,8 +8,6 @@
     .layout{
         background-color: #5277BA;
         padding-top: 140px;
-        top: -100px;
-        position: relative;
         height: 830px;
         padding: 350px 0px;
         h1{
@@ -22,6 +20,7 @@
             font-size: 60px;
             font-weight: 400;
             margin-bottom: 40px;
+            color: #3B3B3B;
             font-family: Baskerville;
         }
         h3{
@@ -30,7 +29,7 @@
             color: #FFF;
             font-family: Muli;
             a{
-                color: #282829;
+                color: #3B3B3B;
                 text-decoration: underline;
                 cursor: pointer;
             }
@@ -53,6 +52,9 @@
         @include media-breakpoint-down(sm){
             height: 690px;
         }
+    }
+    .hr{
+        border-top: 0.5px solid #FFFFFF!important;
     }
     .types{
         background-color: #5277BA;
@@ -188,10 +190,12 @@
             font-weight: 500;
             margin-bottom: 30px;
             font-family: Baskerville;
+            color: #3B3B3B;
         }
         p{
             font-size: 18px;
             font-weight: 300;
+            color: #707071;
             margin-bottom: 60px;
             line-height: 35px;
             font-family: Muli;

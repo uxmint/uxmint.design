@@ -10,22 +10,26 @@
     }
     .about{
         padding-top: 140px;
-        top: -100px;
-        position: relative;
-        height: 830px;
-        padding: 350px 0px;
+        height: 700px;
+        padding: 200px 0px;
         background-color: #FCFCFC;
     .design{
         h1{
             font-size: 56px;
-            color: #C3343C;
+            color: #3B3B3B;
             font-family: Baskerville;
             padding-bottom: 20px;
+            span{
+                color: #C3343C;
+            }
         }
         h4{
             font-size: 26px;
-            color: #707071;
+            color: #3B3B3B;
             font-family: Muli;
+            span{
+                color: #C3343C;  
+            }
         }
     }
     @include media-breakpoint-down(lg) {
@@ -50,10 +54,9 @@
     }
 }
 .about-layout{  
-    margin-top: -100px;
         h2{
             font-size: 56px;
-            color: #C3343C;
+            color: #3B3B3B;
             font-family: Baskerville;
             padding-bottom: 20px;
         }
@@ -256,6 +259,7 @@
                 }
             }
             .design-layouts{
+                padding-top: 160px;
                     .layouts{
                         height: 500px;
                         //overflow: auto;
@@ -276,7 +280,7 @@
                     font-family: Muli;
                 }
                 .design-right{
-                    padding: 70px 30px;
+                    //padding: 70px 30px;
                 }
                 .design-rights{
                     padding: 0px 30px;
@@ -361,6 +365,76 @@
             }
         }
             }
+    }
+    .situations-layout{
+      background-color: #FCFCFC;
+        padding: 150px 0px;
+        color: #FFF;
+        h2{
+            font-size: 36px;
+            font-family: Baskerville;
+            padding: 0px 45px;
+        }
+        .nav-link{
+            display: flex;
+            padding: 0 20px 40px 20px;
+            margin-top: 90px;
+        }
+        .row{
+            .col-md-5 {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+            .col-md-7 {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            padding: 100px 0px;
+            .row{
+                .col-md-5 {
+                    flex: 0 0 35%;
+                    max-width: 35%;
+                }
+                .col-md-7 {
+                    flex: 0 0 65%;
+                    max-width: 65%;
+                }
+            }
+        }
+        @include media-breakpoint-down(md) {
+            padding: 80px 0px;
+            h2{
+                font-size: 20px;
+            }
+            .row{
+                .col-md-5 {
+                    flex: 0 0 20%;
+                    max-width: 20%;
+                }
+                .col-md-7 {
+                    flex: 0 0 80%;
+                    max-width: 80%;
+                }
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            padding: 70px 0px;
+            h2{
+                padding-bottom: 40px;
+            }
+            .row{
+                .col-md-5 {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+                .col-md-7 {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+            }
+        }
     }
 .about-layout2{
         background-color: #C3343C;

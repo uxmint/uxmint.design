@@ -2,23 +2,33 @@
     <div class="container">
         <nav class="navbar navbar-expand">
             <!--<a class="navbar-brand" href="#">uxmint design</a>-->
-            <img src="./assets/images/logo.png">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="./assets/images/uxmint1.svg">
+                </div>
+                <div class="col-md-1">
+                    <div class="line"></div>
+                </div>
+                <div class="col-md-3">
+                <h2>DESIGN<br>CONSULTING</h2>
+                </div>
+            </div>
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item web-only">
                   <a class="nav-link" routerLink="works">Work</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item web-only">
                     <a class="nav-link" routerLink="about-us">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item web-only">
                   <a class="nav-link" routerLink="services">Services</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item web-only">
                     <a class="nav-link" routerLink="contact-us">Let's Talk</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-activator" (click)="openMenu()"><img src="https://img.icons8.com/ios-filled/50/3B3B3B/menu--v1.png"/></a>
+                    <a class="nav-link menu-activator" (click)="openMenu()"> <img src="./assets/images/menu.png"></a>
                 </li>
               </ul>
             </div>
@@ -66,7 +76,7 @@
             </ul>
         </div>
         <div class="col-md-3">
-            <h2>Services</h2>
+            <h2>Content</h2>
             <ul class="contact">
                 <li>
                     <a routerLink="service/user-experience">User Experience</a>
@@ -107,7 +117,7 @@
           
         </div>
     </div>
-    <hr class="line">
+    <hr class="lines">
     <div class="footer-bottom">
         <div class="rights float-left">
             <h2>All Rights reserved@2021 </h2>

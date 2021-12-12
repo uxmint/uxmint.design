@@ -5,10 +5,8 @@
     .banner{
         background-color: #E2E2E2;
         padding-top: 140px;
-        top: -100px;
-        position: relative;
-        height: 830px;
-        padding: 350px 0px;
+        height: 800px;
+        padding: 200px 0px;
         h1{
             font-size: 56px;
             color: #C3343C;
@@ -28,12 +26,10 @@
             }
         }
         @include media-breakpoint-down(lg) {
-            height: 650px;
-            padding: 245px 0px;
+            height: 670px;
+            padding: 230px 0px;
         }
         @include media-breakpoint-down(md) {
-            height: 540px;
-            padding: 300px 0px;
             h1{
                 font-size: 36px;
             }
@@ -43,7 +39,7 @@
             }
         }
         @include media-breakpoint-down(sm) {
-            height: 500px;
+            height: 600px;
             padding: 150px 0px;
         }
     }
@@ -91,5 +87,42 @@
            
             }  
         }             
+    }
+    .craft{
+        background-color: #C3343C;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: 57px;
+            font-family: Baskerville;
+            color: #FFFFFF;
+        }
+        .button{
+            margin-top: 80px;
+        }
+        .btn-white{
+            border: 2px solid #FFFFFF;
+            color: #FCFCFC;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 0px;
+            font-family: Muli;
+            &:hover{
+                background-color: #FFFFFF;
+                color: #C3343C;
+            }
+        }
+        @include media-breakpoint-down(md){
+            h2{
+                font-size: 37px;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            .button{
+                margin-top: 50px;
+               padding-left: 15px;
+            }
+        }
     }
 }

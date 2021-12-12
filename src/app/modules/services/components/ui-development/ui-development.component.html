@@ -20,10 +20,39 @@
                 </div>
             </div>
             <div class="col-md-6 right-layout">
-                <img src="./assets/images/services/image.png">
+              <img src="./assets/images/services/Asset13.svg">
             </div>
         </div>
     </div>
+    <div class="service-layout2">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <h3>UI development is where vision becomes accomplishment</h3>
+                  <p>Helping the business reach the customers seamlessly to provide omni-channel experience.</p>
+              </div>
+              <div class="col-md-4">
+                  <div class="list">
+                      <img src="./assets/images/services/icon-17.svg"><span>Brief Understanding </span>
+                  </div>
+                  <div class="list">
+                      <img src="./assets/images/services/icon-19.svg"><span>Platform</span>
+                  </div>
+                  <div class="list">
+                      <img src="./assets/images/services/icon-20.svg"><span>Framework</span>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="list">
+                      <img src="./assets/images/services/icon-18.svg"><span>Manage</span>
+                  </div>
+                  <div class="list">
+                      <img src="./assets/images/services/icon-21.svg"><span>Testing</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
     <div class="service-layout3">
       <div class="container">
           <div class="d-flex">
@@ -64,11 +93,11 @@
                     <div class="row">
                       <div class="col-md-3">
                           <div class="list">
-                              <img src="./assets/images/services/website.png">
+                              <img src="./assets/images/services/website.svg">
                               <h6>Website</h6>
                           </div>
                           <div class="list">
-                            <img src="./assets/images/services/Hybrid.png">
+                            <img src="./assets/images/services/Hybrid.svg">
                             <h6>Hybrid</h6>
                         </div>
                         <div class="list">
@@ -78,30 +107,30 @@
                       </div>
                       <div class="col-md-3">
                           <div class="list">
-                              <img src="./assets/images/services/HTML.png">
+                              <img src="./assets/images/services/HTML.svg">
                               <h6>HTML 5</h6>
                           </div>
                           <div class="list">
-                              <img src="./assets/images/services/Angular.png">
+                              <img src="./assets/images/services/Angular.svg">
                               <h6>Angular</h6>
                           </div>
                           <div class="list">
-                            <img src="./assets/images/services/React.png">
+                            <img src="./assets/images/services/React.svg">
                             <h6>React</h6>
                         </div>
                       </div>
                       <div class="col-md-3">
                         <div class="list">
-                          <img src="./assets/images/services/Windows.png">
+                          <img src="./assets/images/services/Windows.svg">
                           <h6>Windows</h6>
                       </div>
                       <div class="list">
-                        <img src="./assets/images/services/Android.png">
+                        <img src="./assets/images/services/Android.svg">
                         <h6>Android</h6>
                     </div>
                     <div class="list">
-                        <img src="./assets/images/services/iOS.png">
-                        <h6>iOS</h6>
+                        <img src="./assets/images/services/iOS.svg">
+                        <h6 class="lists">iOS</h6>
                     </div>
                     </div>
                   </div>
@@ -293,91 +322,4 @@
    </ngb-panel>
       </ngb-accordion>
     </div>
-    <div class="service-layout2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h3>UI development is where vision becomes accomplishment</h3>
-                    <p>Helping the business reach the customers seamlessly to provide omni-channel experience.</p>
-                </div>
-                <div class="col-md-4">
-                    <div class="list">
-                        <img src="./assets/images/services/icon-17.svg"><span>Brief Understanding </span>
-                    </div>
-                    <div class="list">
-                        <img src="./assets/images/services/icon-19.svg"><span>Platform</span>
-                    </div>
-                    <div class="list">
-                        <img src="./assets/images/services/icon-20.svg"><span>Framework</span>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="list">
-                        <img src="./assets/images/services/icon-18.svg"><span>Manage</span>
-                    </div>
-                    <div class="list">
-                        <img src="./assets/images/services/icon-21.svg"><span>Testing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-      <div class="repository">
-        <div class="container">
-            <div class="d-flex">
-                <ul ngbNav #nav2="ngbNav" [(activeId)]="active2" class="nav-pills" orientation="vertical">
-                  <li ngbNavItem="code-repository">
-                    <a ngbNavLink> Code  Repository</a>
-                    <ng-template ngbNavContent>
-                      <h2>Code  Repository</h2>
-                      <p>We manage the code in Git repository with version control to allow multiple teams to colloborate in a distributed environment.</p>
-                    </ng-template>
-                  </li>
-                  <li ngbNavItem="testing-implementation">
-                    <a ngbNavLink>Testing  & Implementation</a>
-                    <ng-template ngbNavContent>
-                    <h2>Testing  & Implementation</h2>
-                    <p>We never settle for anything less than best, we iterate with the business and end-users to refine the interface periodically. With focus on cross-platform and cross-browser testing to achieve the best results.</p>
-                    </ng-template>
-                  </li>
-                </ul>
-                <div [ngbNavOutlet]="nav2" class="ml-4 px-5"></div>
-            </div>
-        </div>
-    </div>
-    <div class="repository-responsive">
-        <ngb-accordion [closeOthers]="true" activeIds="static-1">
-          <ngb-panel id="static-1"  >  
-             <ng-template ngbPanelTitle>
-                <div class="dis_flex">
-                   <div>Code  Repository </div>
-                   <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
-                </div>
-              </ng-template> 
-            <ng-template ngbPanelContent >
-             <div class="row">
-                <div class="col-md-6 design-left">
-                    <p>We manage the code in Git repository with version control to allow multiple teams to colloborate in a distributed environment.</p>
-                </div>
-             </div>
-            </ng-template>
-          </ngb-panel>
-          <ngb-panel id="static-2">
-             <ng-template ngbPanelTitle>
-                <div class="dis_flex">
-                   <div>Testing  & Implementation</div>
-                   <div class="arrow_rotate">  <img src="./assets/images/about/arrow.png"> </div>
-                </div>
-              </ng-template> 
-             <ng-template ngbPanelContent>
-                <div class="row">
-                   <div class="col-md-6 design-left">
-                    <p>We never settle for anything less than best, we iterate with the business and end-users to refine the interface periodically. With focus on cross-platform and cross-browser testing to achieve the best results.</p>
-                   </div>
-                </div>
-             </ng-template>
-           </ngb-panel>
-        </ngb-accordion>
-      </div>
 </div>

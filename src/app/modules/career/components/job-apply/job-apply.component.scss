@@ -5,24 +5,25 @@
 .career-ux{
     .banner{
         position: relative;
-        background-color: #995BEB;
+        background-color: #D3B1FF;
         height: 770px;
         padding: 245px 0px;
+       // margin-top: -100px;
         h1{
             font-size: 56px;
-            color: #000000;
+            color: #3B3B3B;
             font-family: Baskerville;
             span{
-                color: #FFFFFF;
+                color: #C3343C;
             }
         }
-        h6{
-            font-size: 36px;
-            color: #282829;
+        h4{
+            font-size: 26px;
+            color: #3B3B3B;
             padding-top: 25px;
             font-family: Muli;
             span{
-                color: #FFFFFF;
+                color: #C3343C;
                 text-decoration: underline;
             }
         }
@@ -139,13 +140,13 @@
                 position: relative;
                 padding-left: 35px;
                 cursor: pointer;
-                font-size: 14px;
+                font-size: 16px;
                 -webkit-user-select: none;
                 -moz-user-select: none;
                 -ms-user-select: none;
                 user-select: none;
                 padding: 0px 30px;
-                line-height: 14px;
+                //line-height: 14px;
               }
               .containerRadio input {
                 position: absolute;

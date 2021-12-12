@@ -5,16 +5,14 @@
     padding-top: 0px;
 }
 .banner{
-    background-color: #FFE14D;
+    background-color: #F5E69D;
     padding-top: 140px;
-    top: -100px;
-    position: relative;
-    height: 830px;
-    padding: 350px 0px;
+    height: 700px;
+    padding: 200px 0px;
     .contact-layout{
     h1{
         font-size: 56px;
-        color: #000000;
+        color: #3B3B3B;
         font-family: Baskerville;
         span{
             color: #C3343C;
@@ -23,7 +21,7 @@
     h6{ 
         font-size: 36px;
         padding-top: 25px;
-        color: #1f0b0c;
+        color: #3B3B3B;
         font-family: Muli;
          span{
             color: #C3343C;
@@ -54,15 +52,15 @@
     }
 }
 .contact-layout1{
-    margin-top: -100px;
    .layout-left1{
     h2{
         font-size: 36px;
         color: #FCFCFC;
+        font-family: Baskerville;
     }
 }  
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-    background-color: #FFE14D !important;
+    background-color: #F5E69D !important;
     font-size: 36px;
     font-weight: 500;
     padding: 120px 100px;
@@ -181,19 +179,20 @@
         padding: 100px 100px;
         h3{
             font-size: 28px;
-            color: #282829;
+            color: #3B3B3B;
             line-height: 48px;
             font-family: Baskerville;
         }
         p{
             font-size: 18px;
-            color: #282829;
-            margin-top: 65px;
+            color: #707071;
+            margin-top: 40px;
             font-family: Muli;
+            line-height: 30px;
         }
         h4{
             font-size: 18px;
-            color: #282829;
+            color: #3B3B3B;
             margin-top: 40px;
             font-family: Muli;
         }
@@ -237,24 +236,21 @@
         .layout-left{
             padding: 30px 40px;
         }
-        // .only-mobile{
-        //     display: none;
-        // }
     }
 }
 .contact-layout3{
-    background-color: #FFE14D;
+    background-color: #EBEBEB;
     padding: 100px 100px;
     .layout-left{
 h3{
     font-size: 28px;
-    color: #282829;
+    color: #3B3B3B;
    padding-bottom: 20px;
    font-family: Baskerville;
 }
 p{
     font-size: 18px;
-    color: #282829;
+    color: #707071;
     padding-bottom: 20px;
     font-family: Muli;
 }

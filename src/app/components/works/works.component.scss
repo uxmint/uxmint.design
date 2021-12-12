@@ -7,16 +7,13 @@
 .banner{
        background-color: #FCFCFC;
        padding-top: 140px;
-       top: -100px;
-       position: relative;
+       //top: -100px;
        height: 830px;
-       padding: 350px 0px;
         .work-layout{
         h1{
             font-size: 64px;
             font-family: Baskerville;
-            color: #000000;
-
+            color: #3B3B3B;
             span{
                 color: #C3343C;
             }
@@ -44,7 +41,7 @@
 }
 .cater{
     background-color: #FCFCFC;
-    margin-top: -20%;
+    margin-top: -25%;
     color: #FFF;
     height: 250px;
     h2{
@@ -55,7 +52,7 @@
     h4{
         font-size: 24px;
         font-family: Muli;
-        color: #020202;
+        color: #3B3B3B;
         line-height: 36px;
         padding-top: 10px;
     }
@@ -112,12 +109,12 @@
             font-size: 57px;
             font-family: Baskerville;
             line-height: 65px;
-            color: #000000;
+            color: #3B3B3B;
         }
         h6{
             font-size: 20px;
             font-family: Muli;
-            color: #707070;
+            color: #707071;
             margin-top: 30px;
         }
         .button{
@@ -207,12 +204,12 @@
             font-size: 57px;
             font-family: Baskerville;
             line-height: 65px;
-            color: #000000;
+            color: #3B3B3B;
         }
         h6{
             font-size: 20px;
             font-family: Muli;
-            color: #707070;
+            color: #707071;
             margin-top: 30px;
         }
         .button{
@@ -306,9 +303,14 @@
         border: 2px solid #FFFFFF;
         color: #FCFCFC;
         font-size: 20px;
-        padding: 8px;
+        padding: 10px 20px;
         border-radius: 0px;
         font-family: Muli;
+        cursor: pointer;
+        &:hover{
+            background-color: #FFFFFF;
+            color: #C3343C;
+        }
     }
     @include media-breakpoint-down(md){
         h2{
