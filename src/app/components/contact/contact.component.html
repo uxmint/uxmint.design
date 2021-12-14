@@ -9,127 +9,64 @@
    </div>
    <div class="contact-layout1">
       <div class="row">
-         <div class="d-flex">
-            <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical">
-            <li ngbNavItem="query">
-               <div class="col-md-12 layout-left1">
-                  <a ngbNavLink>Query & <br> Collaboration</a>
-               </div>
-               <ng-template ngbNavContent>
-                  <div  class="col-md-12 layout-right">
-                     <div class="layouts">
-                        <h2>Let us Know what you are looking <br> forward to discuss.</h2>
-                        <form [formGroup]="form" id="contactForm" name="contactForm" class="contactForm">
-                           <div class="row layouts1">
-                              <div class="col-md-6"  *ngFor="let position of positions">
-                                 <div class="custom-control custom-checkbox custom-control-inline">
-                                    <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onChange(position.value)"  class="custom-control-input">
-                                    <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="name">Name</label>
-                                    <input type="text" class="form-control" formControlName="name" name="name" id="name" placeholder=" Your name">
-                                 </div>
-                              </div>
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="email">Email </label>
-                                    <input type="email" class="form-control" formControlName="email" name="email" id="email" placeholder=" Your@email.com">
-                                 </div>
-                              </div>
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="name">Phone</label>
-                                    <input type="text" class="form-control" formControlName="phone" name="number" id="number" placeholder=" Your phone number">
-                                 </div>
-                              </div>
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="name">Business/ Organisation</label>
-                                    <input type="text" class="form-control" name="company" id="company" placeholder=" Your company">
-                                 </div>
-                              </div>
-                              <div class="col-md-10">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="message">Message</label>
-                                    <textarea name="message" class="form-control" formControlName="message" id="message" cols="30" rows="4" placeholder=" Start typing here..."></textarea>
-                                 </div>
-                              </div>
-                              <div class="button">
-                                 <div class="btn btn-white" (click)="submit()">Submit <img src="./assets/images/rightarrow-white.svg"></div>
-                              </div>
-                           </div>
-                        </form>
+         <div class="container">
+         <div class="layouts">
+            <h2>Let us Know what you are looking <br> forward to discuss.</h2>
+            <form [formGroup]="form" id="contactForm" name="contactForm" class="contactForm">
+               <div class="row  layout-right">
+                  <div class="col-md-6"  *ngFor="let position of positions">
+                     <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onChange(position.value)"  class="custom-control-input">
+                        <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
                      </div>
                   </div>
-               </ng-template>
-            </li>
-            <li ngbNavItem="career">
-               <div class="col-md-12 layout-left1">
-                  <a ngbNavLink>Career <br>Opportunities</a>
                </div>
-               <ng-template ngbNavContent>
-                  <div  class="col-md-12 layout-right">
-                     <div class="layouts">
-                        <h2>Hey, Fill in the details below<br> to join us.</h2>
-                        <form [formGroup]="craeerform" id="careerForm" name="careerForm" class="careerForm">
-                           <div class="row layouts1">
-                              <div class="col-md-6"  *ngFor="let position of careerPositions">
-                                 <div class="custom-control custom-checkbox custom-control-inline">
-                                    <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onCareerChange(position.value)"  class="custom-control-input">
-                                    <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="name">Name</label>
-                                    <input type="text" class="form-control" formControlName="name" name="name" id="name" placeholder=" Your name">
-                                 </div>
-                              </div>
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="emailId">Email </label>
-                                    <input type="email" class="form-control"  formControlName="emailId" name="emailId"  id="emailId" placeholder=" Your@email.com">
-                                 </div>
-                              </div>
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="phonenumber">Phone</label>
-                                    <input type="text" class="form-control"  formControlName="phonenumber" name="phonenumber" id="phonenumber" placeholder=" Your phone number">
-                                 </div>
-                              </div>
-                              <div class="col-md-5">
-                                 <div class="form-group bg-light">
-                                    <label class="label" for="portfolioUrl">Portfolio URL</label>
-                                    <input type="text" class="form-control"  formControlName="portfolioUrl" name="portfolioUrl" id="portfolioUrl" placeholder=" Your Portfolio link">
-                                 </div>
-                              </div>
-                              <div class="col-md-10">
-                                 <div class="form-group bg-light">
-                                    <label for="exampleFormControlFile1" class="label">Attach Resume</label>
-                                    <input type="file" class="form-control-file" id="exampleFormControlFile1" placeholder=" Or drag & drop file here ">
-                                 </div>
-                              </div>
-                              <div class="button">
-                                 <div class="btn btn-white" (click)="submitcareer()">Submit <img src="./assets/images/rightarrow-white.svg"></div>
-                              </div>
-                           </div>
-                        </form>
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="form-group bg-light">
+                        <label class="label" for="name">Name</label>
+                        <input type="text" class="form-control" formControlName="name" name="name" id="name" placeholder=" Your name">
                      </div>
                   </div>
-               </ng-template>
-            </li>
-            </ul>
-            <div [ngbNavOutlet]="nav" class="ml-4"></div>
+                  <div class="col-md-5">
+                     <div class="form-group bg-light">
+                        <label class="label" for="email">Email </label>
+                        <input type="email" class="form-control" formControlName="email" name="email" id="email" placeholder=" Your@email.com">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="form-group bg-light">
+                        <label class="label" for="phone">Phone</label>
+                        <input type="text" class="form-control" formControlName="phone" name="phone" id="phone" placeholder=" Your phone number">
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="form-group bg-light">
+                        <label class="label" for="business">Business/ Organisation</label>
+                        <input type="text" class="form-control" formControlName="business" name="business" id="business" placeholder=" Your Business/Organisation">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-10">
+                     <div class="form-group bg-light">
+                        <label class="label" for="message">Message</label>
+                        <textarea name="message" class="form-control" formControlName="message" id="message" cols="30" rows="4" placeholder=" Start typing here..."></textarea>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="button">
+                     <div class="btn btnn" (click)="submit()">Submit</div>
+                  </div>
+               </div>
+            </form>
          </div>
       </div>
-   </div>
+         </div>
+      </div>
    <div class="contact-layout2">
       <div class="row">
          <div class="col-md-6">

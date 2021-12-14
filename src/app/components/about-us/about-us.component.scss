@@ -112,6 +112,9 @@
                     .design-left{
                         padding: 130px 20px;
                     }
+                    .button{
+                        margin-top: 80px;
+                    }
                 }
                 .design-layouts{
                     .design-right{
@@ -130,6 +133,9 @@
                         h6{
                             font-size: 20px;
                             padding-top: 8px;
+                        }
+                        .button{
+                            margin-top: 80px;
                         }
                     }
                     .button{
@@ -173,7 +179,10 @@
             }
             @include media-breakpoint-down(sm) {
                 .design-layout{
-                    padding-left: 15px;
+                    padding-left: 35px;
+                    .button{
+                        margin-top: 70px;
+                    }
                 }
                 .design-layouts{
                     display: none;
@@ -279,9 +288,6 @@
                     font-weight: 400;
                     font-family: Muli;
                 }
-                .design-right{
-                    //padding: 70px 30px;
-                }
                 .design-rights{
                     padding: 0px 30px;
                 }
@@ -291,11 +297,17 @@
                 .design-layout{
                     padding-left: 60px;
                     .design-left{
-                        padding: 125px 30px;
+                        padding: 125px 25px;
                     }
                     .design-right{
                         padding: 125px 30px;
                     }
+                    .button{
+                        margin-top: 80px;
+                    }
+                }
+                .design-layouts{
+                    padding-top: 140px;
                 }
             }
             @include media-breakpoint-down(md) {
@@ -306,10 +318,10 @@
                         font-size: 36px;
                     }
                     .design-left{
-                        padding: 100px 10px;
+                            padding: 100px 5px 8px 35px;
                     }
                     .button{
-                        margin-top: 20px;
+                        margin-top: 80px;
                         img{
                             margin-left: 25px;
                         }
@@ -321,6 +333,7 @@
                     }
                 }
                 .design-layouts{
+                    padding-top: 100px;
                     .layouts{
                        // height: 500px;
                        // overflow: auto;
@@ -338,14 +351,19 @@
         }
     }
             @include media-breakpoint-down(sm) {
-                padding: 50px 0px;
+                .design-layouts{
+                padding: 50px;
+                }
                 .design-layout{
-                    padding-left: 0px;
+                    padding-left: 35px;
                     .design-left{
                         padding: 80px 15px;
                     }
                     .design-right{
                         padding: 100px 30px;
+                    }
+                    .button{
+                        margin-top: 70px;
                     }
                 }
                 .design-layouts{
@@ -470,6 +488,9 @@
             @include media-breakpoint-down(lg) { 
                 .design{
                     padding: 150px 30px;
+                    .button{
+                        margin-top: 80px;
+                    }
                 }
             }
             @include media-breakpoint-down(md) {
@@ -483,7 +504,7 @@
                         padding-top: 30px;
                     }
                     .button{
-                        margin-top: 30px;
+                        margin-top: 80px;
                         img{
                             margin-left: 25px;
                         }
@@ -496,8 +517,12 @@
                 }
             }
             @include media-breakpoint-down(sm) {
+                height: 700px;
                 .design{
-                    padding: 125px 10px;
+                    padding: 124px 5px 0px 30px;
+                    .button{
+                        margin-top: 90px;
+                    }
                 }
             }
     }

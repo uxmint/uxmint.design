@@ -52,13 +52,37 @@
     }
 }
 .contact-layout1{
-   .layout-left1{
+    padding: 100px;
+  .layouts{
     h2{
         font-size: 36px;
-        color: #FCFCFC;
+        color: #C3343C;
         font-family: Baskerville;
     }
-}  
+  }
+  .custom-control-label {
+    position: initial;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+.button{
+    margin-top: 40px;
+    padding-left: 15px;
+}
+.btnn{
+    border: 2px solid #0D0D0D;
+    border-radius: 0;
+    color: #0D0D0D;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-family: Muli;
+    &:hover{
+        background-color: #C3343C;
+        color: #FFFFFF;
+        border: 2px solid #E2E2E2;
+    }
+}
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
     background-color: #F5E69D !important;
     font-size: 36px;
@@ -75,19 +99,6 @@
     font-family: Baskerville;
 } 
     .layout-right{
-        padding: 100px 100px;
-        .layouts{
-            height: 480px;
-            overflow: auto;
-        }
-        ::-webkit-scrollbar {
-            width: 0px;
-        }
-        h2{
-            font-size: 36px;
-            color: #C3343C;
-            font-family: Baskerville;
-        }
         .checkbox {
             display: block;
             position: relative;
@@ -108,21 +119,7 @@
             height: 0;
             width: 0;
           }
-          .button{
-            margin-top: 40px;
-            img{
-                margin-left: 35px;
-            }
-        }
-        .btn-white{
-            background-color: #C3343C;
-            color: #FCFCFC;
-            font-size: 20px;
-            padding: 15px;
-            border-radius: 0px;
-            padding-left: 25px;
-            font-family: Muli;
-        }
+        
         .form-control-file{
             border: none;
             font-size: 20px;
@@ -140,7 +137,25 @@
             padding: 100px 40px;
         }
         .layout-right{
-            padding: 100px 40px;
+            padding: 40px 10px;
+        }
+        .row{
+            .col-md-12{
+                flex: 0 0 100%;
+                max-width: 80%;
+            }
+            .col-md-5{
+                flex: 0 0 100%;
+                max-width: 80%; 
+            }
+        }
+        .custom-control-inline {
+            display: inline-flex;
+            /* margin-right: 0rem; */
+            padding-left: 28px;
+        }
+        .ml-4, .mx-4 {
+            margin-left: -5.5rem !important;
         }
     }
     @include media-breakpoint-down(md) {
@@ -148,10 +163,29 @@
             padding: 100px 0px;
         }
         .layout-right{
-            padding: 100px 20px;
+            padding: 40px 0px;
+        }
+        .row{
+            .col-md-12{
+                flex: 0 0 100%;
+                max-width: 80%;
+            }
+            .col-md-5{
+                flex: 0 0 100%;
+                max-width: 80%; 
+            }
+        }
+        .custom-control-inline {
+            display: inline-flex;
+            /* margin-right: 0rem; */
+            padding-left: 28px;
+        }
+        .ml-4, .mx-4 {
+            margin-left: -5.5rem !important;
         }
     }
     @include media-breakpoint-down(sm) {
+        padding: 10px;
         .d-flex{
             flex-direction: column;
         }
@@ -160,21 +194,33 @@
         }
         h2{
             font-size: 24px;
+            padding-left: 0%;
         }
         .layout-right{
-            padding: 100px 20px;
-
+            padding: 20px;
             .layouts{
-                height: 1400px;
+                height: 1650px;
                 overflow: hidden;
             }
             ::-webkit-scrollbar {
                 display: none;
             }
         }
+        .button{
+          padding-left: 5%;
+        }
+       
+        .custom-control-inline {
+            display: inline-flex;
+            padding-left: 10%;
+        }
+        .ml-4, .mx-4 {
+            margin-left: -5.5rem !important;
+        }
     }
 }
 .contact-layout2{
+    background-color: #F7F5F5;
     .layout-left{
         padding: 100px 100px;
         h3{
@@ -214,7 +260,7 @@
     }
     @include media-breakpoint-down(md) {
         .layout-left{
-            padding: 30px 100px;
+            padding: 40px 60px;
             h3{
                 font-size: 24px;
                 line-height: 48px;

@@ -2,11 +2,12 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 h2{
-    font-size: 57px;
+    font-size: 56px;
     font-family: Baskerville;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
-        font-size: 36px;
+        font-size: 32px;
+        padding-bottom: 15px;
     }
 }
 p{
@@ -43,16 +44,28 @@ h6{
             margin-top: 50px;
         }
         @include media-breakpoint-down(lg){
+            height: 732px;
+            padding: 250px 0px;
             .banner-header{
                 padding: 15px 0px;
             }
+            img{
+                margin-top: -10%;
+            }
         }
         @include media-breakpoint-down(md){
+            height: 575px;
+            padding: 200px 0px;
             .banner-header{
                 padding: 85px 0px;
             }
+            h6{
+                font-size: 20px;
+            }
         }
         @include media-breakpoint-down(sm){
+            height: 600px;
+            padding: 400px 0px;
             .banner-header{
                 padding: 150px 0px;
             }
@@ -71,10 +84,10 @@ h6{
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
-            padding: 200px 0px;
+            padding: 150px 0px;
         }
         @include media-breakpoint-down(md){
-            padding: 150px 0px;
+            padding: 100px 0px;
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -97,13 +110,13 @@ h6{
         p{
             font-size: 20px;
             font-family: Muli;
-            line-height: 50px;
+            line-height: 40px;
         }
         @include media-breakpoint-down(lg){
-            padding: 200px 0px;
+            padding: 150px 0px;
         }
         @include media-breakpoint-down(md){
-            padding: 150px 0px;
+            padding: 100px 0px;
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -128,6 +141,18 @@ h6{
              font-size: 18px;
             font-family: Muli;
             line-height: 35px;
+        }
+        @include media-breakpoint-down(lg){
+            padding: 100px 0px;
+            .target{
+                margin-bottom: 70px;
+            }
+        }
+        @include media-breakpoint-down(md){
+            padding: 100px 0px;
+            h6{
+                padding-bottom: 15px;
+            }
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -167,7 +192,7 @@ h6{
             width: 0px;
         }
         .needs-right{
-            padding: 100px 30px;
+            padding: 28px 30px;
         }
         @include media-breakpoint-down(lg){
             padding: 50px 0px;
@@ -178,7 +203,7 @@ h6{
         @include media-breakpoint-down(md){
             padding: 50px 0px;
             h1{
-                font-size: 72px; 
+                font-size: 56px; 
             }
             h2{
                 font-size: 36px;
@@ -187,7 +212,7 @@ h6{
         @include media-breakpoint-down(sm){
             padding: 0px 0px;
             .needs{
-                height: 940px;
+                height: 1050px;
                 overflow: hidden;
             }
             .needs-right{
@@ -250,7 +275,7 @@ h6{
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
             img{
-                width: 100%;
+                width: 90%;
                 margin-top: 100px;
             }
         }
@@ -295,7 +320,7 @@ h6{
             padding: 80px 0px;
             img{
                 width: 100%;
-                margin-top: 100px;
+                margin-top: 15px;
             }
         }
         @include media-breakpoint-down(md){
@@ -330,10 +355,10 @@ h6{
         }
         
         @include media-breakpoint-down(lg){
-            padding: 80px 0px;
+            padding: 40px 0px;
             img{
                 width: 100%;
-                margin-top: 100px;
+                margin-top: 15px;
             }
         }
         @include media-breakpoint-down(md){
@@ -360,6 +385,7 @@ h6{
             }
             h6{
                 margin-top: 50px;
+                font-size: 20px;
             }
         .design{
             display: none;
@@ -372,7 +398,7 @@ h6{
         text-align: center;
         padding: 100px 0px;
         @include media-breakpoint-down(lg){
-            padding: 100px 0px;
+            padding: 40px 0px;
             img{
                 width: 110%;
                 margin-top: 100px;
@@ -410,6 +436,10 @@ h6{
         }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
+            img{
+                margin-left: -15%;
+                width: 130%;
+            }
         }
         @include media-breakpoint-down(md){
             padding: 60px 0px;
@@ -523,7 +553,7 @@ h6{
 @include media-breakpoint-down(sm) {
     .banner{
         img{
-            width: 100%;
+            width: 95%;
         }
     }
     }

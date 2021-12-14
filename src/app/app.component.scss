@@ -12,12 +12,16 @@ header{
 .nav-item{
     margin-left: 22px;
 }
+.header-logo{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
 img{
-    //width: 45%;
-    //transform: scale(0.5);
     margin-left: -45px;
     padding-top: 7px;
 }
+
 .line{
     border-left: 1px solid #AAAAAA;
   height: 30px;
@@ -36,6 +40,12 @@ padding-top: 5px;
     color: #505050;
     font-weight: 400;
 }
+.lines{
+    border-left: 1px solid #AAAAAA;
+  height: 25px;
+  margin-top: 8px;
+  margin-left: 50px;
+    }
 .menu-activator{
     cursor: pointer;
     position: relative;
@@ -46,30 +56,55 @@ padding-top: 5px;
        margin-left: 0px;
         margin-top: -5px;
     }
-    &::before{
+    /*&::before{
         content: '';
         border-left: 1px solid #AAA;
         position: absolute;
         height: 20px;
         margin-left: -35px;
         top: 11px;
+    }*/
+}
+@include media-breakpoint-down(lg){
+    img{
+        margin-left: -20px;
+        padding-top: 7px;
     }
+    .lines{
+      margin-left: 85px;
+        }
+        .nav-item{
+            margin-left: 45px;
+        }
+
+}
+@include media-breakpoint-down(md){
+    .lines{
+      margin-left: 45px;
+        }
+        .nav-item{
+            margin-left: 15px;
+        }
+        .menu-activator{
+            img{
+               margin-left: -18px;
+            }
+        }
+
 }
 @include media-breakpoint-down(sm){
+    .only-mobile{
+        display: none;
+    }
     .web-only{
         display: none;
     }
     img{
-        width: 70%;
-        margin-left: -24px;
+        margin-left: -28px;
         padding-top: 5px;
     }
-    .line{
-      height: 30px;
-      margin-top: 8px;
-        }
     h2{
-    margin-left: -10px;
+    margin-left: -20px;
     padding-top: 5px;
     }
 }
@@ -112,7 +147,7 @@ footer{
            font-family: Muli;
         }
     }
-    hr.lines {
+    hr.footer {
         border-top: 1px solid #707070;
       }
       .footer-bottom{
@@ -148,4 +183,7 @@ footer{
         }
     }
 }
+}
+.nav-item a.active{
+    color: #C3343C;
 }

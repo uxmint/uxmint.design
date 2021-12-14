@@ -6,19 +6,20 @@ h2{
     font-family: Baskerville;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
-        font-size: 36px;
+        font-size: 32px;
+        padding-bottom: 15px;
     }
 }
 p{
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 18px;
+    font-family: Muli;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 14px;
     }
 }
 h6{
-    font-size: 36px;
+    font-size: 24px;
     font-family: Muli;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
@@ -32,7 +33,9 @@ h6{
        padding: 250px 0px;
         img{
             position: absolute;
-            margin-top: -115px;
+            margin-top: 1%;
+            width: 50%;
+            margin-left: 100px;
         }
         h6{
             font-weight: 300;
@@ -40,19 +43,34 @@ h6{
             margin-top: 40px;
         }
         @include media-breakpoint-down(lg){
+            height: 645px;
+            padding: 250px 0px;
             .banner-header{
-                padding: 150px 0px;
+                padding: 15px 0px;
+            }
+            img{
+                margin-top: 7%;
             }
         }
         @include media-breakpoint-down(md){
+            height: 501px;
+            padding: 200px 0px;
             .banner-header{
-                padding: 85px 0px;
+                padding: 30px 0px;
+            }
+            h6{
+                font-size: 20px;
             }
         }
         @include media-breakpoint-down(sm){
+            height: 600px;
+            padding: 400px 0px;
+            .banner-header{
+                padding: 200px 0px;
+            }
             img{
                 width: 100%;
-                margin-top: -70%;
+                margin-top: -65%;
                 margin-left: -40px;
             }
         }
@@ -61,15 +79,14 @@ h6{
         background-color: #FCFCFC;
         padding: 200px 0px;
         p{
-            font-size: 18px;
-            font-family: Muli;
+             font-size: 18px;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
-            padding: 200px 0px;
+            padding: 150px 0px;
         }
         @include media-breakpoint-down(md){
-            padding: 150px 0px;
+            padding: 100px 0px;
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -88,18 +105,17 @@ h6{
     }
     .approach{
         background-color: #EBEBEB;
-        color: #3D3D3D;
         padding: 200px 0px;
         p{
             font-size: 20px;
             font-family: Muli;
-            line-height: 50px;
+            line-height: 40px;
         }
         @include media-breakpoint-down(lg){
-            padding: 200px 0px;
+            padding: 150px 0px;
         }
         @include media-breakpoint-down(md){
-            padding: 150px 0px;
+            padding: 100px 0px;
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -131,12 +147,25 @@ h6{
             margin-bottom: 120px;
         }
         h6{
+            font-size: 36px;
             font-family: Baskerville;
         }
         p{
-            font-size: 18px;
+             font-size: 18px;
             font-family: Muli;
-            line-height: 40px;
+            line-height: 35px;
+        }
+        @include media-breakpoint-down(lg){
+            padding: 100px 0px;
+            .target{
+                margin-bottom: 70px;
+            }
+        }
+        @include media-breakpoint-down(md){
+            padding: 100px 0px;
+            h6{
+                padding-bottom: 15px;
+            }
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -176,7 +205,7 @@ h6{
             width: 0px;
         }
         .needs-right{
-            padding: 100px 30px;
+            padding: 28px 30px;
         }
         @include media-breakpoint-down(lg){
             padding: 50px 0px;
@@ -187,7 +216,7 @@ h6{
         @include media-breakpoint-down(md){
             padding: 50px 0px;
             h1{
-                font-size: 72px; 
+                font-size: 56px; 
             }
             h2{
                 font-size: 36px;
@@ -196,7 +225,7 @@ h6{
         @include media-breakpoint-down(sm){
             padding: 0px 0px;
             .needs{
-                height: 860px;
+                height: 890px;
                 overflow: hidden;
             }
             .needs-right{
@@ -267,15 +296,16 @@ h6{
         margin-top: -50px;
         @include media-breakpoint-down(lg){
             //margin-top: -100px;
+            padding: 0px 0px;
             img{
                 width: 100%;
                 margin-top: 100px;
             }
         }
         @include media-breakpoint-down(md){
-            padding: 75px 0px;
+            padding: 0px 0px;
             img{
-                width: 110%;
+                width: 100%;
                 margin-top: 100px;
             }
         }
@@ -425,7 +455,8 @@ h6{
 @include media-breakpoint-down(sm) {
     .banner{
         img{
-            width: 100%;
+            width: 90%;
+            padding-left: 20px;
         }
     }
     }

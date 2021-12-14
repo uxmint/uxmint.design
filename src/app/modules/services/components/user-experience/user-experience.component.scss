@@ -5,27 +5,27 @@
     //padding: 50px 0px;
 .banner{
     // background-image: url('/assets/images/bg.png');
-    height: 770px;
-    //padding: 300px 0px;
+    height: 580px;
+    //padding: 200px 0px;
     h1{
-        font-size: 96px;
-        color: #C3343C;
+        font-size: 56px;
+        color: #3B3B3B;
         font-family: Baskerville;
     }
     hr.line{
-        border-bottom: 10px solid gray;
-        width: 60%;
+        border-bottom: 3px solid #C3343C;
+        width: 30%;
         text-align: left;
         margin-left: 0;
-        margin-top: -7px;
+        margin-top: -3px;
     }
     p{
-        font-size: 24px;
-        color: #000000;
+        font-size: 20px;
+        color: #707071;
         font-family: Muli;
     }
     .banner-content{
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 150px;
         padding-left: 80px;
         padding-right: 80px;
@@ -39,7 +39,8 @@
         }
     }
     @include media-breakpoint-down(md){
-        height: 450px;
+        height: 420px;
+       
         .row{
             .col-md-5{
                 flex: 0 0 80%;
@@ -47,7 +48,7 @@
             }
         }
         .banner-content{
-            padding: 200px 0px;
+            padding: 150px 0px;
         }
         h1{
             font-size: 36px;
@@ -58,7 +59,7 @@
     }
     @include media-breakpoint-down(sm){
         background-position: center;
-        height: 560px;
+        height: 500px;
         .row{
             .col-md-5{
                 flex: 0 0 100%;
@@ -225,6 +226,7 @@
         margin-top: 6px;
     }
     @include media-breakpoint-down(md){
+        padding: 75px 0px;
         h2{
             font-size: 36px;
         }
@@ -297,12 +299,12 @@
     font-weight: 600;
     font-family: Baskerville;
     svg{
-        margin-top: 8px;
+        margin-top: 8px !important;
     }
     @include media-breakpoint-down(md){
         font-size: 28px;
         svg{
-            margin-top: 0px;
+            margin-top: 0px !important;
         }
     }
 }
@@ -316,10 +318,13 @@
     display: flex;
     padding: 0 20px 40px 20px;
 }
+.flex-column{
+    padding: 25px 0px;
+}
 .nav-pills a{
     color: #282829;
     font-family: Baskerville;
+    svg{
+        margin-right: 10px;
+    }
 }
-// .flex-column{
-//     padding: 75px 0px;
-// }

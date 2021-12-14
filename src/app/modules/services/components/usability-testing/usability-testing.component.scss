@@ -8,27 +8,27 @@
     }
 .banner{
     // background-image: url('/assets/images/bg.png');
-    height: 770px;
-    //padding: 300px 0px;
+    height: 580px;
+   // padding: 200px 0px;
     h1{
-        font-size: 96px;
-        color: #C3343C;
+        font-size: 56px;
+        color: #3B3B3B;
         font-family: Baskerville;
     }
     hr.line{
-        border-bottom: 10px solid gray;
-        width: 63%;
+        border-bottom: 3px solid #C3343C;
+        width: 30%;
         text-align: left;
         margin-left: 0;
-        margin-top: -7px;
+        margin-top: -3px;
     }
     p{
-        font-size: 24px;
-        color: #000000;
+        font-size: 20px;
+        color: #707071;
         font-family: Muli;
     }
     .banner-content{
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 150px;
         padding-left: 80px;
         padding-right: 80px;
@@ -42,7 +42,7 @@
         }
     }
     @include media-breakpoint-down(md){
-        height: 450px;
+        height: 420px;
         .row{
             .col-md-5{
                 flex: 0 0 80%;
@@ -50,7 +50,7 @@
             }
         }
         .banner-content{
-            padding: 200px 0px;
+            padding: 150px 0px;
         }
         h1{
             font-size: 36px;
@@ -73,6 +73,167 @@
         }
     }
 }
+.testimonials{
+    padding: 60px 0;
+    background: #FAFAFA;
+    h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #292929;
+    }
+    p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.6;
+    }
+    h2{
+        font-size: 36px;
+        font-family: Baskerville;
+        padding: 85px 0px;
+    }
+    .card{
+    background: #FAFAFA;
+    border: none;
+    border-radius: 10px;
+    .image{
+    img{
+    border-radius: 10px 0 0 10px;
+    }
+    }
+    .text{
+    padding: 50px 60px 50px 0;
+    }
+    }
+    ::ng-deep .carousel-inner {
+    padding: 50px 100px 0 100px;
+    }
+    ::ng-deep .carousel-indicators {
+    display: none;
+    }
+    ::ng-deep .carousel-control-prev {
+    position: inherit;
+    left: 90px;
+    display: initial;
+    }
+    ::ng-deep .carousel-control-next {
+    position: inherit;
+    left: 100px;
+    display: initial;
+    }
+    ::ng-deep .carousel-control-prev-icon {
+    height: 50px;
+    width: 50px;
+    outline: #FFF;
+    background-image: none;
+    }
+    ::ng-deep .carousel-control-next-icon{
+    height: 50px;
+    width: 50px;
+    outline: #FFF;
+    background-image: none;
+    }
+    ::ng-deep .carousel-control-next-icon:after {
+    content: '\2191';
+    font-size: 30px;
+    font-weight: 300;
+    color: #C3343C;
+    }
+    ::ng-deep .carousel-control-prev-icon:after {
+    content: '\2193';
+    font-size: 30px;
+    font-weight: 300;
+    color: #C3343C;
+    }
+    @include media-breakpoint-down(lg) {
+    ::ng-deep .carousel-control-prev {
+    position: inherit;
+    left: 100px;
+    }
+    ::ng-deep .carousel-control-next {
+    position: inherit;
+    left: 100px;
+    }
+    .row{
+    .col-md-3{
+    flex: 0 0 32%;
+    max-width: 32%;
+    }
+    .col-md-9{
+    flex: 0 0 68%;
+    max-width: 68%;
+    }
+    }
+    .card{
+    .text{
+    padding: 30px 40px 30px 10px;
+    }
+    }
+    }
+    @include media-breakpoint-down(md) {
+    h2{
+    font-size: 28px;
+    }
+    h6{
+    font-size: 20px;
+    }
+    h3{
+    font-size: 20px;
+    }
+    h4{
+    font-size: 18px;
+    }
+    ::ng-deep .carousel-inner {
+    padding: 50px 0px 0 0px;
+    }
+    ::ng-deep .carousel-control-prev {
+    position: inherit;
+    left: 50px;
+    }
+    ::ng-deep .carousel-control-next {
+    position: inherit;
+    left: 50px;
+    }
+    }
+    @include media-breakpoint-down(sm) {
+    ::ng-deep .carousel-inner {
+    padding-bottom: 30px;
+    }
+    ::ng-deep .carousel-control-prev {
+    position: inherit;
+    left: 50px;
+    }
+    ::ng-deep .carousel-control-next {
+    position: inherit;
+    left: 50px;
+    }
+    .card{
+    .image{
+    img{
+    border-radius: 10px 10px 0 0;
+    }
+    }
+    .text{
+    padding: 20px 40px;
+    }
+    }
+    .image{
+    img{
+    width: 100%;
+    }
+    }
+    .row{
+    .col-md-3{
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    .col-md-9{
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    }
+    }
+    }
 .service-layout1{
     .row{
         margin-left: 0px !important;
@@ -149,8 +310,8 @@
                 max-width: 35%;
             }
             .col-md-4{
-                flex: 0 0 28%;
-                max-width: 28%;
+                flex: 0 0 33%;
+                max-width: 33%;
             }
         }
         .list{
@@ -230,6 +391,7 @@
         margin-top: 6px;
     }
     @include media-breakpoint-down(md){
+        padding: 75px 0px;
         h2{
             font-size: 36px;
         }
@@ -302,12 +464,12 @@
     font-weight: 600;
     font-family: Baskerville;
     svg{
-        margin-top: 14px !important;
+        margin-top: 8px !important;
     }
     @include media-breakpoint-down(md){
         font-size: 28px;
         svg{
-            margin-top: 7px !important;
+            margin-top: 0px !important;
         }
     }
 }
@@ -321,9 +483,15 @@
     display: flex;
     padding: 0 20px 40px 20px;
 }
+.flex-column{
+    padding: 25px 0px;
+}
 .nav-pills a{
     color: #282829;
     font-family: Baskerville;
+    svg{
+        margin-right: 10px;
+    }
 }
 
 .process-layout{
@@ -513,4 +681,3 @@
 ::ng-deep .tab-content > .active{
     font-family: Muli;
 }
-

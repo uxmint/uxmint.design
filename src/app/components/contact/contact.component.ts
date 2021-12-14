@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-
+import { APIService } from '../../services/api.service';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -30,13 +30,14 @@ export class ContactComponent implements OnInit {
   ];
   position: any;
   careerposition: any;
-  constructor(private fb:FormBuilder) {
+  constructor(private fb:FormBuilder, private apiService: APIService) {
     this.form = this.fb.group({
       position: ['',Validators.required],
       name: ['',Validators.required],
       phone: ['',[Validators.required,Validators.pattern(/^\+?[0-9]{10}/)]],
       email: ['',[Validators.required,Validators.pattern(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)]],
-      message: ['',Validators.required]
+      message: ['',Validators.required],
+      business: ['', Validators.required]
     });
     this.craeerform = this.fb.group({
       position: ['',Validators.required],
@@ -59,9 +60,13 @@ export class ContactComponent implements OnInit {
       name: this.form.get('name').value,
       phone: this.form.get('phone').value,
       email: this.form.get('email').value,
-      message: this.form.get('message').value
+      message: this.form.get('message').value,
+      business: this.form.get('business').value
     }
         console.log('FormData-Contact', formData);
+        this.apiService.enquiryRequest(formData).subscribe(data => {
+          console.log(data);
+        })
   }
   submitcareer(){
     

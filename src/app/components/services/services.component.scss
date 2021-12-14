@@ -38,7 +38,7 @@
             height: 750px;
         }
         @include media-breakpoint-down(md){
-            height: 700px;
+            height: 615px;
             h1{
                 font-size: 36px;
             }
@@ -52,9 +52,6 @@
         @include media-breakpoint-down(sm){
             height: 690px;
         }
-    }
-    .hr{
-        border-top: 0.5px solid #FFFFFF!important;
     }
     .types{
         background-color: #5277BA;
@@ -158,13 +155,15 @@
         h2{
             font-size: 20px;
             color: #282829;
+            font-family: Baskerville;
         }
         .design-left{
             padding: 40px 20px;
                 p{
-                    font-size: 20px;
+                    font-size: 18px;
                     color: #282829;
                     padding-top: 10px;
+                    font-family: Muli;
                 }
                 .li{
                     font-size: 20px;
@@ -276,13 +275,15 @@
         h2{
             font-size: 20px;
             color: #282829;
+            font-family: Baskerville;
         }
         .design-left{
             padding: 40px 20px;
                 p{
-                    font-size: 20px;
+                    font-size: 18px;
                     color: #282829;
                     padding-top: 10px;
+                    font-family: Muli;
                 }
                 .li{
                     font-size: 20px;

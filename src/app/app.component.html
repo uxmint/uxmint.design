@@ -2,31 +2,34 @@
     <div class="container">
         <nav class="navbar navbar-expand">
             <!--<a class="navbar-brand" href="#">uxmint design</a>-->
-            <div class="row">
+            <div class="row header-logo">
                 <div class="col-md-5">
-                    <img src="./assets/images/uxmint1.svg">
+                    <img src="./assets/images/uxmint-logo.svg" routerLink="/">
                 </div>
                 <div class="col-md-1">
                     <div class="line"></div>
                 </div>
                 <div class="col-md-3">
-                <h2>DESIGN<br>CONSULTING</h2>
+                <h2 routerLink="/">DESIGN<br>CONSULTING</h2>
                 </div>
             </div>
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item web-only">
-                  <a class="nav-link" routerLink="works">Work</a>
+                  <a class="nav-link" routerLinkActive="active" routerLink="/works">Work</a>
                 </li>
                 <li class="nav-item web-only">
-                    <a class="nav-link" routerLink="about-us">About</a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/about-us">About</a>
                 </li>
                 <li class="nav-item web-only">
-                  <a class="nav-link" routerLink="services">Services</a>
+                  <a class="nav-link" routerLinkActive="active" routerLink="/services">Services</a>
                 </li>
                 <li class="nav-item web-only">
-                    <a class="nav-link" routerLink="contact-us">Let's Talk</a>
+                    <a class="nav-link" routerLinkActive="active" routerLink="/contact-us">Let's Talk</a>
                 </li>
+                <div class="col-md-1 only-mobile">
+                    <div class="lines"></div>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link menu-activator" (click)="openMenu()"> <img src="./assets/images/menu.png"></a>
                 </li>
@@ -45,13 +48,13 @@
             <h2>What We Do</h2>
             <ul class="contact">
                 <li>
-                    <a routerLink="works">Work</a>
+                    <a routerLink="/works">Work</a>
                 </li>
                 <li>
-                    <a routerLink="services">Service</a>
+                    <a routerLink="/services">Service</a>
                 </li>
                 <li>
-                    <a routerLink="engagement-models">Engagement Models</a>
+                    <a routerLink="/engagement-models">Engagement Models</a>
                 </li>
             </ul>
             <!--<div class="button">
@@ -62,16 +65,16 @@
             <h2>Who We Are</h2>
             <ul class="contact">
                 <li>
-                    <a routerLink="about-us">About Us</a>
+                    <a routerLink="/about-us">About Us</a>
                 </li>
                 <li>
-                    <a routerLink="blogs">Blogs</a>
+                    <a routerLink="/blogs">Blogs</a>
                 </li>
                 <li>
-                    <a routerLink="careers">Careers</a>
+                    <a routerLink="/careers">Careers</a>
                 </li>
                 <li>
-                    <a routerLink="contact-us">Contact</a>
+                    <a routerLink="/contact-us">Contact</a>
                 </li>
             </ul>
         </div>
@@ -117,7 +120,7 @@
           
         </div>
     </div>
-    <hr class="lines">
+    <hr class="footer">
     <div class="footer-bottom">
         <div class="rights float-left">
             <h2>All Rights reserved@2021 </h2>

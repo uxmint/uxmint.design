@@ -2,23 +2,24 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 h2{
-    font-size: 57px;
+    font-size: 56px;
     font-family: Baskerville;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
-        font-size: 36px;
+        font-size: 32px;
+        padding-bottom: 15px;
     }
 }
 p{
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 18px;
+    font-family: Muli;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 14px;
     }
 }
 h6{
-    font-size: 26px;
+    font-size: 24px;
     font-family: Muli;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
@@ -42,22 +43,34 @@ h6{
             right: 20px;
         }
         @include media-breakpoint-down(lg){
+            height: 645px;
+            padding: 250px 0px;
             .banner-header{
                 padding: 15px 0px;
+            }
+            img{
+                margin-top: -15%;
             }
         }
         @include media-breakpoint-down(md){
+            height: 501px;
+            padding: 200px 0px;
             .banner-header{
-                padding: 15px 0px;
+                padding: 30px 0px;
+            }
+            h6{
+                font-size: 20px;
             }
         }
         @include media-breakpoint-down(sm){
+            height: 700px;
+            padding: 300px 0px;
             .banner-header{
-                padding: 150px 0px;
+                padding: 125px 0px;
             }
             img{
                 width: 100%;
-                margin-top: -45%;
+                margin-top: -65%;
                 margin-left: -40px;
             }
         }
@@ -71,18 +84,17 @@ h6{
         }
         p{
             font-size: 18px;
-            font-family: Muli;
-            line-height: 40px;
-        }
-        @include media-breakpoint-down(lg){
-            padding: 200px 0px;
-        }
-        @include media-breakpoint-down(md){
-            padding: 150px 0px;
-        }
-        @include media-breakpoint-down(sm){
-            padding: 80px 0px;
-        }
+           line-height: 40px;
+       }
+       @include media-breakpoint-down(lg){
+           padding: 150px 0px;
+       }
+       @include media-breakpoint-down(md){
+           padding: 100px 0px;
+       }
+       @include media-breakpoint-down(sm){
+           padding: 80px 0px;
+       }
     }
       .image-event{
         img{
@@ -91,8 +103,13 @@ h6{
         h6{
             font-size: 36px;
             font-family: Baskerville;
+            padding-bottom: 30px;
+            @include media-breakpoint-down(lg) {
+                    padding-top: 50px;
+            }
             @include media-breakpoint-down(md) {
                 font-size: 28px;
+                padding-top: 50px;
             }
         } 
         @include media-breakpoint-down(sm){
@@ -112,25 +129,36 @@ h6{
             line-height: 50px;
         }
         @include media-breakpoint-down(lg){
-            padding: 200px 0px;
+            padding: 150px 0px;
+            img{
+                top: -5px;
+            }
         }
         @include media-breakpoint-down(md){
-            padding: 150px 0px;
+            padding: 100px 0px;
+            img{
+                top: 20px;
+                width: 130%;
+                margin-right: -40px;
+            }
         }
         @include media-breakpoint-down(sm){
-            padding: 80px 0px;
+            padding: 150px 10px 150px 10px;
             h2{
                 font-size: 36px;
                 margin-bottom: 30px;
             }
-            // p{
-            //     font-size: 24px;
-            //     line-height: 40px;
-            // }
+            img{
+                top: -5px;
+                margin-right: 0px;
+            }
+            .only-mobile{
+                margin-bottom: 100px;
+            }
         }
     }
     .target-strategy{
-        background-color: #FCFCFC;
+        //background-color: #FCFCFC;
         color: #3D3D3D;
         padding: 150px 0px;
         .target{
@@ -141,12 +169,24 @@ h6{
         }
         p{
             font-size: 18px;
-            font-family: Muli;
-            line-height: 40px;
-        }
-        @include media-breakpoint-down(sm){
-            padding: 80px 0px;
-        }
+           font-family: Muli;
+           line-height: 35px;
+       }
+       @include media-breakpoint-down(lg){
+           padding: 100px 0px;
+           .target{
+               margin-bottom: 70px;
+           }
+       }
+       @include media-breakpoint-down(md){
+           padding: 100px 0px;
+           h6{
+               padding-bottom: 15px;
+           }
+       }
+       @include media-breakpoint-down(sm){
+           padding: 80px 0px;
+       }
     }
     .research{
         padding: 80px 0px;
@@ -230,24 +270,24 @@ h6{
         background-color: #FFFFFF;
         padding: 100px 0px;
         @include media-breakpoint-down(lg){
-            padding: 100px 0px;
+            padding: 0px 0px;
             img{
                 width: 100%;
-                margin-top: 100px;
+                margin-top: 30px;
             }
         }
         @include media-breakpoint-down(md){
-            padding: 75px 0px;
+            padding: 0px 0px;
             img{
                 width: 100%;
-                margin-top: 100px;
+                margin-top: 30px;
             }
         }
         @include media-breakpoint-down(sm){
-            padding: 50px 0px;
+            padding: 25px 0px;
             img{
                 width: 100%;
-                margin-top: 50px;
+                margin-top: 25px;
             }
         }
     }
@@ -404,6 +444,7 @@ h6{
     .banner{
         img{
             width: 100%;
+            padding-left: 30px;
         }
     }
     }

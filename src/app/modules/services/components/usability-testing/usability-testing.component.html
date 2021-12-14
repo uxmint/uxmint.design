@@ -53,7 +53,32 @@
             </div>
         </div>
     </div>
-    <div class="situations-layout">
+   
+<div class="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Situations where usability testing will be of great use</h2>
+      </div>
+      <div class="col-md-8">
+        <ngb-carousel data-ride="carousel" data-interval="false" [interval]="'0'">
+          <ng-template ngbSlide *ngFor="let testimonial of testimonials">
+            <div class="card">
+              <div class="row">
+                <div class="col-md-12 text">
+                  <p>{{ testimonial.description }}</p>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!--<div class="situations-layout">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
@@ -74,7 +99,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <div class="service-layout4">
       <div class="container">
       <div class="row">
