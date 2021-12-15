@@ -14,7 +14,7 @@
             <h2>Let us Know what you are looking <br> forward to discuss.</h2>
             <form [formGroup]="form" id="contactForm" name="contactForm" class="contactForm">
                <div class="row  layout-right">
-                  <div class="col-md-6"  *ngFor="let position of positions">
+                  <div class="col-md-5"  *ngFor="let position of positions">
                      <div class="custom-control custom-checkbox custom-control-inline">
                         <input type="checkbox" [id]="position.id" [(ngModel)]="position.checked" [value]="position.value" formControlName="position" (change)="onChange(position.value)"  class="custom-control-input">
                         <label class="checkbox custom-control-label" [for]="position.id">{{ position.name }}</label>
