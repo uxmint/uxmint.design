@@ -23,7 +23,7 @@
         padding-top: 25px;
         color: #3B3B3B;
         font-family: Muli;
-         span{
+         span a{
             color: #C3343C;
             text-decoration: underline;
             
@@ -139,16 +139,16 @@
         .layout-right{
             padding: 40px 10px;
         }
-        .row{
-            .col-md-12{
-                flex: 0 0 100%;
-                max-width: 80%;
-            }
-            .col-md-5{
-                flex: 0 0 100%;
-                max-width: 80%; 
-            }
-        }
+        // .row{
+        //     .col-md-12{
+        //         flex: 0 0 100%;
+        //         max-width: 80%;
+        //     }
+        //     .col-md-5{
+        //         flex: 0 0 100%;
+        //         max-width: 80%; 
+        //     }
+        // }
         .custom-control-inline {
             display: inline-flex;
             /* margin-right: 0rem; */
@@ -165,16 +165,16 @@
         .layout-right{
             padding: 40px 0px;
         }
-        .row{
-            .col-md-12{
-                flex: 0 0 100%;
-                max-width: 80%;
-            }
-            .col-md-5{
-                flex: 0 0 100%;
-                max-width: 80%; 
-            }
-        }
+        // .row{
+        //     .col-md-12{
+        //         flex: 0 0 100%;
+        //         max-width: 80%;
+        //     }
+        //     .col-md-5{
+        //         flex: 0 0 100%;
+        //         max-width: 80%; 
+        //     }
+        // }
         .custom-control-inline {
             display: inline-flex;
             /* margin-right: 0rem; */
@@ -197,7 +197,7 @@
             padding-left: 0%;
         }
         .layout-right{
-            padding: 20px;
+            padding: 0px;
             .layouts{
                 height: 1650px;
                 overflow: hidden;
@@ -243,14 +243,11 @@
             font-family: Muli;
         }
     }
-    .col-md-6{
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
     img{
         width: 100%;
     }
     @include media-breakpoint-down(lg) {
+        padding: 0px 20px;
         .layout-left{
             padding: 35px 100px;
         }

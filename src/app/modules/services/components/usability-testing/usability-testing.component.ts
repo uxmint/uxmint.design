@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-usability-testing',
@@ -8,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class UsabilityTestingComponent implements OnInit {
   active2 = 'discussion';
   activeIds = 'static-1';
-  constructor() { }
+  constructor(private title:Title) { }
 
   ngOnInit(): void {
+    this.title.setTitle('Uxmint Design - Services');
   }
   testimonials: any[] = [
     { description: ' End users are not using the product in the way it was intended to be used ? '},

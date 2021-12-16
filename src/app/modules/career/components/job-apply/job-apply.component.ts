@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-job-apply',
   templateUrl: './job-apply.component.html',
@@ -44,7 +45,7 @@ export class JobApplyComponent implements OnInit {
 
   form: FormGroup;
 
-  constructor(private fb:FormBuilder) {
+  constructor(private fb:FormBuilder, private title:Title) {
     this.form = this.fb.group({
       title: [null, [Validators.required]],
       url: [null, [Validators.required]],
@@ -63,6 +64,7 @@ export class JobApplyComponent implements OnInit {
     
   }
   ngOnInit(): void {
+    this.title.setTitle('Uxmint Design - Career');
   }
 
 }

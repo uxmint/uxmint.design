@@ -1,5 +1,6 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-uxahead',
@@ -42,10 +43,11 @@ export class UxaheadComponent implements OnInit {
     }
   ];
 
-  constructor(private cdr: ChangeDetectorRef) { }
+  constructor(private cdr: ChangeDetectorRef, private title:Title) { }
   
         ngOnInit(): void {
         this.cdr.detectChanges();
+        this.title.setTitle('Uxmint Design - Works');
         }
 
 }
