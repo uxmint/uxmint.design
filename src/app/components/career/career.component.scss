@@ -26,6 +26,7 @@
             span{
                 color: #C3343C;
                 text-decoration: underline;
+                cursor: pointer;
             }
         }
         @include media-breakpoint-down(lg) {
@@ -119,7 +120,6 @@
                     font-size: 20px;
                 }
                 .button{
-                    margin-top: 50px;
                      text-align: left;
                 }
                 .btn-white{

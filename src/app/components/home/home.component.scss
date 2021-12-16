@@ -63,7 +63,7 @@ p{
         }
         .card{
             border: none;
-            padding: 100px 170px 5px 60px;
+            padding: 100px 170px 5px 0px;
         }
         .button{
             padding-top: 40px;
@@ -83,7 +83,7 @@ p{
         }
         @include media-breakpoint-down(lg){
             .card{
-                padding: 100px 10px 100px 50px;
+                padding: 100px 20px 100px 0px;
             }
             .step-image{
                 margin-left: -40px;
@@ -101,7 +101,7 @@ p{
         @include media-breakpoint-down(sm){
             margin-bottom: 150px;
             .card{
-                padding: 40px 0px 0px 10px;
+                padding: 40px 0px 0px 0px;
                 height: 220px;
             }
             .step-image{
@@ -164,33 +164,20 @@ background-color: #FFFFFF;
                 }
             }
         }
-        @include media-breakpoint-down(md){
+        @include media-breakpoint-down(sm){
+            padding: 100px 15px;
             .button{
                 padding-top: 0px;
             }
         }
     }
-     .logo{
-         background-color: #E2E2E2;
-    .flex{
-        display: flex;
-        padding: 50px 0px;
-        .icon{
-            padding-right: 85px;
-        }
-    }
-    @include media-breakpoint-down(lg){
-        .flex{
-         overflow-y: scroll;
-         display: flex;
-         padding: 0px 0px 0px 30px;
-        }
-    }
-}
     .cater{
         background-color: #FCFCFC;
         padding: 100px 0px;
         color: #FFF;
+        h2{
+            padding-bottom: 30px;
+        }
         .left{
             margin-left: -210px;
         }
@@ -244,6 +231,7 @@ background-color: #FFFFFF;
                 padding-left: 90px;
             }
         }
+      
         @include media-breakpoint-down(sm){
             padding: 80px 0px 20px 0px;
             .btn{
@@ -263,6 +251,60 @@ background-color: #FFFFFF;
                     padding: 15px;
                 }
             }
+        }
+    }
+    .only-mobile{
+        display: none;
+    }
+    .caters{
+        padding: 50px;
+        .col-md-5{
+            padding-bottom: 5px;
+            padding-top: 40px;
+        }
+        .row{
+            .col-md-5 {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+        .cards{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 100%;
+            padding: 10px;
+            svg{
+                margin-left: 25px;
+                width: 40px;
+            }
+            h1{
+                font-size: 56px;
+                color: #3B3B3B;
+                font-family: Baskerville;
+            }
+          
+            p{
+                font-size: 14px;
+                font-family: Muli;
+                color: #707071;
+                text-align: center;
+            }
+          }
+          .cards:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          }
+          .button{
+            padding-left: 20px;
+            padding-top: 25px;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        .only-mobile{
+            display: block;
+
+        }
+        .cater{
+            display: none;
         }
     }
     .blogs{
@@ -502,3 +544,34 @@ background-color: #FFFFFF;
         border: 2px solid #E2E2E2;
     }
 }
+.custom-slider-main{
+    background-color: #E2E2E2;
+    display: flex;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-left: 70px;
+    }
+    .icon{
+        padding-right: 85px;
+    }
+    .custom-slider-main::-webkit-scrollbar-track {
+    border: 1px solid #fff;
+    padding: 2px 0px;
+    margin: 20px;
+    background-color: #ffffff;
+    }
+    .custom-slider-main::-webkit-scrollbar {
+    width: 0px;
+    height: 4px;
+    }
+    .custom-slider-main::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #737272;
+    }
+    @include media-breakpoint-down(lg){
+        .flex{
+         overflow-y: scroll;
+         display: flex;
+         padding: 0px 0px 0px 30px;
+        }
+     }

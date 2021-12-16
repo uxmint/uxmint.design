@@ -45,6 +45,17 @@ export class HomeComponent implements OnInit {
     }
   ];
 
+  testimonials: any[] = [
+    { profile: './assets/images/home/logo2.svg'},
+    { profile: './assets/images/home/logo4.svg'},
+    { profile: './assets/images/home/logo6.svg'},
+    { profile: './assets/images/home/logo5.svg'},
+    { profile: './assets/images/home/logo3.svg'},
+    { profile: './assets/images/home/logo1.svg'}  
+    ];
+
+   
+
   constructor(private cdr: ChangeDetectorRef, private title:Title) { }
 
   ngOnInit(): void {
