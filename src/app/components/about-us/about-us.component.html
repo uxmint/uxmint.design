@@ -101,34 +101,36 @@
       </div>
    </div>-->
    <div class="about-layout1">
-        <div class="row">
-          <div class="col-md-5 design-layout">
-            <div class="design-left">
-             <h2>We have built & are building some great products together</h2>
-             <div class="button">
-               <div class="btn btnn" routerLink="/services">Check our Service</div>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-5 design-layout">
+              <div class="design-left">
+               <h2>We have built & are building some great products together</h2>
+               <div class="button">
+                 <div class="btn btnn" routerLink="/services">Check our Service</div>
+              </div>
+              </div>
             </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6 design-layouts">
+              <div class="container">
+              <div [ngbNavOutlet]="nav"></div>
+              <ul ngbNav #nav="ngbNav">
+                <li ngbNavItem class="design-right">
+                  <a ngbNavLink> <svg xmlns="http://www.w3.org/2000/svg" width="16.546" height="17.825" viewBox="0 0 16.546 17.825"> <g id="Group_5633" data-name="Group 5633" transform="translate(15.131 1) rotate(90)"> <path id="Path_9437" data-name="Path 9437" d="M-11443.52,11612.816h-15.825l6.716,6.716" transform="translate(11459.345 -11605.815)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="Path_9438" data-name="Path 9438" d="M-11459.344,11615.815l3-3" transform="translate(11463.06 -11612.814)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> </svg></a>
+                  <ng-template ngbNavContent> <h5>Startups</h5>
+                    <p>We've been there and we exactly know the struggles and whst it takes to build a product from  the scrarch. We have the expertise to validate your ideas with the right process and to bring the right solutions for your target customers and ensure a successful launch</p></ng-template>
+                </li>
+                <li ngbNavItem class="design-rights">
+                  <a ngbNavLink> <svg xmlns="http://www.w3.org/2000/svg" width="16.546" height="17.825" viewBox="0 0 16.546 17.825"> <g id="Group_5633" data-name="Group 5633" transform="translate(15.131 1) rotate(90)"> <path id="Path_9437" data-name="Path 9437" d="M-11459.344,11612.816h15.825l-6.716,6.716" transform="translate(11459.344 -11605.815)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="Path_9438" data-name="Path 9438" d="M-11456.344,11615.815l-3-3" transform="translate(11468.453 -11612.814)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> </svg></a>
+                  <ng-template ngbNavContent><h5>Established Brands</h5>
+                    <p>We work with mid-size or large organisations in designing or redesigning complex systems. Optimising the process to bring transformation to the legacysystem.</p></ng-template>
+                </li>
+              </ul>
+              </div>
             </div>
           </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-6 design-layouts">
-            <div class="container">
-            <div [ngbNavOutlet]="nav"></div>
-            <ul ngbNav #nav="ngbNav">
-              <li ngbNavItem class="design-right">
-                <a ngbNavLink> <svg xmlns="http://www.w3.org/2000/svg" width="16.546" height="17.825" viewBox="0 0 16.546 17.825"> <g id="Group_5633" data-name="Group 5633" transform="translate(15.131 1) rotate(90)"> <path id="Path_9437" data-name="Path 9437" d="M-11443.52,11612.816h-15.825l6.716,6.716" transform="translate(11459.345 -11605.815)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="Path_9438" data-name="Path 9438" d="M-11459.344,11615.815l3-3" transform="translate(11463.06 -11612.814)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> </svg></a>
-                <ng-template ngbNavContent> <h5>Startups</h5>
-                  <p>We've been there and we exactly know the struggles and whst it takes to build a product from  the scrarch. We have the expertise to validate your ideas with the right process and to bring the right solutions for your target customers and ensure a successful launch</p></ng-template>
-              </li>
-              <li ngbNavItem class="design-rights">
-                <a ngbNavLink> <svg xmlns="http://www.w3.org/2000/svg" width="16.546" height="17.825" viewBox="0 0 16.546 17.825"> <g id="Group_5633" data-name="Group 5633" transform="translate(15.131 1) rotate(90)"> <path id="Path_9437" data-name="Path 9437" d="M-11459.344,11612.816h15.825l-6.716,6.716" transform="translate(11459.344 -11605.815)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="Path_9438" data-name="Path 9438" d="M-11456.344,11615.815l-3-3" transform="translate(11468.453 -11612.814)" fill="none" stroke="#C3343C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> </svg></a>
-                <ng-template ngbNavContent><h5>Established Brands</h5>
-                  <p>We work with mid-size or large organisations in designing or redesigning complex systems. Optimising the process to bring transformation to the legacysystem.</p></ng-template>
-              </li>
-            </ul>
-            </div>
-          </div>
-        </div>
+      </div>
       </div>
    <div class="about-layout2">
       <div class="container">

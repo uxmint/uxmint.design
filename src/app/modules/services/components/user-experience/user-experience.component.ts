@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-user-experience',
@@ -8,8 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class UserExperienceComponent implements OnInit {
   active = 'discussion';
   activeIds = 'static-1';
-  constructor() { }
+  constructor(private title:Title) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.title.setTitle('Uxmint Design - Services');
+  }
 
 }

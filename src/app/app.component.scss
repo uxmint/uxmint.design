@@ -112,6 +112,18 @@ footer{
     background-color: #282829;
     color: #FFFFFF;
     padding: 100px 0px 20px 0px;
+    @include media-breakpoint-down(md){
+        .col-md-3{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        .col-md-3{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
     h2{
         color: #FFFFFF;
         font-size: 20px;
@@ -146,6 +158,10 @@ footer{
             color: #707070;
            font-family: Muli;
         }
+        span{
+            color: #707070;
+            padding: 0px 5px;
+        }
     }
     hr.footer {
         border-top: 1px solid #707070;
@@ -158,10 +174,23 @@ footer{
               font-family: GD Sherpa;
               font-size: 14px;
               color: #707070;
+              text-align: left;
           }
+      }
+      .policy{
+        h2{
+            font-family: GD Sherpa;
+            font-size: 14px;
+            color: #707070;
+            text-align: right;
+        }
       }
     
     @include media-breakpoint-down(md){
+        .col-md-3{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
         .btn-white{
             font-size: 16px;
         }
@@ -171,15 +200,31 @@ footer{
         a{
             font-size: 16px;
         }
+        .rights h2{
+            text-align: center;
+        }
+        .policy h2{
+            text-align: center;
+        }
     }
     @include media-breakpoint-down(sm){
+        .col-md-3{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
         padding-top: 5px;
-          padding-bottom: 40px;
+        padding-bottom: 0px;
         .btn-white{
             margin-bottom: 100px;
         }
         a{
             font-size: 14px;
+        }
+        .rights h2{
+            text-align: center;
+        }
+        .policy h2{
+            text-align: center;
         }
     }
 }

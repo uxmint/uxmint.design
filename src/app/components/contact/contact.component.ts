@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { APIService } from '../../services/api.service';
+import { Title } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -30,7 +32,8 @@ export class ContactComponent implements OnInit {
   ];
   position: any;
   careerposition: any;
-  constructor(private fb:FormBuilder, private apiService: APIService) {
+
+  constructor(private fb:FormBuilder, private apiService: APIService, private title:Title) {
     this.form = this.fb.group({
       position: ['',Validators.required],
       name: ['',Validators.required],
@@ -72,6 +75,7 @@ export class ContactComponent implements OnInit {
     
   }
   ngOnInit(): void {
+    this.title.setTitle('Uxmint Design - Contact Us');
   }
 
 }

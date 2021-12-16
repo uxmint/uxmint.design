@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-services',
@@ -12,9 +13,10 @@ export class ServicesComponent implements OnInit {
   active = 'discussion';
   activeIds = 'static-1';
 
-  constructor() { }
+  constructor(private title:Title) { }
 
   ngOnInit(): void {
+    this.title.setTitle('Uxmint Design - Services');
   }
 
 }
