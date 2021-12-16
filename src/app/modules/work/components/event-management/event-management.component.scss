@@ -30,8 +30,8 @@ h6{
 }
     .banner{
         background-color: #FFEFEF;
-       padding-top: 140px;
-       height: 830px;
+       //padding-top: 140px;
+       height: 775px;
        padding: 250px 0px;
         .banner-header{
             padding: 95px 0px;
@@ -40,6 +40,9 @@ h6{
             font-weight: 300;
             font-size: 24px;
             margin-top: 40px;
+        }
+        img{
+            width: 130%;
         }
         @include media-breakpoint-down(lg){
             .banner-header{
@@ -90,6 +93,20 @@ h6{
         img{
             width: 100%;
         }
+
+        @include media-breakpoint-down(sm){
+            img{
+                width: 100%;
+                display: none !important;
+            }  
+        }
+    }
+    .image-events{
+        img{
+            width: 95%;
+            margin-left: 60px;
+        }
+        
         @include media-breakpoint-down(sm){
             img{
                 width: 100%;
@@ -102,7 +119,7 @@ h6{
         color: #3B3B3B;
         padding: 200px 0px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 50px;
         }
@@ -167,7 +184,7 @@ h6{
             font-size: 32px;
         }
         p{
-            font-weight: 300;
+            //font-weight: 300;
             font-size: 18px;
             font-family: Muli;
         }

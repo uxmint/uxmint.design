@@ -33,9 +33,9 @@ h6{
        padding: 250px 0px;
         img{
             position: absolute;
-            margin-top: 1%;
-            width: 50%;
-            margin-left: 100px;
+            margin-top: -13%;
+            width: 90%;
+            //margin-left: 100px;
         }
         h6{
             font-weight: 300;
@@ -49,12 +49,12 @@ h6{
                 padding: 15px 0px;
             }
             img{
-                margin-top: 7%;
+                margin-top: -8%;
             }
         }
         @include media-breakpoint-down(md){
             height: 501px;
-            padding: 200px 0px;
+            padding: 150px 0px;
             .banner-header{
                 padding: 30px 0px;
             }
@@ -64,10 +64,8 @@ h6{
         }
         @include media-breakpoint-down(sm){
             height: 600px;
-            padding: 400px 0px;
-            .banner-header{
-                padding: 200px 0px;
-            }
+            padding: 350px 0px;
+          
             img{
                 width: 100%;
                 margin-top: -65%;
@@ -107,7 +105,7 @@ h6{
         background-color: #EBEBEB;
         padding: 200px 0px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }
@@ -193,7 +191,7 @@ h6{
             font-size: 36px;
         }
         p{
-            font-weight: 300;
+            //font-weight: 300;
             font-size: 18px;
             font-family: Muli;
         }
@@ -289,6 +287,7 @@ h6{
             width: 100%;
         }
     }
+
     .typography-image{
         background-color: #FCFCFC;
         text-align: center;

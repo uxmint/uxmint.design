@@ -63,10 +63,13 @@ h6{
             }
         }
         @include media-breakpoint-down(sm){
-            height: 700px;
+            height: 500px;
             padding: 300px 0px;
+            h2{
+                padding-bottom: 0px;
+            }
             .banner-header{
-                padding: 125px 0px;
+                padding: 100px 0px;
             }
             img{
                 width: 100%;
@@ -124,7 +127,7 @@ h6{
         color: #000000;
         padding: 200px 0px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 50px;
         }

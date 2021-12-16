@@ -29,14 +29,14 @@ h6{
     .banner{
         background-color: #E4F0EC;
         padding-top: 140px;
-        height: 830px;
-        padding: 350px 0px;
+        height: 775px;
+        padding: 250px 0px;
         img{
             position: absolute;
-            width: 100%;
-            margin-top: -34%;
+            width: 70%;
+            margin-top: -27%;
             top: 20px;
-            right: 20px;
+            right: 45px;
         }
         h6{
             font-weight: 300;
@@ -54,10 +54,13 @@ h6{
             }
         }
         @include media-breakpoint-down(md){
-            height: 575px;
-            padding: 200px 0px;
+            height: 520px;
+            padding: 100px 0px;
             .banner-header{
                 padding: 85px 0px;
+            }
+            img{
+                margin-top: -5%;
             }
             h6{
                 font-size: 20px;
@@ -108,7 +111,7 @@ h6{
         background-color: #EBEBEB;
         padding: 200px 0px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }
@@ -180,7 +183,7 @@ h6{
             font-size: 36px;
         }
         p{
-            font-weight: 300;
+            //font-weight: 300;
              font-size: 18px;
             font-family: Muli;
         }
@@ -242,10 +245,6 @@ h6{
                font-size: 28px;
                line-height: 43px;
             }
-            // p{
-            //      font-size: 18px;
-            //     line-height: 35px;
-            // }
         }
         @include media-breakpoint-down(sm){
             padding: 80px 0px;
@@ -272,17 +271,25 @@ h6{
             font-family: Muli;
              font-size: 18px;
         }
+        img{
+            width: 40%;
+            margin-left: 150px;
+        }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
             img{
-                width: 90%;
-                margin-top: 100px;
+                width: 45%;
+                margin-top: 130px;
+                margin-left: 90px;
             }
         }
         @include media-breakpoint-down(md){
             padding: 40px 0px;
             h6{
                font-size: 28px;
+            }
+            img{
+                margin-top: 200px;
             }
         }
         @include media-breakpoint-down(sm){
@@ -292,7 +299,7 @@ h6{
                 line-height: 45px;
              }
             img{
-                width: 100%;
+                //width: 100%;
                 margin-top: 50px;
             }
     }
@@ -306,6 +313,9 @@ h6{
             margin-top: 40px;
             font-family: Baskerville;
             font-size: 36px;
+        }
+        img{
+            width: 100%;
         }
         h5{
             font-size: 20px;
@@ -400,21 +410,21 @@ h6{
         @include media-breakpoint-down(lg){
             padding: 40px 0px;
             img{
-                width: 110%;
+                width: 100%;
                 margin-top: 100px;
             }
         }
         @include media-breakpoint-down(md){
             padding: 75px 0px;
             img{
-                width: 110%;
+                width: 100%;
                 margin-top: 100px;
             }
         }
         @include media-breakpoint-down(sm){
             padding: 50px 0px;
             img{
-                width: 110%;
+                width: 100%;
                 margin-top: 50px;
             }
         }
@@ -434,11 +444,15 @@ h6{
             font-family: Muli;
              font-size: 18px;
         }
+        img{
+            width: 100%;
+        margin-left: 90px;
+        }
         @include media-breakpoint-down(lg){
             padding: 80px 0px;
             img{
                 margin-left: -15%;
-                width: 130%;
+                width: 117%;
             }
         }
         @include media-breakpoint-down(md){
@@ -553,7 +567,7 @@ h6{
 @include media-breakpoint-down(sm) {
     .banner{
         img{
-            width: 95%;
+            width: 78%;
         }
     }
     }

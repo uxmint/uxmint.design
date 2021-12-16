@@ -68,6 +68,9 @@ h6{
         @include media-breakpoint-down(sm){
             height: 740px;
             padding: 300px 0px;
+            h2{
+                padding-bottom: 0px;
+            }
             .banner-header{
                 padding: 150px 0px;
             }
@@ -147,7 +150,7 @@ h6{
         background-color: #EBEBEB;
         padding: 200px 0px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }

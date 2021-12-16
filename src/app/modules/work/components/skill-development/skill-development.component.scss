@@ -117,17 +117,18 @@ h6{
     .approach{
         background-color: #EBEBEB;
         color: #000000;
-        padding: 150px 0px;
+        padding: 200px 0px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-family: Muli;
             line-height: 40px;
         }
         img{
             position: absolute;
-            width: 100%;
+            width: 80%;
             top: -85px;
             right: 20px;
+            margin-right: -60px;
         }
         @include media-breakpoint-down(lg){
             padding: 150px 0px;
@@ -139,7 +140,7 @@ h6{
             padding: 100px 0px;
             img{
                 top: 20px;
-                width: 130%;
+                width: 90%;
                 margin-right: -40px;
             }
         }
@@ -218,7 +219,7 @@ h6{
             font-size: 36px;
         }
         p{
-            font-weight: 300;
+            //font-weight: 300;
              font-size: 18px;
             font-family: Muli;
         }

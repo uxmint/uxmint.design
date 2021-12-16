@@ -38,7 +38,7 @@ h6{
         img{
             position: absolute;
             width: 100%;
-            margin-top: -28%;
+            margin-top: -30%;
             top: 100px;
             right: -75px;
         }
@@ -49,7 +49,8 @@ h6{
                 padding: 15px 0px;
             }
             img{
-                margin-top: -22%;
+                margin-top: -23%;
+                right: -6%;
             }
         }
         @include media-breakpoint-down(md){
@@ -140,7 +141,7 @@ h6{
            }
        }
        @include media-breakpoint-down(sm){
-           padding: 80px 0px;
+           padding: 10px 0px;
        }
     }
     .needs-challenges{
@@ -159,7 +160,7 @@ h6{
             font-size: 36px;
         }
         p{
-            font-weight: 300;
+            //font-weight: 300;
              font-size: 18px;
             font-family: Muli;
         }
@@ -189,10 +190,16 @@ h6{
             }
         }
         @include media-breakpoint-down(sm){
-            padding: 0px 0px;
+            padding: 50px 0px;
+            h2{
+                padding-top: 10%;
+            }
             .needs{
                 height: 800px;
                 overflow: hidden;
+            }
+            p{
+                line-height: 40px;
             }
             .needs-right{
                 padding: 10px 0 0 0;
@@ -264,12 +271,15 @@ h6{
         }
     }
     .typography-image{
-        background-color: #FAFAFA;
+        //background-color: #FAFAFA;
         text-align: center;
-        padding: 100px 0px;
+        padding: 70px 0px;
         li{
             display: inline-flex;
             margin-right: 100px;
+        }
+        img{
+            width: 100%;
         }
         @include media-breakpoint-down(lg){
             padding: 0px 0px;
@@ -292,7 +302,7 @@ h6{
             }
         }
         @include media-breakpoint-down(sm){
-            padding: 50px 0px;
+            //padding: 50px 0px;
             img{
                 width: 98%;
                 margin-top: 50px;
@@ -414,9 +424,9 @@ h6{
 @include media-breakpoint-down(sm) {
     .banner{
         img{
-            width: 90%;
+            width: 100%;
             padding-left: 20px;
-            margin-right: 105px;
+            margin-right: 40px;
         }
     }
     }
