@@ -31,17 +31,20 @@ export class HomeComponent implements OnInit {
     { 
       img: './assets/images/home/image3.png',
       title: 'Designing a successful product: Is not a daydream',
-      sub: 'by Udaya Kumar Sivagurunathan'
+      sub: 'by Udaya Kumar Sivagurunathan',
+      url: 'https://medium.com/uxmint/designing-a-successful-product-is-not-a-daydream-af92591078cd'
     },
     { 
       img: './assets/images/home/image1.png',
       title: 'How to experience Five Senses — in Digital Commerce',
-      sub: 'by Veera Thiruppal'
+      sub: 'by Veera Thiruppal',
+      url: 'https://medium.com/uxmint/how-to-experience-five-senses-in-digital-commerce-463eadc5ad66'
     },
     { 
       img: './assets/images/home/image2.png',
       title: 'Ever thought why does the colour green or sound of water brings calmness?',
-      sub: 'by Krithika Thirunavukkarasu'
+      sub: 'by Krithika Thirunavukkarasu',
+      url: 'https://medium.com/uxmint/ever-thought-why-does-the-colour-green-or-sound-of-water-brings-calmness-6ecd72160fab'
     }
   ];
 
