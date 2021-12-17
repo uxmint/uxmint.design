@@ -29,17 +29,20 @@ export class MarketingComponent implements OnInit {
     { 
       img: './assets/images/works/child.png',
       title: 'Child Care Portal',
-      sub: 'UX . UI . Tablet . B2C'
+      sub: 'UX . UI . Tablet . B2C',
+      url: '/work/childcare-portal'
     },
     { 
       img: './assets/images/works/Website.png',
       title: 'Website for Startup',
-      sub: 'UX . UI . B2C'
+      sub: 'UX . UI . B2C',
+      url: '/work/uxahead'
     },
     { 
       img: './assets/images/works/event.png',
       title: 'Event Hosting made stressless',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      sub: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/event-management'
     }
   ];
 

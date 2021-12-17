@@ -221,8 +221,16 @@
 }
 .contact-layout2{
     background-color: #F7F5F5;
+    .container{
+        max-width: 1400px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .map-route{
+        padding: 40px 0px
+    }
     .layout-left{
-        padding: 100px 100px;
+        padding: 100px 80px;
         h3{
             font-size: 28px;
             color: #3B3B3B;

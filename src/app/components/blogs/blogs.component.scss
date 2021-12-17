@@ -56,15 +56,38 @@
                  }
              .image-center{
                  padding: 30px 30px;
-                        h5{
+                        a{
+                            cursor: pointer;
+                            display: inline-block;
+                            position: relative;
+                            transition: 0.5s;
                             font-size: 20px;
                             padding-top: 25px;
+                            color: #3B3B3B;
                             font-family: Baskerville;
-                            a{
-                                color: #3B3B3B;
-                            }
-                        }
-                        span{
+                          }
+                          
+                          a:after {
+                            content: '\2192';
+                            position: absolute;
+                            opacity: 0;  
+                            top: 25px;
+                            bottom: 10px;
+                            right: 0px;
+                            left: -18px;
+                            transition: 0.5s;
+                          }
+                          
+                          a:hover{
+                            padding-right: 24px;
+                            padding-left:8px;
+                          }
+                          
+                          a:hover:after {
+                            opacity: 1;
+                            right: 10px;
+                          }
+                        h6{
                             color: #707071;
                             font-family: Muli;
                             font-size: 16px;

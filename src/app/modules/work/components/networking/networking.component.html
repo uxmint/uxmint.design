@@ -167,7 +167,7 @@
                             <div class="image">
                                 <img [src]="item.img">
                             </div>
-                            <h3>{{ item.title }}</h3>
+                            <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
                             <h4>{{ item.sub }}</h4>
                         </div>
                     </ngu-tile>

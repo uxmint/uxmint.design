@@ -29,17 +29,20 @@ export class ChildcarePortalComponent implements OnInit {
     { 
       img: './assets/images/works/Website.png',
       title: 'Website for Startup',
-      sub: 'UX . UI . B2C'
+      sub: 'UX . UI . B2C',
+      url: '/work/uxahead'
     },
     { 
       img: './assets/images/works/designers.png',
       title: 'A designers platform for creative upskill',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      sub: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/skill-development'
     },
     { 
       img: './assets/images/works/Digital.png',
       title: 'Digital Transformation for telcom',
-      sub: 'UX . UI . Mobile . B2B'
+      sub: 'UX . UI . Mobile . B2B',
+      url: '/work/networking'
     }
   ];
 

@@ -29,17 +29,20 @@ export class NetworkingComponent implements OnInit {
     { 
       img: './assets/images/works/designers.png',
       title: 'A designers platform for creative upskill',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      sub: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/skill-development'
     },
     { 
       img: './assets/images/works/customer.png',
       title: 'A Customer Advocacy Platform',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      sub: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/marketing'
     },
     { 
       img: './assets/images/works/Accomplishments.png',
       title: 'Repository of Accomplishments',
-      sub: 'UX . UI . Web . B2C'
+      sub: 'UX . UI . Web . B2C',
+      url: '/work/construction-portal'
     }
   ];
 

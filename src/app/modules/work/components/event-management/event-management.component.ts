@@ -28,17 +28,20 @@ export class EventManagementComponent implements OnInit {
     { 
       img: './assets/images/works/adapt 2.png',
       title: 'To adapt organic food as a Lifestyle',
-      sub: 'UX . UI . Mobile . B2C'
+      sub: 'UX . UI . Mobile . B2C',
+      url: '/work/health-care'
     },
     { 
       img: './assets/images/works/designers.png',
       title: 'A designers platform for creative upskill',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      sub: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/skill-development'
     },
     { 
       img: './assets/images/works/automobile.png',
       title: 'Automobile Usability Testing',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      sub: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/automobile-usability'
     }
   ];
 

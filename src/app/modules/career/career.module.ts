@@ -8,12 +8,11 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { JobApplyComponent } from './components/job-apply/job-apply.component';
-import { GraphicDesignDescriptionComponent } from './components/graphic-design-description/graphic-design-description.component';
 
 
 
 @NgModule({
-  declarations: [UiJobDescriptionComponent, JobApplyComponent, GraphicDesignDescriptionComponent],
+  declarations: [UiJobDescriptionComponent, JobApplyComponent],
   imports: [
     CommonModule,
     CareerRoutingModule,

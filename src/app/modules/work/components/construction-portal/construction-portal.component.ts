@@ -29,17 +29,20 @@ export class ConstructionPortalComponent implements OnInit {
     { 
       img: './assets/images/works/adapt 2.png',
       title: 'To adapt organic food as a Lifestyle',
-      sub: 'UX . UI . Mobile . B2C'
+      sub: 'UX . UI . Mobile . B2C',
+      url: '/work/health-care'
     },
     { 
       img: './assets/images/works/customer.png',
       title: 'A Customer Advocacy Platform',
-      sub: 'UX . UI . Web . Mobile . B2C'
+      sub: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/marketing'
     },
     { 
       img: './assets/images/works/Digital.png',
       title: 'Digital Transformation for telcom',
-      sub: 'UX . UI . Mobile . B2B'
+      sub: 'UX . UI . Mobile . B2B',
+      url: '/work/networking'
     }
   ];
 

@@ -192,15 +192,19 @@ background-color: #FFFFFF;
                 color: #6f6f6e;
             }
          }
-         svg:hover{
-           color: #C3343C!important;
-        
-          }
+        //  svg:hover{
+        //    color: #C3343C !important;
+        //   }
         .types{
             background-color: #FFFFFF;
             cursor: pointer;
             margin-bottom: 25px;
             margin-left: 10px;
+            &:hover{
+                svg{
+                    color: #C3343C !important;
+                }
+            }
         }
         .image{
             img{
