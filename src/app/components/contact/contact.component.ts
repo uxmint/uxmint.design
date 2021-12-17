@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { APIService } from '../../services/api.service';
-import { Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
+import { AlertService } from './../../services/alert.service';
 
 @Component({
   selector: 'app-contact',
@@ -11,7 +12,7 @@ import { Title } from '@angular/platform-browser';
 export class ContactComponent implements OnInit {
   active = 'query';
   form: FormGroup;
-  craeerform: FormGroup;
+  submitted = false;
   positions: any[] = [
     { id: 1, name : 'UX Consulting', value : 'UX Consulting', checked: false },
     { id: 2, name : 'UX Resourcing', value : 'UX Resourcing', checked: false },
@@ -22,60 +23,55 @@ export class ContactComponent implements OnInit {
     { id: 7, name : 'Digital Transformation', value : 'Digital Transformation', checked: false },
     { id: 8, name : 'Something more', value : 'Something more', checked: false }
   ];
-  careerPositions: any[] = [
-    { id: 1, name : 'UX Designer', value : 'UX Designer', checked: false },
-    { id: 2, name : 'UI Designer', value : 'UI Designer', checked: false },
-    { id: 3, name : 'Product Designer', value : 'Product Designer', checked: false },
-    { id: 4, name : 'Brand Consultant', value : 'Brand Consultant', checked: false },
-    { id: 5, name : 'Front-End Developer', value : 'Front-End Developer', checked: false },
-    { id: 6, name : 'Product Design', value : 'Product Design', checked: false }
-  ];
   position: any;
   careerposition: any;
 
-  constructor(private fb:FormBuilder, private apiService: APIService, private title:Title) {
+  constructor(private fb:FormBuilder, private apiService: APIService, private title:Title,private meta:Meta, private alert:AlertService) {
     this.form = this.fb.group({
       position: ['',Validators.required],
       name: ['',Validators.required],
       phone: ['',[Validators.required,Validators.pattern(/^\+?[0-9]{10}/)]],
-      email: ['',[Validators.required,Validators.pattern(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)]],
-      message: ['',Validators.required],
-      business: ['', Validators.required]
+      email: ['',[Validators.required,Validators.email]],
+      business: ['', Validators.required],
+      message: ['']
     });
-    this.craeerform = this.fb.group({
-      position: ['',Validators.required],
-      name: ['',Validators.required],
-      phonenumber: ['',[Validators.required,Validators.pattern(/^\+?[0-9]{10}/)]],
-      emailId: ['',[Validators.required,Validators.pattern(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)]],
-      portfolioUrl: ['',Validators.required]
-    });
+    this.title.setTitle('Uxmint Design - Contact Us');
+    this.meta.addTags([
+      {name: 'description', content: `We are eager to collaborate for Design Strategy or Customer Experience for your business.` },
+      {name: 'keywords', content: `Contact, Mail, Call, Address, Directions`}
+    ]);
    }
    onChange(value) {
     this.position = value;
   }
-  onCareerChange(value) {
-    this.careerposition = value;
-  }
   submit(){
-    console.log('Form', this.form.value);
-    let formData ={
-      position: this.position,
-      name: this.form.get('name').value,
-      phone: this.form.get('phone').value,
-      email: this.form.get('email').value,
-      message: this.form.get('message').value,
-      business: this.form.get('business').value
-    }
-        console.log('FormData-Contact', formData);
-        this.apiService.enquiryRequest(formData).subscribe(data => {
-          console.log(data);
-        })
-  }
-  submitcareer(){
-    
+    // console.log('Form', this.form.value);
+     this.submitted=true;
+    if(this.form.valid){
+      let formData ={
+        position: this.position,
+        name: this.form.get('name').value,
+        phone: this.form.get('phone').value,
+        email: this.form.get('email').value,
+        message: this.form.get('message').value,
+        business: this.form.get('business').value
+      }
+          // console.log('FormData-Contact', formData);
+          this.apiService.enquiryRequest(formData).subscribe(data => {
+            // console.log(data);
+            if(data.status == 'success'){
+              this.form.reset();
+              this.form.controls.position.setValue('');
+              this.alert.show('CONFIRMATION','Thank you for writing to us! We have received your message, our team will get in touch with you shortly.','OKAY','','success');
+            }else{
+              this.alert.show('ALERT','Oops, sorry something went wrong. Alternately you can write to <a href="mailto:hello@uxmint.in?subject=Query and Collabration!">hello@uxmint.inn</a> or reach out to us at <a href="tel:+91 9884053886">+91 9884053886</a> / <a href="tel:+91 9940410072">+91 9940410072</a>','OKAY','','failure');
+            }
+          });
+        }
   }
   ngOnInit(): void {
-    this.title.setTitle('Uxmint Design - Contact Us');
   }
-
+  hasError(control:string,validation:string):boolean{
+    return this.form.get(control).hasError(validation) && (this.form.get(control).touched || this.submitted)
+  }
 }

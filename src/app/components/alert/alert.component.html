@@ -1,0 +1,21 @@
+<div class="alert-box {{alertClass}}">
+    <div class="modal-header">
+        <h5 class="modal-title">{{ title }} </h5>
+        <button type="button" class="close" (click)="ngbActiveModal.close(false)">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="alert-text">
+          <p [innerHTML]="message"></p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" (click)="ngbActiveModal.close(false)" *ngIf="noBtn">
+          {{ noBtn }}
+        </button>
+        <button type="button" class="btn" (click)="ngbActiveModal.close(true)">
+          {{ yesBtn }}
+        </button>
+      </div>
+</div>
