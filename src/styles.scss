@@ -51,6 +51,17 @@ $uxmint-theme: mat-light-theme((
 *:active{
     outline: 0 !important;
 }
+.btn{
+    box-sizing: border-box;
+    &:focus,
+    &:active{
+        outline: 0 !important;
+    }
+}
+.btn:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
 app-root{
     min-height: 100vh;
     display: flex;

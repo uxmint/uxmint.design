@@ -150,8 +150,9 @@
         }
         .right-image{
             img{
-                width: 100%;
-                padding-top: 100px;
+                width: 97%;
+                padding-top: 120px;
+                margin-left: 30px;
             }
         }
     }
@@ -185,6 +186,13 @@
                 }
             }
         }
+        .left-image{
+            img{
+                width: 97%;
+                padding-top: 65px;
+                margin-left: -20px;
+            }
+        }
     }
     @include media-breakpoint-down(lg){
         .work-left{
@@ -193,15 +201,21 @@
         .work-right{
             padding: 85px;
         }
+        .right-image{
+            img{
+                padding-top: 75px!important;
+                margin-left: 30px;
+            }
+        }
     }
     @include media-breakpoint-down(sm){
         .work-left{
-            padding: 20px;
+            padding: 15px;
             .left-content{
                 padding: 90px 0px;
                 padding-bottom: 10px;
                 h2{
-                    font-size: 44px;
+                    font-size: 34px;
                 }
             }
             .right-image{
@@ -216,7 +230,7 @@
                 padding: 90px 0px;
                 padding-bottom: 10px;
                 h2{
-                    font-size: 44px;
+                    font-size: 34px;
                 }
             }
             .left-image{
@@ -230,7 +244,6 @@
         .work-left{
             .left-content{
                 padding: 48px 0px;
-                padding-bottom: 10px;
                 padding-bottom: 10px;
                 h2{
                     font-size: 38px;
@@ -247,12 +260,13 @@
                 padding: 90px 0px;
                 padding-bottom: 10px;
                 h2{
-                    font-size: 44px;
+                    font-size: 34px;
                 }
             }
             .left-image{
                 img{
                     width: 100%;
+                    margin-left: -60px;
                 }
             }
         }
@@ -262,7 +276,7 @@
             .right-image{
                 img{
                     width: 100%;
-                    margin-top: 70px;
+                    margin-top: 50px;
                 }
             }
         }
@@ -270,9 +284,38 @@
             .left-image{
                 img{
                     width: 100%;
-                    margin-top: 70px;
+                    margin-top: 50px;
+                    margin-left: -60px;
                 }
             }
         }
     }
+    @include media-breakpoint-down(sm){
+        .work-left{
+            .right-image{
+                img{
+                  margin-left: 0px;
+                  margin-top: 0px;
+                }
+            }
+        }
+        .work-right{
+            .left-image{
+                img{
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+            }
+        }
+        .work-left{
+            .left-content{
+              margin-left: -10px;
+            }
+        }
+        .work-right{
+            .right-content{
+            margin-left: -30px;
+        }
+    }
+}
 }

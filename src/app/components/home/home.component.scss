@@ -48,12 +48,16 @@ p{
         background-color: #E2E2E2;
         height: 700px;
         padding: 200px 0px;
+        @include media-breakpoint-down(lg){
+            height: 620px;
+        }
         @include media-breakpoint-down(md){
             height: 500px;
             padding: 180px 0px;
         }
         @include media-breakpoint-down(sm){
-            height: 500px;
+            padding: 160px 0px;
+            height: 480px;
         }
     }
     .feature-work{
@@ -64,6 +68,7 @@ p{
         .card{
             border: none;
             padding: 100px 170px 5px 0px;
+            margin-left: -15px;
         }
         .button{
             padding-top: 40px;
@@ -114,7 +119,7 @@ p{
         }
     }
     .products{
-        padding: 150px 0;
+        padding: 150px 0px;
 background-color: #FFFFFF;
         .button{
             padding-top: 40px;
@@ -165,7 +170,7 @@ background-color: #FFFFFF;
             }
         }
         @include media-breakpoint-down(sm){
-            padding: 100px 15px;
+            padding: 100px 0px;
             .button{
                 padding-top: 0px;
             }
@@ -274,7 +279,7 @@ background-color: #FFFFFF;
             width: 100%;
             padding: 10px;
             svg{
-                margin-left: 25px;
+                margin-left: 35px;
                 width: 40px;
             }
             h1{

@@ -262,7 +262,7 @@
         background-color: #FCFCFC;
         //padding: 100px 0px;
             .design-layout{
-                padding-left: 60px;
+                //padding-left: 60px;
                 h2{
                     font-family: Baskerville;
                     font-size: 56px;
@@ -317,9 +317,9 @@
             @include media-breakpoint-down(lg) {  
                 padding: 80px 0px;
                 .design-layout{
-                    padding-left: 60px;
+                    //padding-left: 60px;
                     .design-left{
-                        padding: 125px 25px;
+                        padding: 125px 0px;
                     }
                     .design-right{
                         padding: 125px 30px;
@@ -335,12 +335,12 @@
             @include media-breakpoint-down(md) {
                 padding: 60px 0px;
                 .design-layout{
-                    padding-left: 30px;
+                    //padding-left: 30px;
                     h2{
                         font-size: 36px;
                     }
                     .design-left{
-                            padding: 100px 5px 8px 35px;
+                            padding: 100px 5px 8px 0px;
                     }
                     .button{
                         margin-top: 80px;
@@ -374,10 +374,10 @@
     }
             @include media-breakpoint-down(sm) {
                 .design-layouts{
-                padding: 30px;
+                padding: 5px;
                 }
                 .design-layout{
-                    padding-left: 35px;
+                    //padding-left: 35px;
                     .design-left{
                         padding: 80px 15px;
                     }
