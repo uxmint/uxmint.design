@@ -277,11 +277,8 @@ background-color: #FFFFFF;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
             transition: 0.3s;
             width: 100%;
-            padding: 10px;
-            svg{
-                margin-left: 35px;
-                width: 40px;
-            }
+            padding: 20px 15px;
+            height: 130px;
             h1{
                 font-size: 56px;
                 color: #3B3B3B;
@@ -292,7 +289,7 @@ background-color: #FFFFFF;
                 font-size: 14px;
                 font-family: Muli;
                 color: #707071;
-                text-align: center;
+                //text-align: center;
             }
           }
           .cards:hover {
@@ -343,8 +340,10 @@ background-color: #FFFFFF;
                    font-size: 36px;
                    font-family: Baskerville;
                    font-weight: 400;
-                   color: #3B3B3B;
                    margin: 40px 130px 20px 40px;
+                   a{
+                    color: #3B3B3B;
+                   }
                }
                h4{
                    font-size: 18px;
@@ -554,7 +553,7 @@ background-color: #FFFFFF;
     display: flex;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    padding-left: 70px;
+    padding-left: 85px;
     }
     .icon{
         padding-right: 85px;

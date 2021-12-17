@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
-.blogs{
+.blog{
     .banner{
         background-color: #E2E2E2;
         padding-top: 140px;
@@ -43,21 +43,31 @@
             padding: 150px 0px;
         }
     }
-    .blog-layout2{
+    .blogs{
                  background-color: #F7F7F7;
                  padding: 150px 0px;
                  margin-top: -100px;
+                 .cards{
+                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                    transition: 0.3s;
+                    width: 95%;
+                    padding: 20px 15px;
+                    height: 500pxpx;
+                 }
              .image-center{
-                 padding: 0 40px;
+                 padding: 30px 30px;
                         h5{
-                            font-size: 28px;
-                            color: #3B3B3B;
+                            font-size: 20px;
                             padding-top: 25px;
                             font-family: Baskerville;
+                            a{
+                                color: #3B3B3B;
+                            }
                         }
                         span{
                             color: #707071;
                             font-family: Muli;
+                            font-size: 16px;
                         }
                         img{
                             width: 100%;
@@ -76,7 +86,7 @@
         .image-center{
             padding: 0 30px;
             h5{
-                font-size: 24px;
+                font-size: 20px;
             }
         }  
     }
@@ -84,7 +94,9 @@
         padding: 110px 0px;
         .image-center{
             padding: 0 20px;
-           
+            h5{
+                font-size: 18px;
+            }
             }  
         }             
     }
