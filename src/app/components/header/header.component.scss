@@ -98,10 +98,20 @@ button{
     }
 }
 @include media-breakpoint-down(sm){
+   
     .menu-content{
-        padding: 100px 10px;
+        padding: 70px 50px;
         li{
             padding: 10px 0px;
         }
     }
+    .menu-footer{
+      li{
+            margin-bottom: 20px;
+        }
+    
+    h5{
+        margin-bottom: 20px;
+    }
+}
 }

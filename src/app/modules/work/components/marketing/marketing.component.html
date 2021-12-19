@@ -139,7 +139,8 @@
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">
-                                <img [src]="item.img">
+                                <a [routerLink]="item.url"><img [src]="item.img"></a>
+                                
                             </div>
                             <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
                             <h4>{{ item.sub }}</h4>
