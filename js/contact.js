@@ -192,6 +192,9 @@ if (jQuery().validate) {
           contentType: false,
           processData: false,
           method: 'POST',
+          headers: {
+            'Accept': 'application/json, text/plain, */*'
+          }
           beforeSend: function(){
             $('.modal.progress').css('display', 'flex');
           },
