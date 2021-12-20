@@ -99,12 +99,15 @@ if (jQuery().validate) {
           formData.append(field.name,field.value);
       });
       jQuery.ajax({
-          url: 'https://uxmint.in/uxmint.design/enquire.php',
+          url: 'https://www.uxmint.in/uxmint.design/enquire.php',
           data: formData,
           cache: false,
           contentType: false,
           processData: false,
           method: 'POST',
+          headers: {
+            'Accept': 'application/json, text/plain, */*'
+          },
           beforeSend: function(){
             $('.modal.progress').css('display', 'flex');
           },
@@ -183,12 +186,15 @@ if (jQuery().validate) {
       console.log(res.value);
       formData.append('resume', $('#resume')[0].files[0], $('#resume')[0].files[0].name);
       jQuery.ajax({
-          url: 'https://uxmint.in/uxmint.design/careerRequest.php',
+          url: 'https://www.uxmint.in/uxmint.design/careerRequest.php',
           data: formData,
           cache: false,
           contentType: false,
           processData: false,
           method: 'POST',
+          headers: {
+            'Accept': 'application/json, text/plain, */*'
+          },
           beforeSend: function(){
             $('.modal.progress').css('display', 'flex');
           },
