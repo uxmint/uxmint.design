@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-6 left-layout">
                 <div class="container">
-                    <h3>Way it be a software or physical product we cover a broad spectrum to test and validate the efficiency and effectiveness of the product</h3>
+                    <h3>Way it be a software or physical product we cover a broad spectrum to test and validate the efficiency and effectiveness of the design</h3>
                 </div>
             </div>
             <div class="col-md-6 right-layout">
@@ -305,4 +305,32 @@
          </div>
        
       </div>
+      <div class="other-case-studies">
+        <div class="row">
+            <div class="col-md-6 left">
+                <h2>Case Studies</h2>
+                <div class="button">
+                    <div class="btn btnn" routerLink="/works">See All Works</div>
+                </div>
+            </div>
+            <div class="col-md-6 right">
+                <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="otherCaseStudies">
+                    <ngu-tile *nguCarouselDef="let item; let i = index">
+                        <div class="class">
+                            <div class="image">
+                                <a [routerLink]="item.url"><img [src]="item.img"></a>
+                            </div>
+                            <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
+                            <h4>{{ item.sub }}</h4>
+                        </div>
+                    </ngu-tile>
+                    <ul class="ngucarousel-indicator" NguCarouselPoint>
+                      <li *ngFor="let pointer of blogCarousel.pointNumbers; let i = index">
+                        <a (click)="blogCarousel.moveTo(i)" [class.active]="blogCarousel.activePoint == i">&nbsp;</a>
+                      </li>
+                    </ul>
+                </ngu-carousel>
+            </div>
+        </div>
+    </div>
 </div>

@@ -25,16 +25,16 @@
                   <div class="col-md-5">
                      <div class="form-group bg-light">
                         <label class="label" for="name">Name</label>
-                        <input type="text" class="form-control" formControlName="name" name="name" id="name" placeholder=" Your name">
+                        <input type="text" class="form-control" formControlName="name" name="name" id="name" placeholder="Your name">
                      </div>
                      <div *ngIf="hasError('name','required')" class="form-text">Please enter Name</div>
                   </div>
                   <div class="col-md-5">
                      <div class="form-group bg-light">
                         <label class="label" for="email">Email </label>
-                        <input type="email" class="form-control" formControlName="email" name="email" id="email" placeholder=" Your@email.com">
+                        <input type="email" class="form-control" formControlName="email" name="email" id="email" placeholder="Your@email.com">
                      </div>
-                     <div *ngIf="hasError('email','email')" class="form-text">Please enter valid email ID</div>
+                     <div *ngIf="hasError('email','email')" class="form-text">The email should be in the format: abc@domain.tld</div>
                      <div *ngIf="hasError('email', 'required')" class="form-text">Please enter email ID</div>
                   </div>
                </div>
@@ -42,7 +42,7 @@
                   <div class="col-md-5">
                      <div class="form-group bg-light">
                         <label class="label" for="phone">Phone</label>
-                        <input type="text" class="form-control" formControlName="phone" name="phone" id="phone" placeholder=" Your phone number">
+                        <input type="text" class="form-control" formControlName="phone" name="phone" id="phone" placeholder="Your phone number">
                      </div>
                      <div *ngIf="hasError('phone','required')" class="form-text">Please enter Mobile number</div>
                      <div *ngIf="hasError('phone','pattern')" class="form-text">Please enter valid Mobile number</div>
@@ -50,7 +50,7 @@
                   <div class="col-md-5">
                      <div class="form-group bg-light">
                         <label class="label" for="business">Business/ Organisation</label>
-                        <input type="text" class="form-control" formControlName="business" name="business" id="business" placeholder=" Your Business/Organisation">
+                        <input type="text" class="form-control" formControlName="business" name="business" id="business" placeholder="Your Business/Organisation">
                      </div>
                      <div *ngIf="hasError('business','required')" class="form-text">Please enter Business/ Organisation</div>
                   </div>
@@ -59,8 +59,10 @@
                   <div class="col-md-10">
                      <div class="form-group bg-light">
                         <label class="label" for="message">Message</label>
-                        <textarea name="message" class="form-control" formControlName="message" id="message" cols="30" rows="4" placeholder=" Start typing here..."></textarea>
+                        <textarea name="message" class="form-control" formControlName="message" id="message" cols="30" rows="4" placeholder="Start typing here..."></textarea>
                      </div>
+                     <div *ngIf="hasError('message','required')" class="form-text">Please enter message</div>
+                     <div *ngIf="hasError('message','minlength')" class="form-text">Message should be at least 15 characters</div>
                   </div>
                </div>
                <div class="row">
@@ -89,7 +91,7 @@
             </div>
             <div class="col-md-6 only-mobile">
                   <div class="map-route">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.638548413615!2d80.2329289!3d12.9295839!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd520a88b9abf07ec!2sUXMINT!5e0!3m2!1sen!2sin!4v1617021616096!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.630321513676!2d80.2329007!3d12.9297159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6cbe4ea9c7e5f037!2suxmint.design!5e0!3m2!1sen!2sin!4v1639991627222!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
             </div>
          </div>

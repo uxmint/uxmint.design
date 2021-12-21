@@ -5,7 +5,7 @@
     padding-top: 0px;
 }
 .banner{
-    background-color: #F5E69D;
+    background-color: #FFD855;
     padding-top: 140px;
     height: 700px;
     padding: 200px 0px;
@@ -22,7 +22,7 @@
         font-size: 26px;
         padding-top: 25px;
         color: #3B3B3B;
-        font-family: Muli;
+        font-family: Mulish;
          span a{
             color: #C3343C;
             text-decoration: underline;
@@ -76,7 +76,7 @@
     cursor: pointer;
     font-size: 20px;
     padding: 5px 20px;
-    font-family: Muli;
+    font-family: Mulish;
     &:hover{
         background-color: #C3343C;
         color: #FFFFFF;
@@ -103,10 +103,11 @@
             display: block;
             position: relative;
             padding-left: 15px;
-            margin: 30px 0px;
+            margin: 20px 0px;
             cursor: pointer;
+            line-height: 34px;
             font-size: 20px;
-            font-family: Muli;
+            font-family: Mulish;
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
@@ -227,7 +228,7 @@
         margin: 0 auto;
     }
     .map-route{
-        padding: 40px 0px
+        padding: 0px
     }
     .layout-left{
         padding: 100px 80px;
@@ -241,14 +242,14 @@
             font-size: 18px;
             color: #707071;
             margin-top: 40px;
-            font-family: Muli;
+            font-family: Mulish;
             line-height: 30px;
         }
         h4{
             font-size: 18px;
             color: #3B3B3B;
             margin-top: 40px;
-            font-family: Muli;
+            font-family: Mulish;
         }
     }
     img{
@@ -303,7 +304,7 @@ p{
     font-size: 18px;
     color: #707071;
     padding-bottom: 20px;
-    font-family: Muli;
+    font-family: Mulish;
 }
     }
     @include media-breakpoint-down(lg) {
@@ -344,8 +345,9 @@ p{
 .form-control{
     border: none;
     font-size: 20px;
+    font-family: Mulish;
     background-color: #f8f9fa;
-    padding-left: 5px;
+    padding-left: 10px;
     box-shadow: none !important;
 }
 .label{
@@ -361,4 +363,14 @@ iframe {
   }
   .form-text {
     color: #dc3545;
+    margin-bottom: 15px;
+    margin-top: -14px;
+    font-family: Mulish;
 }
+::placeholder { 
+    color: #6A737C;
+    font-size: 16px;
+    opacity: 0.6; 
+    font-weight: 400;
+    font-family: Mulish;
+  }

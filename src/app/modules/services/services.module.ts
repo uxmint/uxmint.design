@@ -8,6 +8,7 @@ import { UiDevelopmentComponent } from './components/ui-development/ui-developme
 import { EndToEndDevelopmentComponent } from './components/end-to-end-development/end-to-end-development.component';
 import { UsabilityTestingComponent } from './components/usability-testing/usability-testing.component';
 import { NgbNavModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NguCarouselModule } from '@ngu/carousel';
 
 @NgModule({
   declarations: [UserExperienceComponent, InterfaceDesignComponent, UiDevelopmentComponent, EndToEndDevelopmentComponent, UsabilityTestingComponent],
@@ -15,7 +16,8 @@ import { NgbNavModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CommonModule,
     ServicesRoutingModule,
     NgbNavModule,
-    NgbModule
+    NgbModule,
+    NguCarouselModule,
   ]
 })
 export class ServicesModule { }

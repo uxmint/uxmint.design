@@ -26,7 +26,7 @@
         h4{
             font-size: 26px;
             color: #3B3B3B;
-            font-family: Muli;
+            font-family: Mulish;
             span{
                 color: #C3343C;  
             }
@@ -65,7 +65,7 @@
             font-size: 20px;
             color: #3B3B3B;
             padding-top: 10px;
-            font-family: Muli;
+            font-family: Mulish;
         }   
 .design-layout{
             background-color: #ebebeb;
@@ -83,7 +83,7 @@
                 cursor: pointer;
                 font-size: 20px;
                 padding: 10px 20px;
-                font-family: Muli;
+                font-family: Mulish;
                 &:hover{
                     background-color: #C3343C;
                     color: #FFFFFF;
@@ -152,7 +152,7 @@
                         cursor: pointer;
                         font-size: 20px;
                         padding: 10px 20px;
-                        font-family: Muli;
+                        font-family: Mulish;
                         &:hover{
                             background-color: #C3343C;
                             color: #FFFFFF;
@@ -282,7 +282,7 @@
                     cursor: pointer;
                     font-size: 20px;
                     padding: 10px 20px;
-                    font-family: Muli;
+                    font-family: Mulish;
                     &:hover{
                         background-color: #C3343C;
                         color: #FFFFFF;
@@ -291,15 +291,10 @@
                 }
             }
             .design-layouts{
-                padding: 160px 40px;
-                    .layouts{
-                        height: 500px;
-                        //overflow: auto;
-                        padding-top: 80px;
-                    }
-                    ::-webkit-scrollbar {
-                        width: 0px;
-                    }
+                padding: 160px 40px 40px 40px;
+                .design-right{
+                    margin-bottom: 80px;
+                }
                 h5{
                     font-size: 36px;
                     color: #3B3B3B;
@@ -309,10 +304,7 @@
                     font-size: 18px;
                     color: #707071;
                     font-weight: 400;
-                    font-family: Muli;
-                }
-                .design-rights{
-                    padding: 0px 30px;
+                    font-family: Mulish;
                 }
             }
             @include media-breakpoint-down(lg) {  
@@ -331,6 +323,9 @@
                 }
                 .design-layouts{
                     padding-top: 140px;
+                    .design-right{
+                        margin-bottom: 80px;
+                    }
                 }
             }
             @include media-breakpoint-down(md) {
@@ -357,20 +352,10 @@
                 }
                 .design-layouts{
                     padding-top: 100px;
-                    .layouts{
-                       // height: 500px;
-                       // overflow: auto;
-                h5{
-                    font-size: 28px;
-                }
-                p{
-                    font-size: 20px;
-                    font-weight: 400;
-                }
-                .design-right{
-                    padding: 100px 25px;
-                }
-            }
+                    .design-right{
+                        margin-bottom: 40px;
+                    }
+                    
         }
     }
             @include media-breakpoint-down(sm) {
@@ -394,7 +379,7 @@
                         height: 100%;
                        overflow: visible;
                        .design-right{
-                        padding: 45px 30px;
+                        padding: 20px;
                         h5{
                             font-size: 28px;
                         }
@@ -491,7 +476,7 @@
                 h6{
                     font-size: 20px;
                     color: #FCFCFC;
-                    font-family: Muli;
+                    font-family: Mulish;
                 }
                 .button{
                     margin-top: 60px;
@@ -505,7 +490,7 @@
                     font-size: 20px;
                     padding: 10px 20px;
                     border-radius: 0px;
-                    font-family: Muli;
+                    font-family: Mulish;
                 }
             }
             @include media-breakpoint-down(lg) { 

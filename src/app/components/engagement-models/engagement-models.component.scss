@@ -18,12 +18,16 @@
             span{
                 color: #FFFFFF;
             }
+            #nextline::after{
+                content: "\a";
+                white-space: pre;
+            }
         }
         h6{ 
             font-size: 36px;
             padding-top: 25px;
             color: #3B3B3B;
-            font-family: Muli;
+            font-family: Mulish;
              span{
                 color: #FFFFFF;
                 //border-bottom: 2px solid #FFF;
@@ -35,6 +39,14 @@
     .banner{
         height: 670px;
         padding: 245px 0px;
+        .engagement-layout{
+            h1{
+                #nextline::after{
+                    content: "\a";
+                    white-space: pre;
+                }
+            }
+        }
     }
 }
 @include media-breakpoint-down(md) {
@@ -44,6 +56,10 @@
         .engagement-layout{
             h1{
                 font-size: 36px;
+                #nextline::after{
+                    content: "\a";
+                    white-space: none;
+                }
             }
             h6{ 
                 font-size: 24px;
@@ -150,7 +166,7 @@
         p{
             font-size: 18px;
             color: #FFFFFF;
-            font-family: Muli;
+            font-family: Mulish;
         }
         h2{
             font-size: 48px;
@@ -170,7 +186,7 @@
           p{
             font-size: 18px;
             color: #FFFFFF;
-            font-family: Muli;
+            font-family: Mulish;
         }
     }
     .mt-2, .my-2 {

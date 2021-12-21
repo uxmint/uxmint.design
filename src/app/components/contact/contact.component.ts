@@ -33,11 +33,11 @@ export class ContactComponent implements OnInit {
       phone: ['',[Validators.required,Validators.pattern(/^\+?[0-9]{10}/)]],
       email: ['',[Validators.required,Validators.email]],
       business: ['', Validators.required],
-      message: ['']
+      message: ['', [Validators.required,Validators.minLength(15)]]
     });
     this.title.setTitle('Uxmint Design - Contact Us');
     this.meta.addTags([
-      {name: 'description', content: `We are eager to collaborate for Design Strategy or Customer Experience for your business.` },
+      {name: 'description', content: `We are eager to collaborate for Design Strategy or Customer Experience Design for your business. Drop an email to <a href="mailto:hello@uxmint.in?subject=Query and Collabration!">hello@uxmint.inn</a>` },
       {name: 'keywords', content: `Contact, Mail, Call, Address, Directions`}
     ]);
    }
@@ -59,7 +59,7 @@ export class ContactComponent implements OnInit {
           // console.log('FormData-Contact', formData);
           this.apiService.enquiryRequest(formData).subscribe(data => {
             // console.log(data);
-            if(data.status == 'success'){
+            if(data.success == true){
               this.form.reset();
               this.form.controls.position.setValue('');
               this.alert.show('CONFIRMATION','Thank you for writing to us! We have received your message, our team will get in touch with you shortly.','OKAY','','success');

@@ -22,7 +22,7 @@ h2{
 }
 h3{
     font-size: 24px;
-    font-family: Muli;
+    font-family: Mulish;
     color: #707071;
     margin-bottom: 30px;
 }
@@ -37,7 +37,7 @@ p{
     font-size: 18px;
     color: #707071;
     padding-top: 10px;
-    font-family: Muli;
+    font-family: Mulish;
     @include media-breakpoint-down(md) {
         font-size: 16px;
     }
@@ -46,6 +46,8 @@ p{
 .home{
     .banner{
         background-color: #E2E2E2;
+        // background-image: url('/assets/images/layout-2.png');
+        // background-position: center;
         height: 700px;
         padding: 200px 0px;
         @include media-breakpoint-down(lg){
@@ -192,9 +194,6 @@ background-color: #FFFFFF;
                 color: #6f6f6e;
             }
          }
-        //  svg:hover{
-        //    color: #C3343C !important;
-        //   }
         .types{
             background-color: #FFFFFF;
             cursor: pointer;
@@ -291,7 +290,7 @@ background-color: #FFFFFF;
           
             p{
                 font-size: 14px;
-                font-family: Muli;
+                font-family: Mulish;
                 color: #707071;
                 //text-align: center;
             }
@@ -351,7 +350,7 @@ background-color: #FFFFFF;
                }
                h4{
                    font-size: 18px;
-                   font-family: Muli;
+                   font-family: Mulish;
                    color: #707071;
                    margin: 0 0 10px 40px;
                }
@@ -426,7 +425,7 @@ background-color: #FFFFFF;
             cursor: pointer;
             padding: 10px 20px;
             border-radius: 0px;
-            font-family: Muli;
+            font-family: Mulish;
             &:hover{
                 background-color: #FFFFFF;
                 color: #C3343C;
@@ -530,7 +529,7 @@ background-color: #FFFFFF;
     cursor: pointer;
     font-size: 20px;
     padding: 10px 20px;
-    font-family: Muli;
+    font-family: Mulish;
     margin-top: 30px;
     &:hover{
         background-color: #C3343C;
@@ -545,7 +544,7 @@ background-color: #FFFFFF;
     cursor: pointer;
     font-size: 20px;
     padding: 10px 20px;
-    font-family: Muli;
+    font-family: Mulish;
     &:hover{
         background-color: #C3343C;
         color: #FFFFFF;
@@ -566,7 +565,7 @@ background-color: #FFFFFF;
     border: 1px solid #fff;
     padding: 2px 0px;
     margin: 20px;
-    background-color: #ffffff;
+    background-color: #e2e2e2;
     }
     .custom-slider-main::-webkit-scrollbar {
     width: 0px;

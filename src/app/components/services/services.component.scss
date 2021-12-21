@@ -15,19 +15,22 @@
             font-weight: 400;
             color: #FFF;
             font-family: Baskerville;
-        }
-        h2{
-            font-size: 60px;
-            font-weight: 400;
-            margin-bottom: 40px;
-            color: #3B3B3B;
-            font-family: Baskerville;
+            span{
+                font-size: 60px;
+                font-weight: 400;
+                color: #3B3B3B;
+                font-family: Baskerville;
+            }       
+            #nextline::before{
+                content: "\a";
+                white-space: pre;
+            }
         }
         h3{
             font-size: 36px;
             font-weight: 400;
             color: #FFF;
-            font-family: Muli;
+            font-family: Mulish;
             a{
                 color: #3B3B3B;
                 text-decoration: underline;
@@ -36,14 +39,25 @@
         }
         @include media-breakpoint-down(lg){
             height: 750px;
+            h1{
+                #nextline::before{
+                    content: "\a";
+                    white-space: pre;
+                }
+            }
         }
         @include media-breakpoint-down(md){
             height: 615px;
             h1{
                 font-size: 36px;
-            }
-            h2{
-                font-size: 36px;
+                span{
+                    font-size: 36px;
+                    margin-left: 10px;
+                }
+                #nextline::before{
+                    content: "";
+                    white-space: none;
+                }
             }
             h3{
                 font-size: 24px;
@@ -62,19 +76,19 @@
             font-weight: 300;
             cursor: pointer;
             font-family: Baskerville;
-        }
-        h2{
-            font-size: 56px;
-            font-weight: 500;
-            margin-bottom: 30px;
-            font-family: Baskerville;
+            h2{
+                font-size: 56px;
+                font-weight: 500;
+                margin-bottom: 30px;
+                font-family: Baskerville;
+            }
         }
         p{
             font-size: 18px;
             font-weight: 300;
             margin-bottom: 60px;
             line-height: 40px;
-            font-family: Muli;
+            font-family: Mulish;
         }
         .btn{
             font-size: 20px;
@@ -82,7 +96,7 @@
             background-color: #FFF;
             color: #5277BA;
             border-radius: 0;
-            font-family: Muli;
+            font-family: Mulish;
             img{
                 padding-left: 15px;
             }
@@ -114,16 +128,18 @@
     @include media-breakpoint-down(sm) {
 
         .types-responsive{
-            margin-top: 75px;
+            margin-top: 0px;
             display: block;
             ::ng-deep{
                 .card{
-                    background-color: #FFFFFF !important;
+                    background-color: #5277BA !important;
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 0px;
                 }
             }
             ::ng-deep{
             .card-header {
-                background-color: #FFFFFF !important;
+                background-color: #5277BA !important;
             }
             .btn-link:hover {
                 color: #C3343C;
@@ -154,16 +170,16 @@
         }
         h2{
             font-size: 20px;
-            color: #282829;
+            color: #ffffff;
             font-family: Baskerville;
         }
         .design-left{
             padding: 40px 20px;
                 p{
                     font-size: 18px;
-                    color: #282829;
+                    color: #ffffff;
                     padding-top: 10px;
-                    font-family: Muli;
+                    font-family: Mulish;
                 }
                 .li{
                     font-size: 20px;
@@ -197,7 +213,7 @@
             color: #707071;
             margin-bottom: 60px;
             line-height: 35px;
-            font-family: Muli;
+            font-family: Mulish;
         }
         .nav-link{
             color: #282829;
@@ -283,7 +299,7 @@
                     font-size: 18px;
                     color: #282829;
                     padding-top: 10px;
-                    font-family: Muli;
+                    font-family: Mulish;
                 }
                 .li{
                     font-size: 20px;

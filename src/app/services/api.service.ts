@@ -6,12 +6,16 @@ import { HttpClient } from '@angular/common/http';
 })
 export class APIService {
 
-  private basePath:string = 'https://uxmint.in/uxmint.design/'
+  private basePath:string = 'https://www.uxmint.in/uxmint.design/'
 
   constructor(private http:HttpClient) { }
 
   enquiryRequest(enquiry){
-    return this.http.post<any>(`${this.basePath}enquiry.php`,enquiry);
+    let formData: FormData = new FormData();
+    Object.keys(enquiry).forEach(key => {
+        formData.append(key,enquiry[key]);
+    });
+    return this.http.post<any>(`${this.basePath}enquire.php`,formData);
   }
 
   careerRequest(career, resume: File){

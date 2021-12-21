@@ -17,10 +17,30 @@ header{
     flex-wrap: nowrap;
     cursor: pointer;
 }
-img{
-    margin-left: -45px;
-    padding-top: 7px;
+.ux-logo{
+    img{
+        margin-right: 85px;
+        padding-top: 10px;
+        margin-left: 35px;
+        @include media-breakpoint-down(lg){
+            margin-right: 24px;
+            padding-top: 10px;
+            margin-left: 0px;
+        }
+        @include media-breakpoint-down(md){
+            margin-right: 32px;
+            padding-top: 10px;
+            margin-left: 0px;
+        }
+        @include media-breakpoint-down(sm){
+            margin-right: -16px;
+            padding-top: 10px;
+            margin-left: 0px;
+        }
+       
+    }
 }
+
 
 .line{
     border-left: 1px solid #AAAAAA;
@@ -28,14 +48,14 @@ img{
   margin-top: 8px;
     }
 h2{
-font-family: Muli;
+font-family: Mulish;
 font-size: 14px;
 color: #000000;
 margin-left: -10px;
 padding-top: 5px;
 }
 .nav-link{
-    font-family: Muli;
+    font-family: Mulish;
     font-size: 16px;
     color: #505050;
     font-weight: 400;
@@ -50,20 +70,33 @@ padding-top: 5px;
     cursor: pointer;
     position: relative;
     margin-left: 30px;
-    img{
-        height: 20px;
-        width: auto;
-       margin-left: 0px;
-        margin-top: -5px;
+    @include media-breakpoint-down(lg){
+        margin-left: 30px;
     }
-    /*&::before{
-        content: '';
-        border-left: 1px solid #AAA;
-        position: absolute;
-        height: 20px;
-        margin-left: -35px;
-        top: 11px;
-    }*/
+    @include media-breakpoint-down(md){
+        margin-left: 4px;
+    }
+    @include media-breakpoint-down(sm){
+        margin-left: 2px;
+    }
+    img{
+        height: 16px;
+        width: auto;
+        margin-left: 0px;
+        margin-top: -5px;
+        @include media-breakpoint-down(lg){
+            height: 28px;
+            margin-top: -5px;
+        }
+        @include media-breakpoint-down(md){
+            height: 24px;
+            margin-top: -10px;
+        }
+        @include media-breakpoint-down(sm){
+            height: 21px;
+            margin-top: -5px;
+        }
+    }
 }
 @include media-breakpoint-down(lg){
     img{
@@ -74,7 +107,7 @@ padding-top: 5px;
       margin-left: 85px;
         }
         .nav-item{
-            margin-left: 45px;
+            margin-left: 57px;
         }
 
 }
@@ -87,7 +120,7 @@ padding-top: 5px;
         }
         .menu-activator{
             img{
-               margin-left: -18px;
+               margin-left: 15px;
             }
         }
 
@@ -156,7 +189,7 @@ footer{
         a{
             font-size: 14px;
             color: #707070;
-           font-family: Muli;
+           font-family: Mulish;
         }
         span{
             color: #707070;

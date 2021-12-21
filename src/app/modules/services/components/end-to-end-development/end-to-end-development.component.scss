@@ -22,7 +22,7 @@
     p{
         font-size: 18px;
         color: #707071;
-        font-family: Muli;
+        font-family: Mulish;
     }
     @include media-breakpoint-down(lg){
         .row{
@@ -110,7 +110,7 @@
         font-size: 18px;
         font-weight: 200;
         margin-top: 40px;
-        font-family: Muli;
+        font-family: Mulish;
     }
     .list{
         padding: 30px;
@@ -118,7 +118,7 @@
             font-size: 20px;
             margin-left: 5px;
             font-weight: 200;
-            font-family: Muli;
+            font-family: Mulish;
         }
     }
     @include media-breakpoint-down(lg){
@@ -195,7 +195,7 @@
     p{
          font-size: 18px;
         line-height: 40px;
-        font-family: Muli;
+        font-family: Mulish;
     }
     @include media-breakpoint-down(lg){
         padding: 200px 0px;
@@ -216,7 +216,7 @@
     }
     p{
          font-size: 18px;
-         font-family: Muli;
+         font-family: Mulish;
         line-height: 40px;
     }
     @include media-breakpoint-down(lg){
@@ -252,7 +252,7 @@
         font-size: 16px;
         line-height: 30px;
         margin-top: 40px;
-        font-family: Muli;
+        font-family: Mulish;
     }
     .li{
         font-size: 16px;

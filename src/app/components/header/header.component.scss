@@ -8,8 +8,8 @@
 }
 button{
     position: absolute;
-    right: 30px;
-    top: 20px;
+    right: 54px;
+    top: 14px;
     background-color: transparent;
     border: 0;
     color: #FFF;
@@ -18,13 +18,17 @@ button{
         border: 0;
         outline: 0;
     }
+    @include media-breakpoint-down(sm){
+        right: 28px;
+        top: 14px;
+    }
 }
 .menu-content{
     padding: 60px;
     flex-grow: 1;
     h3{
-        color: #999;
-        font-size: 16px;
+        color: #e5e5e5;
+        font-size: 18px;
         padding-top: 27px;
         text-transform: uppercase;
     }
@@ -38,16 +42,16 @@ button{
         margin-bottom: 10px;
         padding-top: 27px;
         a{
-            font-family: Muli;
-            font-size: 16px;
-            color: #707070;
+            font-family: Mulish;
+            font-size: 18px;
+            color: #fbe1df;
             &:hover{
                 text-decoration: none;
             }
         }
     }
     .small a{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 .menu-footer{

@@ -22,7 +22,7 @@
     p{
         font-size: 18px;
         color: #707071;
-        font-family: Muli;
+        font-family: Mulish;
     }
     @include media-breakpoint-down(lg){
         .row{
@@ -110,7 +110,7 @@
         font-size: 18px;
         font-weight: 200;
         margin-top: 40px;
-        font-family: Muli;
+        font-family: Mulish;
     }
     .list{
         padding: 30px;
@@ -118,7 +118,7 @@
             font-size: 20px;
             margin-left: 5px;
             font-weight: 200;
-            font-family: Muli;
+            font-family: Mulish;
         }
     }
     @include media-breakpoint-down(lg){
@@ -191,7 +191,7 @@
     p{
          font-size: 18px;
         line-height: 40px;
-        font-family: Muli;
+        font-family: Mulish;
     }
     h3{
         font-size: 36px;
@@ -233,7 +233,7 @@
         font-size: 16px;
         line-height: 30px;
         margin-top: 40px;
-        font-family: Muli;
+        font-family: Mulish;
     }
     .li{
         font-size: 16px;
@@ -338,3 +338,119 @@
         margin-right: 10px;
     }
 }
+// Carousel
+
+.other-case-studies{
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+        .col-md-6.right{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+   .left{
+       padding: 40px 130px 80px 90px;
+       background-color: #EBEBEB;
+       h2{
+           font-size: 57px;
+           font-family: Baskerville;
+           color: #282829;
+           margin-top: 120px;
+           margin-bottom: 80px;
+       }
+       @include media-breakpoint-down(md){
+        padding: 100px 40px 80px 30px;
+        h2{
+            font-size: 30px;
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+        .btn{
+            font-size: 16px;
+        }
+       }
+       @include media-breakpoint-down(sm){
+        padding: 0px 40px 80px 20px;
+       }
+   }
+   .right{
+       .class{
+           .image{
+               img{
+                   width: 100%;
+               }
+           }
+           h3{
+               font-size: 36px;
+               font-family: Baskerville;
+               margin: 40px 130px 20px 40px;
+               a{
+                color: #3B3B3B; 
+               }
+           }
+           h4{
+            font-family: Mulish;
+            font-size: 20px;
+               margin: 0 0 10px 40px;
+           }
+       }
+       @include media-breakpoint-down(md){
+        .class{
+            h3{
+                font-size: 24px;
+            }
+        }
+       }
+   }
+}
+.item{
+padding: 0;
+}
+.ngucarousel-indicator{
+width: 100%;
+padding-bottom: 20px;
+padding-top: 30px;
+padding-left: 40px;
+li{
+    display: inline-block;
+    line-height: 22px;
+    a{
+        display: block;
+        margin: 0 5px;
+        width: 15px;
+        height: 15px;
+       // border: 2px solid #FFF;
+        background-color: #D0D0D0 !important;
+        text-indent: -999px;
+        overflow: hidden;
+        border-radius: 10px;
+        cursor: pointer;
+        &.active{
+            width: 11px;
+            height: 11px;
+            border: 8px solid #C3343C;
+            background-color: #C3343C !important;
+        }
+    }
+}
+}
+::ng-deep .tile{
+border-radius: 15px;
+box-shadow: none !important;
+}
+.btnn{
+    border: 2px solid #0D0D0D;
+    border-radius: 0;
+    color: #0D0D0D;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Mulish;
+    padding: 10px 15px;
+    &:hover{
+        background-color: #C3343C;
+        color: #FFFFFF;
+        border: 2px solid #E2E2E2;
+    }
+}
+// Carousel

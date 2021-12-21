@@ -37,6 +37,11 @@ $uxmint-theme: mat-light-theme((
 @import './scss/bootstrap.scss';
 @import './scss/bootstrap-custom.scss';
 
+@import './scss/asset.path';
+
+//WebFont
+@import './scss/fonts';
+
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
@@ -81,11 +86,17 @@ app-root{
         padding: 0 90px;
         margin: 0 auto;
     }
+    .header-container{
+        max-width: 1900px;
+    }
 }
 @include media-breakpoint-down(lg) {
     .container{
         max-width: 960px;
         padding: 0 30px;
+    }
+    .header-container{
+        max-width: 1050px;
     }
 }
 @include media-breakpoint-down(md) {
@@ -93,11 +104,17 @@ app-root{
         max-width: 720px;
         padding: 0 20px;
     }
+    .header-container{
+        max-width: 720px;
+    }
 }
 @include media-breakpoint-down(sm) {
     .container{
         max-width: 540px;
         padding: 0 20px;
+    }
+    .header-container{
+        max-width: 540px;
     }
 }
 .text-right{
