@@ -22,7 +22,7 @@
         font-size: 26px;
         padding-top: 25px;
         color: #3B3B3B;
-        font-family: Mulish;
+        font-family: 'Mulish';
          span a{
             color: #C3343C;
             text-decoration: underline;
@@ -76,7 +76,7 @@
     cursor: pointer;
     font-size: 20px;
     padding: 5px 20px;
-    font-family: Mulish;
+    font-family: 'Mulish';
     &:hover{
         background-color: #C3343C;
         color: #FFFFFF;
@@ -107,7 +107,7 @@
             cursor: pointer;
             line-height: 34px;
             font-size: 20px;
-            font-family: Mulish;
+            font-family: 'Mulish';
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
@@ -242,14 +242,14 @@
             font-size: 18px;
             color: #707071;
             margin-top: 40px;
-            font-family: Mulish;
+            font-family: 'Mulish';
             line-height: 30px;
         }
         h4{
             font-size: 18px;
             color: #3B3B3B;
             margin-top: 40px;
-            font-family: Mulish;
+            font-family: 'Mulish';
         }
     }
     img{
@@ -304,7 +304,7 @@ p{
     font-size: 18px;
     color: #707071;
     padding-bottom: 20px;
-    font-family: Mulish;
+    font-family: 'Mulish';
 }
     }
     @include media-breakpoint-down(lg) {
@@ -345,7 +345,7 @@ p{
 .form-control{
     border: none;
     font-size: 20px;
-    font-family: Mulish;
+    font-family: 'Mulish';
     background-color: #f8f9fa;
     padding-left: 10px;
     box-shadow: none !important;
@@ -365,12 +365,12 @@ iframe {
     color: #dc3545;
     margin-bottom: 15px;
     margin-top: -14px;
-    font-family: Mulish;
+    font-family: 'Mulish';
 }
 ::placeholder { 
     color: #6A737C;
     font-size: 16px;
     opacity: 0.6; 
     font-weight: 400;
-    font-family: Mulish;
+    font-family: 'Mulish';
   }

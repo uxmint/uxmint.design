@@ -22,7 +22,7 @@
     p{
         font-size: 18px;
         color: #707071;
-        font-family: Mulish;
+        font-family: 'Mulish';
     }
     @include media-breakpoint-down(lg){
         .row{
@@ -113,7 +113,7 @@
         font-size: 18px;
         font-weight: 200;
         margin-top: 40px;
-        font-family: Mulish;
+        font-family: 'Mulish';
     }
     .list{
         padding: 30px;
@@ -121,7 +121,7 @@
             font-size: 20px;
             margin-left: 5px;
             font-weight: 200;
-            font-family: Mulish;
+            font-family: 'Mulish';
         }
     }
     @include media-breakpoint-down(lg){
@@ -213,7 +213,7 @@
             line-height: 32px;
             font-weight: 300;
             padding-top: 10px;
-            font-family: Mulish;
+            font-family: 'Mulish';
         }
         .lists{
             padding-left: 10px;
@@ -228,7 +228,7 @@
         line-height: 30px;
         margin-top: 40px;
         margin-left: 10px;
-        font-family: Mulish;
+        font-family: 'Mulish';
     }
     .nav-pills{
         width: 150%;
@@ -236,7 +236,7 @@
     }
     .li{
         font-size: 16px;
-        font-family: Mulish;
+        font-family: 'Mulish';
         margin-top: 6px;
         margin-left: 10px;
     }
@@ -279,7 +279,7 @@
                 line-height: 32px;
                 font-weight: 300;
                 padding-top: 10px;
-                font-family: Mulish;
+                font-family: 'Mulish';
             }
         }
         .card{
@@ -419,7 +419,7 @@
                }
            }
            h4{
-            font-family: Mulish;
+            font-family: 'Mulish';
             font-size: 20px;
                margin: 0 0 10px 40px;
            }
@@ -474,7 +474,7 @@ box-shadow: none !important;
     color: #0D0D0D;
     cursor: pointer;
     font-size: 20px;
-    font-family: Mulish;
+    font-family: 'Mulish';
     padding: 10px 15px;
     &:hover{
         background-color: #C3343C;

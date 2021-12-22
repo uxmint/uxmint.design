@@ -22,7 +22,7 @@ h2{
 }
 h3{
     font-size: 24px;
-    font-family: Mulish;
+    font-family: 'Mulish';
     color: #707071;
     margin-bottom: 30px;
 }
@@ -37,7 +37,7 @@ p{
     font-size: 18px;
     color: #707071;
     padding-top: 10px;
-    font-family: Mulish;
+    font-family: 'Mulish';
     @include media-breakpoint-down(md) {
         font-size: 16px;
     }
@@ -290,7 +290,7 @@ background-color: #FFFFFF;
           
             p{
                 font-size: 14px;
-                font-family: Mulish;
+                font-family: 'Mulish';
                 color: #707071;
                 //text-align: center;
             }
@@ -350,7 +350,7 @@ background-color: #FFFFFF;
                }
                h4{
                    font-size: 18px;
-                   font-family: Mulish;
+                   font-family: 'Mulish';
                    color: #707071;
                    margin: 0 0 10px 40px;
                }
@@ -425,7 +425,7 @@ background-color: #FFFFFF;
             cursor: pointer;
             padding: 10px 20px;
             border-radius: 0px;
-            font-family: Mulish;
+            font-family: 'Mulish';
             &:hover{
                 background-color: #FFFFFF;
                 color: #C3343C;
@@ -529,7 +529,7 @@ background-color: #FFFFFF;
     cursor: pointer;
     font-size: 20px;
     padding: 10px 20px;
-    font-family: Mulish;
+    font-family: 'Mulish';
     margin-top: 30px;
     &:hover{
         background-color: #C3343C;
@@ -544,7 +544,7 @@ background-color: #FFFFFF;
     cursor: pointer;
     font-size: 20px;
     padding: 10px 20px;
-    font-family: Mulish;
+    font-family: 'Mulish';
     &:hover{
         background-color: #C3343C;
         color: #FFFFFF;
