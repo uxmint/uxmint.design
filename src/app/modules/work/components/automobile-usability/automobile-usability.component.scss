@@ -12,7 +12,7 @@ h2{
 }
 p{
     font-size: 18px;
-    font-family: 'Mulish';
+    font-family: 'Muli', sans-serif;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 14px;
@@ -20,7 +20,7 @@ p{
 }
 h6{
     font-size: 24px;
-    font-family: 'Mulish';
+    font-family: 'Muli', sans-serif;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 28px;
@@ -78,7 +78,7 @@ h6{
         padding: 200px 0px;
         p{
             font-size: 18px;
-            font-family: 'Mulish';
+            font-family: 'Muli', sans-serif;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
@@ -109,7 +109,7 @@ h6{
         }
         p{
             font-size: 18px;
-            font-family: 'Mulish';
+            font-family: 'Muli', sans-serif;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
@@ -156,7 +156,7 @@ h6{
              font-size: 18px;
              padding: 10px 20px;
             border-radius: 0px;
-            font-family: 'Mulish';
+            font-family: 'Muli', sans-serif;
             cursor: pointer;
             &:hover{
                 background-color: #FFFFFF;
@@ -200,7 +200,7 @@ h6{
             color: #0D0D0D;
             cursor: pointer;
              font-size: 18px;
-            font-family: 'Mulish';
+            font-family: 'Muli', sans-serif;
             padding: 10px 15px;
             &:hover{
                 background-color: #C3343C;
@@ -239,7 +239,7 @@ h6{
                    }
             }
             h4{
-             font-family: 'Mulish';
+             font-family: 'Muli', sans-serif;
               font-size: 18px;
                 margin: 0 0 10px 40px;
             }
