@@ -217,6 +217,9 @@ footer{
             color: #707070;
             text-align: right;
         }
+        a{
+            color: #707070;
+        }
       }
     
     @include media-breakpoint-down(md){

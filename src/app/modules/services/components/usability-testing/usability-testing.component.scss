@@ -86,6 +86,7 @@
     font-size: 16px;
     color: #000000;
     opacity: 0.6;
+    margin-bottom: 0px;
     }
     h2{
         font-size: 36px;
@@ -102,58 +103,10 @@
     }
     }
     .text{
-    padding: 50px 60px 50px 0;
-    }
-    }
-    ::ng-deep .carousel-inner {
-    padding: 50px 100px 0 100px;
-    }
-    ::ng-deep .carousel-indicators {
-    display: none;
-    }
-    ::ng-deep .carousel-control-prev {
-    position: inherit;
-    left: 90px;
-    display: initial;
-    }
-    ::ng-deep .carousel-control-next {
-    position: inherit;
-    left: 100px;
-    display: initial;
-    }
-    ::ng-deep .carousel-control-prev-icon {
-    height: 50px;
-    width: 50px;
-    outline: #FFF;
-    background-image: none;
-    }
-    ::ng-deep .carousel-control-next-icon{
-    height: 50px;
-    width: 50px;
-    outline: #FFF;
-    background-image: none;
-    }
-    ::ng-deep .carousel-control-next-icon:after {
-    content: '\2191';
-    font-size: 30px;
-    font-weight: 300;
-    color: #C3343C;
-    }
-    ::ng-deep .carousel-control-prev-icon:after {
-    content: '\2193';
-    font-size: 30px;
-    font-weight: 300;
-    color: #C3343C;
+        padding: 20px 50px;
+        }
     }
     @include media-breakpoint-down(lg) {
-    ::ng-deep .carousel-control-prev {
-    position: inherit;
-    left: 100px;
-    }
-    ::ng-deep .carousel-control-next {
-    position: inherit;
-    left: 100px;
-    }
     .row{
     .col-md-3{
     flex: 0 0 32%;
@@ -183,30 +136,8 @@
     h4{
     font-size: 18px;
     }
-    ::ng-deep .carousel-inner {
-    padding: 50px 0px 0 0px;
-    }
-    ::ng-deep .carousel-control-prev {
-    position: inherit;
-    left: 50px;
-    }
-    ::ng-deep .carousel-control-next {
-    position: inherit;
-    left: 50px;
-    }
     }
     @include media-breakpoint-down(sm) {
-    ::ng-deep .carousel-inner {
-    padding-bottom: 30px;
-    }
-    ::ng-deep .carousel-control-prev {
-    position: inherit;
-    left: 50px;
-    }
-    ::ng-deep .carousel-control-next {
-    position: inherit;
-    left: 50px;
-    }
     .card{
     .image{
     img{
@@ -214,7 +145,7 @@
     }
     }
     .text{
-    padding: 20px 40px;
+    padding: 15px 40px;
     }
     }
     .image{
@@ -594,9 +525,10 @@
         font-family: Baskerville;
     }
     p{
-         font-size: 18px;
+        font-size: 18px;
         line-height: 40px;
         font-family: Mulish;
+        margin-left: 35px;
     }
     @include media-breakpoint-down(lg){
         padding: 200px 0px;
@@ -682,6 +614,11 @@
     font-family: Mulish;
 }
 
+.services-scroll{
+    height: 400px;
+    overflow: auto;
+    padding: 50px 0px;
+}
 // Carousel
 
 .other-case-studies{

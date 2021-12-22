@@ -8,6 +8,8 @@ import { EngagementModelsComponent } from './components/engagement-models/engage
 import { WorksComponent } from './components/works/works.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
+import { UxmintPrivacyComponent } from './components/uxmint-privacy/uxmint-privacy.component';
+import { UxmintTermsComponent } from './components/uxmint-terms/uxmint-terms.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -20,7 +22,9 @@ const routes: Routes = [
   { path: 'careers', component: CareerComponent },
   { path: 'engagement-models', component: EngagementModelsComponent },
   { path: 'works', component: WorksComponent },
-  { path: 'services', component: ServicesComponent }
+  { path: 'services', component: ServicesComponent },
+  { path: 'privacy-policy', component: UxmintPrivacyComponent },
+  { path: 'terms-and-conditions', component: UxmintTermsComponent }
 ];
 
 @NgModule({

@@ -53,15 +53,24 @@
             </div>
         </div>
     </div>
-   
+  
 <div class="testimonials">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-5">
         <h2>Situations where usability testing will be of great use</h2>
       </div>
-      <div class="col-md-8">
-        <ngb-carousel data-ride="carousel" data-interval="false" [interval]="'0'">
+      <div class="col-md-7">
+        <div class="services-scroll">
+          <div class="card">
+            <div class="row">
+              <div class="col-md-12 text" *ngFor="let testimonial of testimonials">
+                <p>{{ testimonial.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <ngb-carousel data-ride="carousel" data-interval="false" [interval]="'0'">
           <ng-template ngbSlide *ngFor="let testimonial of testimonials">
             <div class="card">
               <div class="row">
@@ -71,42 +80,18 @@
               </div>
             </div>
           </ng-template>
-        </ngb-carousel>
+        </ngb-carousel> -->
       </div>
     </div>
   </div>
 </div>
-
-
-    <!--<div class="situations-layout">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-             <h2>Situations where usability testing will be of great use</h2>
-          </div>
-          <div class="col-md-7">
-            <div [ngbNavOutlet]="nav"></div>
-            <ul ngbNav #nav="ngbNav">
-              <li ngbNavItem>
-                <a ngbNavLink> <svg xmlns="http://www.w3.org/2000/svg" width="16.546" height="17.825" viewBox="0 0 16.546 17.825"> <g id="Group_5633" data-name="Group 5633" transform="translate(15.131 1) rotate(90)"> <path id="Path_9437" data-name="Path 9437" d="M-11443.52,11612.816h-15.825l6.716,6.716" transform="translate(11459.345 -11605.815)" fill="none" stroke="#fa4e2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="Path_9438" data-name="Path 9438" d="M-11459.344,11615.815l3-3" transform="translate(11463.06 -11612.814)" fill="none" stroke="#fa4e2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> </svg></a>
-                <ng-template ngbNavContent>Unsure of why the users are dropping off the product</ng-template>
-              </li>
-              <li ngbNavItem>
-                <a ngbNavLink> <svg xmlns="http://www.w3.org/2000/svg" width="16.546" height="17.825" viewBox="0 0 16.546 17.825"> <g id="Group_5633" data-name="Group 5633" transform="translate(15.131 1) rotate(90)"> <path id="Path_9437" data-name="Path 9437" d="M-11459.344,11612.816h15.825l-6.716,6.716" transform="translate(11459.344 -11605.815)" fill="none" stroke="#fa4e2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="Path_9438" data-name="Path 9438" d="M-11456.344,11615.815l-3-3" transform="translate(11468.453 -11612.814)" fill="none" stroke="#fa4e2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> </svg></a>
-                <ng-template ngbNavContent>End users are not using the product in the way it was intended to be used ?</ng-template>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>-->
     <div class="service-layout4">
       <div class="container">
       <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-5">
                   <h3>Exploratory Testing</h3>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-7">
                   <p>
                     Researchers or Participants can browse through the website or application without any pre-planned tasks. The aim of the testing is mostly to uncover maximum usability issues with minimal time. This type of testing typically can be done in the early stages of product development and helps researchers pinpoint gaps in the market, identify potential new features, and workshop new ideas.</p>
               </div>

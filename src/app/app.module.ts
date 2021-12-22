@@ -19,6 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { AlertComponent } from './components/alert/alert.component';
+import { UxmintPrivacyComponent } from './components/uxmint-privacy/uxmint-privacy.component';
+import { UxmintTermsComponent } from './components/uxmint-terms/uxmint-terms.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { AlertComponent } from './components/alert/alert.component';
     WorksComponent,
     ServicesComponent,
     HeaderComponent,
-    AlertComponent
+    AlertComponent,
+    UxmintPrivacyComponent,
+    UxmintTermsComponent
   ],
   imports: [
     BrowserModule,

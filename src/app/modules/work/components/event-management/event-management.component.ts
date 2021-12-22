@@ -40,7 +40,7 @@ export class EventManagementComponent implements OnInit {
     { 
       img: './assets/images/works/automobile.png',
       title: 'Automobile Usability Testing',
-      sub: 'UX . UI . Web . Mobile . B2C',
+      sub: '',
       url: '/work/automobile-usability'
     }
   ];
