@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy-dev": "ng b --prod --base-href /dev/ && node deploy-dev.js"
+    "deploy-dev": "ng b --prod --base-href /dev/ && node deploy-dev.js",
+    "deploy-prod": "ng b --prod && node deploy-prod.js"
   },
   "private": true,
   "dependencies": {
