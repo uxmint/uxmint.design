@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 import { NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
@@ -45,11 +45,15 @@ export class InterfaceDesignComponent implements OnInit {
       url: '/work/marketing'
     }
   ];
-  constructor(private title:Title, private cdr: ChangeDetectorRef) { }
+  constructor(private title:Title, private cdr: ChangeDetectorRef, private meta:Meta) { }
 
   ngOnInit(): void {
     this.cdr.detectChanges();
     this.title.setTitle('Uxmint Design - Services');
+    this.meta.addTags([
+      {name: 'description', content: `Enhance your product with the right strategy. Our team of design experts can help you in Customer Experience, Strategy Design, Product Ideation, Branding, Interface Design, Usability Testing.` },
+      {name: 'keywords', content: `Research, Personas, Task Analysis, Site Architecture, Wireframing, Interaction, Mood board, UI Design, Usability Testing, User Architecture, User Flow, Interviews, Sketching, Focus Groups, Lean UX, Agile Process, user experience research, ux process, user interface, usability, user interface design, usability testing, ux design labs, Digital Design Agency, UX Consultant`}
+    ]);
   }
 
 }
