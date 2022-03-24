@@ -46,8 +46,10 @@ p{
 .home{
     .banner{
         background-color: #E2E2E2;
-        // background-image: url('/assets/images/layout-2.png');
-        // background-position: center;
+        background-image: url('/assets/images/homebg.png');
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
         height: 700px;
         padding: 200px 0px;
         @include media-breakpoint-down(lg){
