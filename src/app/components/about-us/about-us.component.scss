@@ -11,14 +11,18 @@
     .about{
         padding-top: 140px;
         height: 700px;
-        padding: 200px 0px;
+        padding: 180px 0px;
         background-color: #FCFCFC;
+        img{
+            width: 100%;
+        }
     .design{
         h1{
             font-size: 56px;
             color: #3B3B3B;
             font-family: Baskerville;
             padding-bottom: 20px;
+            padding-top: 95px;
             span{
                 color: #C3343C;
             }
@@ -51,6 +55,12 @@
     @include media-breakpoint-down(sm) {
         height: 500px;
         padding: 150px 0px;
+        img{
+            display: none;
+        }
+        .only-web{
+            display: none;
+        }
     }
 }
 .about-layout{  
