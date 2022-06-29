@@ -188,8 +188,10 @@ footer{
         }
         a{
             font-size: 14px;
-            color: #707070;
+            color: #a3a3a3;
            font-family: 'Muli', sans-serif;
+           text-decoration: none;
+           transition: 0.5s;
         }
         span{
             color: #707070;
@@ -268,3 +270,131 @@ footer{
 .nav-item a.active{
     color: #C3343C;
 }
+
+
+// ************** Button Hover *****************
+
+
+.snip1189 {
+    font-family:Muli,sans-serif;
+    text-align: center;
+    
+    font-size: 16px;
+    color: #505050;
+    font-weight: 400;
+  }
+  .snip1189 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1189 li {
+    display: inline-block;
+    list-style: outside none none;
+   
+    padding: 0;
+  }
+  .snip1189 a {
+    // padding: 0.5px;
+    // margin: 0.2em 0;
+    display: block;
+    // color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-decoration: none;
+  }
+  .snip1189 a:before,
+  .snip1189 a:after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+  }
+  .snip1189 a:before {
+    left: 0;
+    top: 0;
+    border-left: 1.5px solid #c0392b;
+    border-top: 1.5px solid #c0392b;
+    -webkit-transform: translate(100%, 50%);
+    transform: translate(100%, 50%);
+  }
+  .snip1189 a:after {
+    right: 0;
+    bottom: 0;
+    border-right: 1.5px solid #c0392b;
+    border-bottom: 1.5px solid #c0392b;
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+  }
+  .snip1189 a:hover,
+  .snip1189 .current a {
+    color:#C3343Cff;
+  }
+  .snip1189 a:hover:before,
+  .snip1189 .current a:before,
+  .snip1189 a:hover:after,
+  .snip1189 .current a:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+ 
+
+
+
+// ************ SOCIAL MEDIA HOVER *************
+
+.social-icon{ a{
+    z-index:3;
+}
+
+    margin-left: 4px;
+    cursor: pointer;
+
+}
+.social-media{
+   
+    padding: 3px;
+    padding: 10px;
+    background-color: #c3343c;
+    position: relative;
+}
+.social-media
+{
+    a::after{
+content: "";
+width: 100%;
+height:100%;
+top: 0;
+left: 0;
+background-color: #C3343C;
+position: absolute;
+z-index: 1;
+transform: translateX(-100%);
+}
+
+a.hover:after{
+
+    transform: translateX(0%);
+}
+
+
+
+
+
+}
+
+
+
+
+.social-media2{
+    padding: 3px;
+    padding: 10px;
+    background-color: #c3343c;
+    margin-left: 4px;
+}
+
+
