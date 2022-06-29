@@ -11,13 +11,9 @@ export class AppComponent implements OnInit {
   title = 'uxmint';
 
   constructor(private modalService: NgbModal){
-
   }
-
-  ngOnInit(){
-   
+  ngOnInit(){ 
   }
-
   openMenu(){
     this.modalService.open(HeaderComponent,{
       windowClass: 'menu'

@@ -6,9 +6,8 @@
 }
 .banner{
     background-color: #FFD855;
-    padding-top: 140px;
     height: 700px;
-    padding: 200px 0px;
+    padding: 0px 0px;
     .contact-layout{
     h1{
         font-size: 56px;
@@ -45,10 +44,22 @@
             font-size: 24px;
         }
     }
+    .only-web{
+        display: none;
+    }
+    .contact-left{
+        padding: 0px 10px;
+    }
 }
   @include media-breakpoint-down(sm) {
         height: 500px;
         padding: 150px 0px;
+        .only-web{
+            display: none;
+        }
+        .contact-left{
+            padding: 0px 10px;
+        }
     }
 }
 .contact-layout1{
@@ -373,4 +384,7 @@ iframe {
     opacity: 0.6; 
     font-weight: 400;
     font-family: 'Muli', sans-serif;
+  }
+  .contact-left{
+    padding: 245px 0px;
   }
