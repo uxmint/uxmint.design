@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-7 orderone">
                     <div class="container">
-                        <img src="./assets/images/works/uxahead 1.webp">
+                        <img src="./assets/images/works/uxahead 1.webp" alt="UXhead">
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
         </div>
     </div>
      <div class="image-event">
-        <img src="./assets/images/works/uxahead 2.jpg">
+        <img src="./assets/images/works/uxahead 2.jpg" alt="Uxhead">
     </div>
     <div class="approach">
         <div class="container">
@@ -79,7 +79,7 @@
        </div>
     </div>
     <div class="ordertwo">
-        <img src="./assets/images/works/uxahead 3.png">
+        <img src="./assets/images/works/uxahead 3.png" alt="UXhead">
     </div>
     </div>
     <div class="research">
@@ -94,7 +94,7 @@
         </div>
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/uxahead4.png">
+        <img src="./assets/images/works/uxahead4.png" alt="UXhead">
     </div>
     <div class="work-description">
         <div class="container">
@@ -106,16 +106,16 @@
                     <p>The primary goal of the branding exercise was to create an identity that shows focus and progress. For which we started with the kickoff discussion about the vision of the brand. There after going about creating the Moodboard for inspiration, brainstorming and design direction. Our process helped us to come up with multiple variations for the 'Jewel' in the combination mark and to pick the right typeface and colour family for the brand.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="./assets/images/works/uxahead 5.png">
+                    <img src="./assets/images/works/uxahead 5.png" alt="Uxhead">
                 </div>
             </div>
         </div>
     </div>
     <div class="typography-image">
-        <img src="./assets/images/works/uxahead 6.png">
+        <img src="./assets/images/works/uxahead 6.png" alt="Uxhead">
     </div>
     <!--<div class="typography-image">
-        <img src="./assets/images/works/uxahead 3.png">
+        <img src="./assets/images/works/uxahead 3.png" alt="UXhead">
     </div>-->
      <div class="typography-image image-event">
         <div class="container">
@@ -125,7 +125,7 @@
                 </div>
            </div>
         </div>
-        <img src="./assets/images/works/uxahead 7.png">
+        <img src="./assets/images/works/uxahead 7.png" alt="Uxhead">
     </div>
     <div class="typography-image image-event">
         <div class="container">
@@ -135,7 +135,7 @@
                 </div>
            </div>
         </div>
-        <img src="./assets/images/works/uxahead 8.png">
+        <img src="./assets/images/works/uxahead 8.png" alt="Uxhead">
     </div>
     <div class="typography-image image-event">
         <div class="container">
@@ -145,22 +145,22 @@
                 </div>
            </div>
         </div>
-        <img src="./assets/images/works/uxahead 9.png">
+        <img src="./assets/images/works/uxahead 9.png" alt="Uxhead">
     </div>
     <div class="other-case-studies">
         <div class="row">
             <div class="col-md-6 left">
                 <h2>Other Case Studies</h2>
-                <div class="button">
-                    <div class="btn btnn" routerLink="/works">See All Works</div>
-                </div>
+                <div class="anime-button">
+                    <a  class="swipe-button" routerLink="/works">See All Works</a>
+                  </div>
             </div>
             <div class="col-md-6 right">
                 <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">
-                                <a [routerLink]="item.url"><img [src]="item.img"></a>
+                                <a [routerLink]="item.url"><img [src]="item.img" alt="blogs"></a>
                             </div>
                             <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
                             <h4>{{ item.sub }}</h4>
@@ -181,9 +181,9 @@
              <div class="col-md-4">
              <h2>Let's craft design together!</h2>
           </div>
-             <div class="button">
-                 <div class="btn-white" routerLink="/contact-us">Let's Talk</div>
-             </div>
+          <div class="anime-button-white lets-talk">
+            <a  class="swipe-button" routerLink="/contact-us">Let's Talk</a>
+          </div>
         </div>
         </div>
      </div>

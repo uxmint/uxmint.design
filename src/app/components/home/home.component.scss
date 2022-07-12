@@ -45,7 +45,6 @@ p{
 .home{
     .banner{
         background-color: #E2E2E2;
-        // background-image: url('/assets/images/homebg.png');
         background-position: bottom;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -123,7 +122,7 @@ p{
     }
     .products{
         padding: 150px 0px;
-background-color: #FFFFFF;
+        background-color: #FFFFFF;
         .button{
             padding-top: 40px;
         }
@@ -151,9 +150,6 @@ background-color: #FFFFFF;
                 padding: 0 0 0 0;
             }
         }
-
-     
-
         @include media-breakpoint-down(lg){
             .row{
                 .col-md-2{
@@ -450,7 +446,6 @@ background-color: #FFFFFF;
         }
     }
 }
-
 // Carousel
 .item{
     padding: 0;
@@ -526,7 +521,7 @@ background-color: #FFFFFF;
 }
 .animations{
     margin-top: -303px;
-margin-left: 120px;
+margin-left: 105px;
 }
 
 ::ng-deep .tile{
@@ -612,8 +607,6 @@ margin-left: 120px;
     width: 190px;
 }
 
-
-
 // *********************** BUTTONS red ***************
 .anime-button{
     display: flex;
@@ -628,7 +621,7 @@ margin-left: 120px;
         font-family: "Muli", sans-serif;
         margin-top: 30px;
         position: relative;
-        transition:all 1.5s;
+        transition:all .3s;
         z-index: 1;
         text-decoration: none;
         overflow:hidden;
@@ -641,12 +634,10 @@ margin-left: 120px;
         top:0;
         left:0;
         background-color: #C3343C;
-        transition:all 1.5s;
+        transition:all .3s;
         transform: translateX(-100%);
         z-index: -1;
         overflow:hidden;
-       
-    
     }
     a:hover:before{
         transform: translateX(0);
@@ -662,8 +653,6 @@ margin-left: 120px;
 // *********************** BUTTONS white ***************
 .anime-button-white{
     display: flex;
-    
-
     a{
         border: 2px solid #ffffff;
         border-radius: 0;
@@ -674,7 +663,7 @@ margin-left: 120px;
         font-family: "Muli", sans-serif;
         margin-top: 30px;
         position: relative;
-        transition:all 1.5s;
+        transition:all .3s;
         z-index: 1;
         text-decoration: none;
         overflow:hidden;
@@ -687,12 +676,10 @@ margin-left: 120px;
         top:0;
         left:0;
         background-color: #ffffff;
-        transition:all 1.5s;
+        transition:all .3s;
         transform: translateX(-100%);
         z-index: -1;
         overflow:hidden;
-       
-    
     }
     a:hover:before{
         transform: translateX(0);
@@ -714,19 +701,14 @@ margin-left: 120px;
     .arrow-anime{
         transform: translateX(0);
      }
-    
-
 }
 .services-shadow{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
 // *********************** arrow-effect ***************
-
     .arrow-anime{
        transform: translateX(-100%);
        transition: 0.5s;
     }
-
-
     // *********************** scroll -effect ***************
 
     .slider-content{
@@ -740,27 +722,14 @@ margin-left: 120px;
         justify-content: center;
         align-items: center;
     }
-   .marquee{
-       background-color: #0D0D0D;
-       color: tomato;
-    //    width: 1070px;
-    //    height: 90px;
-    //    overflow: hidden;
-   }
    .marquee-content{
        display: flex;
        list-style: none;
        height: 100%;
-    //    animation: scrolling 300s linear infinite;
-       
-       
-       
        @keyframes scrolling{
            00%{transform:translateX(0%)}
            100%{transform:translateX(-80%)}
-           
        }
-
    }
    .marquee-content li{
        display: flex;
@@ -770,29 +739,18 @@ margin-left: 120px;
        width: 100px;
        flex-shrink: 0;
        font-size: 20px;
-
-       
-
-       .custom-slider-main{ animation:10s linear infinite;
-       
-       
-       
+      .custom-slider-main{ animation:10s linear infinite;      
         @keyframes scrolling{
             00%{transform:translateX(0%)}
-            100%{transform:translateX(-170%)}
-            
+            100%{transform:translateX(-170%)}   
         }
-
     }
    }
-
-//    ***********************  Blog Animation ******************
+//  ***********************  Blog Animation ******************
 
    .img-anime:hover{
     transform: scale(1.08);
     transition: 0.5s;
-    
-
    }
 
 

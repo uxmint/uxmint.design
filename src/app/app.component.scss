@@ -296,17 +296,14 @@ footer{
     padding: 0;
   }
   .snip1189 a {
-    // padding: 0.5px;
-    // margin: 0.2em 0;
     display: block;
-    // color: rgba(255, 255, 255, 0.5);
     position: relative;
     text-decoration: none;
   }
   .snip1189 a:before,
   .snip1189 a:after {
-    height: 14px;
-    width: 14px;
+    height: 8px;
+    width: 8px;
     position: absolute;
     content: '';
     -webkit-transition: all 0.35s ease;
@@ -316,16 +313,16 @@ footer{
   .snip1189 a:before {
     left: 0;
     top: 0;
-    border-left: 1.5px solid #c0392b;
-    border-top: 1.5px solid #c0392b;
+    border-left: 1px solid #c0392b;
+    border-top: 1px solid #c0392b;
     -webkit-transform: translate(100%, 50%);
     transform: translate(100%, 50%);
   }
   .snip1189 a:after {
     right: 0;
     bottom: 0;
-    border-right: 1.5px solid #c0392b;
-    border-bottom: 1.5px solid #c0392b;
+    border-right: 1px solid #c0392b;
+    border-bottom: 1px solid #c0392b;
     -webkit-transform: translate(-100%, -50%);
     transform: translate(-100%, -50%);
   }
@@ -341,22 +338,15 @@ footer{
     transform: translate(0%, 0%);
     opacity: 1;
   }
- 
-
-
-
 // ************ SOCIAL MEDIA HOVER *************
 
 .social-icon{ a{
     z-index:3;
 }
-
     margin-left: 4px;
     cursor: pointer;
-
 }
 .social-media{
-   
     padding: 3px;
     padding: 10px;
     background-color: #c3343c;
@@ -375,21 +365,10 @@ position: absolute;
 z-index: 1;
 transform: translateX(-100%);
 }
-
 a.hover:after{
-
     transform: translateX(0%);
 }
-
-
-
-
-
 }
-
-
-
-
 .social-media2{
     padding: 3px;
     padding: 10px;

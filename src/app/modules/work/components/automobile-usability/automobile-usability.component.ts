@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 import { Title, Meta } from '@angular/platform-browser';
 
@@ -46,9 +46,10 @@ export class AutomobileUsabilityComponent implements OnInit {
     }
   ];
 
-  constructor(private title:Title, private meta:Meta) { }
+  constructor(private title:Title, private meta:Meta, private cdr: ChangeDetectorRef) { }
 
   ngOnInit(): void {
+    this.cdr.detectChanges();
     this.title.setTitle('Uxmint Design - Works');
     this.meta.addTags([
       {name: 'description', content: `We have worked with companies in their stage of incubation, revival & next leap; take your next leap in design with us. Our expertise spans across Enterprise Application Design, Product Design, Android & iOS Design, Content Websites.` },

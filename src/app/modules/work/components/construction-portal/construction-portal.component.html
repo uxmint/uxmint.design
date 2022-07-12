@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <div class="col-md-7 orderone">
-                        <img src="./assets/images/works/construction10.webp">
+                        <img src="./assets/images/works/construction10.webp" alt="Construction Portal">
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
             </div>
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/construction1.webp">
+        <img src="./assets/images/works/construction1.webp" alt="Construction Portal">
     </div>
     <div class="target-strategy">
         <div class="container">
@@ -105,34 +105,34 @@
     </div>
     <div class="typography-image">
         <ul>
-            <li><img src="./assets/images/works/Group 6669.png"></li>
-            <li><img src="./assets/images/works/Group 6670.png"></li>
-            <li><img src="./assets/images/works/Group 6671.png"></li>
-            <li><img src="./assets/images/works/Group 6672.png"></li>
-            <li><img src="./assets/images/works/Group 6673.png"></li>
-            <li><img src="./assets/images/works/Group 6674.png"></li>
+            <li><img src="./assets/images/works/Group 6669.png" alt="Construction Portal"></li>
+            <li><img src="./assets/images/works/Group 6670.png" alt="Construction Portal"></li>
+            <li><img src="./assets/images/works/Group 6671.png" alt="Construction Portal"></li>
+            <li><img src="./assets/images/works/Group 6672.png" alt="Construction Portal"></li>
+            <li><img src="./assets/images/works/Group 6673.png" alt="Construction Portal"></li>
+            <li><img src="./assets/images/works/Group 6674.png" alt="Construction Portal"></li>
         </ul>
     </div>
     <div class="typography-image">
-        <img src="./assets/images/works/construction2.webp">
+        <img src="./assets/images/works/construction2.webp" alt="Construction Portal">
     </div>
     <div class="typography-image">
-        <img src="./assets/images/works/construction4.png">
+        <img src="./assets/images/works/construction4.png" alt="Construction Portal">
     </div>
     <div class="other-case-studies">
         <div class="row">
             <div class="col-md-6 left">
                 <h2>Other Case Studies</h2>
-                <div class="button">
-                    <div class="btn btnn" routerLink="/works">See All Works</div>
-                </div>
+                <div class="anime-button">
+                    <a  class="swipe-button" routerLink="/works">See All Works</a>
+                  </div>
             </div>
             <div class="col-md-6 right">
                 <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="blogs">
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">
-                                <a [routerLink]="item.url"><img [src]="item.img"></a>
+                                <a [routerLink]="item.url"><img [src]="item.img" alt="Blogs"></a>
                             </div>
                             <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
                             <h4>{{ item.sub }}</h4>
@@ -153,9 +153,9 @@
              <div class="col-md-4">
              <h2>Let's craft design together!</h2>
           </div>
-             <div class="button">
-                 <div class="btn-white" routerLink="/contact-us">Let's Talk</div>
-             </div>
+          <div class="anime-button-white lets-talk">
+            <a  class="swipe-button" routerLink="/contact-us">Let's Talk</a>
+          </div>
         </div>
         </div>
      </div>

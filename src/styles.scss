@@ -149,7 +149,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 // *********************** BUTTONS red ***************
 .anime-button{
     display: flex;
-
     a{
         border: 2px solid #0D0D0D;
         border-radius: 0;
@@ -160,7 +159,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         font-family: "Muli", sans-serif;
         margin-top: 30px;
         position: relative;
-        transition:all 1.5s;
+        transition:all .3s;
         z-index: 1;
         text-decoration: none;
         overflow:hidden;
@@ -173,12 +172,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         top:0;
         left:0;
         background-color: #C3343C;
-        transition:all 1.5s;
+        transition:all .3s;
         transform: translateX(-100%);
         z-index: -1;
         overflow:hidden;
-       
-    
     }
     a:hover:before{
         transform: translateX(0);
@@ -194,8 +191,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 // *********************** BUTTONS white ***************
 .anime-button-white{
     display: flex;
-    
-
     a{
         border: 2px solid #ffffff;
         border-radius: 0;
@@ -206,7 +201,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         font-family: "Muli", sans-serif;
         margin-top: 30px;
         position: relative;
-        transition:all 1.5s;
+        transition:all .3s;
         z-index: 1;
         text-decoration: none;
         overflow:hidden;
@@ -219,7 +214,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         top:0;
         left:0;
         background-color: #ffffff;
-        transition:all 1.5s;
+        transition:all .3s;
         transform: translateX(-100%);
         z-index: -1;
         overflow:hidden;
@@ -243,8 +238,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 // *********************** BUTTONS white ***************
 .anime-button-white{
     display: flex;
-    
-
     a{
         border: 2px solid #ffffff;
         border-radius: 0;
@@ -255,7 +248,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         font-family: "Muli", sans-serif;
         margin-top: 30px;
         position: relative;
-        transition:all 1.5s;
+        transition:all .3s;
         z-index: 1;
         text-decoration: none;
         overflow:hidden;
@@ -268,7 +261,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         top:0;
         left:0;
         background-color: #ffffff;
-        transition:all 1.5s;
+        transition:all .3s;
         transform: translateX(-100%);
         z-index: -1;
         overflow:hidden;
@@ -287,3 +280,41 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 80px;
     margin-top: 42px;
 }
+.anime-button-white{
+    display: flex;
+    a{
+        border: 2px solid #ffffff;
+        border-radius: 0;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 10px 20px;
+        font-family: "Muli", sans-serif;
+        margin-top: 30px;
+        position: relative;
+        transition:all .3s;
+        z-index: 1;
+        text-decoration: none;
+        overflow:hidden;
+    }
+    a::before{
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        background-color: #ffffff;
+        transition:all .3s;
+        transform: translateX(-100%);
+        z-index: -1;
+        overflow:hidden;
+    }
+    a:hover:before{
+        transform: translateX(0);
+    }
+    a:hover{
+        color:#C3343C;
+    
+    }
+  }

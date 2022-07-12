@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-7 orderone">
                     <div class="container">
-                        <img src="./assets/images/works/event banner.webp">
+                        <img src="./assets/images/works/event banner.webp" alt="Event Management">
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/event1.webp">
+        <img src="./assets/images/works/event1.webp" alt="Event Management">
     </div>
    
     <div class="approach">
@@ -112,13 +112,13 @@
         </div>
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/management1.png">
+        <img src="./assets/images/works/management1.png" alt="Event Management">
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/management2.webp">
+        <img src="./assets/images/works/management2.webp" alt="Event Management">
     </div>
     <div class="image-events">
-        <img src="./assets/images/works/eventmanagement3.webp">
+        <img src="./assets/images/works/eventmanagement3.webp" alt="Event Management">
     </div>
     <div class="work-description">
         <div class="container">
@@ -129,34 +129,34 @@
                     <p>Balloons depict celebration, for all kinds of events. Right from Birthdays,<br> Parties, Weddings, etc And because event management is all about <br>gathering at a place to celebrate. Location plays a vital role</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="./assets/images/works/eventmanagement4.png">
+                    <img src="./assets/images/works/eventmanagement4.png" alt="Event Management">
                 </div>
             </div>
         </div>
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/eventmanagement5.png">
+        <img src="./assets/images/works/eventmanagement5.png" alt="Event Management">
     </div>
     <div class="event-image">
-        <img src="./assets/images/works/eventmanagement6.png">
+        <img src="./assets/images/works/eventmanagement6.png" alt="Event Management">
     </div>
     <div class="event-image">
-        <img src="./assets/images/works/eventmanagement7.png">
+        <img src="./assets/images/works/eventmanagement7.png" alt="Event Management">
     </div>
     <div class="other-case-studies">
         <div class="row">
             <div class="col-md-6 left">
                 <h2>Other Case Studies</h2>
-                <div class="button">
-                    <div class="btn btnn" routerLink="/works">See All Works</div>
-                </div>
+                <div class="anime-button">
+                    <a  class="swipe-button" routerLink="/works">See All Works</a>
+                  </div>
             </div>
             <div class="col-md-6 right">
                 <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="otherCaseStudies">
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">
-                                <a [routerLink]="item.url"> <img [src]="item.img"></a>
+                                <a [routerLink]="item.url"> <img [src]="item.img" alt="Blogs"></a>
                             </div>
                             <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
                             <h4>{{ item.sub }}</h4>
@@ -177,9 +177,9 @@
              <div class="col-md-4">
              <h2>Let's craft design together!</h2>
           </div>
-             <div class="button">
-                 <div class="btn-white" routerLink="/contact-us">Let's Talk</div>
-             </div>
+          <div class="anime-button-white lets-talk">
+            <a  class="swipe-button" routerLink="/contact-us">Let's Talk</a>
+          </div>
         </div>
         </div>
      </div>

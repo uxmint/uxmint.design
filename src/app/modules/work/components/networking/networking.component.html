@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-8 orderone">
                     <div class="container">
-                        <img src="./assets/images/works/network1.webp">
+                        <img src="./assets/images/works/network1.webp" alt="Networking">
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/net1.png">
+        <img src="./assets/images/works/net1.png" alt="Networking">
     </div>
     <div class="approach">
         <div class="container">
@@ -115,13 +115,13 @@
         </div>
     </div>
     <div class="typography-image">
-        <img src="./assets/images/works/sify1.png">
+        <img src="./assets/images/works/sify1.png" alt="Networking">
     </div> 
     <div class="typography-image">
-        <img src="./assets/images/works/sify2.png">
+        <img src="./assets/images/works/sify2.png" alt="Networking">
     </div> 
     <div class="sify-image">
-        <img src="./assets/images/works/sify3.png">
+        <img src="./assets/images/works/sify3.png" alt="Networking">
     </div>
     <div class="research">
         <div class="container">
@@ -135,7 +135,7 @@
         </div>
     </div>
      <div class="typography-image sify-image">
-        <img src="./assets/images/works/sify4.webp">
+        <img src="./assets/images/works/sify4.webp" alt="Networking">
     </div>
     <div class="design-system">
         <div class="container">
@@ -147,25 +147,25 @@
         </div>
     </div>
     <div class="typography-image sify-image">
-        <img src="./assets/images/works/sify9.webp">
+        <img src="./assets/images/works/sify9.webp" alt="Networking">
     </div>
     <div class="typography-image">
-        <img src="./assets/images/works/sify6.png">
+        <img src="./assets/images/works/sify6.png" alt="Networking">
     </div>
     <div class="other-case-studies">
         <div class="row">
             <div class="col-md-6 left">
                 <h2>Other Case Studies</h2>
-                <div class="button">
-                    <div class="btn btnn" routerLink="/works">See All Works</div>
-                </div>
+                <div class="anime-button">
+                    <a  class="swipe-button" routerLink="/works">See All Works</a>
+                  </div>
             </div>
             <div class="col-md-6 right">
                 <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="otherCaseStudies">
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">
-                                <a [routerLink]="item.url"><img [src]="item.img"></a>
+                                <a [routerLink]="item.url"><img [src]="item.img" alt="Blogs"></a>
                             </div>
                             <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
                             <h4>{{ item.sub }}</h4>
@@ -186,9 +186,9 @@
              <div class="col-md-4">
              <h2>Let's craft design together!</h2>
           </div>
-             <div class="button">
-                 <div class="btn-white" routerLink="/contact-us">Let's Talk</div>
-             </div>
+          <div class="anime-button-white lets-talk">
+            <a class="swipe-button" routerLink="/contact-us">Let's Talk</a>
+          </div>
         </div>
         </div>
      </div>

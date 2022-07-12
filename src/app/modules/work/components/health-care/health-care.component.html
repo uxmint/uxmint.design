@@ -11,7 +11,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-7 orderone">
                     <div class="container">
-                        <img src="./assets/images/works/adapt.webp">
+                        <img src="./assets/images/works/adapt.webp" alt="Health Care">
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="image-event">
-        <img src="./assets/images/works/healthcare1.png">
+        <img src="./assets/images/works/healthcare1.png" alt="Health Care">
     </div>
     <div class="approach">
         <div class="container">
@@ -114,13 +114,13 @@
         </div>
     </div>
     <div class="green-image">
-        <img src="./assets/images/works/healthcare2.png">
+        <img src="./assets/images/works/healthcare2.png" alt="Health Care">
     </div>
     <div class="work-description1">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="./assets/images/works/healthcare3.webp">
+                    <img src="./assets/images/works/healthcare3.webp" alt="Health Care">
                 </div>
                 <div class="col-md-6">
                     <h6>Prototyping the ideas by building low fidelity wireframes</h6>
@@ -137,7 +137,7 @@
                     <p>A weekly planner to help user plan their weekly menu to plan ahead what to buy</p>
                 </div>
                 <div class="col-md-8">
-                    <img src="./assets/images/works/healthcare4.webp">
+                    <img src="./assets/images/works/healthcare4.webp" alt="Health Care">
                 </div>
             </div>
         </div>
@@ -149,12 +149,12 @@
                     <h6>Build a design system that could be used through their multiple user portals</h6>
                 </div>
                 <div class="col-md-6 only_web">
-                    <img src="./assets/images/works/image2.png">
+                    <img src="./assets/images/works/image2.png" alt="Health Care">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 only-mobile">
-                    <img src="./assets/images/works/image2.png">
+                    <img src="./assets/images/works/image2.png" alt="Health Care">
                 </div>
                 <div class="col-md-6 only-mobile">
                     <h6>Build a design system that could be used through their multiple user portals</h6>
@@ -164,7 +164,7 @@
         </div>
     </div>
     <div class="typography-image">
-        <img src="./assets/images/works/image3.png">
+        <img src="./assets/images/works/image3.png" alt="Health Care">
     </div>
     <div class="work-layout">
         <div class="container">
@@ -174,7 +174,7 @@
                     <p>User testing were done and the designs were further iterated to hit the market with less friction for users</p>
                 </div>
                 <div class="col-md-8">
-                    <img src="./assets/images/works/image4.png">
+                    <img src="./assets/images/works/image4.png" alt="Health Care">
                 </div>
             </div>
         </div>
@@ -183,16 +183,16 @@
         <div class="row">
             <div class="col-md-6 left">
                 <h2>Other Case Studies</h2>
-                <div class="button">
-                    <div class="btn btnn" routerLink="/works">See All Works</div>
-                </div>
+                <div class="anime-button">
+                    <a  class="swipe-button" routerLink="/works">See All Works</a>
+                  </div>
             </div>
             <div class="col-md-6 right">
                 <ngu-carousel class="blog-carousel" #blogCarousel [inputs]="blogsCarouselConfig" [dataSource]="otherCaseStudies">
                     <ngu-tile *nguCarouselDef="let item; let i = index">
                         <div class="class">
                             <div class="image">
-                                <a [routerLink]="item.url"><img [src]="item.img"></a>
+                                <a [routerLink]="item.url"><img [src]="item.img" alt="Blogs"></a>
                               
                             </div>
                             <h3><a [routerLink]="item.url">{{ item.title }}</a></h3>
@@ -214,9 +214,9 @@
             <div class="col-md-4">
             <h2>Let's craft design together!</h2>
          </div>
-            <div class="button">
-                <div class="btn-white" routerLink="/contact-us">Let's Talk</div>
-            </div>
+         <div class="anime-button-white lets-talk">
+            <a  class="swipe-button" routerLink="/contact-us">Let's Talk</a>
+          </div>
        </div>
        </div>
     </div>

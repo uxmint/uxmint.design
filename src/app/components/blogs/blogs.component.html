@@ -12,7 +12,7 @@
           <div class="row">
              <div class="col-md-4  image-center" *ngFor="let blog of blogs">
                 <div class="blogs-image">
-                   <img [src]="blog.imgURL">
+                   <img [src]="blog.imgURL" alt="blog.name">
                 </div>
                 <a [href]="blog.url" target="_blank">{{ blog.description }}</a>
                 <h6>{{ blog.name }}</h6>
