@@ -57,8 +57,6 @@ export class HomeComponent implements OnInit {
     { profile: './assets/images/home/logo1.svg'}  
     ];
 
-   
-
   constructor(private cdr: ChangeDetectorRef, private title:Title, private meta:Meta) { 
     this.title.setTitle('Uxmint Design');
     this.meta.addTags([

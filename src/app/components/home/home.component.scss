@@ -668,11 +668,9 @@ margin-left: 105px;
     transform: scale(1.08);
     transition: 0.5s;
    }
-
-
-
-
-
-
-
-  
+   @include media-breakpoint-down(sm) {
+    .animations{
+        margin-top: -18px;
+        margin-left: 0px;
+    }
+   }
