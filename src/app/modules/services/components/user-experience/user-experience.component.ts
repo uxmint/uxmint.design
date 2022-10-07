@@ -1,6 +1,8 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselConfig } from '@ngu/carousel';
+import { HeaderComponent } from 'src/app/components/header/header.component';
 
 @Component({
   selector: 'app-user-experience',
@@ -45,7 +47,7 @@ export class UserExperienceComponent implements OnInit {
       url: '/work/construction-portal'
     }
   ];
-  constructor(private title:Title, private cdr: ChangeDetectorRef, private meta:Meta) { }
+  constructor(private title:Title, private cdr: ChangeDetectorRef, private meta:Meta, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.cdr.detectChanges();
@@ -55,5 +57,9 @@ export class UserExperienceComponent implements OnInit {
       {name: 'keywords', content: `Research, Personas, Task Analysis, Site Architecture, Wireframing, Interaction, Mood board, UI Design, Usability Testing, User Architecture, User Flow, Interviews, Sketching, Focus Groups, Lean UX, Agile Process, user experience research, ux process, user interface, usability, user interface design, usability testing, ux design labs, Digital Design Agency, UX Consultant`}
     ]);
   }
-
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
+  }
 }

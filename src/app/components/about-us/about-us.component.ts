@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-about-us',
@@ -8,7 +10,7 @@ import { Title, Meta } from '@angular/platform-browser';
 })
 export class AboutUsComponent implements OnInit {
 
-  constructor( private title:Title, private meta:Meta) { 
+  constructor( private title:Title, private meta:Meta, private modalService: NgbModal) { 
     this.title.setTitle('Uxmint Design - About Us');
     this.meta.addTags([
       {name: 'description', content: `We thrive to provide meaningful design solutions for business & social challenges that can bring a positive change. Process simplification is our key to good design.` },
@@ -17,6 +19,12 @@ export class AboutUsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
   }
 
 }

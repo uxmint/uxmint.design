@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-services',
@@ -13,7 +15,7 @@ export class ServicesComponent implements OnInit {
   active = 'discussion';
   activeIds = 'static-1';
 
-  constructor(private title:Title, private meta: Meta) { }
+  constructor(private title:Title, private meta: Meta, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.title.setTitle('Uxmint Design - Services');
@@ -21,6 +23,12 @@ export class ServicesComponent implements OnInit {
       {name: 'description', content: `Enhance your product with the right strategy. Our team of design experts can help you in Customer Experience, Strategy Design, Product Ideation, Branding, Interface Design, Usability Testing.` },
       {name: 'keywords', content: `Research, Personas, Task Analysis, Site Architecture, Wireframing, Interaction, Mood board, UI Design, Usability Testing, User Architecture, User Flow, Interviews, Sketching, Focus Groups, Lean UX, Agile Process, user experience research, ux process, user interface, usability, user interface design, usability testing, ux design labs, Digital Design Agency, UX Consultant`}
     ]);
+  }
+
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
   }
 
 }

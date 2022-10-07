@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-blogs',
@@ -61,7 +63,7 @@ export class BlogsComponent implements OnInit {
     }
   ];
 
-  constructor(private title:Title, private meta:Meta) { }
+  constructor(private title:Title, private meta:Meta, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.title.setTitle('Uxmint Design - Blogs');
@@ -70,5 +72,9 @@ export class BlogsComponent implements OnInit {
       {name: 'keywords', content: `ui and ux, uiux, ui and ux design, ux design blogs, ui design blog, blog design, blog website design, best design blogs, ux blog, blog ui, ui ux blogs, ui design blogs, blog post ui design, ux, ui, ui design, gui design, ui ux design, user experience, gui, ui ux, ux ui,  experience design, ux articles, app design tips`}
     ]);
   }
-
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
+  }
 }

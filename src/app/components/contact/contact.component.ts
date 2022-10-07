@@ -3,6 +3,8 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { APIService } from '../../services/api.service';
 import { Title, Meta } from '@angular/platform-browser';
 import { AlertService } from './../../services/alert.service';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-contact',
@@ -26,7 +28,7 @@ export class ContactComponent implements OnInit {
   position: any;
   careerposition: any;
 
-  constructor(private fb:FormBuilder, private apiService: APIService, private title:Title,private meta:Meta, private alert:AlertService) {
+  constructor(private fb:FormBuilder, private apiService: APIService, private title:Title,private meta:Meta, private alert:AlertService, private modalService: NgbModal) {
     this.form = this.fb.group({
       position: ['',Validators.required],
       name: ['',Validators.required],
@@ -45,7 +47,6 @@ export class ContactComponent implements OnInit {
     this.position = value;
   }
   submit(){
-    // console.log('Form', this.form.value);
      this.submitted=true;
     if(this.form.valid){
       let formData ={
@@ -56,9 +57,7 @@ export class ContactComponent implements OnInit {
         message: this.form.get('message').value,
         business: this.form.get('business').value
       }
-          // console.log('FormData-Contact', formData);
           this.apiService.enquiryRequest(formData).subscribe(data => {
-            // console.log(data);
             if(data.success == true){
               this.form.reset();
               this.form.controls.position.setValue('');
@@ -73,5 +72,11 @@ export class ContactComponent implements OnInit {
   }
   hasError(control:string,validation:string):boolean{
     return this.form.get(control).hasError(validation) && (this.form.get(control).touched || this.submitted)
+  }
+
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
   }
 }

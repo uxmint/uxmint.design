@@ -43,7 +43,8 @@ button{
         padding-top: 27px;
         a{
             font-family: 'Muli', sans-serif;
-            font-size: 18px;
+            font-size: 16px;
+            font-weight: 100;
             color: #fbe1df;
             &:hover{
                 text-decoration: none;
@@ -51,7 +52,8 @@ button{
         }
     }
     .small a{
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 100;
     }
 }
 .menu-footer{

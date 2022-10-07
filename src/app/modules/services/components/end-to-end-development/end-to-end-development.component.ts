@@ -1,5 +1,7 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from 'src/app/components/header/header.component';
 
 @Component({
   selector: 'app-end-to-end-development',
@@ -9,7 +11,7 @@ import { Title, Meta } from '@angular/platform-browser';
 export class EndToEndDevelopmentComponent implements OnInit {
   active = 'discussion';
   activeIds = 'static-1';
-  constructor(private title:Title, private meta:Meta) { }
+  constructor(private title:Title, private meta:Meta, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.title.setTitle('Uxmint Design - Services');
@@ -18,5 +20,9 @@ export class EndToEndDevelopmentComponent implements OnInit {
       {name: 'keywords', content: `Research, Personas, Task Analysis, Site Architecture, Wireframing, Interaction, Mood board, UI Design, Usability Testing, User Architecture, User Flow, Interviews, Sketching, Focus Groups, Lean UX, Agile Process, user experience research, ux process, user interface, usability, user interface design, usability testing, ux design labs, Digital Design Agency, UX Consultant`}
     ]);
   }
-
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
+  }
 }

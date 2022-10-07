@@ -1,6 +1,8 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from 'src/app/components/header/header.component';
 
 @Component({
   selector: 'app-health-care',
@@ -45,7 +47,7 @@ export class HealthCareComponent implements OnInit {
     }
   ];
 
-  constructor(private cdr: ChangeDetectorRef, private title:Title, private meta:Meta) { }
+  constructor(private cdr: ChangeDetectorRef, private title:Title, private meta:Meta, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.cdr.detectChanges();
@@ -55,5 +57,9 @@ export class HealthCareComponent implements OnInit {
       {name: 'keywords', content: `Portfolio, UX portfolio, UI  portfolio, Sify, networking, business solution, enterprise application design, designing enterprise app, bigfday, sughavazhvu healthcare, healthcare, events management, referralyogi, SaaS, supply chain, mobile app design, responsive web design, website design, ux app, mobile ux, interface design, ui mobile, ios ui design, ui designing, ui/ux, ui and ux design, app ui design, mobile app ui design, mobile ui design, mobile ux design, web ui design, mobile design, best mobile sites, android ui design, iOS design, mobile ux design samples, best ui designs, good ux design, design india`}
     ]);
   }
-
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
+  }
 }

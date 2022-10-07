@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-works',
@@ -8,7 +10,7 @@ import { Title, Meta } from '@angular/platform-browser';
 })
 export class WorksComponent implements OnInit {
 
-  constructor(private title:Title, private meta:Meta) { 
+  constructor(private title: Title, private meta: Meta, private modalService: NgbModal) { 
     this.title.setTitle('Uxmint Design  -  Our Works & Case Studies');
     this.meta.addTags([
       {name: 'description', content: `We have worked with companies in their stage of incubation, revival & next leap; take your next leap in design with us. Our expertise spans across Enterprise Application Design, Product Design, Android & iOS Design, Content Websites.` },
@@ -21,6 +23,12 @@ export class WorksComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
   }
 
 }

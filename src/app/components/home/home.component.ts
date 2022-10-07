@@ -1,6 +1,8 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 import { Title, Meta } from '@angular/platform-browser';
+import { HeaderComponent } from '../header/header.component';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-home',
@@ -57,7 +59,7 @@ export class HomeComponent implements OnInit {
     { profile: './assets/images/home/logo1.svg'}  
     ];
 
-  constructor(private cdr: ChangeDetectorRef, private title:Title, private meta:Meta) { 
+  constructor(private cdr: ChangeDetectorRef, private title:Title, private meta:Meta, private modalService: NgbModal) { 
     this.title.setTitle('Uxmint Design');
     this.meta.addTags([
       {name: 'description', content: `Uxmint Design specialises in research based Experience Design (UX), Interface Design (UI), Branding and Product Ideation, Usability Testing and UI Development.` },
@@ -72,5 +74,10 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.cdr.detectChanges();
   }
-
+  
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
+  }
 }

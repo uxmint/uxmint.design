@@ -1,6 +1,8 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselConfig } from '@ngu/carousel';
+import { HeaderComponent } from 'src/app/components/header/header.component';
 
 @Component({
   selector: 'app-usability-testing',
@@ -33,7 +35,7 @@ export class UsabilityTestingComponent implements OnInit {
       url: '/work/automobile-usability'
     }
   ];
-  constructor(private title:Title, private cdr: ChangeDetectorRef, private meta:Meta) { }
+  constructor(private title:Title, private cdr: ChangeDetectorRef, private meta:Meta, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.cdr.detectChanges();
@@ -53,4 +55,9 @@ export class UsabilityTestingComponent implements OnInit {
     {  description: ' - Not sure which option of design will be beneficial'},
     {  description: ' - To get an understanding of users mental model'}    
     ];
+    openMenu(){
+      this.modalService.open(HeaderComponent,{
+        windowClass: 'menu'
+      });
+    }
 }

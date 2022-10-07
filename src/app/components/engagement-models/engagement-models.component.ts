@@ -1,6 +1,8 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
 import { Title } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-engagement-models',
@@ -60,11 +62,17 @@ export class EngagementModelsComponent implements OnInit {
     }
   ];
 
-  constructor(private title:Title, private cdr: ChangeDetectorRef) { }
+  constructor(private title:Title, private cdr: ChangeDetectorRef, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.cdr.detectChanges();
     this.title.setTitle('Uxmint Design - Engagement Models');
+  }
+
+  openMenu(){
+    this.modalService.open(HeaderComponent,{
+      windowClass: 'menu'
+    });
   }
 
 }
