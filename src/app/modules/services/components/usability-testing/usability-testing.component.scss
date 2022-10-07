@@ -512,7 +512,6 @@
       
     }
 }
-
 .service-layout4{
     background-color: #FCFCFC;
     padding: 200px 0px;
@@ -536,18 +535,15 @@
         padding: 80px 0px;
     }
 }
-
 ::ng-deep .tab-content > .active{
     font-family: 'Muli', sans-serif;
 }
-
 .services-scroll{
     height: 400px;
     overflow: auto;
     padding: 50px 0px;
 }
 // Carousel
-
 .other-case-studies{
     .row{
         margin-left: 0;
@@ -628,7 +624,6 @@ li{
         margin: 0 5px;
         width: 15px;
         height: 15px;
-       // border: 2px solid #FFF;
         background-color: #D0D0D0 !important;
         text-indent: -999px;
         overflow: hidden;
@@ -662,9 +657,7 @@ box-shadow: none !important;
     }
 }
 // Carousel
-
 // *********** HEADER START*********** //
-
 header{
     z-index: 1;
     background-color: #FFFFFF;
@@ -701,7 +694,6 @@ header{
         width: 75%;
     }
 }
-
 @include media-breakpoint-down(sm){
     h2{
         margin-left: -78px;
@@ -714,7 +706,6 @@ header{
             width: 54%;
         }}
 }
-
 .lines{
     border-left: 1px solid #AAAAAA;
     height: 25px;
@@ -753,8 +744,6 @@ header{
         }
     }
 }
-
-
 @include media-breakpoint-down(lg){
     img{
         margin-left: -20px;
@@ -766,7 +755,6 @@ header{
         .nav-item{
             margin-left: 57px;
         }
-
 }
 @include media-breakpoint-down(md){
     .lines{
@@ -780,7 +768,6 @@ header{
                margin-left: 15px;
             }
         }
-
 }
 @include media-breakpoint-down(sm){
     .mobile-only{
@@ -807,5 +794,4 @@ header{
         display: none;
     }
 }
-
   // *********** HEADER ENDS *********** //

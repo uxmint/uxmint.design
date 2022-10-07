@@ -268,9 +268,7 @@
 }      
 .about-layout1{
         background-color: #FCFCFC;
-        //padding: 100px 0px;
             .design-layout{
-                //padding-left: 60px;
                 h2{
                     font-family: Baskerville;
                     font-size: 56px;
@@ -317,7 +315,6 @@
             @include media-breakpoint-down(lg) {  
                 padding: 80px 0px;
                 .design-layout{
-                    //padding-left: 60px;
                     .design-left{
                         padding: 125px 0px;
                     }
@@ -338,7 +335,6 @@
             @include media-breakpoint-down(md) {
                 padding: 60px 0px;
                 .design-layout{
-                    //padding-left: 30px;
                     h2{
                         font-size: 36px;
                     }
@@ -370,7 +366,6 @@
                 padding: 5px;
                 }
                 .design-layout{
-                    //padding-left: 35px;
                     .design-left{
                         padding: 80px 15px;
                     }
@@ -543,7 +538,6 @@
     }
 }
 // *********** HEADER START*********** //
-
 header{
     z-index: 1;
     background-color: #FCFCFC;
@@ -656,7 +650,6 @@ h2{
                margin-left: 15px;
             }
         }
-
 }
 @include media-breakpoint-down(sm){
     .mobile-only{
@@ -683,7 +676,4 @@ h2{
         display: none;
     }
 }
-
-
-
   // *********** HEADER ENDS *********** //
