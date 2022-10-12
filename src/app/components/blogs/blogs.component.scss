@@ -3,13 +3,13 @@
 @import '~bootstrap/scss/mixins';
 .blog{
     .banner{
-        background-color: #E2E2E2;
+        background-color: #e4e4e4;
         padding-top: 140px;
         height: 800px;
         padding: 200px 0px;
         h1{
-            font-size: 56px;
-            color: #C3343C;
+            font-size: 76px;
+            color: #000000;
             font-family: Baskerville;
             span{
                 color: #3B3B3B;
@@ -21,7 +21,7 @@
             padding-top: 25px;
             font-family: 'Muli', sans-serif;
             a{
-                color: #C3343C;
+                color: #000000;
                 text-decoration: underline;
             }
         }
@@ -124,7 +124,7 @@
         }             
     }
     .craft{
-        background-color: #C3343C;
+        background-color: #000000;
         padding-top: 40px;
         padding-bottom: 40px;
         h2{
@@ -145,7 +145,7 @@
             font-family: 'Muli', sans-serif;
             &:hover{
                 background-color: #FFFFFF;
-                color: #C3343C;
+                color: #000000;
             }
         }
         @include media-breakpoint-down(md){
@@ -166,7 +166,7 @@
 
 header{
     z-index: 1;
-    background-color: #E2E2E2;
+    background-color: #e4e4e4;
 }
 .nav-item{
     margin-left: 22px;

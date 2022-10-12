@@ -2,31 +2,28 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 .services{
-    //padding: 50px 0px;
 .banner{
-    // background-image: url('/assets/images/bg.png');
-    height: 580px;
-    //padding: 200px 0px;
+    background-color: #e4e4e4;
     h1{
         font-size: 56px;
         color: #3B3B3B;
         font-family: Baskerville;
     }
     hr.line{
-        border-bottom: 3px solid #C3343C;
+        border-bottom: 3px solid #000000;
         width: 30%;
         text-align: left;
         margin-left: 0;
         margin-top: -3px;
     }
     p{
-        font-size: 18px;
+        font-size: 36px;
         color: #707071;
-        font-family: 'Muli', sans-serif;
+        font-family: Baskerville;
     }
     .banner-content{
         padding-top: 200px;
-        padding-bottom: 150px;
+        padding-bottom: 200px;
         padding-left: 80px;
         padding-right: 80px;
     }
@@ -74,8 +71,8 @@
         margin-right: 0px !important;
     }
     .left-layout{
-       background-color: #C3343C;
-       color: #FFFFFF;
+       background-color: #ffffff;
+       color: #000000;
        padding: 250px 0px 300px;
        h3{
            font-size: 48px;
@@ -92,7 +89,7 @@
        }
     }
     .right-layout{
-        background-color: #C3343C;
+        background-color: #ffffff;
         @include media-breakpoint-down(sm){
             display: none;
         }
@@ -110,9 +107,9 @@
 .service-layout2{
     background-color: #282829;
     color: #FFFFFF;
-    padding: 150px 0px;
+    padding: 200px 0px;
     h3{
-        font-size: 36px;
+        font-size: 48px;
         margin-bottom: 30px;
         font-family: Baskerville;
     }
@@ -122,6 +119,7 @@
         margin-top: 40px;
         font-family: 'Muli', sans-serif;
         line-height: 40px;
+        color: #b5b5b5;
     }
     .list{
         padding: 30px;
@@ -422,8 +420,8 @@ li{
         &.active{
             width: 11px;
             height: 11px;
-            border: 8px solid #C3343C;
-            background-color: #C3343C !important;
+            border: 8px solid #000000;
+            background-color: #000000 !important;
         }
     }
 }
@@ -441,7 +439,7 @@ box-shadow: none !important;
     font-family: 'Muli', sans-serif;
     padding: 10px 15px;
     &:hover{
-        background-color: #C3343C;
+        background-color: #000000;
         color: #FFFFFF;
         border: 2px solid #E2E2E2;
     }
@@ -452,7 +450,7 @@ box-shadow: none !important;
 
 header{
     z-index: 1;
-    background-color: #FFFFFF;
+    background-color: #e4e4e4;
     .nav-item a.active{
         color: #000000;
         border-bottom: 3px solid #000000;

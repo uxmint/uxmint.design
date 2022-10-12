@@ -5,16 +5,16 @@
     padding-top: 0px;
 }
 .banner{
-    background-color: #FFD855;
+    background-color: #E4E4E4;
     height: 700px;
     padding: 0px 0px;
     .contact-layout{
     h1{
-        font-size: 56px;
+        font-size: 76px;
         color: #3B3B3B;
         font-family: Baskerville;
         span{
-            color: #C3343C;
+            color: #000000;
         }
     }
     h6{ 
@@ -23,7 +23,7 @@
         color: #3B3B3B;
         font-family: 'Muli', sans-serif;
          span a{
-            color: #C3343C;
+            color: #000000;
             text-decoration: underline;
             
         }
@@ -67,7 +67,7 @@
   .layouts{
     h2{
         font-size: 36px;
-        color: #C3343C;
+        color: #000000;
         font-family: Baskerville;
     }
   }
@@ -394,7 +394,7 @@ iframe {
         height: 100%;
         top:0;
         left:0;
-        background-color: #C3343C;
+        background-color: #000000;
         transition:all .3s;
         transform: translateX(-100%);
         z-index: -1;
@@ -405,7 +405,7 @@ iframe {
     }
     a:hover{
         color: #fff;
-        border: 2px solid #C3343C;
+        border: 2px solid #000000;
     
     }
 }
@@ -414,7 +414,7 @@ iframe {
 
 header{
     z-index: 1;
-    background-color: #FFD855;
+    background-color: #E4E4E4;
 }
 .nav-item{
     margin-left: 22px;

@@ -9,14 +9,14 @@
         padding-top: 140px;
         height: 700px;
         padding: 250px 0px;
-        background-color: #FAA55B;
+        background-color: #e4e4e4;
         .engagement-layout{
         h1{
-            font-size: 56px;
+            font-size: 76px;
             color: #3B3B3B;
             font-family: Baskerville;
             span{
-                color: #FFFFFF;
+                color: #000000;
             }
             #nextline::after{
                 content: "\a";
@@ -29,7 +29,7 @@
             color: #3B3B3B;
             font-family: 'Muli', sans-serif;
              span{
-                color: #FFFFFF;
+                color: #000000;
                 //border-bottom: 2px solid #FFF;
             }
         }
@@ -152,7 +152,7 @@
     }
 }
 .feature-work{
-    background-color: #FAA55B;
+    background-color: #FFFFFF;
     padding: 0 0 4px 5px;
     .row{
         margin-right: 0;
@@ -162,17 +162,17 @@
         border: none;
         padding: 100px 170px 100px 100px;
         height: 600px;
-        background-color: #FAA55B;
+        background-color: #FFFFFF;
         p{
             font-size: 18px;
-            color: #FFFFFF;
+            color: #000000;
             font-family: 'Muli', sans-serif;
         }
         h2{
             font-size: 48px;
             font-weight: 500;
             margin-bottom: 40px;
-            color: #FFFFFF;
+            color: #000000;
             font-family: Baskerville;
         }
     }
@@ -185,7 +185,7 @@
           }
           p{
             font-size: 18px;
-            color: #FFFFFF;
+            color: #000000;
             font-family: 'Muli', sans-serif;
         }
     }
@@ -201,7 +201,7 @@
             background-color: #E6E6E6;
         }
         .nav-link.active{
-            background-color: #FAA55B;
+            background-color: #FFFFFF;
         }
     }
     @include media-breakpoint-down(lg) {
@@ -244,7 +244,7 @@
             width: 15px;
             height: 15px;
             border: 2px solid #FFF;
-            background-color: #FFF !important;
+            background-color: #d0d0d0 !important;
             text-indent: -999px;
             overflow: hidden;
             border-radius: 10px;
@@ -267,7 +267,7 @@
 
 header{
     z-index: 1;
-    background-color: #FAA55B;
+    background-color: #e4e4e4;
 }
 .nav-item{
     margin-left: 22px;

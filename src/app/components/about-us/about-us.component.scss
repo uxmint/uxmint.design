@@ -9,19 +9,19 @@
         display: none;
     }
     .about{
-        background-color: #FCFCFC;
+        background-color: #E4E4E4;
         img{
             width: 100%;
         }
     .design{
         h1{
-            font-size: 56px;
+            font-size: 76px;
             color: #3B3B3B;
             font-family: Baskerville;
             padding-bottom: 20px;
             padding-top: 200px;
             span{
-                color: #C3343C;
+                color: #000000;
             }
         }
         h4{
@@ -29,7 +29,7 @@
             color: #3B3B3B;
             font-family: 'Muli', sans-serif;
             span{
-                color: #C3343C;  
+                color: #000000;  
             }
         }
     }
@@ -465,7 +465,7 @@
         }
     }
 .about-layout2{
-        background-color: #C3343C;
+        background-color: #000000;
             .design{
                 padding: 150px 0px;
                 margin-left: -20px;
@@ -540,7 +540,7 @@
 // *********** HEADER START*********** //
 header{
     z-index: 1;
-    background-color: #FCFCFC;
+    background-color: #E4E4E4;
 }
 .nav-item{
     margin-left: 22px;

@@ -5,26 +5,26 @@
     padding-top: 0px;
 }
 .banner{
-    background-color: #FCFCFC;
-    padding-top: 140px;
-    height: 830px;
+    background-color: #E4E4E4;
+    padding: 140px 0px;
      h1{
-         font-size: 64px;
+         font-size: 38px;
          font-family: Baskerville;
          color: #3B3B3B;
          span{
-             color: #C3343C;
+            font-size: 76px;
+             color: #000000;
          }
      }
      hr.line {
-         border-top: 1px solid #DEDEDE;
+         border-top: 1px solid #B1B1B1;
          margin: 60px 0px;
          width: 76%;
        }
        h2{
         font-size: 82px;
         font-family: 'Muli', sans-serif;
-        color: #C3343C;
+        color: #000000;
     }
     h5{
         font-size: 24px;
@@ -323,7 +323,7 @@
 
 header{
     z-index: 1;
-    background-color: #FCFCFC;
+    background-color: #E4E4E4;
     .nav-item{
         margin-left: 22px;
     }

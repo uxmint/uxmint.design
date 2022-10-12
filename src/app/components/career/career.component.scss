@@ -6,16 +6,16 @@
 }
 .career{
     .banner{
-        background-color: #DBEEF4;
+        background-color: #E4E4E4;
         padding-top: 140px;
         height: 700px;
         padding: 250px 0px;
         h1{
-            font-size: 56px;
+            font-size: 76px;
             color: #3B3B3B;
             font-family: Baskerville;
             span{
-                color: #C3343C;
+                color: #000000;
             }
         }
         h4{
@@ -24,7 +24,7 @@
             padding-top: 25px;
             font-family: 'Muli', sans-serif;
             span a{
-                color: #C3343C;
+                color: #000000;
                 text-decoration: underline;
                 cursor: pointer;
             }
@@ -89,7 +89,7 @@
                 padding: 5px 20px;
                 font-family: 'Muli', sans-serif;
                 &:hover{
-                    background-color: #C3343C;
+                    background-color: #000000;
                     color: #FFFFFF;
                     border: 2px solid #E2E2E2;
                 }
@@ -145,7 +145,7 @@
 
 header{
     z-index: 1;
-    background-color: #DBEEF4;
+    background-color: #E4E4E4;
 }
 .nav-item{
     margin-left: 22px;

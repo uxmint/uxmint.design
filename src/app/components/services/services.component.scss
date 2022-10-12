@@ -6,7 +6,7 @@
 }
 .services{
     .layout{
-        background-color: #5277BA;
+        background-color: #E4E4E4;
         padding-top: 140px;
         height: 700px;
         padding: 200px 0px;       
@@ -17,13 +17,13 @@
         h1{
             font-size: 60px;
             font-weight: 400;
-            color: #FFF;
+            color: #3b3b3b;
             padding-top: 50px;
             font-family: Baskerville;
             span{
                 font-size: 60px;
                 font-weight: 400;
-                color: #3B3B3B;
+                color: #000000;
                 font-family: Baskerville;
             }       
             #nextline::before{
@@ -34,7 +34,7 @@
         h3{
             font-size: 36px;
             font-weight: 400;
-            color: #FFF;
+            color: #3b3b3b;
             font-family: 'Muli', sans-serif;
             a{
                 color: #3B3B3B;
@@ -394,11 +394,23 @@
 
 header{
     z-index: 1;
-    background-color: #5277BA;
+    background-color: #E4E4E4;
+    .nav-item a.active{
+        color: #000000;
+        border-bottom: 3px solid #000000;
+    }
+    .nav-item{
+        margin-left: 22px;
+    }
+    h2{
+        font-family: "Muli", sans-serif;
+        font-size: 14px;
+        color: #000000;
+        margin-left: -14px;
+        padding-top: 9px;
+    }
 }
-.nav-item{
-    margin-left: 22px;
-}
+
 .header-logo{
     display: inline-flex;
     flex-wrap: nowrap;
@@ -411,13 +423,7 @@ header{
         width: 75%;
     }
 }
-h2{
-    font-family: "Muli", sans-serif;
-    font-size: 14px;
-    color: #000000;
-    margin-left: -14px;
-    padding-top: 9px;
-}
+
 @include media-breakpoint-down(sm){
     h2{
         margin-left: -78px;
@@ -474,10 +480,7 @@ h2{
         }
     }
 }
-.nav-item a.active{
-    color: #000000;
-    border-bottom: 3px solid #000000;
-}
+
 
 @include media-breakpoint-down(lg){
     img{

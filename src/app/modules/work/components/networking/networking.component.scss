@@ -1,6 +1,7 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
+
 h2{
     font-size: 56px;
     font-family: Baskerville;
@@ -27,7 +28,7 @@ h6{
     }
 }  
     .banner{
-        background-color: #EBEBEB;
+        background-color: #cadacb;
         padding-top: 140px;
        height: 730px;
        padding: 250px 0px;
@@ -481,7 +482,7 @@ h6{
 
 header{
     z-index: 1;
-    background-color: #EBEBEB;
+    background-color: #cadacb;
     h2{
         font-family: "Muli", sans-serif;
         font-size: 14px;
