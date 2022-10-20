@@ -2,13 +2,20 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 :host{
-    padding-top: 0px;
+    padding-top: 100px;
+    margin-top: -200px;
 }
 .banner{
     background-color: #E4E4E4;
     height: 700px;
     padding: 0px 0px;
     .contact-layout{
+    img{
+        width:215%;
+        margin-left: -720px;
+        margin-top: 26px;
+
+        }
     h1{
         font-size: 76px;
         color: #3B3B3B;
@@ -364,7 +371,7 @@ iframe {
     font-family: 'Muli', sans-serif;
   }
   .contact-left{
-      padding: 245px 0px;
+      padding: 155px 0px;
   }
 
 // *********************** BUTTONS red ***************
@@ -410,147 +417,4 @@ iframe {
     }
 }
 
-// *********** HEADER START*********** //
 
-header{
-    z-index: 1;
-    background-color: #E4E4E4;
-}
-.nav-item{
-    margin-left: 22px;
-}
-.header-logo{
-    display: inline-flex;
-    flex-wrap: nowrap;
-    cursor: pointer;
-}
-.ux-logo{
-    img{
-        margin-left: 28px;
-        margin-top: 7px;
-        width: 75%;
-    }
-}
-h2{
-    font-family: "Muli", sans-serif;
-    font-size: 14px;
-    color: #000000;
-    margin-left: -14px;
-    padding-top: 9px;
-}
-@include media-breakpoint-down(sm){
-    h2{
-        margin-left: -78px;
-        padding-top: 13px;
-    }
-    .ux-logo{
-        img{
-            margin-left: 6px;
-            margin-top: 7px;
-            width: 54%;
-        }}
-}
-.nav-link{
-    font-family: 'Muli', sans-serif;
-    font-size: 16px;
-    color: #000000;
-    font-weight: 400;
-}
-.lines{
-    border-left: 1px solid #AAAAAA;
-    height: 25px;
-    margin-top: 8px;
-    margin-left: 50px;
-}
-.menu-activator{
-    cursor: pointer;
-    position: relative;
-    margin-left: 30px;
-    @include media-breakpoint-down(lg){
-        margin-left: 30px;
-    }
-    @include media-breakpoint-down(md){
-        margin-left: 4px;
-    }
-    @include media-breakpoint-down(sm){
-        margin-left: 2px;
-    }
-    img{
-        height: 16px;
-        width: auto;
-        margin-left: 0px;
-        margin-top: -5px;
-        @include media-breakpoint-down(lg){
-            height: 28px;
-            margin-top: -5px;
-        }
-        @include media-breakpoint-down(md){
-            height: 24px;
-            margin-top: -10px;
-        }
-        @include media-breakpoint-down(sm){
-            height: 21px;
-            margin-top: -5px;
-        }
-    }
-}
-.nav-item a.active{
-    color: #000000;
-    border-bottom: 3px solid #000000;
-}
-
-@include media-breakpoint-down(lg){
-    img{
-        margin-left: -20px;
-        padding-top: 7px;
-    }
-    .lines{
-      margin-left: 85px;
-        }
-        .nav-item{
-            margin-left: 57px;
-        }
-
-}
-@include media-breakpoint-down(md){
-    .lines{
-      margin-left: 45px;
-        }
-        .nav-item{
-            margin-left: 15px;
-        }
-        .menu-activator{
-            img{
-               margin-left: 15px;
-            }
-        }
-
-}
-@include media-breakpoint-down(sm){
-    .mobile-only{
-        display: inline-block;
-        a{
-            color: #a3a3a3 !important;
-        }
-    }
-    .mediaIcons{
-        ul{
-            list-style: none;
-            display: inline-flex;
-            li{
-                span{
-                    margin-right: 4px;
-                }
-            }
-        }
-    }
-    .only-mobile{
-        display: none;
-    }
-    .web-only{
-        display: none;
-    }
-}
-
-
-  // *********** HEADER ENDS *********** //

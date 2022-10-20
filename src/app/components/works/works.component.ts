@@ -10,6 +10,66 @@ import { HeaderComponent } from '../header/header.component';
 })
 export class WorksComponent implements OnInit {
 
+  worksLeft: any[] = [
+    {
+      title: 'Digital Transformation for Telcom',
+      desc: 'UX . UI . Mobile . B2B',
+      url: '/work/networking',
+      image: '/assets/images/works/network1.webp'
+    },
+    
+    {
+      title: 'To adapt organic food as a Lifestyle',
+      desc: 'UX . UI . web . Mobile .B2C',
+      url: '/work/health-care',
+      image: '/assets/images/works/works3.png'
+    },
+    {
+      title: 'A designers platform for creative upskill',
+      desc: 'UX . UI . Mobile . Web . B2C',
+      url: '/work/skill-development',
+      image: '/assets/images/works/works5.webp'
+    },
+    {
+      title: '',
+      desc: '',
+      url: '',
+      image: ''
+    },
+    {
+      title: '',
+      desc: '',
+      url: '',
+      image: ''
+    }
+  ]
+  worksRight: any[] = [
+    {
+      title: 'Event Hosting made stressless',
+      desc: 'UX . UI . Web . Mobile . B2C',
+      url: '/work/event-management',
+      image: '/assets/images/works/works2.png'
+    },
+    {
+      title: '',
+      desc: '',
+      url: '',
+      image: ''
+    },
+    {
+      title: '',
+      desc: '',
+      url: '',
+      image: ''
+    },
+    {
+      title: '',
+      desc: '',
+      url: '',
+      image: ''
+    }
+  ]
+
   constructor(private title: Title, private meta: Meta, private modalService: NgbModal) { 
     this.title.setTitle('Uxmint Design  -  Our Works & Case Studies');
     this.meta.addTags([

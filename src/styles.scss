@@ -37,6 +37,9 @@ $uxmint-theme: mat-light-theme((
 @import './scss/bootstrap.scss';
 @import './scss/bootstrap-custom.scss';
 
+@import './scss/asset.path';
+@import './scss/font';
+
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';

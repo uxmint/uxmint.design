@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.5" height="66.536" viewBox="0 0 73.5 66.536">
+  <g id="Group_2755" data-name="Group 2755" transform="translate(-279.749 -1038.75)">
+    <g id="Group_2744" data-name="Group 2744" transform="translate(149.623 878.459)">
+      <line id="Line_108" data-name="Line 108" y2="22.092" transform="translate(166.876 202.606)" fill="none" stroke="#bababa" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Path_574" data-name="Path 574" d="M149.962,225.574V207.958h-13.87a6.639,6.639,0,0,1-2.358-1.164,6.884,6.884,0,0,1-2.358-3.551V183.6s.532-5.42,5.42-5.42a47.526,47.526,0,0,1,7.539.475s2.882.333,2.882,5.763.111,10.339.111,10.339l13.225.152v5.1h-19.8v1.514h13.483s3.211.371,3.211,3.211v20.843Z" fill="none" stroke="#bababa" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Path_575" data-name="Path 575" d="M183.79,225.574V207.958h13.871a6.639,6.639,0,0,0,2.358-1.164,6.874,6.874,0,0,0,2.357-3.551V183.6s-.532-5.42-5.42-5.42a47.541,47.541,0,0,0-7.539.475s-2.882.333-2.882,5.763-.111,10.339-.111,10.339l-13.225.152v5.1H193v1.514H179.518s-3.211.371-3.211,3.211v20.843Z" fill="none" stroke="#bababa" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Path_576" data-name="Path 576" d="M170.28,203.255V199.5h-6.022v3.756Z" fill="none" stroke="#bababa" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Path_577" data-name="Path 577" d="M157.938,178.179V167.191h21.067v10.988h-8.369l-2.433,2.16-2.154-1.912h-8.111Z" transform="translate(-1.23)" fill="none" stroke="#c3343c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <ellipse id="Ellipse_262" data-name="Ellipse 262" cx="1.299" cy="1.299" rx="1.299" ry="1.299" transform="translate(160.254 171.658)" fill="none" stroke="#c3343c" stroke-width="2.5"/>
+      <ellipse id="Ellipse_263" data-name="Ellipse 263" cx="1.299" cy="1.299" rx="1.299" ry="1.299" transform="translate(165.745 171.658)" fill="none" stroke="#c3343c" stroke-width="2.5"/>
+      <ellipse id="Ellipse_264" data-name="Ellipse 264" cx="1.299" cy="1.299" rx="1.299" ry="1.299" transform="translate(171.424 171.658)" fill="none" stroke="#c3343c" stroke-width="2.5"/>
+      <circle id="Ellipse_260" data-name="Ellipse 260" cx="6.773" cy="6.773" r="6.773" transform="translate(133.909 161.54)" fill="none" stroke="#bababa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle id="Ellipse_261" data-name="Ellipse 261" cx="6.773" cy="6.773" r="6.773" transform="translate(187.621 161.54)" fill="none" stroke="#bababa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>
