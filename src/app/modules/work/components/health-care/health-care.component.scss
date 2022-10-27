@@ -7,7 +7,7 @@
 }
 h2{
     font-size: 56px;
-    font-family: Baskerville;
+    font-family: "Muli", sans-serif;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 32px;
@@ -16,7 +16,7 @@ h2{
 }
 p{
     font-size: 18px;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 14px;
@@ -24,7 +24,7 @@ p{
 }
 h6{
     font-size: 24px;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     color: #3B3B3B;
     @include media-breakpoint-down(md) {
         font-size: 28px;
@@ -116,7 +116,7 @@ h6{
         padding: 200px 0px;
         p{
             font-size: 18px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             line-height: 40px;
         }
         @include media-breakpoint-down(lg){
@@ -142,11 +142,11 @@ h6{
         }
         h6{
             font-size: 36px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
         }
         p{
              font-size: 18px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             line-height: 35px;
         }
         @include media-breakpoint-down(lg){
@@ -172,24 +172,24 @@ h6{
         h1{
             color: #53BC67;
             font-size: 116px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             margin-top: 100px;
         }
         h2{
             font-size: 56px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             color: #53BC67;
             font-weight: 300;
         }
         h6{
             margin-bottom: 25px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             font-size: 36px;
         }
         p{
             //font-weight: 300;
              font-size: 18px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
         }
         .needs{
             height: 500px;
@@ -232,11 +232,11 @@ h6{
         color: #3D3D3D;
         h6{
             line-height: 55px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             font-size: 36px;
         }
         p{
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
              font-size: 18px;
             line-height: 40px;
         }
@@ -266,13 +266,13 @@ h6{
         color: #3D3D3D;
         h6{
             font-size: 36px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             line-height: 55px;
             margin-top: 150px;
         }
         p{
             line-height: 40px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
              font-size: 18px;
         }
         img{
@@ -315,7 +315,7 @@ h6{
         h6{
             line-height: 55px;
             margin-top: 40px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             font-size: 36px;
         }
         img{
@@ -323,11 +323,11 @@ h6{
         }
         h5{
             font-size: 20px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
         }
         P{
              font-size: 18px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             line-height: 35px;
         }
         @include media-breakpoint-down(lg){
@@ -363,7 +363,7 @@ h6{
         padding: 70px 0px;
         h6{
             line-height: 40px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             font-size: 24px;
             margin-top: 200px;
         }
@@ -440,12 +440,12 @@ h6{
         h6{
             line-height: 50px;
             font-size: 36px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             margin-top: 60%;
         }
          p{
             line-height: 40px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
              font-size: 18px;
         }
         img{
@@ -484,7 +484,7 @@ h6{
            background-color: #EBEBEB;
            h2{
                font-size: 57px;
-               font-family: Baskerville;
+               font-family: "Muli", sans-serif;
                color: #282829;
                margin-top: 120px;
                margin-bottom: 80px;
@@ -513,14 +513,14 @@ h6{
                }
                h3{
                    font-size: 36px;
-                   font-family: Baskerville;
+                   font-family: "Muli", sans-serif;
                    margin: 40px 130px 20px 40px;
                    a{
                     color: #3B3B3B; 
                    }
                }
                h4{
-                font-family: 'Muli', sans-serif;
+                font-family: "Muli", sans-serif;
                  font-size: 18px;
                    margin: 0 0 10px 40px;
                }
@@ -561,8 +561,8 @@ h6{
             &.active{
                 width: 11px;
                 height: 11px;
-                border: 8px solid #C3343C;
-                background-color: #C3343C !important;
+                border: 8px solid #000000;
+                background-color: #000000 !important;
             }
         }
     }
@@ -584,7 +584,7 @@ h6{
         padding-bottom: 40px;
         h2{
             font-size: 57px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             color: #FCFCFC;
         }
         .button{
@@ -596,7 +596,7 @@ h6{
              font-size: 18px;
              padding: 10px 20px;
             border-radius: 0px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             cursor: pointer;
             &:hover{
                 background-color: #FFFFFF;
@@ -621,7 +621,7 @@ h6{
         color: #0D0D0D;
         cursor: pointer;
          font-size: 18px;
-        font-family: 'Muli', sans-serif;
+        font-family: "Muli", sans-serif;
         padding: 10px 15px;
         &:hover{
             background-color: #C3343C;

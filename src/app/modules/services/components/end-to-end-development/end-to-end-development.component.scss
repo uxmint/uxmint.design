@@ -2,18 +2,19 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 .services{
-    //padding: 50px 0px;
+    padding-top: 100px;
+    margin-top: -200px;
 .banner{
-    // background-image: url('/assets/images/bg.png');
+    background-color: #f7f5f0;
     height: 580px;
     padding: 200px 0px;
     h1{
         font-size: 56px;
         color: #3B3B3B;
-        font-family: Baskerville;
+        font-family: "Muli", sans-serif;
     }
     hr.line{
-        border-bottom: 3px solid #C3343C;
+        border-bottom: 3px solid #000000;
         width: 30%;
         text-align: left;
         margin-left: 0;
@@ -22,7 +23,7 @@
     p{
         font-size: 18px;
         color: #707071;
-        font-family: 'Muli', sans-serif;
+        font-family: "Muli", sans-serif;
     }
     @include media-breakpoint-down(lg){
         .row{
@@ -70,7 +71,7 @@
        padding: 285px 0px 200px;
        h3{
            font-size: 48px;
-           font-family: Baskerville;
+           font-family: "Muli", sans-serif;
        }
        @include media-breakpoint-down(lg){
         padding: 100px 0px;
@@ -104,13 +105,13 @@
     h3{
         font-size: 36px;
         margin-bottom: 30px;
-        font-family: Baskerville;
+        font-family: "Muli", sans-serif;
     }
     p{
         font-size: 18px;
         font-weight: 200;
         margin-top: 40px;
-        font-family: 'Muli', sans-serif;
+        font-family: "Muli", sans-serif;
     }
     .list{
         padding: 30px;
@@ -118,7 +119,7 @@
             font-size: 20px;
             margin-left: 5px;
             font-weight: 200;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
         }
     }
     @include media-breakpoint-down(lg){
@@ -190,12 +191,12 @@
     padding: 200px 0px;
     h3{
         font-size: 36px;
-        font-family: Baskerville;
+        font-family: "Muli", sans-serif;
     }
     p{
          font-size: 18px;
         line-height: 40px;
-        font-family: 'Muli', sans-serif;
+        font-family: "Muli", sans-serif;
     }
     @include media-breakpoint-down(lg){
         padding: 200px 0px;
@@ -212,11 +213,11 @@
     padding: 200px 0px;
     h3{
         font-size: 36px;
-        font-family: Baskerville;
+        font-family: "Muli", sans-serif;
     }
     p{
          font-size: 18px;
-         font-family: 'Muli', sans-serif;
+         font-family: "Muli", sans-serif;
         line-height: 40px;
     }
     @include media-breakpoint-down(lg){
@@ -230,9 +231,6 @@
     }
 }
 .service-layout3{
-    background-color: #FFFFFF;
-    padding: 150px 0px;
-    color: #282829;
     li{
         list-style-type: none;
         font-size: 28px;
@@ -240,19 +238,31 @@
         img{
             margin-right: 10px;
             &:active{
-                color: #C3343C;
+                color: #000000;
             }
         }
     }
+    background-color: #FCFCFC;
+    padding: 100px 220px;
+    h3{
+        font-size: 36px;
+        font-weight: 100;
+        font-family: "Muli", sans-serif;
+    }
     h2{
-        font-size: 56px;
-        font-family: Baskerville;
+        font-size: 50px;
+        margin-bottom: 80px;
+        text-align: center;
+        color: #3b3b3b;
     }
     p{
-        font-size: 16px;
-        line-height: 30px;
-        margin-top: 40px;
-        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        color: #707071;
+        margin-bottom: 30px;
+        line-height: 35px;
+        font-family: "Muli", sans-serif;
+        text-align: justify;
     }
     .li{
         font-size: 16px;
@@ -329,7 +339,7 @@
     color: #C3343C;
     font-size: 36px;
     font-weight: 600;
-    font-family: Baskerville;
+    font-family: "Muli", sans-serif;
     svg{
         margin-top: 8px !important;
     }
@@ -355,7 +365,7 @@
 }
 .nav-pills a{
     color: #282829;
-    font-family: Baskerville;
+    font-family: "Muli", sans-serif;
     svg{
         margin-right: 10px;
     }

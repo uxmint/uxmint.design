@@ -11,16 +11,18 @@
     }
     .about{
         background-color: #f7f5f0;
-        img{
-            width: 100%;
-        }
+        background-image: url('/assets/images/workillus.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 200px 0px;
     .design{
         h1{
             font-size: 76px;
             color: #3B3B3B;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             padding-bottom: 20px;
             padding-top: 200px;
+            padding-right: 568px;
             span{
                 color: #000000;
             }
@@ -28,7 +30,7 @@
         h4{
             font-size: 26px;
             color: #3B3B3B;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             span{
                 color: #000000;  
             }
@@ -66,21 +68,19 @@
         h2{
             font-size: 56px;
             color: #3B3B3B;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             padding-bottom: 20px;
         }
         h6{
             font-size: 20px;
             color: #3B3B3B;
             padding-top: 10px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
         }   
 .design-layout{
             background-color: #f7f5f0;
-            padding-left: 60px;
             .design-left{
-                padding: 150px 30px;
-                margin-left: 200px;
+                padding: 150px 0px;
             }
             .button{
                 margin-top: 60px;
@@ -92,7 +92,7 @@
                 cursor: pointer;
                 font-size: 20px;
                 padding: 10px 20px;
-                font-family: 'Muli', sans-serif;
+                font-family: "Muli", sans-serif;
                 &:hover{
                     background-color: #C3343C;
                     color: #FFFFFF;
@@ -104,8 +104,8 @@
             background-color: #282829;
             border: 1px solid #707070;
             .design-right{
-                padding: 150px 30px;
-              
+                padding: 150px 0px;
+                text-align: center;
                 .logo{
                     list-style: none;
                     padding: 60px 0;
@@ -160,7 +160,7 @@
                         cursor: pointer;
                         font-size: 20px;
                         padding: 10px 20px;
-                        font-family: 'Muli', sans-serif;
+                        font-family: "Muli", sans-serif;
                         &:hover{
                             background-color: #C3343C;
                             color: #FFFFFF;
@@ -271,7 +271,7 @@
         background-color:#f7f5f0;
             .design-layout{
                 h2{
-                    font-family: Baskerville;
+                    font-family: "Muli", sans-serif;
                     font-size: 56px;
                     color: #3B3B3B;
                 }
@@ -288,7 +288,7 @@
                     cursor: pointer;
                     font-size: 20px;
                     padding: 10px 20px;
-                    font-family: 'Muli', sans-serif;
+                    font-family: "Muli", sans-serif;
                     &:hover{
                         background-color: #C3343C;
                         color: #FFFFFF;
@@ -304,13 +304,13 @@
                 h5{
                     font-size: 36px;
                     color: #3B3B3B;
-                    font-family: Baskerville;
+                    font-family: "Muli", sans-serif;
                 }
                 p{
                     font-size: 18px;
                     color: #707071;
                     font-weight: 400;
-                    font-family: 'Muli', sans-serif;
+                    font-family: "Muli", sans-serif;
                 }
             }
             @include media-breakpoint-down(lg) {  
@@ -401,7 +401,7 @@
         color: #FFF;
         h2{
             font-size: 36px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             padding: 0px 45px;
         }
         .nav-link{
@@ -473,13 +473,13 @@
                 h2{
                     font-size: 48px;
                     color: #FCFCFC;
-                    font-family: Baskerville;
+                    font-family: "Muli", sans-serif;
                     padding-bottom: 20px;
                 }
                 h6{
                     font-size: 20px;
                     color: #FCFCFC;
-                    font-family: 'Muli', sans-serif;
+                    font-family: "Muli", sans-serif;
                 }
                 .button{
                     margin-top: 60px;
@@ -493,7 +493,7 @@
                     font-size: 20px;
                     padding: 10px 20px;
                     border-radius: 0px;
-                    font-family: 'Muli', sans-serif;
+                    font-family: "Muli", sans-serif;
                 }
             }
             @include media-breakpoint-down(lg) { 
