@@ -2,10 +2,10 @@
   <g id="Group_6490" data-name="Group 6490" transform="translate(-9678.321 -629.638)">
     <rect id="Rectangle_4844" data-name="Rectangle 4844" width="48" height="48" transform="translate(9689 639)" fill="#fff" opacity="0"/>
     <g id="Group_6472" data-name="Group 6472" transform="translate(9693.8 643.8)">
-      <path id="Polygon_4" data-name="Polygon 4" d="M37.134,0,49.512,21.785,37.134,43.57H12.378L0,21.785,12.378,0Z" transform="translate(8.355 -12.113) rotate(30)" fill="none" stroke="#ff424b" stroke-linejoin="round" stroke-width="3"/>
-      <path id="Path_9494" data-name="Path 9494" d="M5335.33,11032.8v47.426" transform="translate(-5316.419 -11037.466)" fill="none" stroke="#ff424b" stroke-width="3"/>
-      <path id="Path_9495" data-name="Path 9495" d="M5366.039,11038.7l-41.1,24.444" transform="translate(-5326.609 -11031.683)" fill="none" stroke="#ff424b" stroke-width="3"/>
-      <path id="Path_9496" data-name="Path 9496" d="M5324.931,11038.7l40.767,23.98" transform="translate(-5326.616 -11031.683)" fill="none" stroke="#ff424b" stroke-width="3"/>
+      <path id="Polygon_4" data-name="Polygon 4" d="M37.134,0,49.512,21.785,37.134,43.57H12.378L0,21.785,12.378,0Z" transform="translate(8.355 -12.113) rotate(30)" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_9494" data-name="Path 9494" d="M5335.33,11032.8v47.426" transform="translate(-5316.419 -11037.466)" fill="none" stroke="#ffffff" stroke-width="3"/>
+      <path id="Path_9495" data-name="Path 9495" d="M5366.039,11038.7l-41.1,24.444" transform="translate(-5326.609 -11031.683)" fill="none" stroke="#ffffff" stroke-width="3"/>
+      <path id="Path_9496" data-name="Path 9496" d="M5324.931,11038.7l40.767,23.98" transform="translate(-5326.616 -11031.683)" fill="none" stroke="#ffffff" stroke-width="3"/>
     </g>
   </g>
 </svg>

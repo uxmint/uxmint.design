@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.857" height="63.25" viewBox="0 0 52.857 63.25">
+  <g id="Group_2750" data-name="Group 2750" transform="translate(-378.374 -377.153)">
+    <path id="Path_7820" data-name="Path 7820" d="M380.066,382.736V426.89a30.774,30.774,0,0,0,35.366,0V382.736" transform="translate(-0.147 -0.607)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.5"/>
+    <ellipse id="Ellipse_701" data-name="Ellipse 701" cx="17.83" cy="3.525" rx="17.83" ry="3.525" transform="translate(379.624 378.403)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_7821" data-name="Path 7821" d="M379.013,394.538a52.147,52.147,0,0,0,35.661,0" transform="translate(0 -2.26)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_7822" data-name="Path 7822" d="M380.066,404.986a52.146,52.146,0,0,0,35.661,0" transform="translate(-0.147 -3.723)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_7823" data-name="Path 7823" d="M379.013,414.945a52.147,52.147,0,0,0,35.661,0" transform="translate(0 -5.117)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_7824" data-name="Path 7824" d="M379.013,425.45a52.146,52.146,0,0,0,35.661,0" transform="translate(0 -6.588)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.5"/>
+    <g id="Union_2" data-name="Union 2" transform="translate(399.116 408.294)">
+      <path id="Path_7825" data-name="Path 7825" d="M421.239,444.271h-6.582V440.33l-.879-.343c-.266-.1-.533-.219-.8-.346l-.881-.422-.691.691-2.135,2.134-4.658-4.656,2.364-2.362.642-.641-.335-.844c-.075-.188-.148-.389-.218-.6l-.318-.936H402.39v-6.584h4.728l.364-.821c.04-.093.084-.186.127-.277l.414-.878-.686-.685-2.716-2.717,4.655-4.656,2.948,2.946.639.639.84-.33.036-.014.034-.014.883-.341v-5.114h6.582v5.1l.863.348.047.019.026.009.85.347.648-.648,2.947-2.947,4.657,4.656-2.72,2.718-.688.689.417.879c.045.095.09.191.134.286l.368.807H433.5v6.584h-4.367l-.315.943c-.063.191-.136.388-.215.586l-.339.845.643.644,2.361,2.361-4.656,4.655-2.133-2.133-.691-.692-.881.424c-.255.122-.524.239-.8.347l-.875.344v3.939Z" transform="translate(-402.39 -413.162)" fill="#fff" stroke="#c3343c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <circle id="Ellipse_702" data-name="Ellipse 702" cx="4.652" cy="4.652" r="4.652" transform="translate(410.021 419.196)" fill="#fff" stroke="#c3343c" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
