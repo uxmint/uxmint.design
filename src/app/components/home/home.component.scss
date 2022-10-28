@@ -575,37 +575,64 @@ margin-left: 105px;
         border: 2px solid #E2E2E2;
     }
 }
-.custom-slider-main{
-    background-color: #f7f5f0;
+//***************slider2****************//
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 15));
+    }
+}
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slider .slide-track{
+    animation:scroll 40s linear infinite;
     display: flex;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    padding-left: 85px;
-    }
-    .icon{
-        padding-right: 85px;
-    }
-    .custom-slider-main::-webkit-scrollbar-track {
-    border: 1px solid #fff;
-    padding: 2px 0px;
-    margin: 20px;
-    background-color: #e2e2e2;
-    }
-    .custom-slider-main::-webkit-scrollbar {
-    width: 0px;
-    height: 4px;
-    }
-    .custom-slider-main::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #737272;
-    }
-    @include media-breakpoint-down(lg){
-        .flex{
-         overflow-y: scroll;
-         display: flex;
-         padding: 0px 0px 0px 30px;
-        }
-     }
+    width: calc(500px * 10);
+}
+.slider .slide{
+    height: 100px;
+    width: 250px;
+    margin-left:125px;
+
+}
+// .custom-slider-main{
+//     background-color: #f7f5f0;
+//     display: flex;
+//     overflow-y: scroll;
+//     scroll-behavior: smooth;
+//     padding-left: 85px;
+//     }
+//     .icon{
+//         padding-right: 85px;
+//     }
+//     .custom-slider-main::-webkit-scrollbar-track {
+//     border: 1px solid #fff;
+//     padding: 2px 0px;
+//     margin: 20px;
+//     background-color: #e2e2e2;
+//     }
+//     .custom-slider-main::-webkit-scrollbar {
+//     width: 0px;
+//     height: 4px;
+//     }
+//     .custom-slider-main::-webkit-scrollbar-thumb {
+//     border-radius: 10px;
+//     background-color: #737272;
+//     }
+//     @include media-breakpoint-down(lg){
+//         .flex{
+//          overflow-y: scroll;
+//          display: flex;
+//          padding: 0px 0px 0px 30px;
+//         }
+//      }
 .btn-size{
     width: 190px;
 }
