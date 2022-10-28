@@ -2,9 +2,9 @@
   <g id="Group_6502" data-name="Group 6502" transform="translate(-9691 -697.063)">
     <rect id="Rectangle_4848" data-name="Rectangle 4848" width="48" height="48" transform="translate(9691 698)" fill="#fff" opacity="0"/>
     <g id="Group_6473" data-name="Group 6473" transform="translate(9692.901 698)">
-      <path id="Path_9457" data-name="Path 9457" d="M4743.117,11462.1v12.822l-15.74,26.059s-5.072,7.82,4.876,9.119c.3-.074,31.8,0,31.8,0s10.076.184,5.184-9.119c.151.064-16.224-26.059-16.224-26.059V11462.1" transform="translate(-4726.084 -11462.102)" fill="none" stroke="#ff424b" stroke-width="3"/>
-      <path id="Path_9458" data-name="Path 9458" d="M0,0H15.816" transform="translate(14.081 0.563)" fill="none" stroke="#ff424b" stroke-linecap="round" stroke-width="3"/>
-      <line id="Line_99" data-name="Line 99" x2="29.568" transform="translate(7.041 30.132)" fill="none" stroke="#ff424b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_9457" data-name="Path 9457" d="M4743.117,11462.1v12.822l-15.74,26.059s-5.072,7.82,4.876,9.119c.3-.074,31.8,0,31.8,0s10.076.184,5.184-9.119c.151.064-16.224-26.059-16.224-26.059V11462.1" transform="translate(-4726.084 -11462.102)" fill="none" stroke="#ffffff" stroke-width="3"/>
+      <path id="Path_9458" data-name="Path 9458" d="M0,0H15.816" transform="translate(14.081 0.563)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_99" data-name="Line 99" x2="29.568" transform="translate(7.041 30.132)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="3"/>
     </g>
   </g>
 </svg>

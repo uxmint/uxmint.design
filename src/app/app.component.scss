@@ -28,7 +28,7 @@ h2{
     padding-top: 9px;
 }
 .nav-link{
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 16px;
     color: #000000;
     font-weight: 400;
@@ -159,7 +159,7 @@ footer{
     h2{
         color: #FFFFFF;
         font-size: 20px;
-        font-family: GD Sherpa;
+        font-family: "Muli", sans-serif;
         padding-left: 10px;
     }
     .button{
@@ -188,7 +188,7 @@ footer{
         a{
             font-size: 14px;
             color: #a3a3a3;
-           font-family: 'Muli', sans-serif;
+           font-family: "Muli", sans-serif;
            text-decoration: none;
            transition: 0.5s;
         }
@@ -205,7 +205,7 @@ footer{
           padding-bottom: 15px;
       .rights{
           h2{
-              font-family: GD Sherpa;
+              font-family: "Muli", sans-serif;
               font-size: 14px;
               color: #a3a3a3;
               text-align: left;
@@ -213,7 +213,7 @@ footer{
       }
       .policy{
         h2{
-            font-family: GD Sherpa;
+            font-family: "Muli", sans-serif;
             font-size: 14px;
             color: #a3a3a3;
             text-align: right;
@@ -312,6 +312,10 @@ header{
     display: inline-flex;
     flex-wrap: nowrap;
     cursor: pointer;
+    img{
+    width: 50%;
+    margin-left: 30px;
+    }
 }
 .ux-logo{
     img{
@@ -340,7 +344,7 @@ h2{
         }}
 }
 .nav-link{
-    font-family: 'muli', sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 16px;
     color: #000000;
     font-weight: 400;

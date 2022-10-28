@@ -6,20 +6,16 @@
     margin-top: -200px;
 }
 .banner{
-    background-color: #E4E4E4;
-    height: 700px;
-    padding: 0px 0px;
+    background-color: #f7f5f0;
+    background-image: url('/assets/images/contactUs.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 200px;
     .contact-layout{
-    img{
-        width:215%;
-        margin-left: -720px;
-        margin-top: 26px;
-
-        }
     h1{
         font-size: 76px;
         color: #3B3B3B;
-        font-family: Baskerville;
+        font-family: "Muli", sans-serif;
         span{
             color: #000000;
         }
@@ -28,7 +24,7 @@
         font-size: 26px;
         padding-top: 25px;
         color: #3B3B3B;
-        font-family: 'Muli', sans-serif;
+        font-family: "Muli", sans-serif;
          span a{
             color: #000000;
             text-decoration: underline;
@@ -75,7 +71,7 @@
     h2{
         font-size: 36px;
         color: #000000;
-        font-family: Baskerville;
+        font-family: "Muli", sans-serif;
     }
   }
   .custom-control-label {
@@ -94,7 +90,7 @@
     cursor: pointer;
     font-size: 20px;
     padding: 5px 20px;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     &:hover{
         background-color: #C3343C;
         color: #FFFFFF;
@@ -114,7 +110,7 @@
     padding: 120px 100px;
     background-color: #282829;
     border-radius: 0;
-    font-family: Baskerville;
+    font-family: "Muli", sans-serif;
 } 
     .layout-right{
         .checkbox {
@@ -125,7 +121,7 @@
             cursor: pointer;
             line-height: 34px;
             font-size: 20px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
@@ -232,20 +228,20 @@
             font-size: 28px;
             color: #3B3B3B;
             line-height: 48px;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
         }
         p{
             font-size: 18px;
             color: #707071;
             margin-top: 40px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             line-height: 30px;
         }
         h4{
             font-size: 18px;
             color: #3B3B3B;
             margin-top: 40px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
         }
     }
     img{
@@ -294,13 +290,13 @@ h3{
     font-size: 28px;
     color: #3B3B3B;
    padding-bottom: 20px;
-   font-family: Baskerville;
+   font-family: "Muli", sans-serif;
 }
 p{
     font-size: 18px;
     color: #707071;
     padding-bottom: 20px;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
 }
     }
     @include media-breakpoint-down(lg) {
@@ -341,7 +337,7 @@ p{
 .form-control{
     border: none;
     font-size: 20px;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     background-color: #f8f9fa;
     padding-left: 10px;
     box-shadow: none !important;
@@ -361,14 +357,14 @@ iframe {
     color: #dc3545;
     margin-bottom: 15px;
     margin-top: -14px;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
 }
 ::placeholder { 
     color: #6A737C;
     font-size: 16px;
     opacity: 0.6; 
     font-weight: 400;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
   }
   .contact-left{
       padding: 155px 0px;

@@ -9,14 +9,14 @@
 }
 .career{
     .banner{
-        background-color: #E4E4E4;
+        background-color: #f7f5f0;
         padding-top: 140px;
         height: 700px;
         padding: 250px 0px;
         h1{
             font-size: 76px;
             color: #3B3B3B;
-            font-family: Baskerville;
+            font-family: "Muli", sans-serif;
             span{
                 color: #000000;
             }
@@ -25,7 +25,7 @@
             font-size: 26px;
             color: #3B3B3B;
             padding-top: 25px;
-            font-family: 'Muli', sans-serif;
+            font-family: "Muli", sans-serif;
             span a{
                 color: #000000;
                 text-decoration: underline;
@@ -57,7 +57,7 @@
                 color: #3B3B3B;
                 padding-bottom: 30px; 
                 font-weight: 200;
-                font-family: Baskerville;
+                font-family: "Muli", sans-serif;
              }
             .designer{
                 padding: 10px 40px;
@@ -66,18 +66,18 @@
                 font-size: 24px;
                 font-weight: 500;
                 cursor: pointer;
-                font-family: 'Muli', sans-serif;
+                font-family: "Muli", sans-serif;
             }
             h6{
                 font-size: 20px;
                 padding-top: 5px;
                 font-weight: 400;
                 color: #707071;
-                font-family: 'Muli', sans-serif;
+                font-family: "Muli", sans-serif;
             }
             h5{
                 font-size: 20px; 
-                font-family: 'Muli', sans-serif;
+                font-family: "Muli", sans-serif;
                 font-weight: 400;
             }
             .button{
@@ -90,7 +90,7 @@
                 cursor: pointer;
                 font-size: 20px;
                 padding: 5px 20px;
-                font-family: 'Muli', sans-serif;
+                font-family: "Muli", sans-serif;
                 &:hover{
                     background-color: #000000;
                     color: #FFFFFF;

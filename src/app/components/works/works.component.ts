@@ -31,16 +31,16 @@ export class WorksComponent implements OnInit {
       image: '/assets/images/works/works5.webp'
     },
     {
-      title: '',
-      desc: '',
-      url: '',
-      image: ''
+      title: 'A Customer Advocacy Platform',
+      desc: 'UX . UI . Web . B2B2C',
+      url: '/work/marketing',
+      image: '/assets/images/works/market1.webp'
     },
     {
-      title: '',
-      desc: '',
-      url: '',
-      image: ''
+      title: 'Automobile Usability Testing',
+      desc: 'UX . UI . Web .Mobile . B2C',
+      url: '/work/automobile-usability',
+      image: '/assets/images/works/works8.png'
     }
   ]
   worksRight: any[] = [
@@ -51,22 +51,22 @@ export class WorksComponent implements OnInit {
       image: '/assets/images/works/works2.png'
     },
     {
-      title: '',
-      desc: '',
-      url: '',
-      image: ''
+      title: 'Website for Startup',
+      desc: 'UX . UI . B2C',
+      url: '/work/uxahead',
+      image: '/assets/images/works/works4.png'
     },
     {
-      title: '',
-      desc: '',
-      url: '',
-      image: ''
+      title: 'Child Care Portal',
+      desc: 'UX . UI . Mobile . Web . B2C',
+      url: '/work/childcare-portal',
+      image: '/assets/images/works/works6.png'
     },
     {
-      title: '',
-      desc: '',
-      url: '',
-      image: ''
+      title: 'Repository of Accomplishments',
+      desc: 'UX . UI . Web . B2C',
+      url: '/work/construction-portal',
+      image: '/assets/images/works/works9.png'
     }
   ]
 

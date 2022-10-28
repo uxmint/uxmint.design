@@ -2,10 +2,10 @@
   <g id="Group_6488" data-name="Group 6488" transform="translate(-9638 -639)">
     <rect id="Rectangle_4843" data-name="Rectangle 4843" width="40" height="40" transform="translate(9638 639)" fill="#fff" opacity="0"/>
     <g id="Group_6465" data-name="Group 6465" transform="translate(8926 -802)">
-      <rect id="Rectangle_4377" data-name="Rectangle 4377" width="8" height="7" transform="translate(722 1449)" fill="none" stroke="#fa4e2e" stroke-linejoin="round" stroke-width="2"/>
-      <rect id="Rectangle_4379" data-name="Rectangle 4379" width="8" height="7" transform="translate(735 1466)" fill="none" stroke="#fa4e2e" stroke-linejoin="round" stroke-width="2"/>
-      <rect id="Rectangle_4378" data-name="Rectangle 4378" width="8" height="11" transform="translate(722 1462)" fill="none" stroke="#fa4e2e" stroke-linejoin="round" stroke-width="2"/>
-      <rect id="Rectangle_4380" data-name="Rectangle 4380" width="8" height="11" transform="translate(735 1449)" fill="none" stroke="#fa4e2e" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_4377" data-name="Rectangle 4377" width="8" height="7" transform="translate(722 1449)" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_4379" data-name="Rectangle 4379" width="8" height="7" transform="translate(735 1466)" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_4378" data-name="Rectangle 4378" width="8" height="11" transform="translate(722 1462)" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_4380" data-name="Rectangle 4380" width="8" height="11" transform="translate(735 1449)" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="2"/>
     </g>
   </g>
 </svg>
