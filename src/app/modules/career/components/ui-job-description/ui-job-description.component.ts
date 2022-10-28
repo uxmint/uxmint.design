@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-ui-job-description',
@@ -8,7 +9,10 @@ import { Title, Meta } from '@angular/platform-browser';
 })
 export class UiJobDescriptionComponent implements OnInit {
 
-  constructor(private title:Title, private meta:Meta) { }
+  job:any = this.route.snapshot.params['job'];
+
+
+  constructor(private title:Title, private meta:Meta, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.title.setTitle('Uxmint Design - Career');

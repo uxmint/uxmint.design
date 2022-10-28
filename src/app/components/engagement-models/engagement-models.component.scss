@@ -5,17 +5,15 @@
     
     padding-top: 100px;
     margin-top: -200px;
-
 }
 .engagement{
     .banner{
-        padding-top: 140px;
-        height: 700px;
-        padding: 250px 0px;
+        padding: 300px 0px;
         background-color: #f7f5f0;
         .engagement-layout{
         h1{
             font-size: 76px;
+            font-weight: 100;
             color: #3B3B3B;
             font-family: "Muli", sans-serif;
             span{
@@ -28,6 +26,7 @@
         }
         h6{ 
             font-size: 36px;
+            font-weight: 100;
             padding-top: 25px;
             color: #3B3B3B;
             font-family: "Muli", sans-serif;
@@ -59,6 +58,7 @@
         .engagement-layout{
             h1{
                 font-size: 36px;
+                font-weight: 100;
                 #nextline::after{
                     content: "\a";
                     white-space: none;
@@ -66,6 +66,7 @@
             }
             h6{ 
                 font-size: 24px;
+                font-weight: 100;
                 padding-top: 15px;
             }
         }
@@ -267,3 +268,52 @@
 }
 
 
+.service-layout3{
+    li{
+        list-style-type: none;
+        font-size: 28px;
+        cursor: pointer;
+        img{
+            margin-right: 10px;
+            &:active{
+                color: #C3343C;
+            }
+        }
+    }
+    background-color: #FCFCFC;
+    padding: 100px 220px;
+    h3{
+        font-size: 36px;
+        font-weight: 100;
+        font-family: "Muli", sans-serif;
+    }
+    h2{
+        font-size: 50px;
+        margin-bottom: 80px;
+        text-align: center;
+        color: #3b3b3b;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 300;
+        color: #707071;
+        margin-bottom: 30px;
+        line-height: 35px;
+        font-family: "Muli", sans-serif;
+        text-align: justify;
+    }
+    .li{
+        font-size: 15px;
+        font-weight: 300;
+        color: #707071;
+        line-height: 25px;
+        font-family: "Muli", sans-serif;
+        text-align: justify;
+    }
+    @include media-breakpoint-down(md){
+        padding: 75px 0px;
+        h2{
+            font-size: 36px;
+        }
+    }
+}

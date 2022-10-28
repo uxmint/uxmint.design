@@ -6,12 +6,10 @@
     margin-top: -200px;
     background-color: #f7f5f0;
 }
-svg{
-    margin-top: -350px;
-}
 h1{
     font-size: 72px;
     color: #000000;
+    font-weight: 100;
     font-family: "Muli", sans-serif;
     @include media-breakpoint-down(md) {
         font-size: 36px;
@@ -20,6 +18,7 @@ h1{
 h2{
     font-size: 57px;
     color: #3B3B3B;
+    font-weight: 100;
     font-family: "Muli", sans-serif;
     @include media-breakpoint-down(md) {
         font-size: 36px;
@@ -27,6 +26,7 @@ h2{
 }
 h3{
     font-size: 24px;
+    font-weight: 100;
     font-family: "Muli", sans-serif;
     color: #707071;
     margin-bottom: 30px;
@@ -50,6 +50,7 @@ p{
 .home{
     .banner{
         background-color: #f7f5f0;
+        background-image: url('/assets/images/homebg.png');
         background-position: bottom;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -82,7 +83,7 @@ p{
             margin-bottom: -12px;
             margin-left: -70px;
             img{
-                padding-top: 100px;
+                padding: 100px 0px;
                 width: auto;
                 height: 100%;
             }
@@ -347,6 +348,7 @@ p{
                    margin: 40px 130px 20px 40px;
                    a{
                     color: #3B3B3B;
+                    font-weight: 100;
                    }
                }
                h4{
@@ -580,6 +582,16 @@ margin-left: 105px;
         transform: translateX(calc(-250px * 15));
     }
 }
+.clients{ 
+    padding: 100px 0px;
+    background-color: #FFFFFF;
+    h2{
+    font-size: 57px;
+    color: #3B3B3B;
+    font-weight: 100;
+    font-family: "Muli", sans-serif;
+}
+}
 .slider{
     height: 100px;
     margin: auto;
@@ -587,6 +599,7 @@ margin-left: 105px;
     position: relative;
     width: auto;
 }
+
 .slider .slide-track{
     animation:scroll 40s linear infinite;
     display: flex;

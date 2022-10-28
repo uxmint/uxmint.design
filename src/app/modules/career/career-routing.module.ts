@@ -5,7 +5,7 @@ import { JobApplyComponent } from './components/job-apply/job-apply.component';
 
 
 const routes: Routes = [
-  { path: 'job-description', component: UiJobDescriptionComponent },
+  { path: 'job-description/:job', component: UiJobDescriptionComponent },
   { path: 'job/apply', component: JobApplyComponent }
 ];
 

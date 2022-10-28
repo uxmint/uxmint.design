@@ -8,6 +8,7 @@
     margin-top: -200px;
     h1{
         font-size: 56px;
+        font-weight: 100;
         color: #3B3B3B;
         font-family: "Muli", sans-serif;
     }
@@ -20,6 +21,7 @@
     }
     p{
         font-size: 36px;
+        font-weight: 100;
         color: #707071;
         font-family: "Muli", sans-serif;
     }
@@ -78,6 +80,7 @@
        padding: 250px 0px 300px;
        h3{
            font-size: 48px;
+           font-weight: 100;
            font-family: "Muli", sans-serif;
        }
        @include media-breakpoint-down(lg){
@@ -112,6 +115,7 @@
     padding: 200px 0px;
     h3{
         font-size: 48px;
+        font-weight: 100;
         margin-bottom: 30px;
         font-family: "Muli", sans-serif;
     }
@@ -358,6 +362,7 @@
        background-color: #EBEBEB;
        h2{
            font-size: 57px;
+           font-weight: 100;
            font-family: "Muli", sans-serif;
            color: #282829;
            margin-top: 120px;
@@ -387,6 +392,7 @@
            }
            h3{
                font-size: 36px;
+               font-weight: 100;
                font-family: "Muli", sans-serif;
                margin: 40px 130px 20px 40px;
                a{

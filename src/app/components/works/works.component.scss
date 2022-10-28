@@ -10,6 +10,7 @@
     padding: 250px 0px;
      h1{
          font-size: 38px;
+         font-weight: 100;
          font-family: "Muli", sans-serif;
          color: #3B3B3B;
          span{
@@ -24,11 +25,13 @@
        }
        h2{
         font-size: 82px;
+        font-weight: 100;
         font-family: "Muli", sans-serif;
         color: #000000;
     }
     h5{
         font-size: 24px;
+        font-weight: 100;
         font-family: "Muli", sans-serif;
         color: #3B3B3B;
         line-height: 36px;
@@ -123,6 +126,7 @@
             h2{
                 color: #3B3B3B;
                 font-size: 56px;
+                font-weight: 100;
                 font-family: "Muli", sans-serif;
                 font-weight: 100;
             }
@@ -148,8 +152,7 @@
         }
         .right-image{
             img{
-                width: 95%;
-                padding-top: 120px;
+                padding: 100px 0px;
                 margin-left: 30px;
             }
         }
@@ -161,6 +164,7 @@
             h2{
                 color: #000000;
                 font-size: 56px;
+                font-weight: 100;
                 font-family: "Muli", sans-serif;
                 font-weight: 100;
             }

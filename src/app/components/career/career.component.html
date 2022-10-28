@@ -12,25 +12,44 @@
        <div class="container">
           <div class="career-design">
              <h1>Open opportunities</h1>
-             <mat-card> 
+             <mat-card style="margin-bottom: 50px;"> 
              <div class="row designer">
                 <div class="col-md-3">
-                   <h2> UX Designer </h2>
+                   <h2> Sr Frontend Developer </h2>
                   <h6>Fulltime </h6> 
                 </div>
                 <div class="col-md-3">
                   <h5>Chennai | India</h5><h6>Location</h6>
                </div>
                 <div class="col-md-3">
-                  <h5>2 - 4 Years</h5><h6>Experience </h6> 
+                  <h5>3 - 6 Years</h5><h6>Experience </h6> 
                 </div>
                 <div class="col-md-3 text-right">
                   <div class="anime-button">
-                     <div class="btn btnn" routerLink="/career/job-description">View</div>
+                     <div class="btn btnn" [routerLink]="['/career/job-description',1]">View</div>
                   </div>
                 </div>
              </div>
             </mat-card>
+            <mat-card> 
+               <div class="row designer">
+                  <div class="col-md-3">
+                     <h2> Hybrid Designer </h2>
+                    <h6>Fulltime </h6> 
+                  </div>
+                  <div class="col-md-3">
+                    <h5>Chennai | India</h5><h6>Location</h6>
+                 </div>
+                  <div class="col-md-3">
+                    <h5>2 - 5 Years</h5><h6>Experience </h6> 
+                  </div>
+                  <div class="col-md-3 text-right">
+                    <div class="anime-button">
+                       <div class="btn btnn" [routerLink]="['/career/job-description',2]">View</div>
+                    </div>
+                  </div>
+               </div>
+              </mat-card>
           </div>
        </div>
     </div>

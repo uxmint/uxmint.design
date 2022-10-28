@@ -13,22 +13,23 @@
         background-color: #f7f5f0;
         background-image: url('/assets/images/workillus.svg');
         background-repeat: no-repeat;
-        background-position: right;
-        padding: 200px 0px;
+        background-position: bottom;
+        padding: 130px 0px;
     .design{
         h1{
             font-size: 76px;
+            font-weight: 100;
             color: #3B3B3B;
             font-family: "Muli", sans-serif;
             padding-bottom: 20px;
             padding-top: 200px;
-            padding-right: 568px;
             span{
                 color: #000000;
             }
         }
         h4{
             font-size: 26px;
+            font-weight: 100;
             color: #3B3B3B;
             font-family: "Muli", sans-serif;
             span{
@@ -64,15 +65,16 @@
     }
 }
 .about-layout{  
-    margin-right: 13px;
         h2{
             font-size: 56px;
+            font-weight: 100;
             color: #3B3B3B;
             font-family: "Muli", sans-serif;
             padding-bottom: 20px;
         }
         h6{
             font-size: 20px;
+            font-weight: 100;
             color: #3B3B3B;
             padding-top: 10px;
             font-family: "Muli", sans-serif;
@@ -80,7 +82,7 @@
 .design-layout{
             background-color: #f7f5f0;
             .design-left{
-                padding: 150px 0px;
+                padding-top: 100px;
             }
             .button{
                 margin-top: 60px;
@@ -91,10 +93,11 @@
                 color: #0D0D0D;
                 cursor: pointer;
                 font-size: 20px;
+                font-weight: 100;
                 padding: 10px 20px;
                 font-family: "Muli", sans-serif;
                 &:hover{
-                    background-color: #C3343C;
+                    background-color: #000000;
                     color: #FFFFFF;
                     border: 2px solid #FFFFFF;
                 }
@@ -104,7 +107,7 @@
             background-color: #282829;
             border: 1px solid #707070;
             .design-right{
-                padding: 150px 0px;
+                padding-top: 100px;
                 text-align: center;
                 .logo{
                     list-style: none;
@@ -138,9 +141,11 @@
                         padding: 120px 10px;
                         h2{
                             font-size: 36px;
+                            font-weight: 100;
                         }
                         h6{
                             font-size: 20px;
+                            font-weight: 100;
                             padding-top: 8px;
                         }
                         .button{
@@ -159,6 +164,7 @@
                         color: #0D0D0D;
                         cursor: pointer;
                         font-size: 20px;
+                        font-weight: 100;
                         padding: 10px 20px;
                         font-family: "Muli", sans-serif;
                         &:hover{
@@ -273,6 +279,7 @@
                 h2{
                     font-family: "Muli", sans-serif;
                     font-size: 56px;
+                    font-weight: 100;
                     color: #3B3B3B;
                 }
                 .design-left{
@@ -287,6 +294,7 @@
                     color: #0D0D0D;
                     cursor: pointer;
                     font-size: 20px;
+                    font-weight: 100;
                     padding: 10px 20px;
                     font-family: "Muli", sans-serif;
                     &:hover{
@@ -297,12 +305,13 @@
                 }
             }
             .design-layouts{
-                padding: 160px 40px 40px 40px;
+                padding: 160px 0px 40px 0px;
                 .design-right{
                     margin-bottom: 80px;
                 }
                 h5{
                     font-size: 36px;
+                    font-weight: 100;
                     color: #3B3B3B;
                     font-family: "Muli", sans-serif;
                 }
@@ -338,6 +347,7 @@
                 .design-layout{
                     h2{
                         font-size: 36px;
+                        font-weight: 100;
                     }
                     .design-left{
                             padding: 100px 5px 8px 0px;
@@ -385,6 +395,7 @@
                         padding: 20px;
                         h5{
                             font-size: 28px;
+                            font-weight: 100;
                         }
                         p{
                             font-size: 20px;
@@ -401,6 +412,7 @@
         color: #FFF;
         h2{
             font-size: 36px;
+            font-weight: 100;
             font-family: "Muli", sans-serif;
             padding: 0px 45px;
         }
@@ -436,6 +448,7 @@
             padding: 80px 0px;
             h2{
                 font-size: 20px;
+                font-weight: 100;
             }
             .row{
                 .col-md-5 {
@@ -472,12 +485,14 @@
                 margin-left: -20px;
                 h2{
                     font-size: 48px;
+                    font-weight: 100;
                     color: #FCFCFC;
                     font-family: "Muli", sans-serif;
                     padding-bottom: 20px;
                 }
                 h6{
                     font-size: 20px;
+                    font-weight: 100;
                     color: #FCFCFC;
                     font-family: "Muli", sans-serif;
                 }
@@ -509,9 +524,11 @@
                     padding: 125px 10px;
                     h2{
                         font-size: 28px;
+                        font-weight: 100;
                     }
                     h6{
                         font-size: 20px;
+                        font-weight: 100;
                         padding-top: 30px;
                     }
                     .button{

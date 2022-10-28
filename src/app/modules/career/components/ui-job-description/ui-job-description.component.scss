@@ -10,19 +10,21 @@
         margin-top: -100px;
         h1{
             font-size: 56px;
+            font-weight: 100;
             color: #3B3B3B;
             font-family: "Muli", sans-serif;
             span{
-                color: #C3343C;
+                color: #000000;
             }
         }
         h4{
             font-size: 26px;
+            font-weight: 100;
             color: #3B3B3B;
             padding-top: 25px;
             font-family: "Muli", sans-serif;
             span a{
-                color: #C3343C;
+                color: #000000;
                 text-decoration: underline;
                 cursor: pointer;
             }
@@ -51,18 +53,20 @@
             padding: 130px 30px;
             h1{
                 font-size: 36px;
-                font-weight: 500;
+                font-weight: 100;
                 color: #3B3B3B;
                 font-family: "Muli", sans-serif;
                 padding-bottom: 30px;
             }
             h6{
                 font-size: 20px;
+                font-weight: 100;
                 color: #3B3B3B;
                 font-family: "Muli", sans-serif;
             }
             h5{
                 font-size: 20px;
+                font-weight: 100;
                 color: #707071;
                 font-family: "Muli", sans-serif;  
                 padding-bottom: 20px;
@@ -78,11 +82,9 @@
                 font-size: 20px;
                 font-family: "Muli", sans-serif;
                 padding: 8px 25px;
-                //color: #0D0D0D;
                 a:hover{
-                    background-color: #C3343C;
+                    background-color: #000000;
                     color: #FFFFFF!important;
-                    //border: 2px solid #FFFFFF;
                 }
                 a{
                     color: #0D0D0D!important;
@@ -96,6 +98,7 @@
             .description{
                 h6{
                     font-size: 24px;
+                    font-weight: 100;
                     color: #8B8B8F;
                     margin-top: -45px;
                     font-family: "Muli", sans-serif;
@@ -119,7 +122,7 @@
                     font-family: "Muli", sans-serif;
                     padding: 8px 25px;
                     &:hover{
-                        background-color: #C3343C;
+                        background-color: #000000;
                         color: #FFFFFF;
                         border: 2px solid #FFFFFF;
                     }
@@ -141,15 +144,18 @@
             padding: 100px 20px;
             h1{
                 font-size: 24px;
+                font-weight: 100;
                 font-weight: 700;
                 padding-bottom: 0px;
             }
             h6{
                 font-size: 20px;
+                font-weight: 100;
                 padding-top: 40px;
             }
             h5{
                 font-size: 20px;
+                font-weight: 100;
             }
             .btn-white{
                 font-size: 20px;
